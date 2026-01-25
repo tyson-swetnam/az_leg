@@ -21,17 +21,28 @@ export function DistrictLayer({ map, isLoaded }: DistrictLayerProps) {
   // Render popup into MapLibre popup container
   useEffect(() => {
     if (selectedDistrict) {
-      const popupContent = document.getElementById('popup-content');
-      if (popupContent) {
-        const root = createRoot(popupContent);
-        root.render(
-          <DistrictPopup district={selectedDistrict} onClose={closePopup} />
-        );
+      // Wait for MapLibre popup to be added to DOM
+      const timer = setTimeout(() => {
+        const popupContent = document.getElementById('popup-content');
+        if (popupContent) {
+          const root = createRoot(popupContent);
+          root.render(
+            <DistrictPopup district={selectedDistrict} onClose={closePopup} />
+          );
 
-        return () => {
-          root.unmount();
-        };
-      }
+          // Store root for cleanup
+          (popupContent as any)._reactRoot = root;
+        }
+      }, 0);
+
+      return () => {
+        clearTimeout(timer);
+        const popupContent = document.getElementById('popup-content');
+        if (popupContent && (popupContent as any)._reactRoot) {
+          (popupContent as any)._reactRoot.unmount();
+          delete (popupContent as any)._reactRoot;
+        }
+      };
     }
   }, [selectedDistrict, closePopup]);
 
