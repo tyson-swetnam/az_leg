@@ -68,6 +68,7 @@ export function DistrictMap({ districtId }: DistrictMapProps) {
   // Add state legislative districts layer
   useEffect(() => {
     if (!map || !isLoaded || !allStateDistricts || !legislators) return;
+    if (!map.isStyleLoaded()) return; // Wait for style to be fully loaded
 
     const sourceId = 'state-districts';
     const fillLayerId = 'state-districts-fill';
@@ -75,10 +76,15 @@ export function DistrictMap({ districtId }: DistrictMapProps) {
     const highlightLayerId = 'state-districts-highlight';
 
     // Remove existing layers if they exist
-    if (map.getLayer(highlightLayerId)) map.removeLayer(highlightLayerId);
-    if (map.getLayer(borderLayerId)) map.removeLayer(borderLayerId);
-    if (map.getLayer(fillLayerId)) map.removeLayer(fillLayerId);
-    if (map.getSource(sourceId)) map.removeSource(sourceId);
+    try {
+      if (map.getLayer(highlightLayerId)) map.removeLayer(highlightLayerId);
+      if (map.getLayer(borderLayerId)) map.removeLayer(borderLayerId);
+      if (map.getLayer(fillLayerId)) map.removeLayer(fillLayerId);
+      if (map.getSource(sourceId)) map.removeSource(sourceId);
+    } catch (error) {
+      console.error('Error removing layers:', error);
+      return;
+    }
 
     if (layerType !== 'state') return;
 
@@ -170,19 +176,25 @@ export function DistrictMap({ districtId }: DistrictMapProps) {
     map.on('mouseleave', fillLayerId, handleMouseLeave);
 
     return () => {
-      map.off('click', fillLayerId, handleClick);
-      map.off('mouseenter', fillLayerId, handleMouseEnter);
-      map.off('mouseleave', fillLayerId, handleMouseLeave);
-      if (map.getLayer(highlightLayerId)) map.removeLayer(highlightLayerId);
-      if (map.getLayer(borderLayerId)) map.removeLayer(borderLayerId);
-      if (map.getLayer(fillLayerId)) map.removeLayer(fillLayerId);
-      if (map.getSource(sourceId)) map.removeSource(sourceId);
+      if (!map || !map.isStyleLoaded()) return;
+      try {
+        map.off('click', fillLayerId, handleClick);
+        map.off('mouseenter', fillLayerId, handleMouseEnter);
+        map.off('mouseleave', fillLayerId, handleMouseLeave);
+        if (map.getLayer(highlightLayerId)) map.removeLayer(highlightLayerId);
+        if (map.getLayer(borderLayerId)) map.removeLayer(borderLayerId);
+        if (map.getLayer(fillLayerId)) map.removeLayer(fillLayerId);
+        if (map.getSource(sourceId)) map.removeSource(sourceId);
+      } catch (error) {
+        console.error('Error cleaning up layers:', error);
+      }
     };
   }, [map, isLoaded, allStateDistricts, legislators, layerType, districtId, navigate]);
 
   // Add federal congressional districts layer
   useEffect(() => {
     if (!map || !isLoaded || !allFederalDistricts || !federalMapping) return;
+    if (!map.isStyleLoaded()) return; // Wait for style to be fully loaded
 
     const sourceId = 'federal-districts';
     const fillLayerId = 'federal-districts-fill';
@@ -190,10 +202,15 @@ export function DistrictMap({ districtId }: DistrictMapProps) {
     const highlightLayerId = 'federal-districts-highlight';
 
     // Remove existing layers if they exist
-    if (map.getLayer(highlightLayerId)) map.removeLayer(highlightLayerId);
-    if (map.getLayer(borderLayerId)) map.removeLayer(borderLayerId);
-    if (map.getLayer(fillLayerId)) map.removeLayer(fillLayerId);
-    if (map.getSource(sourceId)) map.removeSource(sourceId);
+    try {
+      if (map.getLayer(highlightLayerId)) map.removeLayer(highlightLayerId);
+      if (map.getLayer(borderLayerId)) map.removeLayer(borderLayerId);
+      if (map.getLayer(fillLayerId)) map.removeLayer(fillLayerId);
+      if (map.getSource(sourceId)) map.removeSource(sourceId);
+    } catch (error) {
+      console.error('Error removing federal layers:', error);
+      return;
+    }
 
     if (layerType !== 'federal') return;
 
@@ -297,13 +314,18 @@ export function DistrictMap({ districtId }: DistrictMapProps) {
     map.on('mouseleave', fillLayerId, handleMouseLeave);
 
     return () => {
-      map.off('click', fillLayerId, handleClick);
-      map.off('mouseenter', fillLayerId, handleMouseEnter);
-      map.off('mouseleave', fillLayerId, handleMouseLeave);
-      if (map.getLayer(highlightLayerId)) map.removeLayer(highlightLayerId);
-      if (map.getLayer(borderLayerId)) map.removeLayer(borderLayerId);
-      if (map.getLayer(fillLayerId)) map.removeLayer(fillLayerId);
-      if (map.getSource(sourceId)) map.removeSource(sourceId);
+      if (!map || !map.isStyleLoaded()) return;
+      try {
+        map.off('click', fillLayerId, handleClick);
+        map.off('mouseenter', fillLayerId, handleMouseEnter);
+        map.off('mouseleave', fillLayerId, handleMouseLeave);
+        if (map.getLayer(highlightLayerId)) map.removeLayer(highlightLayerId);
+        if (map.getLayer(borderLayerId)) map.removeLayer(borderLayerId);
+        if (map.getLayer(fillLayerId)) map.removeLayer(fillLayerId);
+        if (map.getSource(sourceId)) map.removeSource(sourceId);
+      } catch (error) {
+        console.error('Error cleaning up layers:', error);
+      }
     };
   }, [map, isLoaded, allFederalDistricts, federalMapping, layerType, federalDistrictId, navigate]);
 
