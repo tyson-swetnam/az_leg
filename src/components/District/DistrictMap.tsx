@@ -1,4 +1,4 @@
-import { useState, useEffect, useCallback } from 'react';
+import { useState, useEffect, useCallback, useMemo } from 'react';
 import { useNavigate } from 'react-router-dom';
 import maplibregl, { Map } from 'maplibre-gl';
 import 'maplibre-gl/dist/maplibre-gl.css';
@@ -41,7 +41,7 @@ export function DistrictMap({ districtId }: DistrictMapProps) {
   }, []);
 
   // Calculate bounds for the current district
-  const bounds: [number, number, number, number] | undefined = (() => {
+  const bounds: [number, number, number, number] | undefined = useMemo(() => {
     const district = layerType === 'state' ? stateDistrict : federalDistrict;
     if (!district || !district.features.length) return undefined;
 
@@ -63,7 +63,7 @@ export function DistrictMap({ districtId }: DistrictMapProps) {
       lngLatBounds.getEast(),
       lngLatBounds.getNorth(),
     ];
-  })();
+  }, [layerType, stateDistrict, federalDistrict]);
 
   // Add state legislative districts layer
   useEffect(() => {
