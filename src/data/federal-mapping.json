@@ -1,0 +1,126 @@
+{
+  "stateToFederal": {
+    "1": 4,
+    "2": 1,
+    "3": 1,
+    "4": 1,
+    "5": 3,
+    "6": 2,
+    "7": 2,
+    "8": 3,
+    "9": 4,
+    "10": 1,
+    "11": 3,
+    "12": 3,
+    "13": 1,
+    "14": 5,
+    "15": 5,
+    "16": 5,
+    "17": 6,
+    "18": 6,
+    "19": 6,
+    "20": 6,
+    "21": 6,
+    "22": 7,
+    "23": 9,
+    "24": 3,
+    "25": 8,
+    "26": 3,
+    "27": 8,
+    "28": 8,
+    "29": 8,
+    "30": 9
+  },
+  "congressMembers": [
+    {
+      "district": 1,
+      "name": "David Schweikert",
+      "party": "R",
+      "office": {
+        "phone": "202-225-2190",
+        "email": "contact@schweikert.house.gov",
+        "website": "https://schweikert.house.gov"
+      }
+    },
+    {
+      "district": 2,
+      "name": "Eli Crane",
+      "party": "R",
+      "office": {
+        "phone": "202-225-3361",
+        "email": "contact@crane.house.gov",
+        "website": "https://crane.house.gov"
+      }
+    },
+    {
+      "district": 3,
+      "name": "Ruben Gallego",
+      "party": "D",
+      "office": {
+        "phone": "202-225-4065",
+        "email": "contact@gallego.house.gov",
+        "website": "https://rubengallego.house.gov"
+      }
+    },
+    {
+      "district": 4,
+      "name": "Greg Stanton",
+      "party": "D",
+      "office": {
+        "phone": "202-225-9888",
+        "email": "contact@stanton.house.gov",
+        "website": "https://stanton.house.gov"
+      }
+    },
+    {
+      "district": 5,
+      "name": "Andy Biggs",
+      "party": "R",
+      "office": {
+        "phone": "202-225-2635",
+        "email": "contact@biggs.house.gov",
+        "website": "https://biggs.house.gov"
+      }
+    },
+    {
+      "district": 6,
+      "name": "Juan Ciscomani",
+      "party": "R",
+      "office": {
+        "phone": "202-225-2542",
+        "email": "contact@ciscomani.house.gov",
+        "website": "https://ciscomani.house.gov"
+      }
+    },
+    {
+      "district": 7,
+      "name": "Raúl Grijalva",
+      "party": "D",
+      "office": {
+        "phone": "202-225-2435",
+        "email": "contact@grijalva.house.gov",
+        "website": "https://grijalva.house.gov"
+      }
+    },
+    {
+      "district": 8,
+      "name": "Debbie Lesko",
+      "party": "R",
+      "office": {
+        "phone": "202-225-4576",
+        "email": "contact@lesko.house.gov",
+        "website": "https://lesko.house.gov"
+      }
+    },
+    {
+      "district": 9,
+      "name": "Paul Gosar",
+      "party": "R",
+      "office": {
+        "phone": "202-225-2315",
+        "email": "contact@gosar.house.gov",
+        "website": "https://gosar.house.gov"
+      }
+    }
+  ]
+}
