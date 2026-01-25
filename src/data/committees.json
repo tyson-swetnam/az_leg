@@ -1,0 +1,342 @@
+{
+  "senate": [
+    {
+      "id": "s-att",
+      "committeeId": 2279,
+      "name": "Appropriations, Transportation and Technology",
+      "shortName": "ATT",
+      "chair": "David C. Farnsworth",
+      "viceChair": "John Kavanagh",
+      "members": [
+        "Lela Alston",
+        "Hildy Angius",
+        "Denise \"Mitzi\" Epstein",
+        "David C. Farnsworth",
+        "Brian Fernandez",
+        "Mark Finchem",
+        "John Kavanagh",
+        "Lauren Kuby",
+        "Venden \"Vince\" Leach",
+        "Carine Werner"
+      ]
+    }
+  ],
+  "house": [
+    {
+      "id": "h-approp",
+      "committeeId": 2139,
+      "name": "Appropriations",
+      "shortName": "APPROP",
+      "chair": "David Livingston",
+      "viceChair": "Matt Gress",
+      "members": [
+        "Lorena Austin",
+        "Walt Blackman",
+        "Seth Blattman",
+        "Lupe Diaz",
+        "Nancy Gutierrez",
+        "Chris Lopez",
+        "Quang H Nguyen",
+        "Justin Olson",
+        "Tony Rivero",
+        "Mariana Sandoval",
+        "Stephanie Stahl Hamilton",
+        "Stacey Travers",
+        "Kevin Volk",
+        "Michael Way",
+        "Jeff Weninger",
+        "Julie Willoughby"
+      ]
+    },
+    {
+      "id": "h-aii",
+      "committeeId": 2280,
+      "name": "Artificial Intelligence & Innovation",
+      "shortName": "AII",
+      "chair": "Justin Wilmeth",
+      "viceChair": "James Taylor",
+      "members": [
+        "Junelle Cavero",
+        "Nick Kupper",
+        "Stacey Travers",
+        "Betty J Villegas",
+        "Julie Willoughby"
+      ]
+    },
+    {
+      "id": "h-com",
+      "committeeId": 2169,
+      "name": "Commerce",
+      "shortName": "COM",
+      "chair": "Jeff Weninger",
+      "viceChair": "Michael Way",
+      "members": [
+        "Cesar Aguilar",
+        "Walt Blackman",
+        "Neal Carter",
+        "Junelle Cavero",
+        "Janeen Connolly",
+        "Lupe Diaz",
+        "Laurin Hendrix",
+        "Betty J Villegas",
+        "Justin Wilmeth"
+      ]
+    },
+    {
+      "id": "h-ed",
+      "committeeId": 2170,
+      "name": "Education",
+      "shortName": "ED",
+      "chair": "Matt Gress",
+      "viceChair": "Michele Peña",
+      "members": [
+        "Anna Abeytia",
+        "Leo Biasiucci",
+        "Lisa Fink",
+        "Brian Garcia",
+        "Nancy Gutierrez",
+        "Lydia Hernandez",
+        "David Marshall, Sr.",
+        "Justin Olson",
+        "Tony Rivero",
+        "Stephanie Simacek"
+      ]
+    },
+    {
+      "id": "h-fmae",
+      "committeeId": 2185,
+      "name": "Federalism, Military Affairs & Elections",
+      "shortName": "FMAE",
+      "chair": "John Gillette",
+      "viceChair": "Rachel Keshel",
+      "members": [
+        "Brian Garcia",
+        "Lydia Hernandez",
+        "Alexander Kolodin",
+        "Aaron Márquez",
+        "Khyl Powell"
+      ]
+    },
+    {
+      "id": "h-gov",
+      "committeeId": 2171,
+      "name": "Government",
+      "shortName": "GOV",
+      "chair": "Walt Blackman",
+      "viceChair": "Lisa Fink",
+      "members": [
+        "John Gillette",
+        "Rachel Keshel",
+        "Aaron Márquez",
+        "Stephanie Stahl Hamilton",
+        "Betty J Villegas"
+      ]
+    },
+    {
+      "id": "h-hhs",
+      "committeeId": 2172,
+      "name": "Health & Human Services",
+      "shortName": "HHS",
+      "chair": "Selina Bliss",
+      "viceChair": "Ralph Heap",
+      "members": [
+        "Patty Contreras",
+        "Matt Gress",
+        "Alma Hernandez",
+        "Nick Kupper",
+        "Sarah Liguori",
+        "Chris Lopez",
+        "Elda Luna-Nájera",
+        "Christopher Mathis",
+        "Beverly Pingerelli",
+        "Jeff Weninger"
+      ]
+    },
+    {
+      "id": "h-it",
+      "committeeId": 2186,
+      "name": "International Trade",
+      "shortName": "IT",
+      "chair": "Tony Rivero",
+      "viceChair": "Michele Peña",
+      "members": [
+        "Lorena Austin",
+        "Michael Carbone",
+        "Junelle Cavero",
+        "Laurin Hendrix",
+        "Consuelo Hernandez",
+        "Stacey Travers",
+        "Jeff Weninger",
+        "Justin Wilmeth"
+      ]
+    },
+    {
+      "id": "h-jud",
+      "committeeId": 2173,
+      "name": "Judiciary",
+      "shortName": "JUD",
+      "chair": "Quang H Nguyen",
+      "viceChair": "Khyl Powell",
+      "members": [
+        "Selina Bliss",
+        "Lupe Contreras",
+        "Lupe Diaz",
+        "Brian Garcia",
+        "Alma Hernandez",
+        "David Marshall, Sr.",
+        "Michael Way"
+      ]
+    },
+    {
+      "id": "h-lara",
+      "committeeId": 2187,
+      "name": "Land, Agriculture & Rural Affairs",
+      "shortName": "LARA",
+      "chair": "Lupe Diaz",
+      "viceChair": "Michele Peña",
+      "members": [
+        "Gail Griffin",
+        "Rachel Keshel",
+        "Teresa Martinez",
+        "Mae Peshlakai",
+        "Mariana Sandoval",
+        "Stephanie Stahl Hamilton"
+      ]
+    },
+    {
+      "id": "h-nrew",
+      "committeeId": 2176,
+      "name": "Natural Resources, Energy & Water",
+      "shortName": "NREW",
+      "chair": "Gail Griffin",
+      "viceChair": "Chris Lopez",
+      "members": [
+        "Pamela Carter",
+        "Patty Contreras",
+        "Ralph Heap",
+        "Sarah Liguori",
+        "Teresa Martinez",
+        "Christopher Mathis",
+        "Mae Peshlakai",
+        "James Taylor"
+      ]
+    },
+    {
+      "id": "h-psle",
+      "committeeId": 2188,
+      "name": "Public Safety & Law Enforcement",
+      "shortName": "PSLE",
+      "chair": "David Marshall, Sr.",
+      "viceChair": "Pamela Carter",
+      "members": [
+        "Anna Abeytia",
+        "Lorena Austin",
+        "Joseph Chaplik",
+        "Quantá Crews",
+        "John Gillette",
+        "Alexander Kolodin",
+        "Aaron Márquez",
+        "Quang H Nguyen",
+        "Khyl Powell",
+        "Stephanie Simacek",
+        "James Taylor",
+        "Myron Tsosie",
+        "Kevin Volk"
+      ]
+    },
+    {
+      "id": "h-ro",
+      "committeeId": 2237,
+      "name": "Regulatory Oversight",
+      "shortName": "RO",
+      "chair": "Joseph Chaplik",
+      "viceChair": "Alexander Kolodin",
+      "members": [
+        "Lupe Contreras",
+        "Consuelo Hernandez",
+        "Rachel Keshel"
+      ]
+    },
+    {
+      "id": "h-rules",
+      "committeeId": 2179,
+      "name": "Rules",
+      "shortName": "RULES",
+      "chair": "Laurin Hendrix",
+      "viceChair": "Neal Carter",
+      "members": [
+        "Michael Carbone",
+        "Lupe Contreras",
+        "Oscar De Los Santos",
+        "Christopher Mathis",
+        "Steve Montenegro",
+        "Julie Willoughby"
+      ]
+    },
+    {
+      "id": "h-red",
+      "committeeId": 2281,
+      "name": "Rural Economic Development",
+      "shortName": "RED",
+      "chair": "Teresa Martinez",
+      "viceChair": "Chris Lopez",
+      "members": [
+        "Leo Biasiucci",
+        "Walt Blackman",
+        "Consuelo Hernandez",
+        "Mae Peshlakai",
+        "Kevin Volk"
+      ]
+    },
+    {
+      "id": "h-st",
+      "committeeId": 2189,
+      "name": "Science & Technology",
+      "shortName": "ST",
+      "chair": "Beverly Pingerelli",
+      "viceChair": "Justin Wilmeth",
+      "members": [
+        "Cesar Aguilar",
+        "Junelle Cavero",
+        "Janeen Connolly",
+        "Lisa Fink",
+        "Ralph Heap",
+        "Laurin Hendrix",
+        "Sarah Liguori"
+      ]
+    },
+    {
+      "id": "h-ti",
+      "committeeId": 2180,
+      "name": "Transportation & Infrastructure",
+      "shortName": "TI",
+      "chair": "Leo Biasiucci",
+      "viceChair": "Teresa Martinez",
+      "members": [
+        "Selina Bliss",
+        "Pamela Carter",
+        "Patty Contreras",
+        "Consuelo Hernandez",
+        "Myron Tsosie"
+      ]
+    },
+    {
+      "id": "h-wm",
+      "committeeId": 2181,
+      "name": "Ways & Means",
+      "shortName": "WM",
+      "chair": "Justin Olson",
+      "viceChair": "Nick Kupper",
+      "members": [
+        "Seth Blattman",
+        "Neal Carter",
+        "Quantá Crews",
+        "David Livingston",
+        "Elda Luna-Nájera",
+        "Mariana Sandoval",
+        "James Taylor"
+      ]
+    }
+  ],
+  "lastUpdated": "2026-01-25T00:00:00.000Z"
+}
