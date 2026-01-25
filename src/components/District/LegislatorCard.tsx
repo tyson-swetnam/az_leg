@@ -14,7 +14,11 @@ export function LegislatorCard({ legislator, chamberLabel }: LegislatorCardProps
   const partyColor = PARTY_COLORS[legislator.party];
 
   return (
-    <div className="bg-white rounded-lg shadow-lg p-6 mb-6">
+    <div
+      className="bg-white rounded-lg shadow-lg p-6 mb-6"
+      role="article"
+      aria-label={`${chamberLabel} ${legislator.name}, ${getPartyLabel(legislator.party)}`}
+    >
       {/* Header */}
       <div className="flex items-start justify-between mb-4">
         <div className="flex-1">
@@ -44,7 +48,11 @@ export function LegislatorCard({ legislator, chamberLabel }: LegislatorCardProps
           <svg className="w-5 h-5 text-gray-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
           </svg>
-          <a href={`mailto:${legislator.office.email}`} className="text-blue-600 hover:underline">
+          <a
+            href={`mailto:${legislator.office.email}`}
+            className="text-blue-600 hover:underline focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 rounded"
+            aria-label={`Email ${legislator.name} at ${legislator.office.email}`}
+          >
             {legislator.office.email}
           </a>
         </div>
@@ -57,7 +65,8 @@ export function LegislatorCard({ legislator, chamberLabel }: LegislatorCardProps
             href={legislator.office.website}
             target="_blank"
             rel="noopener noreferrer"
-            className="text-blue-600 hover:underline"
+            className="text-blue-600 hover:underline focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 rounded"
+            aria-label={`Visit ${legislator.name}'s official website`}
           >
             Official Website
           </a>
@@ -93,7 +102,8 @@ export function LegislatorCard({ legislator, chamberLabel }: LegislatorCardProps
         href={legislator.office.website}
         target="_blank"
         rel="noopener noreferrer"
-        className="block w-full bg-blue-600 text-white text-center py-2 px-4 rounded-lg hover:bg-blue-700 transition-colors"
+        className="block w-full bg-blue-600 text-white text-center py-2 px-4 rounded-lg hover:bg-blue-700 transition-colors focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2"
+        aria-label={`Visit ${legislator.name}'s official page (opens in new tab)`}
       >
         Visit Official Page
       </a>
