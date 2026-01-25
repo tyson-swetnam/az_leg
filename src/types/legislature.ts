@@ -1,3 +1,5 @@
+import type { District } from './district';
+
 export type Party = 'R' | 'D';
 
 export type Chamber = 'senate' | 'house';
@@ -33,4 +35,10 @@ export interface Executive {
   party: Party;
   birthDate?: string;
   age?: number;
+}
+
+export interface LegislatureData {
+  districts: District[];
+  executive: Executive[];
+  lastUpdated: string;
 }

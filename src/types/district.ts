@@ -1,4 +1,6 @@
-import { Senator, Representative, Executive } from './legislature';
+import { Senator, Representative, Executive, LegislatureData } from './legislature';
+
+export type { LegislatureData };
 
 export interface District {
   id: number;
@@ -23,10 +25,4 @@ export interface DistrictGeometry {
 export interface DistrictGeoJSON {
   type: 'FeatureCollection';
   features: DistrictGeometry[];
-}
-
-export interface LegislatureData {
-  districts: District[];
-  executive: Executive[];
-  lastUpdated: string;
 }
