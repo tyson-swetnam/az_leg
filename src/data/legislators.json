@@ -1,0 +1,1242 @@
+{
+  "districts": [
+    {
+      "id": 1,
+      "name": "District 1",
+      "majorCities": ["Prescott", "Prescott Valley", "Sedona"],
+      "senator": {
+        "name": "Mark Finchem",
+        "party": "R",
+        "chamber": "senate",
+        "district": 1,
+        "office": {
+          "phone": "602-926-XXXX",
+          "email": "finchem@azleg.gov",
+          "website": "https://www.azleg.gov/"
+        }
+      },
+      "representatives": [
+        {
+          "name": "Selina Bliss",
+          "party": "R",
+          "chamber": "house",
+          "district": 1,
+          "office": {
+            "phone": "602-926-XXXX",
+            "email": "bliss@azleg.gov",
+            "website": "https://www.azleg.gov/"
+          }
+        },
+        {
+          "name": "Quang H. Nguyen",
+          "party": "R",
+          "chamber": "house",
+          "district": 1,
+          "office": {
+            "phone": "602-926-XXXX",
+            "email": "nguyen@azleg.gov",
+            "website": "https://www.azleg.gov/"
+          }
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "District 2",
+      "majorCities": ["North Phoenix", "Paradise Valley", "Cave Creek"],
+      "senator": {
+        "name": "Shawnna Bolick",
+        "party": "R",
+        "chamber": "senate",
+        "district": 2,
+        "office": {
+          "phone": "602-926-XXXX",
+          "email": "bolick@azleg.gov",
+          "website": "https://www.azleg.gov/"
+        }
+      },
+      "representatives": [
+        {
+          "name": "Stephanie Simacek",
+          "party": "D",
+          "chamber": "house",
+          "district": 2,
+          "office": {
+            "phone": "602-926-XXXX",
+            "email": "simacek@azleg.gov",
+            "website": "https://www.azleg.gov/"
+          }
+        },
+        {
+          "name": "Justin Wilmeth",
+          "party": "R",
+          "chamber": "house",
+          "district": 2,
+          "office": {
+            "phone": "602-926-XXXX",
+            "email": "wilmeth@azleg.gov",
+            "website": "https://www.azleg.gov/"
+          }
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "District 3",
+      "majorCities": ["Scottsdale", "Fountain Hills", "Rio Verde"],
+      "senator": {
+        "name": "John Kavanagh",
+        "party": "R",
+        "chamber": "senate",
+        "district": 3,
+        "office": {
+          "phone": "602-926-XXXX",
+          "email": "kavanagh@azleg.gov",
+          "website": "https://www.azleg.gov/"
+        }
+      },
+      "representatives": [
+        {
+          "name": "Joseph Chaplik",
+          "party": "R",
+          "chamber": "house",
+          "district": 3,
+          "office": {
+            "phone": "602-926-XXXX",
+            "email": "chaplik@azleg.gov",
+            "website": "https://www.azleg.gov/"
+          }
+        },
+        {
+          "name": "Alexander Kolodin",
+          "party": "R",
+          "chamber": "house",
+          "district": 3,
+          "office": {
+            "phone": "602-926-XXXX",
+            "email": "kolodin@azleg.gov",
+            "website": "https://www.azleg.gov/"
+          }
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "District 4",
+      "majorCities": ["Central/North Phoenix", "Paradise Valley corridor"],
+      "senator": {
+        "name": "Carine Werner",
+        "party": "R",
+        "chamber": "senate",
+        "district": 4,
+        "office": {
+          "phone": "602-926-XXXX",
+          "email": "werner@azleg.gov",
+          "website": "https://www.azleg.gov/"
+        }
+      },
+      "representatives": [
+        {
+          "name": "Pamela Carter",
+          "party": "R",
+          "chamber": "house",
+          "district": 4,
+          "office": {
+            "phone": "602-926-XXXX",
+            "email": "carter@azleg.gov",
+            "website": "https://www.azleg.gov/"
+          }
+        },
+        {
+          "name": "Matt Gress",
+          "party": "R",
+          "chamber": "house",
+          "district": 4,
+          "office": {
+            "phone": "602-926-XXXX",
+            "email": "gress@azleg.gov",
+            "website": "https://www.azleg.gov/"
+          }
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "District 5",
+      "majorCities": ["Central Phoenix", "South Mountain"],
+      "senator": {
+        "name": "Lela Alston",
+        "party": "D",
+        "chamber": "senate",
+        "district": 5,
+        "office": {
+          "phone": "602-926-XXXX",
+          "email": "alston@azleg.gov",
+          "website": "https://www.azleg.gov/"
+        }
+      },
+      "representatives": [
+        {
+          "name": "Sarah Liguori",
+          "party": "D",
+          "chamber": "house",
+          "district": 5,
+          "office": {
+            "phone": "602-926-XXXX",
+            "email": "liguori@azleg.gov",
+            "website": "https://www.azleg.gov/"
+          }
+        },
+        {
+          "name": "Aaron Márquez",
+          "party": "D",
+          "chamber": "house",
+          "district": 5,
+          "office": {
+            "phone": "602-926-XXXX",
+            "email": "marquez@azleg.gov",
+            "website": "https://www.azleg.gov/"
+          }
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "District 6",
+      "majorCities": ["Navajo Nation", "Hopi Reservation", "Window Rock", "Chinle"],
+      "senator": {
+        "name": "Theresa Hatathlie",
+        "party": "D",
+        "chamber": "senate",
+        "district": 6,
+        "office": {
+          "phone": "602-926-XXXX",
+          "email": "hatathlie@azleg.gov",
+          "website": "https://www.azleg.gov/"
+        }
+      },
+      "representatives": [
+        {
+          "name": "Mae Peshlakai",
+          "party": "D",
+          "chamber": "house",
+          "district": 6,
+          "office": {
+            "phone": "602-926-XXXX",
+            "email": "peshlakai@azleg.gov",
+            "website": "https://www.azleg.gov/"
+          }
+        },
+        {
+          "name": "Myron Tsosie",
+          "party": "D",
+          "chamber": "house",
+          "district": 6,
+          "office": {
+            "phone": "602-926-XXXX",
+            "email": "tsosie@azleg.gov",
+            "website": "https://www.azleg.gov/"
+          }
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "name": "District 7",
+      "majorCities": ["Flagstaff", "Payson", "Pinetop-Lakeside", "Show Low"],
+      "senator": {
+        "name": "Wendy Rogers",
+        "party": "R",
+        "chamber": "senate",
+        "district": 7,
+        "office": {
+          "phone": "602-926-XXXX",
+          "email": "rogers@azleg.gov",
+          "website": "https://www.azleg.gov/"
+        }
+      },
+      "representatives": [
+        {
+          "name": "Walt Blackman",
+          "party": "R",
+          "chamber": "house",
+          "district": 7,
+          "office": {
+            "phone": "602-926-XXXX",
+            "email": "blackman@azleg.gov",
+            "website": "https://www.azleg.gov/"
+          }
+        },
+        {
+          "name": "David Marshall Sr.",
+          "party": "R",
+          "chamber": "house",
+          "district": 7,
+          "office": {
+            "phone": "602-926-XXXX",
+            "email": "marshall@azleg.gov",
+            "website": "https://www.azleg.gov/"
+          }
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "name": "District 8",
+      "majorCities": ["Tempe", "Salt River Pima-Maricopa Indian Community"],
+      "senator": {
+        "name": "Lauren Kuby",
+        "party": "D",
+        "chamber": "senate",
+        "district": 8,
+        "office": {
+          "phone": "602-926-XXXX",
+          "email": "kuby@azleg.gov",
+          "website": "https://www.azleg.gov/"
+        }
+      },
+      "representatives": [
+        {
+          "name": "Janeen Connolly",
+          "party": "D",
+          "chamber": "house",
+          "district": 8,
+          "office": {
+            "phone": "602-926-XXXX",
+            "email": "connolly@azleg.gov",
+            "website": "https://www.azleg.gov/"
+          }
+        },
+        {
+          "name": "Brian Garcia",
+          "party": "D",
+          "chamber": "house",
+          "district": 8,
+          "office": {
+            "phone": "602-926-XXXX",
+            "email": "garcia@azleg.gov",
+            "website": "https://www.azleg.gov/"
+          }
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "name": "District 9",
+      "majorCities": ["Mesa (western/central)"],
+      "senator": {
+        "name": "Kiana Sears",
+        "party": "D",
+        "chamber": "senate",
+        "district": 9,
+        "office": {
+          "phone": "602-926-XXXX",
+          "email": "sears@azleg.gov",
+          "website": "https://www.azleg.gov/"
+        }
+      },
+      "representatives": [
+        {
+          "name": "Lorena Austin",
+          "party": "D",
+          "chamber": "house",
+          "district": 9,
+          "office": {
+            "phone": "602-926-XXXX",
+            "email": "austin@azleg.gov",
+            "website": "https://www.azleg.gov/"
+          }
+        },
+        {
+          "name": "Seth Blattman",
+          "party": "D",
+          "chamber": "house",
+          "district": 9,
+          "office": {
+            "phone": "602-926-XXXX",
+            "email": "blattman@azleg.gov",
+            "website": "https://www.azleg.gov/"
+          }
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "name": "District 10",
+      "majorCities": ["Mesa (east)", "Apache Junction", "Gold Canyon"],
+      "senator": {
+        "name": "David C. Farnsworth",
+        "party": "R",
+        "chamber": "senate",
+        "district": 10,
+        "office": {
+          "phone": "602-926-XXXX",
+          "email": "farnsworth@azleg.gov",
+          "website": "https://www.azleg.gov/"
+        }
+      },
+      "representatives": [
+        {
+          "name": "Ralph Heap",
+          "party": "R",
+          "chamber": "house",
+          "district": 10,
+          "office": {
+            "phone": "602-926-XXXX",
+            "email": "heap@azleg.gov",
+            "website": "https://www.azleg.gov/"
+          }
+        },
+        {
+          "name": "Justin Olson",
+          "party": "R",
+          "chamber": "house",
+          "district": 10,
+          "office": {
+            "phone": "602-926-XXXX",
+            "email": "olson@azleg.gov",
+            "website": "https://www.azleg.gov/"
+          }
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "name": "District 11",
+      "majorCities": ["Central/South Phoenix", "Maryvale"],
+      "senator": {
+        "name": "Catherine Miranda",
+        "party": "D",
+        "chamber": "senate",
+        "district": 11,
+        "office": {
+          "phone": "602-926-XXXX",
+          "email": "miranda@azleg.gov",
+          "website": "https://www.azleg.gov/"
+        }
+      },
+      "representatives": [
+        {
+          "name": "Junelle Cavero",
+          "party": "D",
+          "chamber": "house",
+          "district": 11,
+          "office": {
+            "phone": "602-926-XXXX",
+            "email": "cavero@azleg.gov",
+            "website": "https://www.azleg.gov/"
+          }
+        },
+        {
+          "name": "Oscar De Los Santos",
+          "party": "D",
+          "chamber": "house",
+          "district": 11,
+          "office": {
+            "phone": "602-926-XXXX",
+            "email": "delossantos@azleg.gov",
+            "website": "https://www.azleg.gov/"
+          }
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "name": "District 12",
+      "majorCities": ["Chandler", "Tempe", "Ahwatukee"],
+      "senator": {
+        "name": "Denise \"Mitzi\" Epstein",
+        "party": "D",
+        "chamber": "senate",
+        "district": 12,
+        "office": {
+          "phone": "602-926-XXXX",
+          "email": "epstein@azleg.gov",
+          "website": "https://www.azleg.gov/"
+        }
+      },
+      "representatives": [
+        {
+          "name": "Patty Contreras",
+          "party": "D",
+          "chamber": "house",
+          "district": 12,
+          "office": {
+            "phone": "602-926-XXXX",
+            "email": "contreras@azleg.gov",
+            "website": "https://www.azleg.gov/"
+          }
+        },
+        {
+          "name": "Stacey Travers",
+          "party": "D",
+          "chamber": "house",
+          "district": 12,
+          "office": {
+            "phone": "602-926-XXXX",
+            "email": "travers@azleg.gov",
+            "website": "https://www.azleg.gov/"
+          }
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "name": "District 13",
+      "majorCities": ["Chandler", "Gilbert (west)"],
+      "senator": {
+        "name": "J.D. Mesnard",
+        "party": "R",
+        "chamber": "senate",
+        "district": 13,
+        "office": {
+          "phone": "602-926-XXXX",
+          "email": "mesnard@azleg.gov",
+          "website": "https://www.azleg.gov/"
+        }
+      },
+      "representatives": [
+        {
+          "name": "Jeff Weninger",
+          "party": "R",
+          "chamber": "house",
+          "district": 13,
+          "office": {
+            "phone": "602-926-XXXX",
+            "email": "weninger@azleg.gov",
+            "website": "https://www.azleg.gov/"
+          }
+        },
+        {
+          "name": "Julie Willoughby",
+          "party": "R",
+          "chamber": "house",
+          "district": 13,
+          "office": {
+            "phone": "602-926-XXXX",
+            "email": "willoughby@azleg.gov",
+            "website": "https://www.azleg.gov/"
+          }
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "name": "District 14",
+      "majorCities": ["Gilbert", "Queen Creek"],
+      "senator": {
+        "name": "Warren Petersen",
+        "party": "R",
+        "chamber": "senate",
+        "district": 14,
+        "office": {
+          "phone": "602-926-XXXX",
+          "email": "petersen@azleg.gov",
+          "website": "https://www.azleg.gov/"
+        }
+      },
+      "representatives": [
+        {
+          "name": "Laurin Hendrix",
+          "party": "R",
+          "chamber": "house",
+          "district": 14,
+          "office": {
+            "phone": "602-926-XXXX",
+            "email": "hendrix@azleg.gov",
+            "website": "https://www.azleg.gov/"
+          }
+        },
+        {
+          "name": "Khyl Powell",
+          "party": "R",
+          "chamber": "house",
+          "district": 14,
+          "office": {
+            "phone": "602-926-XXXX",
+            "email": "powell@azleg.gov",
+            "website": "https://www.azleg.gov/"
+          }
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "name": "District 15",
+      "majorCities": ["Queen Creek", "San Tan Valley", "Mesa (southeast)"],
+      "senator": {
+        "name": "Jake Hoffman",
+        "party": "R",
+        "chamber": "senate",
+        "district": 15,
+        "office": {
+          "phone": "602-926-XXXX",
+          "email": "hoffman@azleg.gov",
+          "website": "https://www.azleg.gov/"
+        }
+      },
+      "representatives": [
+        {
+          "name": "Neal Carter",
+          "party": "R",
+          "chamber": "house",
+          "district": 15,
+          "office": {
+            "phone": "602-926-XXXX",
+            "email": "carter@azleg.gov",
+            "website": "https://www.azleg.gov/"
+          }
+        },
+        {
+          "name": "Michael Way",
+          "party": "R",
+          "chamber": "house",
+          "district": 15,
+          "office": {
+            "phone": "602-926-XXXX",
+            "email": "way@azleg.gov",
+            "website": "https://www.azleg.gov/"
+          }
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "name": "District 16",
+      "majorCities": ["Casa Grande", "Coolidge", "Florence", "Eloy", "Maricopa"],
+      "senator": {
+        "name": "T.J. Shope",
+        "party": "R",
+        "chamber": "senate",
+        "district": 16,
+        "office": {
+          "phone": "602-926-XXXX",
+          "email": "shope@azleg.gov",
+          "website": "https://www.azleg.gov/"
+        }
+      },
+      "representatives": [
+        {
+          "name": "Chris Lopez",
+          "party": "R",
+          "chamber": "house",
+          "district": 16,
+          "office": {
+            "phone": "602-926-XXXX",
+            "email": "lopez@azleg.gov",
+            "website": "https://www.azleg.gov/"
+          }
+        },
+        {
+          "name": "Teresa Martinez",
+          "party": "R",
+          "chamber": "house",
+          "district": 16,
+          "office": {
+            "phone": "602-926-XXXX",
+            "email": "martinez@azleg.gov",
+            "website": "https://www.azleg.gov/"
+          }
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "name": "District 17",
+      "majorCities": ["Oro Valley", "Marana", "Saddlebrooke"],
+      "senator": {
+        "name": "Vince Leach",
+        "party": "R",
+        "chamber": "senate",
+        "district": 17,
+        "office": {
+          "phone": "602-926-XXXX",
+          "email": "leach@azleg.gov",
+          "website": "https://www.azleg.gov/"
+        }
+      },
+      "representatives": [
+        {
+          "name": "Rachel Keshel",
+          "party": "R",
+          "chamber": "house",
+          "district": 17,
+          "office": {
+            "phone": "602-926-XXXX",
+            "email": "keshel@azleg.gov",
+            "website": "https://www.azleg.gov/"
+          }
+        },
+        {
+          "name": "Kevin Volk",
+          "party": "D",
+          "chamber": "house",
+          "district": 17,
+          "office": {
+            "phone": "602-926-XXXX",
+            "email": "volk@azleg.gov",
+            "website": "https://www.azleg.gov/"
+          }
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "name": "District 18",
+      "majorCities": ["Central/East Tucson", "University of Arizona"],
+      "senator": {
+        "name": "Priya Sundareshan",
+        "party": "D",
+        "chamber": "senate",
+        "district": 18,
+        "office": {
+          "phone": "602-926-XXXX",
+          "email": "sundareshan@azleg.gov",
+          "website": "https://www.azleg.gov/"
+        }
+      },
+      "representatives": [
+        {
+          "name": "Nancy Gutierrez",
+          "party": "D",
+          "chamber": "house",
+          "district": 18,
+          "office": {
+            "phone": "602-926-XXXX",
+            "email": "gutierrez@azleg.gov",
+            "website": "https://www.azleg.gov/"
+          }
+        },
+        {
+          "name": "Christopher Mathis",
+          "party": "D",
+          "chamber": "house",
+          "district": 18,
+          "office": {
+            "phone": "602-926-XXXX",
+            "email": "mathis@azleg.gov",
+            "website": "https://www.azleg.gov/"
+          }
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "name": "District 19",
+      "majorCities": ["Sierra Vista", "Douglas", "Bisbee", "Safford", "Nogales"],
+      "senator": {
+        "name": "David Gowan",
+        "party": "R",
+        "chamber": "senate",
+        "district": 19,
+        "office": {
+          "phone": "602-926-XXXX",
+          "email": "gowan@azleg.gov",
+          "website": "https://www.azleg.gov/"
+        }
+      },
+      "representatives": [
+        {
+          "name": "Lupe Diaz",
+          "party": "R",
+          "chamber": "house",
+          "district": 19,
+          "office": {
+            "phone": "602-926-XXXX",
+            "email": "diaz@azleg.gov",
+            "website": "https://www.azleg.gov/"
+          }
+        },
+        {
+          "name": "Gail Griffin",
+          "party": "R",
+          "chamber": "house",
+          "district": 19,
+          "office": {
+            "phone": "602-926-XXXX",
+            "email": "griffin@azleg.gov",
+            "website": "https://www.azleg.gov/"
+          }
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "name": "District 20",
+      "majorCities": ["South Tucson", "Southwest Tucson"],
+      "senator": {
+        "name": "Sally Ann Gonzales",
+        "party": "D",
+        "chamber": "senate",
+        "district": 20,
+        "office": {
+          "phone": "602-926-XXXX",
+          "email": "gonzales@azleg.gov",
+          "website": "https://www.azleg.gov/"
+        }
+      },
+      "representatives": [
+        {
+          "name": "Alma Hernandez",
+          "party": "D",
+          "chamber": "house",
+          "district": 20,
+          "office": {
+            "phone": "602-926-XXXX",
+            "email": "hernandez@azleg.gov",
+            "website": "https://www.azleg.gov/"
+          }
+        },
+        {
+          "name": "Betty J. Villegas",
+          "party": "D",
+          "chamber": "house",
+          "district": 20,
+          "office": {
+            "phone": "602-926-XXXX",
+            "email": "villegas@azleg.gov",
+            "website": "https://www.azleg.gov/"
+          }
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "name": "District 21",
+      "majorCities": ["Sahuarita", "Green Valley", "Tubac", "Patagonia"],
+      "senator": {
+        "name": "Rosanna Gabaldón",
+        "party": "D",
+        "chamber": "senate",
+        "district": 21,
+        "office": {
+          "phone": "602-926-XXXX",
+          "email": "gabaldon@azleg.gov",
+          "website": "https://www.azleg.gov/"
+        }
+      },
+      "representatives": [
+        {
+          "name": "Consuelo Hernandez",
+          "party": "D",
+          "chamber": "house",
+          "district": 21,
+          "office": {
+            "phone": "602-926-XXXX",
+            "email": "hernandez@azleg.gov",
+            "website": "https://www.azleg.gov/"
+          }
+        },
+        {
+          "name": "Stephanie Stahl Hamilton",
+          "party": "D",
+          "chamber": "house",
+          "district": 21,
+          "office": {
+            "phone": "602-926-XXXX",
+            "email": "stahlhamilton@azleg.gov",
+            "website": "https://www.azleg.gov/"
+          }
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "name": "District 22",
+      "majorCities": ["Tolleson", "Avondale", "Goodyear", "West Phoenix"],
+      "senator": {
+        "name": "Eva Diaz",
+        "party": "D",
+        "chamber": "senate",
+        "district": 22,
+        "office": {
+          "phone": "602-926-XXXX",
+          "email": "diaz@azleg.gov",
+          "website": "https://www.azleg.gov/"
+        }
+      },
+      "representatives": [
+        {
+          "name": "Lupe Contreras",
+          "party": "D",
+          "chamber": "house",
+          "district": 22,
+          "office": {
+            "phone": "602-926-XXXX",
+            "email": "contreras@azleg.gov",
+            "website": "https://www.azleg.gov/"
+          }
+        },
+        {
+          "name": "Elda Luna-Nájera",
+          "party": "D",
+          "chamber": "house",
+          "district": 22,
+          "office": {
+            "phone": "602-926-XXXX",
+            "email": "lunanajera@azleg.gov",
+            "website": "https://www.azleg.gov/"
+          }
+        }
+      ]
+    },
+    {
+      "id": 23,
+      "name": "District 23",
+      "majorCities": ["Yuma", "San Luis", "Somerton", "Gila Bend"],
+      "senator": {
+        "name": "Brian Fernandez",
+        "party": "D",
+        "chamber": "senate",
+        "district": 23,
+        "office": {
+          "phone": "602-926-XXXX",
+          "email": "fernandez@azleg.gov",
+          "website": "https://www.azleg.gov/"
+        }
+      },
+      "representatives": [
+        {
+          "name": "Michele Peña",
+          "party": "R",
+          "chamber": "house",
+          "district": 23,
+          "office": {
+            "phone": "602-926-XXXX",
+            "email": "pena@azleg.gov",
+            "website": "https://www.azleg.gov/"
+          }
+        },
+        {
+          "name": "Mariana Sandoval",
+          "party": "D",
+          "chamber": "house",
+          "district": 23,
+          "office": {
+            "phone": "602-926-XXXX",
+            "email": "sandoval@azleg.gov",
+            "website": "https://www.azleg.gov/"
+          }
+        }
+      ]
+    },
+    {
+      "id": 24,
+      "name": "District 24",
+      "majorCities": ["Central/South Phoenix", "Downtown Phoenix"],
+      "senator": {
+        "name": "Analise Ortiz",
+        "party": "D",
+        "chamber": "senate",
+        "district": 24,
+        "office": {
+          "phone": "602-926-XXXX",
+          "email": "ortiz@azleg.gov",
+          "website": "https://www.azleg.gov/"
+        }
+      },
+      "representatives": [
+        {
+          "name": "Anna Abeytia",
+          "party": "D",
+          "chamber": "house",
+          "district": 24,
+          "office": {
+            "phone": "602-926-XXXX",
+            "email": "abeytia@azleg.gov",
+            "website": "https://www.azleg.gov/"
+          }
+        },
+        {
+          "name": "Lydia Hernandez",
+          "party": "D",
+          "chamber": "house",
+          "district": 24,
+          "office": {
+            "phone": "602-926-XXXX",
+            "email": "hernandez@azleg.gov",
+            "website": "https://www.azleg.gov/"
+          }
+        }
+      ]
+    },
+    {
+      "id": 25,
+      "name": "District 25",
+      "majorCities": ["Buckeye", "Goodyear", "Wellton"],
+      "senator": {
+        "name": "Tim Dunn",
+        "party": "R",
+        "chamber": "senate",
+        "district": 25,
+        "office": {
+          "phone": "602-926-XXXX",
+          "email": "dunn@azleg.gov",
+          "website": "https://www.azleg.gov/"
+        }
+      },
+      "representatives": [
+        {
+          "name": "Michael Carbone",
+          "party": "R",
+          "chamber": "house",
+          "district": 25,
+          "office": {
+            "phone": "602-926-XXXX",
+            "email": "carbone@azleg.gov",
+            "website": "https://www.azleg.gov/"
+          }
+        },
+        {
+          "name": "Nick Kupper",
+          "party": "R",
+          "chamber": "house",
+          "district": 25,
+          "office": {
+            "phone": "602-926-XXXX",
+            "email": "kupper@azleg.gov",
+            "website": "https://www.azleg.gov/"
+          }
+        }
+      ]
+    },
+    {
+      "id": 26,
+      "name": "District 26",
+      "majorCities": ["West/Central Phoenix", "South Glendale"],
+      "senator": {
+        "name": "Flavio Bravo",
+        "party": "D",
+        "chamber": "senate",
+        "district": 26,
+        "office": {
+          "phone": "602-926-XXXX",
+          "email": "bravo@azleg.gov",
+          "website": "https://www.azleg.gov/"
+        }
+      },
+      "representatives": [
+        {
+          "name": "Cesar Aguilar",
+          "party": "D",
+          "chamber": "house",
+          "district": 26,
+          "office": {
+            "phone": "602-926-XXXX",
+            "email": "aguilar@azleg.gov",
+            "website": "https://www.azleg.gov/"
+          }
+        },
+        {
+          "name": "Quantá Crews",
+          "party": "D",
+          "chamber": "house",
+          "district": 26,
+          "office": {
+            "phone": "602-926-XXXX",
+            "email": "crews@azleg.gov",
+            "website": "https://www.azleg.gov/"
+          }
+        }
+      ]
+    },
+    {
+      "id": 27,
+      "name": "District 27",
+      "majorCities": ["Sun City", "Peoria", "North Glendale", "Sun City West"],
+      "senator": {
+        "name": "Kevin Payne",
+        "party": "R",
+        "chamber": "senate",
+        "district": 27,
+        "office": {
+          "phone": "602-926-XXXX",
+          "email": "payne@azleg.gov",
+          "website": "https://www.azleg.gov/"
+        }
+      },
+      "representatives": [
+        {
+          "name": "Lisa Fink",
+          "party": "R",
+          "chamber": "house",
+          "district": 27,
+          "office": {
+            "phone": "602-926-XXXX",
+            "email": "fink@azleg.gov",
+            "website": "https://www.azleg.gov/"
+          }
+        },
+        {
+          "name": "Tony Rivero",
+          "party": "R",
+          "chamber": "house",
+          "district": 27,
+          "office": {
+            "phone": "602-926-XXXX",
+            "email": "rivero@azleg.gov",
+            "website": "https://www.azleg.gov/"
+          }
+        }
+      ]
+    },
+    {
+      "id": 28,
+      "name": "District 28",
+      "majorCities": ["Surprise", "West Peoria", "El Mirage"],
+      "senator": {
+        "name": "Frank Carroll",
+        "party": "R",
+        "chamber": "senate",
+        "district": 28,
+        "office": {
+          "phone": "602-926-XXXX",
+          "email": "carroll@azleg.gov",
+          "website": "https://www.azleg.gov/"
+        }
+      },
+      "representatives": [
+        {
+          "name": "David Livingston",
+          "party": "R",
+          "chamber": "house",
+          "district": 28,
+          "office": {
+            "phone": "602-926-XXXX",
+            "email": "livingston@azleg.gov",
+            "website": "https://www.azleg.gov/"
+          }
+        },
+        {
+          "name": "Beverly Pingerelli",
+          "party": "R",
+          "chamber": "house",
+          "district": 28,
+          "office": {
+            "phone": "602-926-XXXX",
+            "email": "pingerelli@azleg.gov",
+            "website": "https://www.azleg.gov/"
+          }
+        }
+      ]
+    },
+    {
+      "id": 29,
+      "name": "District 29",
+      "majorCities": ["Surprise (west/north)", "Wittmann", "Sun City Grand"],
+      "senator": {
+        "name": "Janae Shamp",
+        "party": "R",
+        "chamber": "senate",
+        "district": 29,
+        "office": {
+          "phone": "602-926-XXXX",
+          "email": "shamp@azleg.gov",
+          "website": "https://www.azleg.gov/"
+        }
+      },
+      "representatives": [
+        {
+          "name": "Steve Montenegro",
+          "party": "R",
+          "chamber": "house",
+          "district": 29,
+          "office": {
+            "phone": "602-926-XXXX",
+            "email": "montenegro@azleg.gov",
+            "website": "https://www.azleg.gov/"
+          }
+        },
+        {
+          "name": "James Taylor",
+          "party": "R",
+          "chamber": "house",
+          "district": 29,
+          "office": {
+            "phone": "602-926-XXXX",
+            "email": "taylor@azleg.gov",
+            "website": "https://www.azleg.gov/"
+          }
+        }
+      ]
+    },
+    {
+      "id": 30,
+      "name": "District 30",
+      "majorCities": ["Lake Havasu City", "Kingman", "Bullhead City", "Parker"],
+      "senator": {
+        "name": "Hildy Angius",
+        "party": "R",
+        "chamber": "senate",
+        "district": 30,
+        "office": {
+          "phone": "602-926-XXXX",
+          "email": "angius@azleg.gov",
+          "website": "https://www.azleg.gov/"
+        }
+      },
+      "representatives": [
+        {
+          "name": "Leo Biasiucci",
+          "party": "R",
+          "chamber": "house",
+          "district": 30,
+          "office": {
+            "phone": "602-926-XXXX",
+            "email": "biasiucci@azleg.gov",
+            "website": "https://www.azleg.gov/"
+          }
+        },
+        {
+          "name": "John Gillette",
+          "party": "R",
+          "chamber": "house",
+          "district": 30,
+          "office": {
+            "phone": "602-926-XXXX",
+            "email": "gillette@azleg.gov",
+            "website": "https://www.azleg.gov/"
+          }
+        }
+      ]
+    }
+  ],
+  "executive": [
+    {
+      "title": "Governor",
+      "name": "Katie Hobbs",
+      "party": "D",
+      "birthDate": "December 28, 1969",
+      "age": 56
+    },
+    {
+      "title": "Secretary of State",
+      "name": "Adrian Fontes",
+      "party": "D",
+      "birthDate": "April 3, 1970",
+      "age": 54
+    },
+    {
+      "title": "Attorney General",
+      "name": "Kris Mayes",
+      "party": "D",
+      "birthDate": "September 6, 1970",
+      "age": 54
+    },
+    {
+      "title": "State Treasurer",
+      "name": "Kimberly Yee",
+      "party": "R",
+      "birthDate": "February 23, 1974",
+      "age": 50
+    },
+    {
+      "title": "Superintendent of Public Instruction",
+      "name": "Tom Horne",
+      "party": "R",
+      "birthDate": "March 28, 1945",
+      "age": 79
+    }
+  ],
+  "lastUpdated": "2026-01-25T00:00:00.000Z"
+}
