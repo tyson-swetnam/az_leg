@@ -1,6 +1,7 @@
 import { useQuery } from '@tanstack/react-query';
 import { fetchDistrictBoundaries, fetchSingleDistrict } from './arcgis';
-import type { District, DistrictGeoJSON, LegislatureData } from '@/types/district';
+import type { District, DistrictGeoJSON } from '@/types/district';
+import type { LegislatureData } from '@/types/legislature';
 import legislatorsData from '@/data/legislators.json';
 
 const ONE_DAY = 24 * 60 * 60 * 1000;

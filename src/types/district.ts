@@ -1,6 +1,4 @@
-import { Senator, Representative, Executive, LegislatureData } from './legislature';
-
-export type { LegislatureData };
+import type { Senator, Representative } from './legislature';
 
 export interface District {
   id: number;
