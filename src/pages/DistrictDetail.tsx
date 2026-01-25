@@ -1,13 +1,17 @@
 import { useParams, Link } from 'react-router-dom';
-import { useDistrict } from '@/lib/api/queries';
+import { useDistrict, useFederalMapping, useCongressMember } from '@/lib/api/queries';
 import { LegislatorCard } from '@/components/District/LegislatorCard';
 import { DistrictInfo } from '@/components/District/DistrictInfo';
+import { DistrictMap } from '@/components/District/DistrictMap';
 
 export function DistrictDetail() {
   const { id } = useParams<{ id: string }>();
   const districtId = id ? parseInt(id, 10) : 0;
 
   const { data: district, isLoading, error } = useDistrict(districtId);
+  const { data: federalMapping } = useFederalMapping();
+  const federalDistrictId = federalMapping?.stateToFederal[districtId.toString()];
+  const { data: congressMember, isLoading: isLoadingCongress } = useCongressMember(federalDistrictId || 0);
 
   // Invalid district ID
   if (!id || districtId < 1 || districtId > 30) {
@@ -86,10 +90,8 @@ export function DistrictDetail() {
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
         {/* Left sidebar - Map and info */}
         <div className="space-y-6">
-          {/* Map placeholder for now */}
-          <div className="bg-gray-100 rounded-lg h-96 flex items-center justify-center">
-            <p className="text-gray-500">Map coming in next task</p>
-          </div>
+          {/* Interactive map with toggle */}
+          <DistrictMap districtId={districtId} />
 
           {/* District info card */}
           <DistrictInfo district={district} />
@@ -116,6 +118,29 @@ export function DistrictDetail() {
             legislator={district.representatives[1]}
             chamberLabel="State Representative"
           />
+
+          {/* Federal Representative */}
+          <div className="mt-8 pt-8 border-t border-gray-200">
+            <h2 className="text-2xl font-bold text-gray-900 mb-6">
+              Federal Representative
+            </h2>
+            {isLoadingCongress ? (
+              <div className="bg-white rounded-lg shadow-sm p-6 mb-6 animate-pulse">
+                <div className="h-6 bg-gray-200 rounded w-2/3 mb-4" />
+                <div className="h-4 bg-gray-200 rounded w-1/2 mb-2" />
+                <div className="h-4 bg-gray-200 rounded w-3/4" />
+              </div>
+            ) : congressMember ? (
+              <LegislatorCard
+                legislator={congressMember}
+                chamberLabel={`U.S. House - District ${congressMember.district}`}
+              />
+            ) : (
+              <div className="bg-gray-50 rounded-lg p-6 text-center text-gray-600">
+                Federal representative information not available
+              </div>
+            )}
+          </div>
         </div>
       </div>
     </div>
