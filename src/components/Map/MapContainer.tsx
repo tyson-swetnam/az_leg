@@ -1,18 +1,27 @@
-import { ReactNode } from 'react';
+import { ReactNode, useEffect } from 'react';
+import { Map } from 'maplibre-gl';
 import { useMapInstance } from './useMapInstance';
 
 interface MapContainerProps {
   bounds?: [number, number, number, number];
   children?: ReactNode;
   className?: string;
+  onLoad?: (map: Map) => void;
 }
 
 export function MapContainer({
   bounds,
   children,
   className = 'h-[600px] w-full',
+  onLoad,
 }: MapContainerProps) {
   const { mapContainer, map, isLoaded } = useMapInstance({ bounds });
+
+  useEffect(() => {
+    if (map && isLoaded && onLoad) {
+      onLoad(map);
+    }
+  }, [map, isLoaded, onLoad]);
 
   return (
     <div className="relative">
