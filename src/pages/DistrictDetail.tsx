@@ -1,8 +1,6 @@
 import { useParams, Link } from 'react-router-dom';
 import { useDistrict, useFederalMapping, useCongressMember } from '@/lib/api/queries';
-import { LegislatorCard } from '@/components/District/LegislatorCard';
-import { DistrictInfo } from '@/components/District/DistrictInfo';
-import { DistrictMap } from '@/components/District/DistrictMap';
+import { LegislatorCard, DistrictInfo, DistrictMap } from '@/components/District';
 
 export function DistrictDetail() {
   const { id } = useParams<{ id: string }>();
