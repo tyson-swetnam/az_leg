@@ -1,8 +1,7 @@
-import { useEffect, useRef, useMemo } from 'react';
+import { useRef, useMemo } from 'react';
 import ForceGraph2D from 'react-force-graph-2d';
 import { useLegislators } from '@/lib/api/queries';
 import { PARTY_COLORS } from '@/lib/constants';
-import type { Legislator } from '@/types/legislature';
 
 interface GraphNode {
   id: string;
