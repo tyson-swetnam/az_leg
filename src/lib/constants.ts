@@ -22,5 +22,29 @@ export const LEGISLATURE_URL = 'https://www.azleg.gov/';
 export const COMMITTEES_URL =
   'https://apps.azleg.gov/BillStatus/CommitteeOverView?SessionID=130';
 
-export const MAPLIBRE_STYLE =
-  'https://api.maptiler.com/maps/streets/style.json?key=get_your_own_key';
+export const MAPLIBRE_STYLE = {
+  version: 8,
+  sources: {
+    osm: {
+      type: 'raster',
+      tiles: ['https://tile.openstreetmap.org/{z}/{x}/{y}.png'],
+      tileSize: 256,
+      attribution:
+        '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
+      maxzoom: 19,
+    },
+  },
+  layers: [
+    {
+      id: 'osm',
+      type: 'raster',
+      source: 'osm',
+    },
+  ],
+} as const;
+
+export const ARIZONA_BOUNDS: [number, number, number, number] = [
+  -114.8, 31.3, -109.0, 37.0,
+];
+
+export const ARIZONA_CENTER: [number, number] = [-111.9, 34.0];
