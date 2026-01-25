@@ -4,6 +4,9 @@ export const ARCGIS_BASE_URL =
 export const LEGISLATIVE_DISTRICTS_URL =
   `${ARCGIS_BASE_URL}/Approved Official Legislative Map/FeatureServer/0/query`;
 
+export const CONGRESSIONAL_DISTRICTS_URL =
+  `${ARCGIS_BASE_URL}/Approved Official Congressional Map/FeatureServer/0/query`;
+
 export const PARTY_COLORS = {
   R: '#ef4444',
   D: '#3b82f6',
