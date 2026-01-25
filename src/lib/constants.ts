@@ -1,8 +1,8 @@
 export const ARCGIS_BASE_URL =
-  'https://services8.arcgis.com/x0l81el0LN7X67MM/arcgis/rest/services';
+  'https://services8.arcgis.com/x0l81el0LN7X67MM/ArcGIS/rest/services';
 
 export const LEGISLATIVE_DISTRICTS_URL =
-  `${ARCGIS_BASE_URL}/2022_Approved_Legislative_Districts/FeatureServer/0/query`;
+  `${ARCGIS_BASE_URL}/Approved Official Legislative Map/FeatureServer/0/query`;
 
 export const PARTY_COLORS = {
   R: '#ef4444',
