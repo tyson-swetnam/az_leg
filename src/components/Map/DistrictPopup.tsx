@@ -1,4 +1,3 @@
-import { useNavigate } from 'react-router-dom';
 import type { District } from '@/types/district';
 import { getPartyLabel } from '@/lib/utils';
 import { PARTY_COLORS } from '@/lib/constants';
@@ -9,10 +8,9 @@ interface DistrictPopupProps {
 }
 
 export function DistrictPopup({ district, onClose }: DistrictPopupProps) {
-  const navigate = useNavigate();
-
   const handleViewDetails = () => {
-    navigate(`/district/${district.id}`);
+    // Use window.location for navigation since popup is outside React Router context
+    window.location.href = `/az_leg/district/${district.id}`;
   };
 
   return (
