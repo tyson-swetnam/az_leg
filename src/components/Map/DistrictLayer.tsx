@@ -1,6 +1,11 @@
+import { useEffect } from 'react';
+import { createRoot } from 'react-dom/client';
 import { Map } from 'maplibre-gl';
 import { useDistrictBoundaries } from '@/lib/api/queries';
 import { useDistrictLayer } from './useDistrictLayer';
+import { useMapInteractions } from './useMapInteractions';
+import { DistrictTooltip } from './DistrictTooltip';
+import { DistrictPopup } from './DistrictPopup';
 
 interface DistrictLayerProps {
   map: Map | null;
@@ -9,8 +14,26 @@ interface DistrictLayerProps {
 
 export function DistrictLayer({ map, isLoaded }: DistrictLayerProps) {
   const { data, isLoading, error } = useDistrictBoundaries();
+  const { tooltip, selectedDistrict, closePopup } = useMapInteractions(map, isLoaded);
 
   useDistrictLayer({ map, data, isLoaded });
+
+  // Render popup into MapLibre popup container
+  useEffect(() => {
+    if (selectedDistrict) {
+      const popupContent = document.getElementById('popup-content');
+      if (popupContent) {
+        const root = createRoot(popupContent);
+        root.render(
+          <DistrictPopup district={selectedDistrict} onClose={closePopup} />
+        );
+
+        return () => {
+          root.unmount();
+        };
+      }
+    }
+  }, [selectedDistrict, closePopup]);
 
   if (error) {
     return (
@@ -30,5 +53,16 @@ export function DistrictLayer({ map, isLoaded }: DistrictLayerProps) {
     );
   }
 
-  return null;
+  return (
+    <>
+      {tooltip && (
+        <DistrictTooltip
+          x={tooltip.x}
+          y={tooltip.y}
+          districtNumber={tooltip.districtNumber}
+          senatorName={tooltip.senatorName}
+        />
+      )}
+    </>
+  );
 }

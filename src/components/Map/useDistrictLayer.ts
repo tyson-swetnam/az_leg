@@ -1,6 +1,6 @@
 import { useEffect } from 'react';
-import { Map, GeoJSONSource } from 'maplibre-gl';
-import { DistrictGeoJSON } from '@/types/district';
+import { Map } from 'maplibre-gl';
+import type { DistrictGeoJSON } from '@/types/district';
 import { PARTY_COLORS_LIGHT } from '@/lib/constants';
 import { useLegislators } from '@/lib/api/queries';
 
@@ -24,7 +24,7 @@ export function useDistrictLayer({
     if (!map.getSource('districts')) {
       map.addSource('districts', {
         type: 'geojson',
-        data,
+        data: data as any,
       });
     }
 
@@ -46,9 +46,9 @@ export function useDistrictLayer({
                 d.senator.party === 'R' ? PARTY_COLORS_LIGHT.R : PARTY_COLORS_LIGHT.D
               ]),
               '#94a3b820' // fallback
-            ],
+            ] as any,
             '#94a3b820' // fallback
-          ],
+          ] as any,
           'fill-opacity': 0.6,
         },
       });

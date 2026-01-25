@@ -1,4 +1,4 @@
-import { ReactNode, useEffect } from 'react';
+import { useEffect, type ReactNode } from 'react';
 import { Map } from 'maplibre-gl';
 import { useMapInstance } from './useMapInstance';
 

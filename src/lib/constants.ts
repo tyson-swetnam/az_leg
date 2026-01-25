@@ -23,10 +23,10 @@ export const COMMITTEES_URL =
   'https://apps.azleg.gov/BillStatus/CommitteeOverView?SessionID=130';
 
 export const MAPLIBRE_STYLE = {
-  version: 8,
+  version: 8 as const,
   sources: {
     osm: {
-      type: 'raster',
+      type: 'raster' as const,
       tiles: ['https://tile.openstreetmap.org/{z}/{x}/{y}.png'],
       tileSize: 256,
       attribution:
@@ -37,11 +37,11 @@ export const MAPLIBRE_STYLE = {
   layers: [
     {
       id: 'osm',
-      type: 'raster',
+      type: 'raster' as const,
       source: 'osm',
     },
   ],
-} as const;
+};
 
 export const ARIZONA_BOUNDS: [number, number, number, number] = [
   -114.8, 31.3, -109.0, 37.0,
