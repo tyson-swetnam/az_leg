@@ -8,11 +8,14 @@
     "build": "tsc -b && vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "transform": "node scripts/transform-md-to-json.js"
+    "transform": "node scripts/transform-md-to-json.js",
+    "add-social": "node scripts/add-social-media.js"
   },
   "dependencies": {
     "@tanstack/react-query": "^5.90.20",
     "@types/maplibre-gl": "^1.13.2",
+    "axios": "^1.13.3",
+    "cheerio": "^1.2.0",
     "clsx": "^2.1.1",
     "maplibre-gl": "^5.16.0",
     "react": "^19.2.0",
