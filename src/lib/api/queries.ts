@@ -1,11 +1,14 @@
 import { useQuery } from '@tanstack/react-query';
 import { fetchDistrictBoundaries, fetchSingleDistrict } from './arcgis';
 import { fetchFederalDistrictBoundaries, fetchSingleFederalDistrict } from './federal';
+import { fetchCampaignFinanceId } from './followthemoney';
 import type { District, DistrictGeoJSON } from '@/types/district';
-import type { LegislatureData } from '@/types/legislature';
+import type { LegislatureData, Chamber } from '@/types/legislature';
 import type { FederalMapping, CongressMember } from '@/types/federal';
+import type { CampaignFinanceData } from '@/types/campaign-finance';
 import legislatorsData from '@/data/legislators.json';
 import federalMappingData from '@/data/federal-mapping.json';
+import { DEFAULT_CAMPAIGN_FINANCE_YEAR } from '@/lib/constants';
 
 const ONE_DAY = 24 * 60 * 60 * 1000;
 const ONE_WEEK = 7 * ONE_DAY;
@@ -120,5 +123,22 @@ export function useCongressMember(federalDistrictId: number) {
     },
     staleTime: Infinity,
     enabled: !!federalDistrictId,
+  });
+}
+
+/**
+ * Get campaign finance data from static mapping
+ * Never becomes stale since it's local data
+ */
+export function useCampaignFinance(
+  name: string,
+  chamber: Chamber,
+  year: number = DEFAULT_CAMPAIGN_FINANCE_YEAR
+) {
+  return useQuery<CampaignFinanceData | null>({
+    queryKey: ['campaign-finance', name, chamber],
+    queryFn: () => fetchCampaignFinanceId({ name, chamber, year }),
+    staleTime: Infinity,
+    enabled: !!name && !!chamber,
   });
 }

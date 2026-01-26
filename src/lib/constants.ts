@@ -51,3 +51,9 @@ export const ARIZONA_BOUNDS: [number, number, number, number] = [
 ];
 
 export const ARIZONA_CENTER: [number, number] = [-111.9, 34.0];
+
+// Follow the Money API Configuration
+export const FOLLOW_THE_MONEY_API_URL = 'https://api.followthemoney.org/';
+export const FOLLOW_THE_MONEY_API_KEY = '3e48101b42992f03f1a76b822cb39018';
+export const FOLLOW_THE_MONEY_BASE_URL = 'https://www.followthemoney.org';
+export const DEFAULT_CAMPAIGN_FINANCE_YEAR = 2024;

@@ -33,6 +33,7 @@ export interface Legislator {
   bio?: string;
   photoUrl?: string;
   committees?: string[];
+  campaignWebsite?: string;
   campaignFinance?: CampaignFinanceData;
   socialMedia?: SocialMedia;
 }

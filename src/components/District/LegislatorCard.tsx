@@ -2,6 +2,7 @@ import type { Legislator } from '@/types/legislature';
 import type { CongressMember } from '@/types/federal';
 import { PARTY_COLORS } from '@/lib/constants';
 import { getPartyLabel, formatPhone } from '@/lib/utils';
+import { CampaignFinanceLink } from './CampaignFinanceLink';
 
 type LegislatorOrCongress = Legislator | CongressMember;
 
@@ -71,6 +72,14 @@ export function LegislatorCard({ legislator, chamberLabel }: LegislatorCardProps
             Official Website
           </a>
         </div>
+
+        {/* Campaign Finance Link - only for state legislators */}
+        {'chamber' in legislator && (legislator.chamber === 'senate' || legislator.chamber === 'house') && (
+          <CampaignFinanceLink
+            legislatorName={legislator.name}
+            chamber={legislator.chamber}
+          />
+        )}
       </div>
 
       {/* Bio (if available) */}
