@@ -14,8 +14,20 @@ const __dirname = dirname(__filename);
  *
  * Three-stage approach:
  * 1. Automated web scraping from campaign websites (~60% coverage)
- * 2. Manual research template generation for incomplete data
+ * 2. Manual research template generation + merge functionality
  * 3. Optional search API (TODO - future enhancement)
+ *
+ * Usage:
+ *   npm run add-social              # Scrape websites + generate template
+ *   npm run add-social -- --merge   # Merge manual-social-media.json back into legislators.json
+ *   npm run add-social -- --dry-run # Test without modifying files
+ *
+ * Workflow:
+ *   1. Run initial scrape to auto-populate social media from campaign websites
+ *   2. Script generates manual-social-media.json with incomplete officials
+ *   3. Manually fill in social media URLs in manual-social-media.json
+ *   4. Run with --merge flag to import manual data back into legislators.json
+ *   5. Repeat steps 3-4 until all officials have social media data
  */
 
 // Social media URL patterns
@@ -321,6 +333,90 @@ function generateManualTemplate(data) {
 }
 
 /**
+ * Merge social media data from manual-social-media.json
+ */
+function mergeSocialMediaData(data, manualData) {
+  console.log('\n🔄 Merging manual social media data\n');
+
+  let mergedCount = 0;
+  let skippedCount = 0;
+  const notFound = [];
+
+  for (const entry of manualData) {
+    // Check if this entry has any social media data to merge
+    const hasPersonal = entry.socialMedia?.personal && Object.keys(entry.socialMedia.personal).length > 0;
+    const hasOfficial = entry.socialMedia?.official && Object.keys(entry.socialMedia.official).length > 0;
+
+    if (!hasPersonal && !hasOfficial) {
+      skippedCount++;
+      continue;
+    }
+
+    // Find the matching official in the data
+    let official = null;
+
+    if (entry.type === 'executive') {
+      official = data.executive.find(exec => exec.name === entry.name);
+    } else {
+      // Find the district
+      const district = data.districts.find(d => d.id === entry.district);
+      if (district) {
+        if (entry.type === 'senator') {
+          official = district.senator;
+        } else if (entry.type === 'representative') {
+          official = district.representatives?.find(rep => rep.name === entry.name);
+        }
+      }
+    }
+
+    if (!official) {
+      notFound.push(`${entry.type} - ${entry.name} (District ${entry.district || 'N/A'})`);
+      continue;
+    }
+
+    // Initialize socialMedia if it doesn't exist
+    if (!official.socialMedia) {
+      official.socialMedia = {};
+    }
+
+    // Merge personal accounts
+    if (hasPersonal) {
+      if (!official.socialMedia.personal) {
+        official.socialMedia.personal = {};
+      }
+      Object.assign(official.socialMedia.personal, entry.socialMedia.personal);
+    }
+
+    // Merge official accounts
+    if (hasOfficial) {
+      if (!official.socialMedia.official) {
+        official.socialMedia.official = {};
+      }
+      Object.assign(official.socialMedia.official, entry.socialMedia.official);
+    }
+
+    mergedCount++;
+    console.log(`   ✓ Merged: ${entry.name} (${entry.type})`);
+    if (hasPersonal) {
+      console.log(`      Personal: ${Object.keys(entry.socialMedia.personal).join(', ')}`);
+    }
+    if (hasOfficial) {
+      console.log(`      Official: ${Object.keys(entry.socialMedia.official).join(', ')}`);
+    }
+  }
+
+  console.log(`\n📊 Merge Summary:`);
+  console.log(`   Merged: ${mergedCount}`);
+  console.log(`   Skipped (empty): ${skippedCount}`);
+  if (notFound.length > 0) {
+    console.log(`   Not found: ${notFound.length}`);
+    notFound.forEach(nf => console.log(`      - ${nf}`));
+  }
+
+  return { mergedCount, skippedCount, notFoundCount: notFound.length };
+}
+
+/**
  * Stage 3: TODO - Web search API integration (optional)
  */
 function stageThreeStub() {
@@ -339,6 +435,7 @@ function stageThreeStub() {
 async function main() {
   const args = process.argv.slice(2);
   const dryRun = args.includes('--dry-run');
+  const mergeMode = args.includes('--merge');
 
   console.log('🔍 Add Social Media Links to Arizona Legislature Data\n');
 
@@ -348,6 +445,7 @@ async function main() {
 
   const jsonPath = join(__dirname, '..', 'src', 'data', 'legislators.json');
   const backupPath = join(__dirname, '..', 'src', 'data', 'legislators.json.backup');
+  const manualPath = join(__dirname, '..', 'manual-social-media.json');
 
   try {
     // Load data
@@ -355,47 +453,114 @@ async function main() {
     const content = readFileSync(jsonPath, 'utf-8');
     const data = JSON.parse(content);
 
-    // Stage 1: Scrape websites
-    const updatedData = await scrapeAllWebsites(data);
+    let updatedData = data;
 
-    // Stage 2: Generate manual template
-    const incompleteCount = generateManualTemplate(updatedData);
+    if (mergeMode) {
+      // MERGE MODE: Only merge manual data
+      console.log('🔄 MERGE MODE: Importing manual social media data\n');
 
-    // Stage 3: Stub
-    stageThreeStub();
+      try {
+        const manualContent = readFileSync(manualPath, 'utf-8');
+        const manualData = JSON.parse(manualContent);
 
-    // Save results
-    if (!dryRun) {
-      console.log('💾 Saving results...\n');
+        // Merge manual data
+        const mergeStats = mergeSocialMediaData(updatedData, manualData);
 
-      // Create backup
-      copyFileSync(jsonPath, backupPath);
-      console.log(`✓ Backup created: ${backupPath}`);
+        // Regenerate template with remaining incomplete entries
+        console.log('\n📝 Regenerating template with remaining incomplete entries...\n');
+        const incompleteCount = generateManualTemplate(updatedData);
 
-      // Update lastUpdated
-      updatedData.lastUpdated = new Date().toISOString();
+        // Save results
+        if (!dryRun) {
+          console.log('💾 Saving results...\n');
 
-      // Write updated data
-      writeFileSync(jsonPath, JSON.stringify(updatedData, null, 2));
-      console.log(`✓ Updated: ${jsonPath}\n`);
+          // Create backup
+          copyFileSync(jsonPath, backupPath);
+          console.log(`✓ Backup created: ${backupPath}`);
+
+          // Update lastUpdated
+          updatedData.lastUpdated = new Date().toISOString();
+
+          // Write updated data
+          writeFileSync(jsonPath, JSON.stringify(updatedData, null, 2));
+          console.log(`✓ Updated: ${jsonPath}\n`);
+        } else {
+          console.log('⚠️  DRY RUN - No files were modified\n');
+        }
+
+        // Final summary
+        const totalOfficials = data.districts.length * 3 + data.executive.length;
+        const withSocialMedia = countOfficialsWithSocialMedia(updatedData);
+
+        console.log('✅ Merge complete!\n');
+        console.log('📊 Final Statistics:');
+        console.log(`   Total officials: ${totalOfficials}`);
+        console.log(`   With social media: ${withSocialMedia}`);
+        console.log(`   Coverage: ${((withSocialMedia / totalOfficials) * 100).toFixed(1)}%`);
+        console.log(`   Remaining incomplete: ${incompleteCount}`);
+        console.log(`\nNext steps:`);
+        if (incompleteCount > 0) {
+          console.log(`   1. Review updated manual-social-media.json`);
+          console.log(`   2. Fill in more missing social media URLs`);
+          console.log(`   3. Run 'npm run add-social -- --merge' again\n`);
+        } else {
+          console.log(`   All officials now have social media data!\n`);
+        }
+
+      } catch (error) {
+        if (error.code === 'ENOENT') {
+          console.error('❌ Error: manual-social-media.json not found');
+          console.error('   Run the script without --merge first to generate the template\n');
+        } else {
+          throw error;
+        }
+        process.exit(1);
+      }
+
     } else {
-      console.log('⚠️  DRY RUN - No files were modified\n');
+      // SCRAPE MODE: Normal operation
+      // Stage 1: Scrape websites
+      updatedData = await scrapeAllWebsites(data);
+
+      // Stage 2: Generate manual template
+      const incompleteCount = generateManualTemplate(updatedData);
+
+      // Stage 3: Stub
+      stageThreeStub();
+
+      // Save results
+      if (!dryRun) {
+        console.log('💾 Saving results...\n');
+
+        // Create backup
+        copyFileSync(jsonPath, backupPath);
+        console.log(`✓ Backup created: ${backupPath}`);
+
+        // Update lastUpdated
+        updatedData.lastUpdated = new Date().toISOString();
+
+        // Write updated data
+        writeFileSync(jsonPath, JSON.stringify(updatedData, null, 2));
+        console.log(`✓ Updated: ${jsonPath}\n`);
+      } else {
+        console.log('⚠️  DRY RUN - No files were modified\n');
+      }
+
+      // Final summary
+      const totalOfficials = data.districts.length * 3 + data.executive.length;
+      const withSocialMedia = countOfficialsWithSocialMedia(updatedData);
+
+      console.log('✅ Process complete!\n');
+      console.log('📊 Final Statistics:');
+      console.log(`   Total officials: ${totalOfficials}`);
+      console.log(`   With social media: ${withSocialMedia}`);
+      console.log(`   Coverage: ${((withSocialMedia / totalOfficials) * 100).toFixed(1)}%`);
+      console.log(`   Incomplete: ${incompleteCount}`);
+      console.log(`\nNext steps:`);
+      console.log(`   1. Review manual-social-media.json`);
+      console.log(`   2. Fill in missing social media URLs`);
+      console.log(`   3. Run 'npm run add-social -- --merge' to import manual data\n`);
     }
-
-    // Final summary
-    const totalOfficials = data.districts.length * 3 + data.executive.length;
-    const withSocialMedia = countOfficialsWithSocialMedia(updatedData);
-
-    console.log('✅ Process complete!\n');
-    console.log('📊 Final Statistics:');
-    console.log(`   Total officials: ${totalOfficials}`);
-    console.log(`   With social media: ${withSocialMedia}`);
-    console.log(`   Coverage: ${((withSocialMedia / totalOfficials) * 100).toFixed(1)}%`);
-    console.log(`   Incomplete: ${incompleteCount}`);
-    console.log(`\nNext steps:`);
-    console.log(`   1. Review manual-social-media.json`);
-    console.log(`   2. Fill in missing social media URLs`);
-    console.log(`   3. Re-run script to merge manual additions (TODO: implement merge)\n`);
 
   } catch (error) {
     console.error('❌ Error:', error.message);
