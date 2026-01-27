@@ -23,8 +23,12 @@ export function MapContainer({
     }
   }, [map, isLoaded, onLoad]);
 
+  // Check if this is a fullscreen map
+  const isFullscreen = className.includes('fullscreen');
+  const wrapperClass = isFullscreen ? 'absolute inset-0' : 'relative';
+
   return (
-    <div className="relative">
+    <div className={wrapperClass}>
       <div ref={mapContainer} className={className} />
       {!isLoaded && (
         <div className="absolute inset-0 flex items-center justify-center bg-gray-100">

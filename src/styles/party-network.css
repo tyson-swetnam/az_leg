@@ -1,0 +1,626 @@
+/* Legislative Gazette Aesthetic - Party Network */
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&family=Work+Sans:wght@300;400;500;600;700&display=swap');
+
+:root {
+  --cream: #faf8f3;
+  --newsprint: #2a2a2a;
+  --ink: #1a1a1a;
+  --border: #d4c5a9;
+  --accent-gold: #c9a961;
+  --paper-white: #ffffff;
+  --shadow-soft: rgba(0, 0, 0, 0.08);
+  --shadow-medium: rgba(0, 0, 0, 0.12);
+}
+
+/* Container */
+.party-network-container {
+  min-height: 100vh;
+  background: var(--cream);
+  font-family: 'Work Sans', -apple-system, sans-serif;
+  color: var(--newsprint);
+}
+
+/* Loading State */
+.party-network-loading {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: var(--cream);
+  gap: 1.5rem;
+}
+
+.party-network-loading .loading-spinner {
+  width: 48px;
+  height: 48px;
+  border: 3px solid var(--border);
+  border-top-color: var(--accent-gold);
+  border-radius: 50%;
+  animation: spin 0.8s linear infinite;
+}
+
+@keyframes spin {
+  to { transform: rotate(360deg); }
+}
+
+.party-network-loading p {
+  font-family: 'Libre Baskerville', serif;
+  font-size: 1.125rem;
+  color: var(--newsprint);
+  letter-spacing: 0.02em;
+}
+
+/* Header */
+.party-network-header {
+  background: linear-gradient(to bottom, var(--paper-white) 0%, var(--cream) 100%);
+  border-bottom: 3px double var(--border);
+  padding: 3.5rem 2rem 2.5rem;
+  position: relative;
+}
+
+.party-network-header::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 8px;
+  background: repeating-linear-gradient(
+    90deg,
+    var(--accent-gold) 0px,
+    var(--accent-gold) 4px,
+    transparent 4px,
+    transparent 12px
+  );
+}
+
+.party-network-header .header-content {
+  max-width: 1400px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.header-title-section {
+  flex: 1;
+  min-width: 300px;
+}
+
+.party-network-title {
+  font-family: 'Libre Baskerville', serif;
+  font-size: 3.5rem;
+  font-weight: 700;
+  line-height: 1.1;
+  color: var(--ink);
+  margin: 0;
+  letter-spacing: -0.02em;
+}
+
+.party-network-subtitle {
+  font-family: 'Work Sans', sans-serif;
+  font-size: 0.95rem;
+  font-weight: 500;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: #666;
+  margin: 0.75rem 0 0 0;
+}
+
+.header-stats {
+  display: flex;
+  align-items: stretch;
+  gap: 1.5rem;
+  background: var(--paper-white);
+  border: 2px solid var(--border);
+  padding: 1.5rem;
+  box-shadow: 0 4px 12px var(--shadow-soft);
+}
+
+.stat-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.375rem;
+  min-width: 100px;
+}
+
+.stat-value {
+  font-family: 'Libre Baskerville', serif;
+  font-size: 2.5rem;
+  font-weight: 700;
+  line-height: 1;
+  color: var(--ink);
+}
+
+.stat-label {
+  font-size: 0.8rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #888;
+}
+
+.stat-detail {
+  font-size: 0.75rem;
+  color: #999;
+  font-weight: 500;
+}
+
+.stat-divider {
+  width: 2px;
+  background: var(--border);
+  align-self: stretch;
+  margin: 0.25rem 0;
+}
+
+/* Controls */
+.party-network-controls {
+  max-width: 1400px;
+  margin: 2rem auto;
+  padding: 0 2rem;
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+  align-items: flex-end;
+}
+
+.controls-section {
+  display: flex;
+  flex-direction: column;
+  gap: 0.625rem;
+  flex: 1;
+  min-width: 240px;
+}
+
+.control-label {
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: #777;
+}
+
+.button-group {
+  display: flex;
+  gap: 0.5rem;
+  background: var(--paper-white);
+  border: 1px solid var(--border);
+  padding: 0.25rem;
+  box-shadow: 0 1px 3px var(--shadow-soft);
+  flex-wrap: wrap;
+}
+
+.control-button {
+  padding: 0.625rem 1rem;
+  font-family: 'Work Sans', sans-serif;
+  font-size: 0.8125rem;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  color: var(--newsprint);
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  white-space: nowrap;
+}
+
+.control-button:hover {
+  color: var(--ink);
+  background: var(--cream);
+}
+
+.control-button.active {
+  color: var(--paper-white);
+  background: var(--ink);
+}
+
+.search-section {
+  position: relative;
+  flex: 2;
+  min-width: 300px;
+}
+
+.search-section .search-icon {
+  position: absolute;
+  left: 1rem;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 18px;
+  height: 18px;
+  color: #999;
+  pointer-events: none;
+}
+
+.search-section .search-input {
+  width: 100%;
+  padding: 0.75rem 1rem 0.75rem 2.75rem;
+  font-family: 'Work Sans', sans-serif;
+  font-size: 0.9375rem;
+  color: var(--newsprint);
+  background: var(--paper-white);
+  border: 1px solid var(--border);
+  box-shadow: 0 1px 3px var(--shadow-soft);
+  transition: all 0.2s ease;
+}
+
+.search-section .search-input:focus {
+  outline: none;
+  border-color: var(--accent-gold);
+  box-shadow: 0 2px 8px var(--shadow-medium);
+}
+
+.search-section .search-input::placeholder {
+  color: #aaa;
+}
+
+/* Districts Grid */
+.districts-grid {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 2rem 4rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+  gap: 1.5rem;
+}
+
+.district-card {
+  background: var(--paper-white);
+  border: 2px solid var(--border);
+  box-shadow: 0 3px 10px var(--shadow-soft);
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  display: flex;
+  flex-direction: column;
+  animation: fadeInUp 0.5s ease backwards;
+  position: relative;
+  overflow: hidden;
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.district-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 20px var(--shadow-medium);
+}
+
+.district-card.r-majority {
+  border-left: 4px solid #ef4444;
+}
+
+.district-card.d-majority {
+  border-left: 4px solid #3b82f6;
+}
+
+/* District Header */
+.district-header {
+  padding: 1.5rem;
+  background: linear-gradient(to bottom, var(--cream) 0%, var(--paper-white) 100%);
+  border-bottom: 1px solid var(--border);
+  display: flex;
+  gap: 1.25rem;
+  align-items: flex-start;
+}
+
+.district-number {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-width: 70px;
+  height: 70px;
+  background: var(--ink);
+  color: var(--paper-white);
+  border-radius: 4px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+}
+
+.number-label {
+  font-size: 0.625rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  opacity: 0.8;
+}
+
+.number-value {
+  font-family: 'Libre Baskerville', serif;
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 1;
+}
+
+.district-info {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.district-name {
+  font-family: 'Libre Baskerville', serif;
+  font-size: 1.375rem;
+  font-weight: 700;
+  line-height: 1.2;
+  color: var(--ink);
+  margin: 0;
+  letter-spacing: -0.01em;
+}
+
+.district-cities {
+  font-size: 0.8125rem;
+  color: #666;
+  line-height: 1.5;
+  margin: 0;
+  font-weight: 400;
+}
+
+/* Party Breakdown */
+.party-breakdown {
+  padding: 1.25rem 1.5rem;
+  background: var(--paper-white);
+  border-bottom: 1px solid #f5f5f5;
+}
+
+.breakdown-bar {
+  height: 10px;
+  display: flex;
+  overflow: hidden;
+  border-radius: 2px;
+  margin-bottom: 0.875rem;
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
+  background: #e5e5e5;
+}
+
+.breakdown-segment {
+  transition: width 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.breakdown-labels {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.625rem;
+  font-size: 0.875rem;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+}
+
+.breakdown-count {
+  font-family: 'Libre Baskerville', serif;
+}
+
+.breakdown-divider {
+  color: #ccc;
+  font-weight: 400;
+}
+
+.mixed-badge {
+  display: inline-block;
+  padding: 0.125rem 0.5rem;
+  font-size: 0.65rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  background: var(--accent-gold);
+  color: var(--paper-white);
+  border-radius: 2px;
+  margin-left: 0.25rem;
+}
+
+/* Legislators List */
+.legislators-list {
+  padding: 0.5rem 0;
+  flex: 1;
+}
+
+.legislator-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.875rem 1.5rem;
+  transition: background 0.15s ease;
+  border-bottom: 1px solid #f5f5f5;
+}
+
+.legislator-row:hover {
+  background: var(--cream);
+}
+
+.legislator-row:last-child {
+  border-bottom: none;
+}
+
+.legislator-senator {
+  background: linear-gradient(to right, #fafaf8 0%, transparent 100%);
+}
+
+.legislator-info {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.legislator-name {
+  font-size: 0.9375rem;
+  font-weight: 600;
+  color: var(--ink);
+  letter-spacing: -0.01em;
+}
+
+.legislator-role {
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #888;
+}
+
+.party-badge {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.8125rem;
+  font-weight: 700;
+  color: white;
+  flex-shrink: 0;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15);
+}
+
+/* District Link */
+.district-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 1rem 1.5rem;
+  background: var(--ink);
+  color: var(--paper-white);
+  text-decoration: none;
+  font-size: 0.8125rem;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  transition: all 0.2s ease;
+  border-top: 1px solid var(--border);
+  margin-top: auto;
+}
+
+.district-link:hover {
+  background: var(--accent-gold);
+  color: var(--paper-white);
+}
+
+.district-link .link-arrow {
+  width: 16px;
+  height: 16px;
+  transition: transform 0.2s ease;
+}
+
+.district-link:hover .link-arrow {
+  transform: translateX(3px);
+}
+
+/* No Results */
+.no-results {
+  max-width: 1400px;
+  margin: 4rem auto;
+  padding: 3rem 2rem;
+  text-align: center;
+  color: #999;
+}
+
+.no-results p {
+  font-family: 'Libre Baskerville', serif;
+  font-size: 1.25rem;
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+  .party-network-title {
+    font-size: 3rem;
+  }
+
+  .header-stats {
+    width: 100%;
+    justify-content: space-around;
+  }
+}
+
+@media (max-width: 768px) {
+  .party-network-title {
+    font-size: 2.5rem;
+  }
+
+  .party-network-header .header-content {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .header-stats {
+    gap: 1rem;
+    padding: 1rem;
+  }
+
+  .stat-value {
+    font-size: 2rem;
+  }
+
+  .party-network-controls {
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+
+  .controls-section,
+  .search-section {
+    width: 100%;
+  }
+
+  .districts-grid {
+    grid-template-columns: 1fr;
+    gap: 1.25rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .party-network-header {
+    padding: 2rem 1rem 1.5rem;
+  }
+
+  .party-network-title {
+    font-size: 2rem;
+  }
+
+  .party-network-controls {
+    padding: 0 1rem;
+  }
+
+  .districts-grid {
+    padding: 0 1rem 3rem;
+  }
+
+  .district-header {
+    padding: 1rem;
+    gap: 1rem;
+  }
+
+  .district-number {
+    min-width: 60px;
+    height: 60px;
+  }
+
+  .number-value {
+    font-size: 1.75rem;
+  }
+
+  .district-name {
+    font-size: 1.125rem;
+  }
+
+  .stat-card {
+    min-width: 80px;
+  }
+
+  .stat-value {
+    font-size: 1.75rem;
+  }
+
+  .button-group {
+    justify-content: center;
+  }
+}

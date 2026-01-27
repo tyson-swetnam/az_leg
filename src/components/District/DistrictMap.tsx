@@ -16,13 +16,23 @@ import { PARTY_COLORS_LIGHT } from '@/lib/constants';
 
 interface DistrictMapProps {
   districtId: number;
+  initialLayer?: 'state' | 'federal';
+  onLayerChange?: (layer: 'state' | 'federal') => void;
 }
 
-export function DistrictMap({ districtId }: DistrictMapProps) {
+export function DistrictMap({ districtId, initialLayer = 'state', onLayerChange }: DistrictMapProps) {
   const navigate = useNavigate();
   const [map, setMap] = useState<Map | null>(null);
   const [isLoaded, setIsLoaded] = useState(false);
-  const [layerType, setLayerType] = useState<'state' | 'federal'>('state');
+  const [layerType, setLayerType] = useState<'state' | 'federal'>(initialLayer);
+
+  // Sync with parent component when layer changes
+  const handleLayerChange = (newLayer: 'state' | 'federal') => {
+    setLayerType(newLayer);
+    if (onLayerChange) {
+      onLayerChange(newLayer);
+    }
+  };
 
   // Fetch data
   const { data: stateDistrict } = useSingleDistrictBoundary(districtId);
@@ -39,6 +49,11 @@ export function DistrictMap({ districtId }: DistrictMapProps) {
     setMap(mapInstance);
     setIsLoaded(true);
   }, []);
+
+  // Sync layer type when initialLayer prop changes
+  useEffect(() => {
+    setLayerType(initialLayer);
+  }, [initialLayer]);
 
   // Calculate bounds for the current district
   const bounds: [number, number, number, number] | undefined = useMemo(() => {
@@ -67,8 +82,20 @@ export function DistrictMap({ districtId }: DistrictMapProps) {
 
   // Add state legislative districts layer
   useEffect(() => {
-    if (!map || !isLoaded || !allStateDistricts || !legislators) return;
-    if (!map.isStyleLoaded()) return; // Wait for style to be fully loaded
+    if (!map || !isLoaded || !allStateDistricts || !legislators) {
+      console.log('[DistrictMap State Layer] Missing dependencies:', {
+        map: !!map,
+        isLoaded,
+        allStateDistricts: !!allStateDistricts,
+        legislators: !!legislators,
+        layerType
+      });
+      return;
+    }
+    if (!map.isStyleLoaded()) {
+      console.log('[DistrictMap State Layer] Map style not loaded yet');
+      return;
+    }
 
     const sourceId = 'state-districts';
     const fillLayerId = 'state-districts-fill';
@@ -82,11 +109,16 @@ export function DistrictMap({ districtId }: DistrictMapProps) {
       if (map.getLayer(fillLayerId)) map.removeLayer(fillLayerId);
       if (map.getSource(sourceId)) map.removeSource(sourceId);
     } catch (error) {
-      console.error('Error removing layers:', error);
+      console.error('Error removing state layers:', error);
       return;
     }
 
-    if (layerType !== 'state') return;
+    if (layerType !== 'state') {
+      console.log('[DistrictMap State Layer] Skipping, layer type is:', layerType);
+      return;
+    }
+
+    console.log('[DistrictMap State Layer] Adding state districts layer for district', districtId);
 
     // Add source
     map.addSource(sourceId, {
@@ -121,7 +153,7 @@ export function DistrictMap({ districtId }: DistrictMapProps) {
           ] as any,
           '#94a3b820', // fallback
         ] as any,
-        'fill-opacity': 0.6,
+        'fill-opacity': 0.7,
       },
     });
 
@@ -131,18 +163,18 @@ export function DistrictMap({ districtId }: DistrictMapProps) {
       type: 'line',
       source: sourceId,
       paint: {
-        'line-color': '#1f2937',
-        'line-width': 1,
+        'line-color': '#2a2a2a',
+        'line-width': 1.5,
       },
     });
 
-    // Add highlight layer for current district
+    // Add highlight layer for current district (gold accent)
     map.addLayer({
       id: highlightLayerId,
       type: 'line',
       source: sourceId,
       paint: {
-        'line-color': '#1f2937',
+        'line-color': '#c9a961',
         'line-width': 3,
       },
       filter: ['==', ['get', 'DISTRICT'], districtId],
@@ -193,8 +225,20 @@ export function DistrictMap({ districtId }: DistrictMapProps) {
 
   // Add federal congressional districts layer
   useEffect(() => {
-    if (!map || !isLoaded || !allFederalDistricts || !federalMapping) return;
-    if (!map.isStyleLoaded()) return; // Wait for style to be fully loaded
+    if (!map || !isLoaded || !allFederalDistricts || !federalMapping) {
+      console.log('[DistrictMap Federal Layer] Missing dependencies:', {
+        map: !!map,
+        isLoaded,
+        allFederalDistricts: !!allFederalDistricts,
+        federalMapping: !!federalMapping,
+        layerType
+      });
+      return;
+    }
+    if (!map.isStyleLoaded()) {
+      console.log('[DistrictMap Federal Layer] Map style not loaded yet');
+      return;
+    }
 
     const sourceId = 'federal-districts';
     const fillLayerId = 'federal-districts-fill';
@@ -212,7 +256,12 @@ export function DistrictMap({ districtId }: DistrictMapProps) {
       return;
     }
 
-    if (layerType !== 'federal') return;
+    if (layerType !== 'federal') {
+      console.log('[DistrictMap Federal Layer] Skipping, layer type is:', layerType);
+      return;
+    }
+
+    console.log('[DistrictMap Federal Layer] Adding federal districts layer for district', districtId, 'federal district', federalDistrictId);
 
     // Add source
     map.addSource(sourceId, {
@@ -250,7 +299,7 @@ export function DistrictMap({ districtId }: DistrictMapProps) {
           ] as any,
           '#94a3b820', // fallback
         ] as any,
-        'fill-opacity': 0.6,
+        'fill-opacity': 0.7,
       },
     });
 
@@ -260,20 +309,20 @@ export function DistrictMap({ districtId }: DistrictMapProps) {
       type: 'line',
       source: sourceId,
       paint: {
-        'line-color': '#1f2937',
-        'line-width': 1,
+        'line-color': '#2a2a2a',
+        'line-width': 2,
       },
     });
 
-    // Add highlight layer for current federal district
+    // Add highlight layer for current federal district (gold accent)
     if (federalDistrictId) {
       map.addLayer({
         id: highlightLayerId,
         type: 'line',
         source: sourceId,
         paint: {
-          'line-color': '#1f2937',
-          'line-width': 3,
+          'line-color': '#c9a961',
+          'line-width': 4,
         },
         filter: ['==', ['get', 'DISTRICT'], federalDistrictId],
       });
@@ -294,7 +343,7 @@ export function DistrictMap({ districtId }: DistrictMapProps) {
           )?.[0];
 
           if (stateDistrictId) {
-            navigate(`/district/${stateDistrictId}`);
+            navigate(`/district/${stateDistrictId}?view=federal`);
           }
         }
       }
@@ -340,7 +389,7 @@ export function DistrictMap({ districtId }: DistrictMapProps) {
     <div className="relative">
       {/* Toggle positioned at top-left */}
       <div className="absolute top-4 left-4 z-10">
-        <DistrictToggle value={layerType} onChange={setLayerType} />
+        <DistrictToggle value={layerType} onChange={handleLayerChange} />
       </div>
 
       {/* Map */}
