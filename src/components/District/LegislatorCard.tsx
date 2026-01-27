@@ -73,6 +73,24 @@ export function LegislatorCard({ legislator, chamberLabel }: LegislatorCardProps
           </a>
         </div>
 
+        {/* Campaign Website */}
+        {'campaignWebsite' in legislator && legislator.campaignWebsite && legislator.campaignWebsite !== 'no website found' && (
+          <div className="flex items-center gap-3 text-gray-700">
+            <svg className="w-5 h-5 flex-shrink-0 text-gray-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9m0 18c-1.657 0-3-4.03-3-9s1.343-9 3-9m-9 9a9 9 0 019-9" />
+            </svg>
+            <a
+              href={legislator.campaignWebsite}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-blue-600 hover:underline focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 rounded"
+              aria-label={`Visit ${legislator.name}'s campaign website`}
+            >
+              Campaign Website
+            </a>
+          </div>
+        )}
+
         {/* Campaign Finance Link - only for state legislators */}
         {'chamber' in legislator && (legislator.chamber === 'senate' || legislator.chamber === 'house') && (
           <CampaignFinanceLink
