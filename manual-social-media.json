@@ -1,0 +1,376 @@
+[
+  {
+    "type": "representative",
+    "district": 1,
+    "name": "Selina Bliss",
+    "party": "R",
+    "campaignWebsite": "https://sites.google.com/view/selinasbliss-com",
+    "socialMedia": {
+      "personal": {},
+      "official": {}
+    }
+  },
+  {
+    "type": "senator",
+    "district": 2,
+    "name": "Shawnna Bolick",
+    "party": "R",
+    "campaignWebsite": "https://bolickforarizona.com/",
+    "socialMedia": {
+      "personal": {},
+      "official": {}
+    }
+  },
+  {
+    "type": "senator",
+    "district": 3,
+    "name": "John Kavanagh",
+    "party": "R",
+    "campaignWebsite": "https://www.electkavanagh.com/",
+    "socialMedia": {
+      "personal": {},
+      "official": {}
+    }
+  },
+  {
+    "type": "representative",
+    "district": 4,
+    "name": "Matt Gress",
+    "party": "R",
+    "campaignWebsite": "https://www.mattgress.com",
+    "socialMedia": {
+      "personal": {},
+      "official": {}
+    }
+  },
+  {
+    "type": "representative",
+    "district": 6,
+    "name": "Mae Peshlakai",
+    "party": "D",
+    "campaignWebsite": "no website found",
+    "socialMedia": {
+      "personal": {},
+      "official": {}
+    }
+  },
+  {
+    "type": "representative",
+    "district": 6,
+    "name": "Myron Tsosie",
+    "party": "D",
+    "campaignWebsite": "no website found",
+    "socialMedia": {
+      "personal": {},
+      "official": {}
+    }
+  },
+  {
+    "type": "representative",
+    "district": 7,
+    "name": "Walt Blackman",
+    "party": "R",
+    "campaignWebsite": "https://www.waltbforld7.com/",
+    "socialMedia": {
+      "personal": {},
+      "official": {}
+    }
+  },
+  {
+    "type": "senator",
+    "district": 8,
+    "name": "Lauren Kuby",
+    "party": "D",
+    "campaignWebsite": "https://www.kubyforsenate.com/",
+    "socialMedia": {
+      "personal": {},
+      "official": {}
+    }
+  },
+  {
+    "type": "representative",
+    "district": 8,
+    "name": "Janeen Connolly",
+    "party": "D",
+    "campaignWebsite": "https://www.azjaneen.com/",
+    "socialMedia": {
+      "personal": {},
+      "official": {}
+    }
+  },
+  {
+    "type": "senator",
+    "district": 9,
+    "name": "Kiana Sears",
+    "party": "D",
+    "campaignWebsite": "no website found",
+    "socialMedia": {
+      "personal": {},
+      "official": {}
+    }
+  },
+  {
+    "type": "senator",
+    "district": 10,
+    "name": "David C. Farnsworth",
+    "party": "R",
+    "campaignWebsite": "no website found",
+    "socialMedia": {
+      "personal": {},
+      "official": {}
+    }
+  },
+  {
+    "type": "representative",
+    "district": 12,
+    "name": "Patty Contreras",
+    "party": "D",
+    "campaignWebsite": "https://www.contrerasforaz.net/",
+    "socialMedia": {
+      "personal": {},
+      "official": {}
+    }
+  },
+  {
+    "type": "representative",
+    "district": 14,
+    "name": "Laurin Hendrix",
+    "party": "R",
+    "campaignWebsite": "https://votelaurinhendrix.com/",
+    "socialMedia": {
+      "personal": {},
+      "official": {}
+    }
+  },
+  {
+    "type": "senator",
+    "district": 15,
+    "name": "Jake Hoffman",
+    "party": "R",
+    "campaignWebsite": "https://www.jake.gop/",
+    "socialMedia": {
+      "personal": {},
+      "official": {}
+    }
+  },
+  {
+    "type": "representative",
+    "district": 16,
+    "name": "Chris Lopez",
+    "party": "R",
+    "campaignWebsite": "https://www.lopezforaz.com/",
+    "socialMedia": {
+      "personal": {},
+      "official": {}
+    }
+  },
+  {
+    "type": "senator",
+    "district": 17,
+    "name": "Vince Leach",
+    "party": "R",
+    "campaignWebsite": "https://vinceleach.com/",
+    "socialMedia": {
+      "personal": {},
+      "official": {}
+    }
+  },
+  {
+    "type": "representative",
+    "district": 17,
+    "name": "Rachel Keshel",
+    "party": "R",
+    "campaignWebsite": "no website found",
+    "socialMedia": {
+      "personal": {},
+      "official": {}
+    }
+  },
+  {
+    "type": "senator",
+    "district": 19,
+    "name": "David Gowan",
+    "party": "R",
+    "campaignWebsite": "https://gowanforaz.com/",
+    "socialMedia": {
+      "personal": {},
+      "official": {}
+    }
+  },
+  {
+    "type": "representative",
+    "district": 19,
+    "name": "Gail Griffin",
+    "party": "R",
+    "campaignWebsite": "https://griffinforaz.com/",
+    "socialMedia": {
+      "personal": {},
+      "official": {}
+    }
+  },
+  {
+    "type": "senator",
+    "district": 20,
+    "name": "Sally Ann Gonzales",
+    "party": "D",
+    "campaignWebsite": "no website found",
+    "socialMedia": {
+      "personal": {},
+      "official": {}
+    }
+  },
+  {
+    "type": "senator",
+    "district": 21,
+    "name": "Rosanna Gabaldón",
+    "party": "D",
+    "campaignWebsite": "https://www.votegabaldon.com/",
+    "socialMedia": {
+      "personal": {},
+      "official": {}
+    }
+  },
+  {
+    "type": "representative",
+    "district": 21,
+    "name": "Consuelo Hernandez",
+    "party": "D",
+    "campaignWebsite": "https://www.consueloforarizona.com/",
+    "socialMedia": {
+      "personal": {},
+      "official": {}
+    }
+  },
+  {
+    "type": "representative",
+    "district": 22,
+    "name": "Lupe Contreras",
+    "party": "D",
+    "campaignWebsite": "no website found",
+    "socialMedia": {
+      "personal": {},
+      "official": {}
+    }
+  },
+  {
+    "type": "representative",
+    "district": 22,
+    "name": "Elda Luna-Nájera",
+    "party": "D",
+    "campaignWebsite": "no website found",
+    "socialMedia": {
+      "personal": {},
+      "official": {}
+    }
+  },
+  {
+    "type": "representative",
+    "district": 24,
+    "name": "Lydia Hernandez",
+    "party": "D",
+    "campaignWebsite": "https://votelydiahernandez.com/",
+    "socialMedia": {
+      "personal": {},
+      "official": {}
+    }
+  },
+  {
+    "type": "senator",
+    "district": 28,
+    "name": "Frank Carroll",
+    "party": "R",
+    "campaignWebsite": "https://myvotecarroll.com/",
+    "socialMedia": {
+      "personal": {},
+      "official": {}
+    }
+  },
+  {
+    "type": "representative",
+    "district": 28,
+    "name": "David Livingston",
+    "party": "R",
+    "campaignWebsite": "https://davidlivingston.vote/",
+    "socialMedia": {
+      "personal": {},
+      "official": {}
+    }
+  },
+  {
+    "type": "senator",
+    "district": 29,
+    "name": "Janae Shamp",
+    "party": "R",
+    "campaignWebsite": "https://voteforshamp.com/",
+    "socialMedia": {
+      "personal": {},
+      "official": {}
+    }
+  },
+  {
+    "type": "senator",
+    "district": 30,
+    "name": "Hildy Angius",
+    "party": "R",
+    "campaignWebsite": "https://hildy4az.com/",
+    "socialMedia": {
+      "personal": {},
+      "official": {}
+    }
+  },
+  {
+    "type": "executive",
+    "name": "Katie Hobbs",
+    "title": "Governor",
+    "party": "D",
+    "campaignWebsite": "none",
+    "socialMedia": {
+      "personal": {},
+      "official": {}
+    }
+  },
+  {
+    "type": "executive",
+    "name": "Adrian Fontes",
+    "title": "Secretary of State",
+    "party": "D",
+    "campaignWebsite": "none",
+    "socialMedia": {
+      "personal": {},
+      "official": {}
+    }
+  },
+  {
+    "type": "executive",
+    "name": "Kris Mayes",
+    "title": "Attorney General",
+    "party": "D",
+    "campaignWebsite": "none",
+    "socialMedia": {
+      "personal": {},
+      "official": {}
+    }
+  },
+  {
+    "type": "executive",
+    "name": "Kimberly Yee",
+    "title": "State Treasurer",
+    "party": "R",
+    "campaignWebsite": "none",
+    "socialMedia": {
+      "personal": {},
+      "official": {}
+    }
+  },
+  {
+    "type": "executive",
+    "name": "Tom Horne",
+    "title": "Superintendent of Public Instruction",
+    "party": "R",
+    "campaignWebsite": "none",
+    "socialMedia": {
+      "personal": {},
+      "official": {}
+    }
+  }
+]

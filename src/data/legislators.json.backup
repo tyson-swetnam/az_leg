@@ -112,8 +112,8 @@
           "campaignWebsite": "https://www.justinwilmethaz.com/",
           "socialMedia": {
             "official": {
-              "twitter": "https://twitter.com/justinwilmethaz",
-              "facebook": "https://facebook.com/justinwilmethaz"
+              "twitter": "http://twitter.com/justinwilmethaz",
+              "facebook": "http://facebook.com/justinwilmethaz"
             }
           }
         }
@@ -467,8 +467,8 @@
           "socialMedia": {
             "official": {
               "instagram": "https://instagram.com/BrianGarciaAZ",
-              "facebook": "https://facebook.com/garciaforaz",
-              "twitter": "https://x.com/briangarciaaz"
+              "facebook": "http://facebook.com/garciaforaz",
+              "twitter": "http://x.com/briangarciaaz"
             }
           }
         }
@@ -525,9 +525,9 @@
           "campaignWebsite": "https://sethblattman.com/",
           "socialMedia": {
             "official": {
-              "twitter": "https://twitter.com/sethblattman",
+              "twitter": "http://twitter.com/sethblattman",
               "facebook": "https://www.facebook.com/blattmanaz",
-              "instagram": "https://www.instagram.com/sethblattman"
+              "instagram": "http://www.instagram.com/sethblattman"
             }
           }
         }
@@ -888,7 +888,7 @@
           "campaignWebsite": "https://michaelwayforaz.com/",
           "socialMedia": {
             "official": {
-              "facebook": "https://facebook.com/MichaelWayForArizona",
+              "facebook": "http://facebook.com/MichaelWayForArizona",
               "twitter": "https://x.com/MichaelWayAZ"
             }
           }
@@ -919,7 +919,7 @@
         "socialMedia": {
           "official": {
             "facebook": "https://www.facebook.com/TJSHOPEFORARIZONA",
-            "twitter": "https://twitter.com/TJShopeforAZ"
+            "twitter": "http://twitter.com/TJShopeforAZ"
           }
         }
       },
@@ -1859,5 +1859,5 @@
       }
     }
   ],
-  "lastUpdated": "2026-01-26T03:26:01.992Z"
+  "lastUpdated": "2026-01-26T01:39:43.957Z"
 }

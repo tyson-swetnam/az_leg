@@ -20,7 +20,7 @@
     "18": 6,
     "19": 6,
     "20": 6,
-    "21": 6,
+    "21": 7,
     "22": 7,
     "23": 9,
     "24": 3,
@@ -40,6 +40,12 @@
         "phone": "202-225-2190",
         "email": "contact@schweikert.house.gov",
         "website": "https://schweikert.house.gov"
+      },
+      "socialMedia": {
+        "official": {
+          "twitter": "https://x.com/RepDavid",
+          "instagram": "https://www.instagram.com/repdavid"
+        }
       }
     },
     {
@@ -50,16 +56,28 @@
         "phone": "202-225-3361",
         "email": "contact@crane.house.gov",
         "website": "https://crane.house.gov"
+      },
+      "socialMedia": {
+        "official": {
+          "twitter": "https://x.com/RepEliCrane"
+        }
       }
     },
     {
       "district": 3,
-      "name": "Ruben Gallego",
+      "name": "Yassamin Ansari",
       "party": "D",
       "office": {
         "phone": "202-225-4065",
-        "email": "contact@gallego.house.gov",
-        "website": "https://rubengallego.house.gov"
+        "email": "contact@ansari.house.gov",
+        "website": "https://ansari.house.gov"
+      },
+      "socialMedia": {
+        "official": {
+          "twitter": "https://x.com/RepYassAnsari",
+          "instagram": "https://www.instagram.com/RepYassAnsari",
+          "facebook": "https://www.facebook.com/RepYassAnsari"
+        }
       }
     },
     {
@@ -70,6 +88,12 @@
         "phone": "202-225-9888",
         "email": "contact@stanton.house.gov",
         "website": "https://stanton.house.gov"
+      },
+      "socialMedia": {
+        "official": {
+          "twitter": "https://x.com/RepGregStanton",
+          "instagram": "https://www.instagram.com/repgregstanton"
+        }
       }
     },
     {
@@ -80,6 +104,12 @@
         "phone": "202-225-2635",
         "email": "contact@biggs.house.gov",
         "website": "https://biggs.house.gov"
+      },
+      "socialMedia": {
+        "official": {
+          "twitter": "https://x.com/RepAndyBiggsAZ",
+          "instagram": "https://www.instagram.com/repandybiggs"
+        }
       }
     },
     {
@@ -90,26 +120,45 @@
         "phone": "202-225-2542",
         "email": "contact@ciscomani.house.gov",
         "website": "https://ciscomani.house.gov"
+      },
+      "socialMedia": {
+        "official": {
+          "twitter": "https://x.com/RepCiscomani"
+        }
       }
     },
     {
       "district": 7,
-      "name": "Raúl Grijalva",
+      "name": "Adelita Grijalva",
       "party": "D",
       "office": {
         "phone": "202-225-2435",
         "email": "contact@grijalva.house.gov",
         "website": "https://grijalva.house.gov"
-      }
+      },
+      "socialMedia": {
+        "official": {
+          "twitter": "https://x.com/Rep_Grijalva",
+          "instagram": "https://www.instagram.com/repgrijalva"
+        }
+      },
+      "bio": "First Latina to represent Arizona in Congress. Succeeded her father Raúl Grijalva in 2025."
     },
     {
       "district": 8,
-      "name": "Debbie Lesko",
+      "name": "Abraham Hamadeh",
       "party": "R",
       "office": {
         "phone": "202-225-4576",
-        "email": "contact@lesko.house.gov",
-        "website": "https://lesko.house.gov"
+        "email": "contact@hamadeh.house.gov",
+        "website": "https://hamadeh.house.gov"
+      },
+      "socialMedia": {
+        "official": {
+          "twitter": "https://x.com/RepAbeHamadeh",
+          "instagram": "https://www.instagram.com/repabehamadeh",
+          "facebook": "https://www.facebook.com/abraham.hamadeh"
+        }
       }
     },
     {
@@ -120,6 +169,12 @@
         "phone": "202-225-2315",
         "email": "contact@gosar.house.gov",
         "website": "https://gosar.house.gov"
+      },
+      "socialMedia": {
+        "official": {
+          "twitter": "https://x.com/RepGosar",
+          "instagram": "https://www.instagram.com/repgosar"
+        }
       }
     }
   ]

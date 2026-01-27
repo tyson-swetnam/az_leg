@@ -1,15 +1,31 @@
-import { useParams, Link } from 'react-router-dom';
+import { useState, useEffect } from 'react';
+import { useParams, Link, useSearchParams } from 'react-router-dom';
 import { useDistrict, useFederalMapping, useCongressMember } from '@/lib/api/queries';
 import { LegislatorCard, DistrictInfo, DistrictMap } from '@/components/District';
 
 export function DistrictDetail() {
   const { id } = useParams<{ id: string }>();
+  const [searchParams] = useSearchParams();
   const districtId = id ? parseInt(id, 10) : 0;
+
+  // Check URL parameter for initial view
+  const initialView = searchParams.get('view') === 'federal' ? 'federal' : 'state';
+  const [activeLayer, setActiveLayer] = useState<'state' | 'federal'>(initialView);
 
   const { data: district, isLoading, error } = useDistrict(districtId);
   const { data: federalMapping } = useFederalMapping();
   const federalDistrictId = federalMapping?.stateToFederal[districtId.toString()];
   const { data: congressMember, isLoading: isLoadingCongress } = useCongressMember(federalDistrictId || 0);
+
+  // Update active layer if URL parameter changes
+  useEffect(() => {
+    const viewParam = searchParams.get('view');
+    if (viewParam === 'federal') {
+      setActiveLayer('federal');
+    } else if (viewParam === 'state') {
+      setActiveLayer('state');
+    }
+  }, [searchParams]);
 
   // Invalid district ID
   if (!id || districtId < 1 || districtId > 30) {
@@ -89,7 +105,11 @@ export function DistrictDetail() {
         {/* Left sidebar - Map and info */}
         <div className="space-y-6">
           {/* Interactive map with toggle */}
-          <DistrictMap districtId={districtId} />
+          <DistrictMap
+            districtId={districtId}
+            initialLayer={activeLayer}
+            onLayerChange={setActiveLayer}
+          />
 
           {/* District info card */}
           <DistrictInfo district={district} />
@@ -97,48 +117,64 @@ export function DistrictDetail() {
 
         {/* Right content - Representative cards */}
         <div className="lg:col-span-2">
-          <h2 className="text-2xl font-bold text-gray-900 mb-6">
-            Your Representatives
-          </h2>
+          {/* State Representatives - only show when state layer is active */}
+          {activeLayer === 'state' && (
+            <>
+              <h2 className="text-2xl font-bold text-gray-900 mb-6">
+                State Representatives
+              </h2>
 
-          {/* Senator */}
-          <LegislatorCard
-            legislator={district.senator}
-            chamberLabel="State Senator"
-          />
-
-          {/* House Representatives */}
-          <LegislatorCard
-            legislator={district.representatives[0]}
-            chamberLabel="State Representative"
-          />
-          <LegislatorCard
-            legislator={district.representatives[1]}
-            chamberLabel="State Representative"
-          />
-
-          {/* Federal Representative */}
-          <div className="mt-8 pt-8 border-t border-gray-200">
-            <h2 className="text-2xl font-bold text-gray-900 mb-6">
-              Federal Representative
-            </h2>
-            {isLoadingCongress ? (
-              <div className="bg-white rounded-lg shadow-sm p-6 mb-6 animate-pulse">
-                <div className="h-6 bg-gray-200 rounded w-2/3 mb-4" />
-                <div className="h-4 bg-gray-200 rounded w-1/2 mb-2" />
-                <div className="h-4 bg-gray-200 rounded w-3/4" />
-              </div>
-            ) : congressMember ? (
+              {/* Senator */}
               <LegislatorCard
-                legislator={congressMember}
-                chamberLabel={`U.S. House - District ${congressMember.district}`}
+                legislator={district.senator}
+                chamberLabel="State Senator"
               />
-            ) : (
-              <div className="bg-gray-50 rounded-lg p-6 text-center text-gray-600">
-                Federal representative information not available
-              </div>
-            )}
-          </div>
+
+              {/* House Representatives */}
+              <LegislatorCard
+                legislator={district.representatives[0]}
+                chamberLabel="State Representative"
+              />
+              <LegislatorCard
+                legislator={district.representatives[1]}
+                chamberLabel="State Representative"
+              />
+            </>
+          )}
+
+          {/* Federal Representative - only show when federal layer is active */}
+          {activeLayer === 'federal' && (
+            <>
+              <h2 className="text-2xl font-bold text-gray-900 mb-6">
+                Federal Representative
+              </h2>
+              {isLoadingCongress ? (
+                <div className="bg-white rounded-lg shadow-sm p-6 mb-6 animate-pulse">
+                  <div className="h-6 bg-gray-200 rounded w-2/3 mb-4" />
+                  <div className="h-4 bg-gray-200 rounded w-1/2 mb-2" />
+                  <div className="h-4 bg-gray-200 rounded w-3/4" />
+                </div>
+              ) : congressMember ? (
+                <>
+                  <LegislatorCard
+                    legislator={congressMember}
+                    chamberLabel={`U.S. House - District ${congressMember.district}`}
+                  />
+                  <div className="mt-6 p-4 bg-blue-50 border border-blue-200 rounded-lg">
+                    <p className="text-sm text-blue-800">
+                      <strong>Note:</strong> Congressional district boundaries do not align perfectly with
+                      state legislative districts. This representative serves Congressional District {congressMember.district},
+                      which includes parts of state district {district.id}.
+                    </p>
+                  </div>
+                </>
+              ) : (
+                <div className="bg-gray-50 rounded-lg p-6 text-center text-gray-600">
+                  Federal representative information not available
+                </div>
+              )}
+            </>
+          )}
         </div>
       </div>
     </div>

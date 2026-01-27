@@ -1,4 +1,5 @@
 import type { District } from './district';
+import type { CampaignFinanceData } from './campaign-finance';
 
 export type Party = 'R' | 'D';
 
@@ -10,6 +11,19 @@ export interface Office {
   website: string;
 }
 
+export interface SocialMediaAccounts {
+  twitter?: string;      // Twitter/X URL
+  facebook?: string;     // Facebook URL
+  instagram?: string;    // Instagram URL
+  linkedin?: string;     // LinkedIn URL
+  bluesky?: string;      // BlueSky URL
+}
+
+export interface SocialMedia {
+  personal?: SocialMediaAccounts;   // Personal social media accounts
+  official?: SocialMediaAccounts;   // Official/government accounts
+}
+
 export interface Legislator {
   name: string;
   party: Party;
@@ -19,6 +33,9 @@ export interface Legislator {
   bio?: string;
   photoUrl?: string;
   committees?: string[];
+  campaignWebsite?: string;
+  campaignFinance?: CampaignFinanceData;
+  socialMedia?: SocialMedia;
 }
 
 export interface Senator extends Legislator {
@@ -35,6 +52,8 @@ export interface Executive {
   party: Party;
   birthDate?: string;
   age?: number;
+  office: Office;
+  socialMedia?: SocialMedia;
 }
 
 export interface LegislatureData {
