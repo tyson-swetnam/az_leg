@@ -1,0 +1,328 @@
+/* Legislative Gazette Aesthetic - Request to Speak */
+
+/* Container */
+.rts-container {
+  min-height: 100vh;
+  background: var(--cream);
+  font-family: 'Work Sans', -apple-system, sans-serif;
+  color: var(--newsprint);
+}
+
+/* Header */
+.rts-header {
+  background: linear-gradient(to bottom, var(--paper-white) 0%, var(--cream) 100%);
+  border-bottom: 3px double var(--border);
+  padding: 3.5rem 2rem 2.5rem;
+  position: relative;
+}
+
+.rts-header::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 8px;
+  background: repeating-linear-gradient(
+    90deg,
+    var(--accent-gold) 0px,
+    var(--accent-gold) 4px,
+    transparent 4px,
+    transparent 12px
+  );
+}
+
+.rts-header-content {
+  max-width: 1400px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.rts-title {
+  font-family: 'Libre Baskerville', serif;
+  font-size: 3.5rem;
+  font-weight: 700;
+  line-height: 1.1;
+  color: var(--ink);
+  margin: 0;
+  letter-spacing: -0.02em;
+}
+
+.rts-subtitle {
+  font-family: 'Work Sans', sans-serif;
+  font-size: 0.95rem;
+  font-weight: 500;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: #666;
+  margin: 0.75rem 0 0 0;
+}
+
+/* Info Section */
+.rts-info {
+  max-width: 1400px;
+  margin: 2.5rem auto 0;
+  padding: 0 2rem;
+}
+
+.rts-info-box {
+  background: var(--paper-white);
+  border: 1px solid var(--border);
+  box-shadow: 0 2px 8px var(--shadow-soft);
+  padding: 2rem 2.5rem;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.rts-info-box p {
+  font-size: 1.0625rem;
+  line-height: 1.7;
+  color: var(--newsprint);
+  margin: 0;
+}
+
+.rts-info-box p + p {
+  margin-top: 1rem;
+}
+
+/* CTA Cards Grid */
+.rts-cards-grid {
+  max-width: 1400px;
+  margin: 2.5rem auto 0;
+  padding: 0 2rem;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.5rem;
+}
+
+.rts-card {
+  background: var(--paper-white);
+  border: 2px solid var(--border);
+  box-shadow: 0 4px 12px var(--shadow-soft);
+  padding: 2rem 1.5rem;
+  text-decoration: none;
+  color: var(--newsprint);
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  position: relative;
+}
+
+.rts-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 24px var(--shadow-medium);
+  border-color: var(--accent-gold);
+}
+
+.rts-card-title {
+  font-family: 'Libre Baskerville', serif;
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: var(--ink);
+  margin: 0;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.rts-card-description {
+  font-size: 0.9375rem;
+  line-height: 1.6;
+  color: var(--newsprint);
+  margin: 0;
+}
+
+.rts-card-icon {
+  width: 18px;
+  height: 18px;
+  color: var(--accent-gold);
+  flex-shrink: 0;
+}
+
+/* Iframe Section */
+.rts-iframe-section {
+  max-width: 1400px;
+  margin: 3rem auto 0;
+  padding: 0 2rem;
+}
+
+.rts-iframe-label {
+  font-family: 'Work Sans', sans-serif;
+  font-size: 0.8rem;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: #888;
+  margin: 0 0 1rem 0;
+}
+
+.rts-iframe-container {
+  background: var(--paper-white);
+  border: 2px solid var(--border);
+  box-shadow: 0 4px 12px var(--shadow-soft);
+  overflow: hidden;
+}
+
+.rts-iframe-container iframe {
+  width: 100%;
+  height: 600px;
+  border: none;
+  display: block;
+}
+
+.rts-iframe-fallback {
+  padding: 3rem 2rem;
+  text-align: center;
+  background: var(--cream);
+}
+
+.rts-iframe-fallback p {
+  font-size: 1rem;
+  color: var(--newsprint);
+  margin: 0 0 1.5rem 0;
+  line-height: 1.6;
+}
+
+.rts-iframe-fallback-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.875rem 2rem;
+  background: var(--ink);
+  color: var(--paper-white);
+  text-decoration: none;
+  font-size: 0.875rem;
+  font-weight: 600;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  transition: background 0.2s ease;
+}
+
+.rts-iframe-fallback-link:hover {
+  background: var(--accent-gold);
+}
+
+/* Step-by-Step Guide */
+.rts-steps-section {
+  max-width: 1400px;
+  margin: 3rem auto 0;
+  padding: 0 2rem 4rem;
+}
+
+.rts-steps-title {
+  font-family: 'Libre Baskerville', serif;
+  font-size: 1.75rem;
+  font-weight: 700;
+  color: var(--ink);
+  margin: 0 0 1.5rem 0;
+  text-align: center;
+}
+
+.rts-steps {
+  max-width: 700px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+.rts-step {
+  display: flex;
+  gap: 1.25rem;
+  align-items: flex-start;
+  background: var(--paper-white);
+  border: 1px solid var(--border);
+  padding: 1.5rem;
+  box-shadow: 0 2px 8px var(--shadow-soft);
+}
+
+.rts-step-number {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background: var(--ink);
+  color: var(--paper-white);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Libre Baskerville', serif;
+  font-size: 1rem;
+  font-weight: 700;
+  flex-shrink: 0;
+}
+
+.rts-step-content h3 {
+  font-family: 'Libre Baskerville', serif;
+  font-size: 1.0625rem;
+  font-weight: 700;
+  color: var(--ink);
+  margin: 0 0 0.375rem 0;
+}
+
+.rts-step-content p {
+  font-size: 0.9375rem;
+  line-height: 1.6;
+  color: var(--newsprint);
+  margin: 0;
+}
+
+.rts-step-content a {
+  color: var(--accent-gold);
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.rts-step-content a:hover {
+  text-decoration: underline;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .rts-title {
+    font-size: 2.5rem;
+  }
+
+  .rts-cards-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .rts-iframe-container iframe {
+    height: 450px;
+  }
+}
+
+@media (max-width: 480px) {
+  .rts-header {
+    padding: 2rem 1rem 1.5rem;
+  }
+
+  .rts-title {
+    font-size: 2rem;
+  }
+
+  .rts-info,
+  .rts-cards-grid,
+  .rts-iframe-section,
+  .rts-steps-section {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .rts-info-box {
+    padding: 1.5rem;
+  }
+
+  .rts-card {
+    padding: 1.5rem 1.25rem;
+  }
+
+  .rts-step {
+    gap: 1rem;
+    padding: 1.25rem;
+  }
+
+  .rts-iframe-container iframe {
+    height: 350px;
+  }
+}

@@ -6,6 +6,7 @@ import { Home } from '@/pages/Home';
 import { DistrictDetail } from '@/pages/DistrictDetail';
 import { PartyNetwork } from '@/pages/PartyNetwork';
 import { CommitteeNetwork } from '@/pages/CommitteeNetwork';
+import { RequestToSpeak } from '@/pages/RequestToSpeak';
 import { NotFound } from '@/pages/NotFound';
 
 const queryClient = new QueryClient({
@@ -28,6 +29,7 @@ function App() {
               <Route path="district/:id" element={<DistrictDetail />} />
               <Route path="party-network" element={<PartyNetwork />} />
               <Route path="committee-network" element={<CommitteeNetwork />} />
+              <Route path="request-to-speak" element={<RequestToSpeak />} />
               <Route path="*" element={<NotFound />} />
             </Route>
           </Routes>

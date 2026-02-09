@@ -53,6 +53,9 @@ export function Layout() {
               <NavLink to="/committee-network" className={navLinkClass} onClick={closeMenu}>
                 Committees
               </NavLink>
+              <NavLink to="/request-to-speak" className={navLinkClass} onClick={closeMenu}>
+                Request to Speak
+              </NavLink>
               <a
                 href={LEGISLATURE_URL}
                 target="_blank"
@@ -139,6 +142,16 @@ export function Layout() {
                 style={{ color: 'var(--ink)', textDecoration: 'none' }}
               >
                 Committees
+              </NavLink>
+              <NavLink
+                to="/request-to-speak"
+                className={({ isActive }) =>
+                  `block px-3 py-3 text-sm font-medium ${isActive ? 'mobile-nav-active' : ''}`
+                }
+                onClick={closeMenu}
+                style={{ color: 'var(--ink)', textDecoration: 'none' }}
+              >
+                Request to Speak
               </NavLink>
               <a
                 href={LEGISLATURE_URL}

@@ -57,3 +57,13 @@ export const FOLLOW_THE_MONEY_API_URL = 'https://api.followthemoney.org/';
 export const FOLLOW_THE_MONEY_API_KEY = '3e48101b42992f03f1a76b822cb39018';
 export const FOLLOW_THE_MONEY_BASE_URL = 'https://www.followthemoney.org';
 export const DEFAULT_CAMPAIGN_FINANCE_YEAR = 2024;
+
+// Request to Speak
+export const REQUEST_TO_SPEAK_URL = 'https://apps.azleg.gov/RequestToSpeak';
+export const UPCOMING_AGENDAS_URL = 'https://apps.azleg.gov/RequestToSpeak/UpcomingAgendas';
+export const AGENDA_SEARCH_URL = 'https://apps.azleg.gov/RequestToSpeak/AgendaSearch';
+export const RTS_MANUAL_URL = 'https://apps.azleg.gov/RequestToSpeak/RTSManual';
+
+// LegiScan API (fallback for agenda/bill data)
+export const LEGISCAN_API_BASE_URL = 'https://api.legiscan.com';
+export const LEGISCAN_AZ_STATE_URL = 'https://legiscan.com/AZ/legislation';
