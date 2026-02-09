@@ -1,17 +1,4 @@
 /* Legislative Gazette Aesthetic - Full-Screen Map */
-@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&family=Work+Sans:wght@300;400;500;600;700&display=swap');
-
-:root {
-  --cream: #faf8f3;
-  --newsprint: #2a2a2a;
-  --ink: #1a1a1a;
-  --border: #d4c5a9;
-  --accent-gold: #c9a961;
-  --paper-white: #ffffff;
-  --shadow-soft: rgba(0, 0, 0, 0.08);
-  --shadow-medium: rgba(0, 0, 0, 0.12);
-  --shadow-strong: rgba(0, 0, 0, 0.2);
-}
 
 /* Container */
 .home-map-container {

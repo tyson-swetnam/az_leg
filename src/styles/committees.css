@@ -1,16 +1,4 @@
 /* Legislative Gazette Aesthetic - Committee Cards */
-@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&family=Work+Sans:wght@300;400;500;600;700&display=swap');
-
-:root {
-  --cream: #faf8f3;
-  --newsprint: #2a2a2a;
-  --ink: #1a1a1a;
-  --border: #d4c5a9;
-  --accent-gold: #c9a961;
-  --paper-white: #ffffff;
-  --shadow-soft: rgba(0, 0, 0, 0.08);
-  --shadow-medium: rgba(0, 0, 0, 0.12);
-}
 
 /* Container */
 .committees-container {
@@ -392,6 +380,29 @@
   flex: 1;
   overflow-y: auto;
   max-height: 400px;
+  position: relative;
+}
+
+/* Scroll fade indicator */
+.members-list-wrapper {
+  position: relative;
+}
+
+.members-list-wrapper::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 40px;
+  background: linear-gradient(to bottom, transparent, var(--paper-white));
+  pointer-events: none;
+  opacity: 1;
+  transition: opacity 0.2s ease;
+}
+
+.members-list-wrapper.scrolled-bottom::after {
+  opacity: 0;
 }
 
 .member-row {

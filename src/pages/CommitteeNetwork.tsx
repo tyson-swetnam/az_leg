@@ -202,6 +202,15 @@ export function CommitteeNetwork() {
         </div>
       </div>
 
+      {/* Filter result count */}
+      {(filterChamber !== 'all' || searchQuery) && (
+        <div style={{ maxWidth: '1400px', margin: '0 auto', padding: '0 2rem 0.5rem' }}>
+          <p style={{ fontSize: '0.875rem', color: 'var(--newsprint)', fontWeight: 500 }}>
+            Showing {filteredCommittees.length} of {committeesWithDetails.length} committees
+          </p>
+        </div>
+      )}
+
       {/* Committee Cards Grid */}
       <div className="committees-grid">
         {filteredCommittees.map((committee, index) => {
