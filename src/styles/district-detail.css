@@ -1,0 +1,234 @@
+/* Legislative Gazette Aesthetic - District Detail */
+
+/* Page container */
+.district-detail-page {
+  min-height: 100vh;
+  background: var(--cream);
+  font-family: 'Work Sans', -apple-system, sans-serif;
+  color: var(--newsprint);
+}
+
+.district-detail-content {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+}
+
+@media (min-width: 640px) {
+  .district-detail-content {
+    padding: 2rem 1.5rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .district-detail-content {
+    padding: 2rem 2rem;
+  }
+}
+
+/* Breadcrumb */
+.district-breadcrumb {
+  margin-bottom: 1.5rem;
+  font-size: 0.875rem;
+  color: var(--newsprint);
+}
+
+.district-breadcrumb a {
+  color: var(--accent-gold);
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.district-breadcrumb a:hover {
+  text-decoration: underline;
+}
+
+.district-breadcrumb .breadcrumb-separator {
+  margin: 0 0.5rem;
+  color: var(--border);
+}
+
+.district-breadcrumb .breadcrumb-current {
+  color: var(--ink);
+  font-weight: 600;
+}
+
+/* Section heading */
+.district-section-heading {
+  font-family: 'Libre Baskerville', serif;
+  font-size: 1.75rem;
+  font-weight: 700;
+  color: var(--ink);
+  margin-bottom: 1.5rem;
+  letter-spacing: -0.01em;
+}
+
+/* Legislator Card */
+.legislator-card {
+  background: var(--paper-white);
+  border: 2px solid var(--border);
+  box-shadow: 0 4px 12px var(--shadow-soft);
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+  transition: box-shadow 0.2s ease, border-color 0.2s ease;
+}
+
+.legislator-card:hover {
+  box-shadow: 0 6px 16px var(--shadow-medium);
+  border-color: var(--accent-gold);
+}
+
+/* Card header */
+.legislator-card-name {
+  font-family: 'Libre Baskerville', serif;
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: var(--ink);
+  margin-bottom: 0.25rem;
+}
+
+.legislator-card-role {
+  font-size: 0.875rem;
+  color: var(--newsprint);
+}
+
+/* Party badge */
+.legislator-party-badge {
+  display: inline-block;
+  padding: 0.25rem 0.75rem;
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: var(--paper-white);
+  border-radius: 2px;
+}
+
+/* Contact info links */
+.legislator-card .contact-link {
+  color: var(--accent-gold);
+  text-decoration: none;
+}
+
+.legislator-card .contact-link:hover {
+  text-decoration: underline;
+  color: var(--ink);
+}
+
+/* Social media buttons */
+.social-media-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.5rem 0.75rem;
+  background: var(--cream);
+  border: 1px solid var(--border);
+  color: var(--newsprint);
+  font-size: 0.875rem;
+  text-decoration: none;
+  transition: all 0.15s ease;
+}
+
+.social-media-btn:hover {
+  background: var(--paper-white);
+  border-color: var(--accent-gold);
+  color: var(--ink);
+}
+
+/* CTA button */
+.legislator-cta {
+  display: block;
+  width: 100%;
+  text-align: center;
+  padding: 0.625rem 1rem;
+  background: var(--ink);
+  color: var(--paper-white);
+  font-size: 0.875rem;
+  font-weight: 600;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  text-decoration: none;
+  border: none;
+  transition: background 0.2s ease;
+}
+
+.legislator-cta:hover {
+  background: var(--accent-gold);
+}
+
+/* Committee tags */
+.committee-tag {
+  display: inline-block;
+  padding: 0.25rem 0.5rem;
+  background: var(--cream);
+  border: 1px solid var(--border);
+  color: var(--newsprint);
+  font-size: 0.75rem;
+  font-weight: 500;
+}
+
+/* Federal info note */
+.federal-note {
+  margin-top: 1.5rem;
+  padding: 1rem;
+  background: var(--cream);
+  border: 1px solid var(--border);
+}
+
+.federal-note p {
+  font-size: 0.875rem;
+  color: var(--newsprint);
+}
+
+.federal-note strong {
+  color: var(--ink);
+}
+
+/* Loading skeleton */
+.district-skeleton {
+  background: var(--border);
+  opacity: 0.3;
+  animation: pulse 1.5s ease-in-out infinite;
+}
+
+@keyframes pulse {
+  0%, 100% { opacity: 0.3; }
+  50% { opacity: 0.15; }
+}
+
+/* Error state */
+.district-error {
+  background: var(--paper-white);
+  border: 2px solid var(--border);
+  padding: 2rem;
+  text-align: center;
+}
+
+.district-error h2 {
+  font-family: 'Libre Baskerville', serif;
+  color: var(--ink);
+  margin-bottom: 0.5rem;
+}
+
+.district-error p {
+  color: var(--newsprint);
+  margin-bottom: 1rem;
+}
+
+/* Return button (error + not-found states) */
+.district-return-btn {
+  display: inline-block;
+  background: var(--ink);
+  color: var(--paper-white);
+  padding: 0.75rem 1.5rem;
+  font-weight: 600;
+  font-size: 0.875rem;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  text-decoration: none;
+  transition: background 0.2s ease;
+}
+
+.district-return-btn:hover {
+  background: var(--accent-gold);
+}

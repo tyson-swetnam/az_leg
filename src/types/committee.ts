@@ -1,6 +1,8 @@
 export interface Committee {
   id: string;
+  committeeId: number;
   name: string;
+  shortName: string;
   chair: string;
   viceChair?: string;
   members: string[];

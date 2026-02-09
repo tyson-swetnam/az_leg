@@ -244,6 +244,15 @@ export function PartyNetwork() {
         </div>
       </div>
 
+      {/* Filter result count */}
+      {(filterBy !== 'all' || searchQuery) && (
+        <div style={{ maxWidth: '1400px', margin: '0 auto', padding: '0 2rem 0.5rem' }}>
+          <p style={{ fontSize: '0.875rem', color: 'var(--newsprint)', fontWeight: 500 }}>
+            Showing {filteredAndSorted.length} of {districtData.length} districts
+          </p>
+        </div>
+      )}
+
       {/* District Cards */}
       <div className="districts-grid">
         {filteredAndSorted.map((district, index) => {
