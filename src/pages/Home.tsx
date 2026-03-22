@@ -492,6 +492,7 @@ export function Home() {
         bounds={ARIZONA_BOUNDS}
         className="fullscreen-map"
         onLoad={handleMapLoad}
+        activeLayer={layerType}
       />
     </div>
   );

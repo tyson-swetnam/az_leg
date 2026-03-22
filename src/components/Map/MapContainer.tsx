@@ -11,6 +11,8 @@ interface MapContainerProps {
   onLoad?: (map: Map) => void;
   /** District to highlight in fallback mode */
   highlightDistrict?: number;
+  /** Active layer type for fallback map */
+  activeLayer?: string;
 }
 
 export function MapContainer({
@@ -19,6 +21,7 @@ export function MapContainer({
   className = 'h-[600px] w-full',
   onLoad,
   highlightDistrict,
+  activeLayer,
 }: MapContainerProps) {
   const [webglAvailable] = useState(() => isWebGLSupported());
 
@@ -37,7 +40,7 @@ export function MapContainer({
   // WebGL not available — render SVG fallback
   if (!webglAvailable) {
     return (
-      <FallbackMap className={className} highlightDistrict={highlightDistrict} />
+      <FallbackMap className={className} highlightDistrict={highlightDistrict} activeLayer={activeLayer as any} />
     );
   }
 
