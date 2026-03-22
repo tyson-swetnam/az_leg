@@ -8,6 +8,7 @@ import type { LegislatureData, Chamber } from '@/types/legislature';
 import type { FederalMapping, CongressMember } from '@/types/federal';
 import type { CampaignFinanceData } from '@/types/campaign-finance';
 import type { LocalLayerType, LocalDistrictGeoJSON } from '@/types/local-district';
+import type { LocalOfficialsData, LocalJurisdiction } from '@/types/local-official';
 import legislatorsData from '@/data/legislators.json';
 import federalMappingData from '@/data/federal-mapping.json';
 import { DEFAULT_CAMPAIGN_FINANCE_YEAR } from '@/lib/constants';
@@ -142,6 +143,69 @@ export function useCampaignFinance(
     queryFn: () => fetchCampaignFinanceId({ name, chamber, year }),
     staleTime: Infinity,
     enabled: !!name && !!chamber,
+  });
+}
+
+/**
+ * Get local officials data from static JSON
+ * Never becomes stale since it's local data
+ */
+export function useLocalOfficials() {
+  return useQuery<LocalOfficialsData>({
+    queryKey: ['local-officials'],
+    queryFn: async () => {
+      try {
+        const data = await import('@/data/local-officials.json');
+        return data.default as unknown as LocalOfficialsData;
+      } catch {
+        return { counties: {}, cities: {}, lastUpdated: '' } as LocalOfficialsData;
+      }
+    },
+    staleTime: Infinity,
+  });
+}
+
+/**
+ * Get a single jurisdiction by type and id
+ */
+export function useJurisdiction(jurisdictionType: string, jurisdictionId: string) {
+  return useQuery<LocalJurisdiction | undefined>({
+    queryKey: ['jurisdiction', jurisdictionType, jurisdictionId],
+    queryFn: async () => {
+      try {
+        const data = await import('@/data/local-officials.json');
+        const officials = data.default as unknown as LocalOfficialsData;
+
+        if (jurisdictionType === 'county') {
+          const county = officials.counties[jurisdictionId];
+          if (!county) return undefined;
+          return {
+            name: county.name,
+            type: 'county' as const,
+            id: jurisdictionId,
+            governingBody: 'Board of Supervisors',
+            website: county.website,
+            officials: county.supervisors.map(s => ({ ...s, title: s.title || 'Supervisor' })),
+          };
+        } else {
+          const city = officials.cities[jurisdictionId];
+          if (!city) return undefined;
+          return {
+            name: city.name,
+            type: 'city' as const,
+            id: jurisdictionId,
+            governingBody: city.governingBody || 'City Council',
+            website: city.website,
+            officials: city.members.map(m => ({ ...m, title: m.title || 'Council Member' })),
+            mayor: city.mayor,
+          };
+        }
+      } catch {
+        return undefined;
+      }
+    },
+    staleTime: Infinity,
+    enabled: !!jurisdictionType && !!jurisdictionId,
   });
 }
 

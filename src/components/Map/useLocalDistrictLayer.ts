@@ -21,6 +21,23 @@ export interface LocalHoverInfo {
   layerLabel: string;
 }
 
+/** Map layer IDs to jurisdiction route params */
+const LAYER_TO_ROUTE: Record<string, { type: string; id: string }> = {
+  'maricopa-supervisors': { type: 'county', id: 'maricopa' },
+  'pima-supervisors': { type: 'county', id: 'pima' },
+  'coconino-supervisors': { type: 'county', id: 'coconino' },
+  'yavapai-supervisors': { type: 'county', id: 'yavapai' },
+  'pinal-supervisors': { type: 'county', id: 'pinal' },
+  'navajo-supervisors': { type: 'county', id: 'navajo' },
+  'phoenix-council': { type: 'city', id: 'phoenix' },
+  'tucson-wards': { type: 'city', id: 'tucson' },
+  'mesa-council': { type: 'city', id: 'mesa' },
+  'glendale-council': { type: 'city', id: 'glendale' },
+  'peoria-council': { type: 'city', id: 'peoria' },
+  'surprise-council': { type: 'city', id: 'surprise' },
+  'buckeye-council': { type: 'city', id: 'buckeye' },
+};
+
 const SOURCE_ID = 'local-districts';
 const FILL_LAYER_ID = 'local-districts-fill';
 const BORDER_LAYER_ID = 'local-districts-border';
@@ -202,6 +219,14 @@ export function useLocalDistrictLayer({
         }
         if (config.urlField && props[config.urlField]) {
           html += `<div class="local-popup-url"><a href="${props[config.urlField]}" target="_blank" rel="noopener noreferrer">Official Website &#8599;</a></div>`;
+        }
+
+        // Add "View Details" link if we can route to a detail page
+        const route = layerType ? LAYER_TO_ROUTE[layerType] : undefined;
+        if (route && idValue !== undefined) {
+          const displayId = String(idValue).replace(/^bos\s*/i, '');
+          const detailUrl = `/az_leg/local/${route.type}/${route.id}/${displayId}`;
+          html += `<div class="local-popup-url" style="margin-top:0.5rem"><a href="${detailUrl}" class="local-popup-detail-link">View Details &#8594;</a></div>`;
         }
         html += '</div>';
 
