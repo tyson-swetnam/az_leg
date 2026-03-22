@@ -614,6 +614,24 @@
   text-decoration: underline;
 }
 
+.local-popup-detail-link {
+  display: inline-block;
+  background: var(--ink, #1a1a1a);
+  color: #fff !important;
+  padding: 0.375rem 0.75rem;
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  text-decoration: none !important;
+  transition: background 0.2s ease;
+}
+
+.local-popup-detail-link:hover {
+  background: var(--accent-gold, #c9a961);
+  text-decoration: none !important;
+}
+
 /* Responsive Design */
 @media (max-width: 1024px) {
   .map-title {

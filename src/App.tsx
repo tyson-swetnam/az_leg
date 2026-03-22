@@ -7,6 +7,8 @@ import { DistrictDetail } from '@/pages/DistrictDetail';
 import { PartyNetwork } from '@/pages/PartyNetwork';
 import { CommitteeNetwork } from '@/pages/CommitteeNetwork';
 import { RequestToSpeak } from '@/pages/RequestToSpeak';
+import { LocalJurisdiction } from '@/pages/LocalJurisdiction';
+import { LocalDistrictDetail } from '@/pages/LocalDistrictDetail';
 import { NotFound } from '@/pages/NotFound';
 
 const queryClient = new QueryClient({
@@ -30,6 +32,8 @@ function App() {
               <Route path="party-network" element={<PartyNetwork />} />
               <Route path="committee-network" element={<CommitteeNetwork />} />
               <Route path="request-to-speak" element={<RequestToSpeak />} />
+              <Route path="local/:jurisdictionType/:jurisdictionId" element={<LocalJurisdiction />} />
+              <Route path="local/:jurisdictionType/:jurisdictionId/:districtId" element={<LocalDistrictDetail />} />
               <Route path="*" element={<NotFound />} />
             </Route>
           </Routes>

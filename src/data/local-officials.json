@@ -1,0 +1,273 @@
+{
+  "jurisdictions": [
+    {
+      "name": "Maricopa County",
+      "type": "county",
+      "id": "maricopa",
+      "governingBody": "Board of Supervisors",
+      "website": "https://www.maricopa.gov/",
+      "officials": [
+        {
+          "name": "Jack Sellers",
+          "title": "Supervisor",
+          "district": 1,
+          "phone": "(602) 506-1776",
+          "email": "district1@maricopa.gov",
+          "website": "https://www.maricopa.gov/5584/District-1",
+          "term": "2025-2028"
+        },
+        {
+          "name": "Thomas Galvin",
+          "title": "Supervisor",
+          "district": 2,
+          "phone": "(602) 506-7431",
+          "email": "district2@maricopa.gov",
+          "website": "https://www.maricopa.gov/5585/District-2",
+          "term": "2025-2028"
+        },
+        {
+          "name": "Bill Gates",
+          "title": "Supervisor",
+          "district": 3,
+          "phone": "(602) 506-7562",
+          "email": "district3@maricopa.gov",
+          "website": "https://www.maricopa.gov/5586/District-3",
+          "term": "2025-2028"
+        },
+        {
+          "name": "Clint Hickman",
+          "title": "Supervisor",
+          "district": 4,
+          "phone": "(602) 506-7642",
+          "email": "district4@maricopa.gov",
+          "website": "https://www.maricopa.gov/5587/District-4",
+          "term": "2025-2028"
+        },
+        {
+          "name": "Steve Gallardo",
+          "title": "Supervisor",
+          "district": 5,
+          "phone": "(602) 506-7092",
+          "email": "district5@maricopa.gov",
+          "website": "https://www.maricopa.gov/5588/District-5",
+          "term": "2025-2028"
+        }
+      ]
+    },
+    {
+      "name": "Pima County",
+      "type": "county",
+      "id": "pima",
+      "governingBody": "Board of Supervisors",
+      "website": "https://www.pima.gov/",
+      "officials": [
+        {
+          "name": "Rex Scott",
+          "title": "Supervisor",
+          "district": 1,
+          "phone": "(520) 724-2738",
+          "email": "district1@pima.gov",
+          "website": "https://www.pima.gov/government/county_administrator/district_1/index.php",
+          "term": "2025-2028"
+        },
+        {
+          "name": "Matt Heinz",
+          "title": "Supervisor",
+          "district": 2,
+          "phone": "(520) 724-8126",
+          "email": "district2@pima.gov",
+          "website": "https://www.pima.gov/government/county_administrator/district_2/index.php",
+          "term": "2025-2028"
+        },
+        {
+          "name": "Sylvia Lee",
+          "title": "Supervisor",
+          "district": 3,
+          "phone": "(520) 724-8051",
+          "email": "district3@pima.gov",
+          "website": "https://www.pima.gov/government/county_administrator/district_3/index.php",
+          "term": "2025-2028"
+        },
+        {
+          "name": "Steve Christy",
+          "title": "Supervisor",
+          "district": 4,
+          "phone": "(520) 724-8094",
+          "email": "district4@pima.gov",
+          "website": "https://www.pima.gov/government/county_administrator/district_4/index.php",
+          "term": "2025-2028"
+        },
+        {
+          "name": "Adelita Grijalva",
+          "title": "Supervisor",
+          "district": 5,
+          "phone": "(520) 724-8126",
+          "email": "district5@pima.gov",
+          "website": "https://www.pima.gov/government/county_administrator/district_5/index.php",
+          "term": "2025-2028"
+        }
+      ]
+    },
+    {
+      "name": "City of Phoenix",
+      "type": "city",
+      "id": "phoenix",
+      "governingBody": "City Council",
+      "website": "https://www.phoenix.gov/",
+      "mayor": {
+        "name": "Kate Gallego",
+        "title": "Mayor",
+        "phone": "(602) 262-7111",
+        "email": "mayor.gallego@phoenix.gov",
+        "website": "https://www.phoenix.gov/mayor",
+        "term": "2023-2027"
+      },
+      "officials": [
+        {
+          "name": "Ann O'Brien",
+          "title": "Council Member",
+          "district": 1,
+          "phone": "(602) 262-7444",
+          "email": "council.district.1@phoenix.gov",
+          "website": "https://www.phoenix.gov/district1",
+          "term": "2023-2027"
+        },
+        {
+          "name": "Jim Waring",
+          "title": "Council Member",
+          "district": 2,
+          "phone": "(602) 262-7445",
+          "email": "council.district.2@phoenix.gov",
+          "website": "https://www.phoenix.gov/district2",
+          "term": "2025-2029"
+        },
+        {
+          "name": "Debra Stark",
+          "title": "Council Member",
+          "district": 3,
+          "phone": "(602) 262-7441",
+          "email": "council.district.3@phoenix.gov",
+          "website": "https://www.phoenix.gov/district3",
+          "term": "2023-2027"
+        },
+        {
+          "name": "Laura Pastor",
+          "title": "Council Member",
+          "district": 4,
+          "phone": "(602) 262-7447",
+          "email": "council.district.4@phoenix.gov",
+          "website": "https://www.phoenix.gov/district4",
+          "term": "2025-2029"
+        },
+        {
+          "name": "Betty Guardado",
+          "title": "Council Member",
+          "district": 5,
+          "phone": "(602) 262-7446",
+          "email": "council.district.5@phoenix.gov",
+          "website": "https://www.phoenix.gov/district5",
+          "term": "2023-2027"
+        },
+        {
+          "name": "Kevin Robinson",
+          "title": "Council Member",
+          "district": 6,
+          "phone": "(602) 262-7491",
+          "email": "council.district.6@phoenix.gov",
+          "website": "https://www.phoenix.gov/district6",
+          "term": "2025-2029"
+        },
+        {
+          "name": "Yassamin Ansari",
+          "title": "Council Member",
+          "district": 7,
+          "phone": "(602) 262-7492",
+          "email": "council.district.7@phoenix.gov",
+          "website": "https://www.phoenix.gov/district7",
+          "term": "2023-2027"
+        },
+        {
+          "name": "Carlos Garcia",
+          "title": "Council Member",
+          "district": 8,
+          "phone": "(602) 262-7493",
+          "email": "council.district.8@phoenix.gov",
+          "website": "https://www.phoenix.gov/district8",
+          "term": "2025-2029"
+        }
+      ]
+    },
+    {
+      "name": "City of Tucson",
+      "type": "city",
+      "id": "tucson",
+      "governingBody": "Mayor and Council",
+      "website": "https://www.tucsonaz.gov/",
+      "mayor": {
+        "name": "Regina Romero",
+        "title": "Mayor",
+        "phone": "(520) 791-4201",
+        "email": "mayor1@tucsonaz.gov",
+        "website": "https://www.tucsonaz.gov/Departments/Mayor-and-Council/Mayor",
+        "term": "2023-2027"
+      },
+      "officials": [
+        {
+          "name": "Lane Santa Cruz",
+          "title": "Council Member",
+          "ward": 1,
+          "phone": "(520) 791-4040",
+          "email": "ward1@tucsonaz.gov",
+          "website": "https://www.tucsonaz.gov/Departments/Mayor-and-Council/Ward-1",
+          "term": "2023-2027"
+        },
+        {
+          "name": "Paul Cunningham",
+          "title": "Council Member",
+          "ward": 2,
+          "phone": "(520) 791-4687",
+          "email": "ward2@tucsonaz.gov",
+          "website": "https://www.tucsonaz.gov/Departments/Mayor-and-Council/Ward-2",
+          "term": "2025-2029"
+        },
+        {
+          "name": "Kevin Dahl",
+          "title": "Council Member",
+          "ward": 3,
+          "phone": "(520) 791-4711",
+          "email": "ward3@tucsonaz.gov",
+          "website": "https://www.tucsonaz.gov/Departments/Mayor-and-Council/Ward-3",
+          "term": "2023-2027"
+        },
+        {
+          "name": "Nikki Lee",
+          "title": "Council Member",
+          "ward": 4,
+          "phone": "(520) 791-3199",
+          "email": "ward4@tucsonaz.gov",
+          "website": "https://www.tucsonaz.gov/Departments/Mayor-and-Council/Ward-4",
+          "term": "2025-2029"
+        },
+        {
+          "name": "Richard Fimbres",
+          "title": "Council Member",
+          "ward": 5,
+          "phone": "(520) 791-4231",
+          "email": "ward5@tucsonaz.gov",
+          "website": "https://www.tucsonaz.gov/Departments/Mayor-and-Council/Ward-5",
+          "term": "2023-2027"
+        },
+        {
+          "name": "Steve Kozachik",
+          "title": "Council Member",
+          "ward": 6,
+          "phone": "(520) 791-4601",
+          "email": "ward6@tucsonaz.gov",
+          "website": "https://www.tucsonaz.gov/Departments/Mayor-and-Council/Ward-6",
+          "term": "2025-2029"
+        }
+      ]
+    }
+  ],
+  "lastUpdated": "2025-01-15"
+}

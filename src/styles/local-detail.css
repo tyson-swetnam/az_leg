@@ -1,0 +1,178 @@
+/* Local Official Detail Pages - Gazette Aesthetic */
+
+/* Jurisdiction Header */
+.jurisdiction-header {
+  background: var(--paper-white);
+  border: 2px solid var(--border);
+  box-shadow: 0 4px 12px var(--shadow-soft);
+  padding: 2rem;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.jurisdiction-type-label {
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: var(--accent-gold);
+  margin-bottom: 0.5rem;
+}
+
+.jurisdiction-name {
+  font-family: 'Libre Baskerville', serif;
+  font-size: 2rem;
+  font-weight: 700;
+  color: var(--ink);
+  margin-bottom: 0.25rem;
+  letter-spacing: -0.01em;
+}
+
+.jurisdiction-body {
+  font-size: 1rem;
+  color: var(--newsprint);
+  margin-bottom: 1rem;
+}
+
+.jurisdiction-website-link {
+  display: inline-block;
+  color: var(--accent-gold);
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 0.875rem;
+  padding: 0.5rem 1rem;
+  border: 1px solid var(--accent-gold);
+  transition: all 0.2s ease;
+}
+
+.jurisdiction-website-link:hover {
+  background: var(--accent-gold);
+  color: var(--paper-white);
+}
+
+/* Officials grid */
+.officials-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.5rem;
+}
+
+@media (min-width: 768px) {
+  .officials-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 1024px) {
+  .officials-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+/* Mayor/executive card highlight */
+.mayor-section {
+  margin-bottom: 2rem;
+}
+
+.mayor-section .legislator-card {
+  border-color: var(--accent-gold);
+  border-width: 2px;
+}
+
+/* Section divider */
+.local-section-divider {
+  display: flex;
+  align-items: center;
+  margin: 2rem 0 1.5rem;
+  gap: 1rem;
+}
+
+.local-section-divider::before,
+.local-section-divider::after {
+  content: '';
+  flex: 1;
+  border-top: 1px solid var(--border);
+}
+
+.local-section-divider span {
+  font-family: 'Libre Baskerville', serif;
+  font-size: 0.875rem;
+  font-weight: 700;
+  color: var(--newsprint);
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  white-space: nowrap;
+}
+
+/* Detail page official info */
+.local-official-detail {
+  background: var(--paper-white);
+  border: 2px solid var(--border);
+  box-shadow: 0 4px 12px var(--shadow-soft);
+  padding: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+.local-official-name {
+  font-family: 'Libre Baskerville', serif;
+  font-size: 1.75rem;
+  font-weight: 700;
+  color: var(--ink);
+  margin-bottom: 0.25rem;
+}
+
+.local-official-title {
+  font-size: 1rem;
+  color: var(--newsprint);
+  margin-bottom: 1.5rem;
+}
+
+/* Placeholder states */
+.local-placeholder {
+  background: var(--cream);
+  border: 1px dashed var(--border);
+  padding: 2rem;
+  text-align: center;
+  color: var(--newsprint);
+  font-style: italic;
+}
+
+/* All jurisdictions listing */
+.jurisdictions-list {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+}
+
+@media (min-width: 640px) {
+  .jurisdictions-list {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+.jurisdiction-link-card {
+  display: block;
+  background: var(--paper-white);
+  border: 2px solid var(--border);
+  padding: 1.5rem;
+  text-decoration: none;
+  transition: all 0.2s ease;
+}
+
+.jurisdiction-link-card:hover {
+  border-color: var(--accent-gold);
+  box-shadow: 0 4px 12px var(--shadow-medium);
+}
+
+.jurisdiction-link-card h3 {
+  font-family: 'Libre Baskerville', serif;
+  font-size: 1.125rem;
+  font-weight: 700;
+  color: var(--ink);
+  margin-bottom: 0.25rem;
+}
+
+.jurisdiction-link-card p {
+  font-size: 0.875rem;
+  color: var(--newsprint);
+}

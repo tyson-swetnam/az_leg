@@ -8,6 +8,7 @@ import type { LegislatureData, Chamber } from '@/types/legislature';
 import type { FederalMapping, CongressMember } from '@/types/federal';
 import type { CampaignFinanceData } from '@/types/campaign-finance';
 import type { LocalLayerType, LocalDistrictGeoJSON } from '@/types/local-district';
+import type { LocalOfficialsData, LocalJurisdiction } from '@/types/local-official';
 import legislatorsData from '@/data/legislators.json';
 import federalMappingData from '@/data/federal-mapping.json';
 import { DEFAULT_CAMPAIGN_FINANCE_YEAR } from '@/lib/constants';
@@ -142,6 +143,47 @@ export function useCampaignFinance(
     queryFn: () => fetchCampaignFinanceId({ name, chamber, year }),
     staleTime: Infinity,
     enabled: !!name && !!chamber,
+  });
+}
+
+/**
+ * Get local officials data from static JSON
+ * Never becomes stale since it's local data
+ */
+export function useLocalOfficials() {
+  return useQuery<LocalOfficialsData>({
+    queryKey: ['local-officials'],
+    queryFn: async () => {
+      try {
+        const data = await import('@/data/local-officials.json');
+        return data.default as LocalOfficialsData;
+      } catch {
+        return { jurisdictions: [], lastUpdated: '' };
+      }
+    },
+    staleTime: Infinity,
+  });
+}
+
+/**
+ * Get a single jurisdiction by type and id
+ */
+export function useJurisdiction(jurisdictionType: string, jurisdictionId: string) {
+  return useQuery<LocalJurisdiction | undefined>({
+    queryKey: ['jurisdiction', jurisdictionType, jurisdictionId],
+    queryFn: async () => {
+      try {
+        const data = await import('@/data/local-officials.json');
+        const officials = data.default as LocalOfficialsData;
+        return officials.jurisdictions.find(
+          (j) => j.type === jurisdictionType && j.id === jurisdictionId
+        );
+      } catch {
+        return undefined;
+      }
+    },
+    staleTime: Infinity,
+    enabled: !!jurisdictionType && !!jurisdictionId,
   });
 }
 
