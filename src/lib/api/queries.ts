@@ -156,9 +156,9 @@ export function useLocalOfficials() {
     queryFn: async () => {
       try {
         const data = await import('@/data/local-officials.json');
-        return data.default as LocalOfficialsData;
+        return data.default as unknown as LocalOfficialsData;
       } catch {
-        return { jurisdictions: [], lastUpdated: '' };
+        return { counties: {}, cities: {}, lastUpdated: '' } as LocalOfficialsData;
       }
     },
     staleTime: Infinity,
@@ -174,10 +174,32 @@ export function useJurisdiction(jurisdictionType: string, jurisdictionId: string
     queryFn: async () => {
       try {
         const data = await import('@/data/local-officials.json');
-        const officials = data.default as LocalOfficialsData;
-        return officials.jurisdictions.find(
-          (j) => j.type === jurisdictionType && j.id === jurisdictionId
-        );
+        const officials = data.default as unknown as LocalOfficialsData;
+
+        if (jurisdictionType === 'county') {
+          const county = officials.counties[jurisdictionId];
+          if (!county) return undefined;
+          return {
+            name: county.name,
+            type: 'county' as const,
+            id: jurisdictionId,
+            governingBody: 'Board of Supervisors',
+            website: county.website,
+            officials: county.supervisors.map(s => ({ ...s, title: s.title || 'Supervisor' })),
+          };
+        } else {
+          const city = officials.cities[jurisdictionId];
+          if (!city) return undefined;
+          return {
+            name: city.name,
+            type: 'city' as const,
+            id: jurisdictionId,
+            governingBody: city.governingBody || 'City Council',
+            website: city.website,
+            officials: city.members.map(m => ({ ...m, title: m.title || 'Council Member' })),
+            mayor: city.mayor,
+          };
+        }
       } catch {
         return undefined;
       }
