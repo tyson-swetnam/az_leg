@@ -397,6 +397,7 @@ export function DistrictMap({ districtId, initialLayer = 'state', onLayerChange 
         bounds={bounds}
         className="h-96 w-full rounded-lg"
         onLoad={handleMapLoad}
+        highlightDistrict={districtId}
       />
 
       {/* Legend */}

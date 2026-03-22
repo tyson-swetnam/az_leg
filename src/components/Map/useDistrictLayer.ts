@@ -67,10 +67,10 @@ export function useDistrictLayer({
       });
     }
 
-    // Add hover effect
+    // Hover effect — use named functions so they can be cleaned up
     let hoveredDistrictId: string | number | null = null;
 
-    map.on('mousemove', 'districts-fill', (e) => {
+    const handleMouseMove = (e: maplibregl.MapMouseEvent & { features?: maplibregl.MapGeoJSONFeature[] }) => {
       if (e.features && e.features.length > 0) {
         map.getCanvas().style.cursor = 'pointer';
 
@@ -90,9 +90,9 @@ export function useDistrictLayer({
           );
         }
       }
-    });
+    };
 
-    map.on('mouseleave', 'districts-fill', () => {
+    const handleMouseLeave = () => {
       map.getCanvas().style.cursor = '';
       if (hoveredDistrictId !== null) {
         map.setFeatureState(
@@ -101,9 +101,15 @@ export function useDistrictLayer({
         );
       }
       hoveredDistrictId = null;
-    });
+    };
+
+    map.on('mousemove', 'districts-fill', handleMouseMove);
+    map.on('mouseleave', 'districts-fill', handleMouseLeave);
 
     return () => {
+      map.off('mousemove', 'districts-fill', handleMouseMove);
+      map.off('mouseleave', 'districts-fill', handleMouseLeave);
+
       if (map.getLayer('districts-fill')) {
         map.removeLayer('districts-fill');
       }

@@ -1,4 +1,4 @@
-import { useState, useEffect, useCallback } from 'react';
+import { useState, useEffect, useCallback, useRef } from 'react';
 import { Map, MapMouseEvent, Popup } from 'maplibre-gl';
 import type { District } from '@/types/district';
 import { useLegislators } from '@/lib/api/queries';
@@ -13,8 +13,10 @@ interface TooltipState {
 export function useMapInteractions(map: Map | null, isLoaded: boolean) {
   const [tooltip, setTooltip] = useState<TooltipState | null>(null);
   const [selectedDistrict, setSelectedDistrict] = useState<District | null>(null);
-  const [popup, setPopup] = useState<Popup | null>(null);
   const { data: legislators } = useLegislators();
+
+  // Use a ref for popup to avoid stale closures and unnecessary re-registrations
+  const popupRef = useRef<Popup | null>(null);
 
   const handleMouseMove = useCallback((e: MapMouseEvent) => {
     const features = map?.queryRenderedFeatures(e.point, {
@@ -38,6 +40,11 @@ export function useMapInteractions(map: Map | null, isLoaded: boolean) {
     }
   }, [map, legislators]);
 
+  // Named function so it can be properly removed
+  const handleMouseLeave = useCallback(() => {
+    setTooltip(null);
+  }, []);
+
   const handleClick = useCallback((e: MapMouseEvent) => {
     const features = map?.queryRenderedFeatures(e.point, {
       layers: ['districts-fill'],
@@ -48,8 +55,8 @@ export function useMapInteractions(map: Map | null, isLoaded: boolean) {
       const district = legislators.districts.find(d => d.id === districtNumber);
 
       if (district) {
-        // Remove existing popup
-        popup?.remove();
+        // Remove existing popup via ref (always current, no stale closure)
+        popupRef.current?.remove();
 
         // Create new popup
         const newPopup = new Popup({
@@ -61,31 +68,31 @@ export function useMapInteractions(map: Map | null, isLoaded: boolean) {
           .setHTML('<div id="popup-content"></div>')
           .addTo(map);
 
-        setPopup(newPopup);
+        popupRef.current = newPopup;
         setSelectedDistrict(district);
       }
     }
-  }, [map, legislators, popup]);
+  }, [map, legislators]); // No popup dependency — using ref instead
 
   const closePopup = useCallback(() => {
-    popup?.remove();
-    setPopup(null);
+    popupRef.current?.remove();
+    popupRef.current = null;
     setSelectedDistrict(null);
-  }, [popup]);
+  }, []);
 
   useEffect(() => {
     if (!map || !isLoaded) return;
 
     map.on('mousemove', 'districts-fill', handleMouseMove);
-    map.on('mouseleave', 'districts-fill', () => setTooltip(null));
+    map.on('mouseleave', 'districts-fill', handleMouseLeave);
     map.on('click', 'districts-fill', handleClick);
 
     return () => {
       map.off('mousemove', 'districts-fill', handleMouseMove);
-      map.off('mouseleave', 'districts-fill', () => setTooltip(null));
+      map.off('mouseleave', 'districts-fill', handleMouseLeave);
       map.off('click', 'districts-fill', handleClick);
     };
-  }, [map, isLoaded, handleMouseMove, handleClick]);
+  }, [map, isLoaded, handleMouseMove, handleMouseLeave, handleClick]);
 
   return {
     tooltip,
