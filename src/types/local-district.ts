@@ -1,9 +1,18 @@
 export type LocalLayerType =
   | 'counties'
-  | 'pima-supervisors'
-  | 'tucson-wards'
   | 'maricopa-supervisors'
+  | 'pima-supervisors'
+  | 'coconino-supervisors'
+  | 'yavapai-supervisors'
+  | 'pinal-supervisors'
+  | 'navajo-supervisors'
   | 'phoenix-council'
+  | 'mesa-council'
+  | 'glendale-council'
+  | 'peoria-council'
+  | 'surprise-council'
+  | 'buckeye-council'
+  | 'tucson-wards'
   | 'maricopa-precincts';
 
 export interface LocalLayerConfig {

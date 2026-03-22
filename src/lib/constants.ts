@@ -72,13 +72,24 @@ export const LEGISCAN_AZ_STATE_URL = 'https://legiscan.com/AZ/legislation';
 import type { LocalLayerType, LocalLayerConfig } from '@/types/local-district';
 
 export const LOCAL_LAYER_CONFIGS: Record<LocalLayerType, LocalLayerConfig> = {
+  // --- Counties ---
   counties: {
     id: 'counties',
     label: 'Arizona Counties',
     group: 'county',
-    url: 'https://services1.arcgis.com/mpVYz37anSdrK4d8/ArcGIS/rest/services/Arizona_Counties/FeatureServer/0/query?where=1%3D1&outFields=*&returnGeometry=true&f=geojson',
-    idField: 'GEOID',
+    url: 'https://services3.arcgis.com/0OPQIK59PJJqLK0A/arcgis/rest/services/County_Boundaries_Arizona/FeatureServer/0/query?where=1%3D1&outFields=*&returnGeometry=true&f=geojson&outSR=4326',
+    idField: 'NAME',
     nameField: 'NAME',
+  },
+
+  // --- Supervisor Districts ---
+  'maricopa-supervisors': {
+    id: 'maricopa-supervisors',
+    label: 'Maricopa County Supervisors',
+    group: 'supervisor',
+    url: 'https://services.arcgis.com/ykpntM6e3tHvzKRJ/arcgis/rest/services/Maricopa_County_Supervisor_Districts_(2024-)/FeatureServer/0/query?where=1%3D1&outFields=*&returnGeometry=true&f=geojson&outSR=4326',
+    idField: 'bos',
+    repField: 'BdName',
   },
   'pima-supervisors': {
     id: 'pima-supervisors',
@@ -87,6 +98,93 @@ export const LOCAL_LAYER_CONFIGS: Record<LocalLayerType, LocalLayerConfig> = {
     url: 'https://services1.arcgis.com/Ezk9fcjSUkeadg6u/arcgis/rest/services/Pima_County_Board_of_Supervisors_Districts_2020_Election/FeatureServer/0/query?where=1%3D1&outFields=*&returnGeometry=true&f=geojson&outSR=4326',
     idField: 'DISTRICT',
     nameField: 'NAME',
+  },
+  'coconino-supervisors': {
+    id: 'coconino-supervisors',
+    label: 'Coconino County Supervisors',
+    group: 'supervisor',
+    url: 'https://services1.arcgis.com/Rlvx5g8pKeK13apH/arcgis/rest/services/Coconino_County_Supervisor_Districts/FeatureServer/0/query?where=1%3D1&outFields=*&returnGeometry=true&f=geojson&outSR=4326',
+    idField: 'DISTRICTID',
+    nameField: 'NAME',
+    repField: 'REPNAME',
+    urlField: 'DISTRICTUR',
+  },
+  'yavapai-supervisors': {
+    id: 'yavapai-supervisors',
+    label: 'Yavapai County Supervisors',
+    group: 'supervisor',
+    url: 'https://services1.arcgis.com/BajuNXbtZNiBKFkx/ArcGIS/rest/services/Districts/FeatureServer/8/query?where=1%3D1&outFields=*&returnGeometry=true&f=geojson&outSR=4326',
+    idField: 'SUPER_DIST',
+    nameField: 'DISTNAME',
+    repField: 'REPNAME',
+    urlField: 'DISTRICTURL',
+  },
+  'pinal-supervisors': {
+    id: 'pinal-supervisors',
+    label: 'Pinal County Supervisors',
+    group: 'supervisor',
+    url: 'https://services6.arcgis.com/0Fva1mQQBFB0bwvx/arcgis/rest/services/AGOL_BaseDataFull_gdb/FeatureServer/18/query?where=1%3D1&outFields=*&returnGeometry=true&f=geojson&outSR=4326',
+    idField: 'DISTRICT',
+    repField: 'NAME',
+  },
+  'navajo-supervisors': {
+    id: 'navajo-supervisors',
+    label: 'Navajo County Supervisors',
+    group: 'supervisor',
+    url: "https://services.arcgis.com/cghC2lEIpJ2TRrs5/arcgis/rest/services/ElectionDistricts/FeatureServer/0/query?where=Type%3D'BS'&outFields=*&returnGeometry=true&f=geojson&outSR=4326",
+    idField: 'Code',
+    nameField: 'Name',
+  },
+
+  // --- City Council Districts ---
+  'phoenix-council': {
+    id: 'phoenix-council',
+    label: 'Phoenix City Council',
+    group: 'city',
+    url: 'https://services3.arcgis.com/0OPQIK59PJJqLK0A/arcgis/rest/services/Council_Districts_and_Members/FeatureServer/0/query?where=1%3D1&outFields=*&returnGeometry=true&f=geojson&outSR=4326',
+    idField: 'DISTRICT',
+    repField: 'REP_NAME',
+    urlField: 'REP_URL',
+  },
+  'mesa-council': {
+    id: 'mesa-council',
+    label: 'Mesa City Council',
+    group: 'city',
+    url: "https://services.arcgis.com/ykpntM6e3tHvzKRJ/arcgis/rest/services/Maricopa_County_City_Council_Districts/FeatureServer/0/query?where=Juris%3D'MESA'&outFields=*&returnGeometry=true&f=geojson&outSR=4326",
+    idField: 'Ward',
+    repField: 'BdName',
+  },
+  'glendale-council': {
+    id: 'glendale-council',
+    label: 'Glendale City Council',
+    group: 'city',
+    url: "https://services.arcgis.com/ykpntM6e3tHvzKRJ/arcgis/rest/services/Maricopa_County_City_Council_Districts/FeatureServer/0/query?where=Juris%3D'GLENDALE'&outFields=*&returnGeometry=true&f=geojson&outSR=4326",
+    idField: 'Ward',
+    repField: 'BdName',
+  },
+  'peoria-council': {
+    id: 'peoria-council',
+    label: 'Peoria City Council',
+    group: 'city',
+    url: "https://services.arcgis.com/ykpntM6e3tHvzKRJ/arcgis/rest/services/Maricopa_County_City_Council_Districts/FeatureServer/0/query?where=Juris%3D'PEORIA'&outFields=*&returnGeometry=true&f=geojson&outSR=4326",
+    idField: 'Ward',
+    repField: 'BdName',
+  },
+  'surprise-council': {
+    id: 'surprise-council',
+    label: 'Surprise City Council',
+    group: 'city',
+    url: "https://services.arcgis.com/ykpntM6e3tHvzKRJ/arcgis/rest/services/Maricopa_County_City_Council_Districts/FeatureServer/0/query?where=Juris%3D'SURPRISE'&outFields=*&returnGeometry=true&f=geojson&outSR=4326",
+    idField: 'Ward',
+    repField: 'BdName',
+  },
+  'buckeye-council': {
+    id: 'buckeye-council',
+    label: 'Buckeye City Council',
+    group: 'city',
+    url: "https://services.arcgis.com/ykpntM6e3tHvzKRJ/arcgis/rest/services/Maricopa_County_City_Council_Districts/FeatureServer/0/query?where=Juris%3D'BUCKEYE'&outFields=*&returnGeometry=true&f=geojson&outSR=4326",
+    idField: 'Ward',
+    repField: 'BdName',
   },
   'tucson-wards': {
     id: 'tucson-wards',
@@ -97,23 +195,8 @@ export const LOCAL_LAYER_CONFIGS: Record<LocalLayerType, LocalLayerConfig> = {
     nameField: 'NAME',
     phoneField: 'PHONE',
   },
-  'maricopa-supervisors': {
-    id: 'maricopa-supervisors',
-    label: 'Maricopa County Supervisors',
-    group: 'supervisor',
-    url: 'https://services.arcgis.com/ykpntM6e3tHvzKRJ/arcgis/rest/services/Maricopa_County_Supervisor_Districts_(2024-)/FeatureServer/0/query?where=1%3D1&outFields=*&returnGeometry=true&f=geojson&outSR=4326',
-    idField: 'bos',
-    repField: 'BdName',
-  },
-  'phoenix-council': {
-    id: 'phoenix-council',
-    label: 'Phoenix City Council',
-    group: 'city',
-    url: 'https://services2.arcgis.com/2t1927381mhTgWNC/ArcGIS/rest/services/CityCouncilDistricts/FeatureServer/0/query?where=1%3D1&outFields=*&returnGeometry=true&f=geojson',
-    idField: 'DISTRICT',
-    repField: 'REP_NAME',
-    urlField: 'REP_URL',
-  },
+
+  // --- Precincts ---
   'maricopa-precincts': {
     id: 'maricopa-precincts',
     label: 'Maricopa County Precincts',

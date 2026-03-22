@@ -21,6 +21,18 @@ export async function fetchLocalDistricts(
     );
   }
 
-  const data = await response.json();
-  return data as LocalDistrictGeoJSON;
+  const data = await response.json() as LocalDistrictGeoJSON;
+
+  // Deduplicate features by idField (some ArcGIS layers return duplicate geometries)
+  if (data.features && data.features.length > 0) {
+    const seen = new Set<string>();
+    data.features = data.features.filter((feature) => {
+      const id = String(feature.properties?.[config.idField] ?? '');
+      if (seen.has(id)) return false;
+      seen.add(id);
+      return true;
+    });
+  }
+
+  return data;
 }

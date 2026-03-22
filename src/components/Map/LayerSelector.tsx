@@ -27,23 +27,38 @@ const LAYER_GROUPS: LayerGroup[] = [
     icon: '🗺️',
     layers: [
       { id: 'counties', label: 'Arizona Counties', count: 15 },
-      { id: 'maricopa-supervisors', label: 'Maricopa Supervisors', count: 5 },
-      { id: 'pima-supervisors', label: 'Pima Supervisors', count: 5 },
     ],
   },
   {
-    label: 'City',
+    label: 'Supervisors',
+    icon: '👤',
+    layers: [
+      { id: 'maricopa-supervisors', label: 'Maricopa County', count: 5 },
+      { id: 'pima-supervisors', label: 'Pima County', count: 5 },
+      { id: 'pinal-supervisors', label: 'Pinal County', count: 5 },
+      { id: 'coconino-supervisors', label: 'Coconino County', count: 5 },
+      { id: 'yavapai-supervisors', label: 'Yavapai County', count: 5 },
+      { id: 'navajo-supervisors', label: 'Navajo County', count: 5 },
+    ],
+  },
+  {
+    label: 'City Council',
     icon: '🏙️',
     layers: [
-      { id: 'phoenix-council', label: 'Phoenix Council', count: 8 },
-      { id: 'tucson-wards', label: 'Tucson Wards', count: 6 },
+      { id: 'phoenix-council', label: 'Phoenix', count: 8 },
+      { id: 'mesa-council', label: 'Mesa', count: 6 },
+      { id: 'glendale-council', label: 'Glendale', count: 6 },
+      { id: 'tucson-wards', label: 'Tucson', count: 6 },
+      { id: 'peoria-council', label: 'Peoria', count: 6 },
+      { id: 'surprise-council', label: 'Surprise', count: 6 },
+      { id: 'buckeye-council', label: 'Buckeye', count: 6 },
     ],
   },
   {
     label: 'Precincts',
     icon: '📍',
     layers: [
-      { id: 'maricopa-precincts', label: 'Maricopa Precincts' },
+      { id: 'maricopa-precincts', label: 'Maricopa County' },
     ],
   },
 ];

@@ -134,11 +134,18 @@ export function useLocalDistrictLayer({
           ]);
         }
 
+        // Format name for display (handle "bos X" → "District X")
+        let displayName = config.nameField ? props[config.nameField] : undefined;
+        if (!displayName) {
+          const displayId = String(idValue).replace(/^bos\s*/i, '');
+          displayName = `District ${displayId}`;
+        }
+
         onHover({
           id: idValue,
           label: config.label,
           layerLabel: config.label,
-          name: config.nameField ? props[config.nameField] : undefined,
+          name: displayName,
           rep: config.repField ? props[config.repField] : undefined,
           phone: config.phoneField ? props[config.phoneField] : undefined,
           url: config.urlField ? props[config.urlField] : undefined,
@@ -162,10 +169,7 @@ export function useLocalDistrictLayer({
         '',
       ]);
       onHover(null);
-      if (popupRef.current) {
-        popupRef.current.remove();
-        popupRef.current = null;
-      }
+      // Don't remove popup on mouse leave - let it stay until closed by user or replaced by new click
     };
 
     const handleClick = (e: maplibregl.MapMouseEvent) => {
@@ -181,20 +185,23 @@ export function useLocalDistrictLayer({
         let html = '<div class="local-popup">';
         html += `<div class="local-popup-header">${config.label}</div>`;
 
+        // Show a human-readable district/ward name
         if (config.nameField && props[config.nameField]) {
           html += `<div class="local-popup-name">${props[config.nameField]}</div>`;
         } else {
-          html += `<div class="local-popup-name">${config.idField}: ${idValue}</div>`;
+          // Format ID nicely (e.g., "bos 1" → "District 1")
+          const displayId = String(idValue).replace(/^bos\s*/i, '');
+          html += `<div class="local-popup-name">District ${displayId}</div>`;
         }
 
         if (config.repField && props[config.repField]) {
-          html += `<div class="local-popup-rep">${props[config.repField]}</div>`;
+          html += `<div class="local-popup-rep"><strong>${props[config.repField]}</strong></div>`;
         }
         if (config.phoneField && props[config.phoneField]) {
-          html += `<div class="local-popup-phone">${props[config.phoneField]}</div>`;
+          html += `<div class="local-popup-phone">&#9742; ${props[config.phoneField]}</div>`;
         }
         if (config.urlField && props[config.urlField]) {
-          html += `<div class="local-popup-url"><a href="${props[config.urlField]}" target="_blank" rel="noopener noreferrer">Website</a></div>`;
+          html += `<div class="local-popup-url"><a href="${props[config.urlField]}" target="_blank" rel="noopener noreferrer">Official Website &#8599;</a></div>`;
         }
         html += '</div>';
 
@@ -205,7 +212,7 @@ export function useLocalDistrictLayer({
 
         popupRef.current = new maplibregl.Popup({
           closeButton: true,
-          closeOnClick: true,
+          closeOnClick: false,
           maxWidth: '320px',
         })
           .setLngLat(e.lngLat)

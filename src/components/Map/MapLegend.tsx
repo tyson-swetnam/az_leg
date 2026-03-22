@@ -59,9 +59,15 @@ export function MapLegend({ layerType, geojsonData }: MapLegendProps) {
 
   const items = geojsonData.features.map((feature, i) => {
     const props = feature.properties || {};
-    const label =
+    const rawId = props[config.idField];
+    const displayId = String(rawId).replace(/^bos\s*/i, '');
+    let label =
       (config.nameField && props[config.nameField]) ||
-      `${config.idField} ${props[config.idField]}`;
+      `District ${displayId}`;
+    // Append rep name if available (e.g., "District 1 — Jack Smith")
+    if (config.repField && props[config.repField] && !config.nameField) {
+      label += ` — ${props[config.repField]}`;
+    }
     const color = colors[i % colors.length];
     return { label, color };
   });
