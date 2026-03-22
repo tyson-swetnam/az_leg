@@ -1,273 +1,1797 @@
 {
-  "jurisdictions": [
-    {
+  "lastUpdated": "2026-03-22",
+  "counties": {
+    "maricopa": {
       "name": "Maricopa County",
-      "type": "county",
-      "id": "maricopa",
-      "governingBody": "Board of Supervisors",
-      "website": "https://www.maricopa.gov/",
-      "officials": [
+      "website": "https://www.maricopa.gov",
+      "phone": "(602) 506-3011",
+      "address": "301 West Jefferson Street, Phoenix, AZ 85003",
+      "supervisors": [
         {
-          "name": "Jack Sellers",
-          "title": "Supervisor",
           "district": 1,
-          "phone": "(602) 506-1776",
-          "email": "district1@maricopa.gov",
-          "website": "https://www.maricopa.gov/5584/District-1",
-          "term": "2025-2028"
+          "name": "Mark Stewart",
+          "party": null,
+          "phone": "(602) 506-3011",
+          "email": null,
+          "website": "https://www.maricopa.gov/225/District-1",
+          "photo": "https://www.maricopa.gov/ImageRepository/Document?documentId=99283",
+          "term": null
         },
         {
-          "name": "Thomas Galvin",
-          "title": "Supervisor",
           "district": 2,
-          "phone": "(602) 506-7431",
-          "email": "district2@maricopa.gov",
-          "website": "https://www.maricopa.gov/5585/District-2",
-          "term": "2025-2028"
+          "name": "Thomas Galvin",
+          "party": "R",
+          "phone": "(602) 506-3011",
+          "email": null,
+          "website": "https://www.maricopa.gov/235",
+          "photo": "https://www.maricopa.gov/ImageRepository/Document?documentId=73986",
+          "term": null
         },
         {
-          "name": "Bill Gates",
-          "title": "Supervisor",
           "district": 3,
-          "phone": "(602) 506-7562",
-          "email": "district3@maricopa.gov",
-          "website": "https://www.maricopa.gov/5586/District-3",
-          "term": "2025-2028"
+          "name": "Kate Brophy McGee",
+          "party": null,
+          "phone": "(602) 506-3011",
+          "email": null,
+          "website": "https://www.maricopa.gov/247/District-3",
+          "photo": "https://www.maricopa.gov/ImageRepository/Document?documentId=100175",
+          "term": null,
+          "title": "Chair"
         },
         {
-          "name": "Clint Hickman",
-          "title": "Supervisor",
           "district": 4,
+          "name": "Debbie Lesko",
+          "party": null,
           "phone": "(602) 506-7642",
-          "email": "district4@maricopa.gov",
-          "website": "https://www.maricopa.gov/5587/District-4",
-          "term": "2025-2028"
+          "email": null,
+          "website": "https://www.maricopa.gov/260/District-4",
+          "photo": "https://www.maricopa.gov/ImageRepository/Document?documentId=100174",
+          "term": null,
+          "title": "Vice Chair"
         },
         {
-          "name": "Steve Gallardo",
-          "title": "Supervisor",
           "district": 5,
-          "phone": "(602) 506-7092",
-          "email": "district5@maricopa.gov",
-          "website": "https://www.maricopa.gov/5588/District-5",
-          "term": "2025-2028"
+          "name": "Steve Gallardo",
+          "party": null,
+          "phone": "(602) 506-3011",
+          "email": null,
+          "website": "https://www.maricopa.gov/271/District-5",
+          "photo": "https://www.maricopa.gov/ImageRepository/Document?documentId=82686",
+          "term": null
         }
       ]
     },
-    {
+    "pima": {
       "name": "Pima County",
-      "type": "county",
-      "id": "pima",
-      "governingBody": "Board of Supervisors",
-      "website": "https://www.pima.gov/",
-      "officials": [
+      "website": "https://www.pima.gov",
+      "phone": "(520) 724-8000",
+      "address": "33 N. Stone Ave., 11th Floor, Tucson, AZ 85701",
+      "supervisors": [
         {
-          "name": "Rex Scott",
-          "title": "Supervisor",
           "district": 1,
+          "name": "Rex Scott",
+          "party": "D",
           "phone": "(520) 724-2738",
           "email": "district1@pima.gov",
-          "website": "https://www.pima.gov/government/county_administrator/district_1/index.php",
-          "term": "2025-2028"
+          "website": "https://www.pima.gov/2503/Supervisor-Rex-Scott-District-1",
+          "photo": null,
+          "term": null,
+          "title": "Chair"
         },
         {
-          "name": "Matt Heinz",
-          "title": "Supervisor",
           "district": 2,
-          "phone": "(520) 724-8126",
+          "name": "Dr. Matt Heinz",
+          "party": "D",
+          "phone": "(520) 724-2702",
           "email": "district2@pima.gov",
-          "website": "https://www.pima.gov/government/county_administrator/district_2/index.php",
-          "term": "2025-2028"
+          "website": "https://www.pima.gov/2509/Supervisor-Dr-Matt-Heinz-District-2",
+          "photo": null,
+          "term": null,
+          "title": "Vice Chair"
         },
         {
-          "name": "Sylvia Lee",
-          "title": "Supervisor",
           "district": 3,
+          "name": "Jennifer Allen",
+          "party": "D",
           "phone": "(520) 724-8051",
           "email": "district3@pima.gov",
-          "website": "https://www.pima.gov/government/county_administrator/district_3/index.php",
-          "term": "2025-2028"
+          "website": "https://www.pima.gov/2550/Supervisor-Jennifer-Allen-District-3",
+          "photo": null,
+          "term": null
         },
         {
-          "name": "Steve Christy",
-          "title": "Supervisor",
           "district": 4,
+          "name": "Steve Christy",
+          "party": "R",
           "phone": "(520) 724-8094",
           "email": "district4@pima.gov",
-          "website": "https://www.pima.gov/government/county_administrator/district_4/index.php",
-          "term": "2025-2028"
+          "website": "https://www.pima.gov/2515/Biography",
+          "photo": null,
+          "term": null
         },
         {
-          "name": "Adelita Grijalva",
-          "title": "Supervisor",
           "district": 5,
-          "phone": "(520) 724-8126",
+          "name": "Andrés Cano",
+          "party": "D",
+          "phone": "(520) 724-5880",
           "email": "district5@pima.gov",
-          "website": "https://www.pima.gov/government/county_administrator/district_5/index.php",
-          "term": "2025-2028"
+          "website": "https://www.pima.gov/2528/Supervisor-Andrs-Cano-District-5",
+          "photo": null,
+          "term": null
         }
       ]
     },
-    {
-      "name": "City of Phoenix",
-      "type": "city",
-      "id": "phoenix",
-      "governingBody": "City Council",
-      "website": "https://www.phoenix.gov/",
-      "mayor": {
-        "name": "Kate Gallego",
-        "title": "Mayor",
-        "phone": "(602) 262-7111",
-        "email": "mayor.gallego@phoenix.gov",
-        "website": "https://www.phoenix.gov/mayor",
-        "term": "2023-2027"
-      },
-      "officials": [
+    "pinal": {
+      "name": "Pinal County",
+      "website": "https://www.pinalcountyaz.gov",
+      "phone": "(520) 866-6068",
+      "address": "135 N Pinal St, Florence, AZ 85132",
+      "supervisors": [
         {
-          "name": "Ann O'Brien",
-          "title": "Council Member",
           "district": 1,
-          "phone": "(602) 262-7444",
-          "email": "council.district.1@phoenix.gov",
-          "website": "https://www.phoenix.gov/district1",
-          "term": "2023-2027"
+          "name": "Rich Vitiello",
+          "party": "R",
+          "phone": "(520) 509-3555",
+          "email": "bosdistrict1@pinal.gov",
+          "website": null,
+          "photo": null,
+          "term": null
         },
         {
-          "name": "Jim Waring",
-          "title": "Council Member",
           "district": 2,
-          "phone": "(602) 262-7445",
-          "email": "council.district.2@phoenix.gov",
-          "website": "https://www.phoenix.gov/district2",
-          "term": "2025-2029"
+          "name": "Mike Goodman",
+          "party": "R",
+          "phone": "(520) 866-8080",
+          "email": "mike.goodman@pinal.gov",
+          "website": null,
+          "photo": null,
+          "term": null
         },
         {
-          "name": "Debra Stark",
-          "title": "Council Member",
           "district": 3,
-          "phone": "(602) 262-7441",
-          "email": "council.district.3@phoenix.gov",
-          "website": "https://www.phoenix.gov/district3",
-          "term": "2023-2027"
+          "name": "Stephen Q. Miller",
+          "party": "R",
+          "phone": "(520) 866-7401",
+          "email": "Stephen.Miller@pinal.gov",
+          "website": null,
+          "photo": null,
+          "term": null,
+          "title": "Chairman"
         },
         {
-          "name": "Laura Pastor",
-          "title": "Council Member",
           "district": 4,
-          "phone": "(602) 262-7447",
-          "email": "council.district.4@phoenix.gov",
-          "website": "https://www.phoenix.gov/district4",
-          "term": "2025-2029"
+          "name": "Jeffrey McClure",
+          "party": "R",
+          "phone": "(520) 866-6054",
+          "email": "jeffrey.mcclure@pinal.gov",
+          "website": null,
+          "photo": null,
+          "term": null
         },
         {
-          "name": "Betty Guardado",
-          "title": "Council Member",
           "district": 5,
-          "phone": "(602) 262-7446",
-          "email": "council.district.5@phoenix.gov",
-          "website": "https://www.phoenix.gov/district5",
-          "term": "2023-2027"
-        },
-        {
-          "name": "Kevin Robinson",
-          "title": "Council Member",
-          "district": 6,
-          "phone": "(602) 262-7491",
-          "email": "council.district.6@phoenix.gov",
-          "website": "https://www.phoenix.gov/district6",
-          "term": "2025-2029"
-        },
-        {
-          "name": "Yassamin Ansari",
-          "title": "Council Member",
-          "district": 7,
-          "phone": "(602) 262-7492",
-          "email": "council.district.7@phoenix.gov",
-          "website": "https://www.phoenix.gov/district7",
-          "term": "2023-2027"
-        },
-        {
-          "name": "Carlos Garcia",
-          "title": "Council Member",
-          "district": 8,
-          "phone": "(602) 262-7493",
-          "email": "council.district.8@phoenix.gov",
-          "website": "https://www.phoenix.gov/district8",
-          "term": "2025-2029"
+          "name": "Jeff Serdy",
+          "party": "R",
+          "phone": "(480) 982-0659",
+          "email": "jeff.Serdy@pinal.gov",
+          "website": null,
+          "photo": null,
+          "term": null,
+          "title": "Vice Chair"
         }
       ]
     },
-    {
-      "name": "City of Tucson",
-      "type": "city",
-      "id": "tucson",
-      "governingBody": "Mayor and Council",
-      "website": "https://www.tucsonaz.gov/",
-      "mayor": {
-        "name": "Regina Romero",
-        "title": "Mayor",
-        "phone": "(520) 791-4201",
-        "email": "mayor1@tucsonaz.gov",
-        "website": "https://www.tucsonaz.gov/Departments/Mayor-and-Council/Mayor",
-        "term": "2023-2027"
-      },
-      "officials": [
+    "yavapai": {
+      "name": "Yavapai County",
+      "website": "https://www.yavapaiaz.gov",
+      "phone": null,
+      "address": "1015 Fair Street, Prescott, AZ 86305",
+      "supervisors": [
         {
-          "name": "Lane Santa Cruz",
-          "title": "Council Member",
-          "ward": 1,
-          "phone": "(520) 791-4040",
-          "email": "ward1@tucsonaz.gov",
-          "website": "https://www.tucsonaz.gov/Departments/Mayor-and-Council/Ward-1",
-          "term": "2023-2027"
+          "district": 1,
+          "name": "Brooks Compton",
+          "party": "R",
+          "phone": "(928) 771-3206",
+          "email": "district1@yavapaiaz.gov",
+          "website": null,
+          "photo": null,
+          "term": null,
+          "title": "Chair"
         },
         {
-          "name": "Paul Cunningham",
-          "title": "Council Member",
-          "ward": 2,
-          "phone": "(520) 791-4687",
-          "email": "ward2@tucsonaz.gov",
-          "website": "https://www.tucsonaz.gov/Departments/Mayor-and-Council/Ward-2",
-          "term": "2025-2029"
+          "district": 2,
+          "name": "Dee Jenkins",
+          "party": "R",
+          "phone": "(928) 771-3393",
+          "email": "district2@yavapaiaz.gov",
+          "website": null,
+          "photo": null,
+          "term": null,
+          "notes": "Appointed April 2025"
         },
         {
-          "name": "Kevin Dahl",
-          "title": "Council Member",
-          "ward": 3,
-          "phone": "(520) 791-4711",
-          "email": "ward3@tucsonaz.gov",
-          "website": "https://www.tucsonaz.gov/Departments/Mayor-and-Council/Ward-3",
-          "term": "2023-2027"
+          "district": 3,
+          "name": "Nikki Check",
+          "party": "D",
+          "phone": "(928) 639-8110",
+          "email": "district3@yavapaiaz.gov",
+          "website": null,
+          "photo": null,
+          "term": null,
+          "title": "Vice Chair"
         },
         {
-          "name": "Nikki Lee",
-          "title": "Council Member",
-          "ward": 4,
-          "phone": "(520) 791-3199",
-          "email": "ward4@tucsonaz.gov",
-          "website": "https://www.tucsonaz.gov/Departments/Mayor-and-Council/Ward-4",
-          "term": "2025-2029"
+          "district": 4,
+          "name": "Chris Kuknyo",
+          "party": "R",
+          "phone": "(928) 771-3207",
+          "email": "district4@yavapaiaz.gov",
+          "website": null,
+          "photo": null,
+          "term": null
         },
         {
-          "name": "Richard Fimbres",
-          "title": "Council Member",
-          "ward": 5,
-          "phone": "(520) 791-4231",
-          "email": "ward5@tucsonaz.gov",
-          "website": "https://www.tucsonaz.gov/Departments/Mayor-and-Council/Ward-5",
-          "term": "2023-2027"
+          "district": 5,
+          "name": "Mary Mallory",
+          "party": "R",
+          "phone": "(928) 771-3209",
+          "email": "district5@yavapaiaz.gov",
+          "website": null,
+          "photo": null,
+          "term": null
+        }
+      ]
+    },
+    "coconino": {
+      "name": "Coconino County",
+      "website": "https://www.coconino.az.gov",
+      "phone": null,
+      "address": "219 E. Cherry Ave, Flagstaff, AZ 86001",
+      "supervisors": [
+        {
+          "district": 1,
+          "name": "Patrice Horstman",
+          "party": "D",
+          "phone": null,
+          "email": "phorstman@coconino.az.gov",
+          "website": null,
+          "photo": null,
+          "term": null,
+          "title": "Chair"
         },
         {
-          "name": "Steve Kozachik",
-          "title": "Council Member",
-          "ward": 6,
-          "phone": "(520) 791-4601",
-          "email": "ward6@tucsonaz.gov",
-          "website": "https://www.tucsonaz.gov/Departments/Mayor-and-Council/Ward-6",
-          "term": "2025-2029"
+          "district": 2,
+          "name": "Jeronimo Vasquez",
+          "party": "D",
+          "phone": "(928) 679-7162",
+          "email": "jvasquez@coconino.az.gov",
+          "website": null,
+          "photo": null,
+          "term": null,
+          "title": "Vice Chair"
+        },
+        {
+          "district": 3,
+          "name": "Tammy Ontiveros",
+          "party": "R",
+          "phone": "(928) 679-7163",
+          "email": "tontiveros@coconino.az.gov",
+          "website": null,
+          "photo": null,
+          "term": null
+        },
+        {
+          "district": 4,
+          "name": "Judy Begay",
+          "party": "D",
+          "phone": null,
+          "email": null,
+          "website": null,
+          "photo": null,
+          "term": null
+        },
+        {
+          "district": 5,
+          "name": "Lena Fowler",
+          "party": "D",
+          "phone": "(928) 679-7751",
+          "email": "lfowler@coconino.az.gov",
+          "website": null,
+          "photo": null,
+          "term": null
+        }
+      ]
+    },
+    "mohave": {
+      "name": "Mohave County",
+      "website": "https://www.mohavecounty.us",
+      "phone": "(928) 753-0731",
+      "address": "700 W Beale St, Kingman, AZ 86401",
+      "supervisors": [
+        {
+          "district": 1,
+          "name": "Travis Lingenfelter",
+          "party": "R",
+          "phone": "(928) 753-0722",
+          "email": null,
+          "website": null,
+          "photo": null,
+          "term": null,
+          "title": "Chairman"
+        },
+        {
+          "district": 2,
+          "name": "Rich Lettman",
+          "party": "R",
+          "phone": "(928) 758-0713",
+          "email": null,
+          "website": null,
+          "photo": null,
+          "term": null
+        },
+        {
+          "district": 3,
+          "name": "Sonny Borrelli",
+          "party": "R",
+          "phone": "(928) 453-0724",
+          "email": null,
+          "website": null,
+          "photo": null,
+          "term": null
+        },
+        {
+          "district": 4,
+          "name": "Don Martin",
+          "party": "R",
+          "phone": "(928) 753-8618",
+          "email": null,
+          "website": null,
+          "photo": null,
+          "term": null
+        },
+        {
+          "district": 5,
+          "name": "Ron Gould",
+          "party": "R",
+          "phone": "(928) 758-0739",
+          "email": null,
+          "website": null,
+          "photo": null,
+          "term": null,
+          "title": "Vice Chair"
+        }
+      ]
+    },
+    "yuma": {
+      "name": "Yuma County",
+      "website": "https://www.yumacountyaz.gov",
+      "phone": "(928) 373-1010",
+      "address": "197 S. Main Street, Yuma, AZ 85364",
+      "supervisors": [
+        {
+          "district": 1,
+          "name": "Martin Porchas",
+          "party": "D",
+          "phone": "(928) 373-1010",
+          "email": "martin.porchas@yumacountyaz.gov",
+          "website": null,
+          "photo": null,
+          "term": null,
+          "title": "Chair"
+        },
+        {
+          "district": 2,
+          "name": "Jonathan W. Lines",
+          "party": "R",
+          "phone": "(928) 373-1010",
+          "email": "jonathan.lines@yumacountyaz.gov",
+          "website": null,
+          "photo": null,
+          "term": null,
+          "title": "Vice Chair"
+        },
+        {
+          "district": 3,
+          "name": "Darren R. Simmons",
+          "party": "R",
+          "phone": "(928) 373-1010",
+          "email": "darren.simmons@yumacountyaz.gov",
+          "website": null,
+          "photo": null,
+          "term": null
+        },
+        {
+          "district": 4,
+          "name": "Marco A. \"Tony\" Reyes",
+          "party": "D",
+          "phone": "(928) 373-1010",
+          "email": "tony.reyes@yumacountyaz.gov",
+          "website": null,
+          "photo": null,
+          "term": null
+        },
+        {
+          "district": 5,
+          "name": "Lynne Pancrazi",
+          "party": "D",
+          "phone": "(928) 373-1010",
+          "email": "lynne.pancrazi@yumacountyaz.gov",
+          "website": null,
+          "photo": null,
+          "term": null
+        }
+      ]
+    },
+    "apache": {
+      "name": "Apache County",
+      "website": "https://www.apachecountyaz.gov",
+      "phone": "(928) 337-7503",
+      "address": "P.O. Box 428, St. Johns, AZ 85936",
+      "supervisors": [
+        {
+          "district": 1,
+          "name": "Joe Shirley, Jr.",
+          "party": "D",
+          "phone": "(928) 674-5664",
+          "email": null,
+          "website": null,
+          "photo": null,
+          "term": null
+        },
+        {
+          "district": 2,
+          "name": "Alton Joe Shepherd",
+          "party": "D",
+          "phone": "(928) 755-3881",
+          "email": null,
+          "website": null,
+          "photo": null,
+          "term": null
+        },
+        {
+          "district": 3,
+          "name": "Nelson Davis",
+          "party": "R",
+          "phone": "(928) 337-7608",
+          "email": null,
+          "website": null,
+          "photo": null,
+          "term": null
+        }
+      ]
+    },
+    "cochise": {
+      "name": "Cochise County",
+      "website": "https://www.cochise.az.gov",
+      "phone": "(520) 432-9200",
+      "address": "1415 Melody Lane, Building G, Bisbee, AZ 85603",
+      "supervisors": [
+        {
+          "district": 1,
+          "name": "Tom Crosby",
+          "party": "R",
+          "phone": "(520) 432-9200",
+          "email": "tcrosby@cochise.az.gov",
+          "website": null,
+          "photo": null,
+          "term": null
+        },
+        {
+          "district": 2,
+          "name": "Kathleen Gomez",
+          "party": "R",
+          "phone": "(520) 432-9200",
+          "email": "kgomez@cochise.az.gov",
+          "website": null,
+          "photo": null,
+          "term": null
+        },
+        {
+          "district": 3,
+          "name": "Frank Antenori",
+          "party": "R",
+          "phone": "(520) 432-9200",
+          "email": "fantenori@cochise.az.gov",
+          "website": null,
+          "photo": null,
+          "term": null,
+          "title": "Chair"
+        }
+      ]
+    },
+    "gila": {
+      "name": "Gila County",
+      "website": "https://www.gilacountyaz.gov",
+      "phone": "(928) 425-3231",
+      "address": "Gila County Courthouse, Globe, AZ",
+      "supervisors": [
+        {
+          "district": 1,
+          "name": "Steve Christensen",
+          "party": null,
+          "phone": "(928) 474-7101",
+          "email": "schristensen@gilacountyaz.gov",
+          "website": null,
+          "photo": null,
+          "term": null
+        },
+        {
+          "district": 2,
+          "name": "Tim R. Humphrey",
+          "party": null,
+          "phone": "(928) 425-3231",
+          "email": "thumphrey@gilacountyaz.gov",
+          "website": null,
+          "photo": null,
+          "term": null
+        },
+        {
+          "district": 3,
+          "name": "Woody Cline",
+          "party": null,
+          "phone": "(928) 425-3231",
+          "email": "wcline@gilacountyaz.gov",
+          "website": null,
+          "photo": null,
+          "term": null
+        }
+      ]
+    },
+    "graham": {
+      "name": "Graham County",
+      "website": "https://www.graham.az.gov",
+      "phone": "(928) 428-3250",
+      "address": "921 W. Thatcher Blvd, Safford, AZ 85546",
+      "supervisors": [
+        {
+          "district": 1,
+          "name": "Paul R. David",
+          "party": "D",
+          "phone": "(928) 428-3250",
+          "email": null,
+          "website": null,
+          "photo": null,
+          "term": null,
+          "title": "Chairman"
+        },
+        {
+          "district": 2,
+          "name": "John Howard",
+          "party": "R",
+          "phone": "(928) 428-3250",
+          "email": null,
+          "website": null,
+          "photo": null,
+          "term": null,
+          "title": "Vice Chairman"
+        },
+        {
+          "district": 3,
+          "name": "Clay Mack",
+          "party": "R",
+          "phone": "(928) 428-3250",
+          "email": null,
+          "website": null,
+          "photo": null,
+          "term": null
+        }
+      ]
+    },
+    "greenlee": {
+      "name": "Greenlee County",
+      "website": "https://greenlee.az.gov",
+      "phone": "(928) 865-2072",
+      "address": "Greenlee County, Clifton, AZ",
+      "supervisors": [
+        {
+          "district": 1,
+          "name": "David Gomez",
+          "party": "D",
+          "phone": "(928) 865-2072",
+          "email": "dgomez@greenlee.az.gov",
+          "website": null,
+          "photo": null,
+          "term": null,
+          "title": "Chairman"
+        },
+        {
+          "district": 2,
+          "name": "Ron S. Campbell",
+          "party": "I",
+          "phone": "(928) 865-2072",
+          "email": "rcampbell@greenlee.az.gov",
+          "website": null,
+          "photo": null,
+          "term": null,
+          "title": "Vice Chairman"
+        },
+        {
+          "district": 3,
+          "name": "William Wearne",
+          "party": "I",
+          "phone": "(928) 865-2072",
+          "email": "wwearne@greenlee.az.gov",
+          "website": null,
+          "photo": null,
+          "term": null
+        }
+      ]
+    },
+    "la_paz": {
+      "name": "La Paz County",
+      "website": "https://www.lapaz.gov",
+      "phone": "(928) 669-6115",
+      "address": "1108 Joshua Avenue, Parker, AZ 85344",
+      "supervisors": [
+        {
+          "district": 1,
+          "name": "David Plunkett",
+          "party": "R",
+          "phone": "(928) 669-6115",
+          "email": "dplunkett@lapaz.gov",
+          "website": null,
+          "photo": null,
+          "term": null
+        },
+        {
+          "district": 2,
+          "name": "Duce Minor",
+          "party": "R",
+          "phone": "(928) 669-6115",
+          "email": "dminor@lapaz.gov",
+          "website": null,
+          "photo": null,
+          "term": null,
+          "title": "Chairman"
+        },
+        {
+          "district": 3,
+          "name": "Holly Irwin",
+          "party": "R",
+          "phone": "(928) 669-6115",
+          "email": "hirwin@lapaz.gov",
+          "website": null,
+          "photo": null,
+          "term": null,
+          "title": "Vice Chairman"
+        }
+      ]
+    },
+    "navajo": {
+      "name": "Navajo County",
+      "website": "https://www.navajocountyaz.gov",
+      "phone": "(928) 524-4000",
+      "address": "100 East Code Talkers Drive, Holbrook, AZ 86025",
+      "supervisors": [
+        {
+          "district": 1,
+          "name": "Fern Benally",
+          "party": "D",
+          "phone": "(928) 524-4053",
+          "email": "D1supervisor@navajocountyaz.gov",
+          "website": null,
+          "photo": null,
+          "term": null
+        },
+        {
+          "district": 2,
+          "name": "Alberto L. Peshlakai",
+          "party": "D",
+          "phone": "(928) 524-4053",
+          "email": "D2supervisor@navajocountyaz.gov",
+          "website": null,
+          "photo": null,
+          "term": null
+        },
+        {
+          "district": 3,
+          "name": "Jason E. Whiting",
+          "party": "R",
+          "phone": "(928) 524-4053",
+          "email": "D3supervisor@navajocountyaz.gov",
+          "website": null,
+          "photo": null,
+          "term": null
+        },
+        {
+          "district": 4,
+          "name": "Daryl Seymore",
+          "party": "R",
+          "phone": "(928) 532-6210",
+          "email": "D4supervisor@navajocountyaz.gov",
+          "website": null,
+          "photo": null,
+          "term": null,
+          "title": "Chairman"
+        },
+        {
+          "district": 5,
+          "name": "Dawnafe Whitesinger",
+          "party": "D",
+          "phone": "(928) 532-6220",
+          "email": "D5supervisor@navajocountyaz.gov",
+          "website": null,
+          "photo": null,
+          "term": null,
+          "title": "Vice Chair"
+        }
+      ]
+    },
+    "santa_cruz": {
+      "name": "Santa Cruz County",
+      "website": "https://www.santacruzcountyaz.gov",
+      "phone": "(520) 375-7812",
+      "address": "2150 N. Congress Drive #120, Nogales, AZ 85621",
+      "supervisors": [
+        {
+          "district": 1,
+          "name": "Luis Carlos Davis",
+          "party": "D",
+          "phone": "(520) 375-7632",
+          "email": "lcdavis@santacruzcountyaz.gov",
+          "website": null,
+          "photo": null,
+          "term": null
+        },
+        {
+          "district": 2,
+          "name": "Rudy Molera",
+          "party": "D",
+          "phone": "(520) 375-7634",
+          "email": "rmolera@santacruzcountyaz.gov",
+          "website": null,
+          "photo": null,
+          "term": null
+        },
+        {
+          "district": 3,
+          "name": "John Fanning",
+          "party": "D",
+          "phone": "(520) 375-7633",
+          "email": "jfanning@santacruzcountyaz.gov",
+          "website": null,
+          "photo": null,
+          "term": null
         }
       ]
     }
-  ],
-  "lastUpdated": "2025-01-15"
+  },
+  "cities": {
+    "phoenix": {
+      "name": "City of Phoenix",
+      "website": "https://www.phoenix.gov",
+      "governingBody": "council",
+      "phone": "(602) 262-7111",
+      "address": "200 W. Washington St., Phoenix, AZ 85003",
+      "mayor": {
+        "name": "Kate Gallego",
+        "phone": null,
+        "email": null,
+        "website": "https://www.phoenix.gov/administration/mayor"
+      },
+      "members": [
+        {
+          "district": 1,
+          "name": "Ann O'Brien",
+          "title": "Councilmember",
+          "phone": "(602) 262-7444",
+          "email": null,
+          "website": "https://www.phoenix.gov/administration/mayorcouncil/district1",
+          "photo": null,
+          "term": null
+        },
+        {
+          "district": 2,
+          "name": "Jim Waring",
+          "title": "Councilmember",
+          "phone": null,
+          "email": null,
+          "website": "https://www.phoenix.gov/administration/mayorcouncil/district2",
+          "photo": null,
+          "term": null
+        },
+        {
+          "district": 3,
+          "name": "Debra Stark",
+          "title": "Vice Mayor",
+          "phone": null,
+          "email": null,
+          "website": "https://www.phoenix.gov/administration/mayorcouncil/district3",
+          "photo": null,
+          "term": null
+        },
+        {
+          "district": 4,
+          "name": "Laura Pastor",
+          "title": "Councilmember",
+          "phone": null,
+          "email": null,
+          "website": "https://www.phoenix.gov/administration/mayorcouncil/district4",
+          "photo": null,
+          "term": null
+        },
+        {
+          "district": 5,
+          "name": "Betty Guardado",
+          "title": "Councilmember",
+          "phone": null,
+          "email": null,
+          "website": "https://www.phoenix.gov/administration/mayorcouncil/district5",
+          "photo": null,
+          "term": null
+        },
+        {
+          "district": 6,
+          "name": "Kevin Robinson",
+          "title": "Councilmember",
+          "phone": null,
+          "email": null,
+          "website": "https://www.phoenix.gov/administration/mayorcouncil/district6",
+          "photo": null,
+          "term": null
+        },
+        {
+          "district": 7,
+          "name": "Anna Hernandez",
+          "title": "Councilmember",
+          "phone": null,
+          "email": null,
+          "website": "https://www.phoenix.gov/administration/mayorcouncil/district7",
+          "photo": null,
+          "term": null
+        },
+        {
+          "district": 8,
+          "name": "Kesha Hodge Washington",
+          "title": "Vice Mayor",
+          "phone": null,
+          "email": null,
+          "website": "https://www.phoenix.gov/administration/mayorcouncil/district8",
+          "photo": null,
+          "term": null
+        }
+      ]
+    },
+    "tucson": {
+      "name": "City of Tucson",
+      "website": "https://www.tucsonaz.gov",
+      "governingBody": "council",
+      "phone": "(520) 791-4201",
+      "address": "255 W. Alameda St., Tucson, AZ 85701",
+      "mayor": {
+        "name": "Regina Romero",
+        "phone": "(520) 791-4201",
+        "email": "Mayor.Romero@tucsonaz.gov",
+        "website": "https://www.tucsonaz.gov/Government/Mayor-Council-and-City-Manager/Mayor-Regina-Romero"
+      },
+      "members": [
+        {
+          "district": 1,
+          "name": "Lane Santa Cruz",
+          "title": "Council Member",
+          "phone": "(520) 791-4040",
+          "email": "ward1@tucsonaz.gov",
+          "website": "https://www.tucsonaz.gov/Government/Mayor-Council-and-City-Manager/City-Council-Wards/Ward-1",
+          "photo": null,
+          "term": "2023-2027"
+        },
+        {
+          "district": 2,
+          "name": "Paul Cunningham",
+          "title": "Council Member",
+          "phone": "(520) 791-4687",
+          "email": "ward2@tucsonaz.gov",
+          "website": "https://www.tucsonaz.gov/Government/Mayor-Council-and-City-Manager/City-Council-Wards/Ward-2",
+          "photo": null,
+          "term": "2023-2027"
+        },
+        {
+          "district": 3,
+          "name": "Kevin Dahl",
+          "title": "Council Member",
+          "phone": "(520) 791-4711",
+          "email": "ward3@tucsonaz.gov",
+          "website": "https://www.tucsonaz.gov/Government/Mayor-Council-and-City-Manager/City-Council-Wards/Ward-3",
+          "photo": null,
+          "term": "2025-2029"
+        },
+        {
+          "district": 4,
+          "name": "Nikki McMillen Lee",
+          "title": "Vice Mayor",
+          "phone": "(520) 791-3199",
+          "email": "ward4@tucsonaz.gov",
+          "website": "https://www.tucsonaz.gov/Government/Mayor-Council-and-City-Manager/City-Council-Wards/Ward-4",
+          "photo": null,
+          "term": "2023-2027"
+        },
+        {
+          "district": 5,
+          "name": "Selina Barajas",
+          "title": "Council Member",
+          "phone": "(520) 791-4231",
+          "email": "ward5@tucsonaz.gov",
+          "website": "https://www.tucsonaz.gov/Government/Mayor-Council-and-City-Manager/City-Council-Wards/Ward-5",
+          "photo": null,
+          "term": null
+        },
+        {
+          "district": 6,
+          "name": "Miranda Schubert",
+          "title": "Council Member",
+          "phone": "(520) 791-4601",
+          "email": "ward6@tucsonaz.gov",
+          "website": "https://www.tucsonaz.gov/Government/Mayor-Council-and-City-Manager/City-Council-Wards/Ward-6",
+          "photo": null,
+          "term": "2025-2029"
+        }
+      ]
+    },
+    "mesa": {
+      "name": "City of Mesa",
+      "website": "https://www.mesaaz.gov",
+      "governingBody": "council",
+      "phone": null,
+      "address": null,
+      "mayor": {
+        "name": "Mark Freeman",
+        "phone": null,
+        "email": null,
+        "website": "https://www.mesaaz.gov/Government/Mayor-City-Council"
+      },
+      "members": [
+        {
+          "district": 1,
+          "name": "Rich Adams",
+          "title": "Councilmember",
+          "phone": null,
+          "email": null,
+          "website": null,
+          "photo": null,
+          "term": null
+        },
+        {
+          "district": 2,
+          "name": "Dorean Taylor",
+          "title": "Councilmember",
+          "phone": null,
+          "email": null,
+          "website": null,
+          "photo": null,
+          "term": null
+        },
+        {
+          "district": 3,
+          "name": "Francisco Heredia",
+          "title": "Councilmember",
+          "phone": null,
+          "email": null,
+          "website": null,
+          "photo": null,
+          "term": null
+        },
+        {
+          "district": 4,
+          "name": "Jenn Duff",
+          "title": "Councilmember",
+          "phone": null,
+          "email": null,
+          "website": null,
+          "photo": null,
+          "term": null
+        },
+        {
+          "district": 5,
+          "name": "Alicia Goforth",
+          "title": "Councilmember",
+          "phone": null,
+          "email": null,
+          "website": null,
+          "photo": null,
+          "term": null
+        },
+        {
+          "district": 6,
+          "name": "Scott Somers",
+          "title": "Vice Mayor",
+          "phone": null,
+          "email": null,
+          "website": null,
+          "photo": null,
+          "term": null
+        }
+      ]
+    },
+    "chandler": {
+      "name": "City of Chandler",
+      "website": "https://www.chandleraz.gov",
+      "governingBody": "council",
+      "phone": "(480) 782-2200",
+      "address": "175 S. Arizona Ave., Chandler, AZ 85225",
+      "mayor": {
+        "name": "Kevin Hartke",
+        "phone": "(480) 782-2200",
+        "email": "kevin.hartke@chandleraz.gov",
+        "website": "https://www.chandleraz.gov/government/mayor-and-council"
+      },
+      "members": [
+        {
+          "district": null,
+          "name": "Angel Encinas",
+          "title": "Vice Mayor",
+          "phone": "(480) 782-2200",
+          "email": "angel.encinas@chandleraz.gov",
+          "website": null,
+          "photo": null,
+          "term": "2023-2027"
+        },
+        {
+          "district": null,
+          "name": "Christine Ellis",
+          "title": "Councilmember",
+          "phone": "(480) 782-2200",
+          "email": "christine.ellis@chandleraz.gov",
+          "website": null,
+          "photo": null,
+          "term": "2025-2029"
+        },
+        {
+          "district": null,
+          "name": "OD Harris",
+          "title": "Councilmember",
+          "phone": "(480) 782-2200",
+          "email": "od.harris@chandleraz.gov",
+          "website": null,
+          "photo": null,
+          "term": "2025-2029"
+        },
+        {
+          "district": null,
+          "name": "Jennifer Hawkins",
+          "title": "Councilmember",
+          "phone": "(480) 782-2200",
+          "email": "jennifer.hawkins@chandleraz.gov",
+          "website": null,
+          "photo": null,
+          "term": "2025-2029"
+        },
+        {
+          "district": null,
+          "name": "Matt Orlando",
+          "title": "Councilmember",
+          "phone": "(480) 782-2200",
+          "email": "matt.orlando@chandleraz.gov",
+          "website": null,
+          "photo": null,
+          "term": "2023-2027"
+        },
+        {
+          "district": null,
+          "name": "Jane Poston",
+          "title": "Councilmember",
+          "phone": "(480) 782-2200",
+          "email": "jane.poston@chandleraz.gov",
+          "website": null,
+          "photo": null,
+          "term": "2023-2027"
+        }
+      ]
+    },
+    "scottsdale": {
+      "name": "City of Scottsdale",
+      "website": "https://www.scottsdaleaz.gov",
+      "governingBody": "council",
+      "phone": "(480) 312-2433",
+      "address": "3939 N. Drinkwater Blvd., Scottsdale, AZ 85251",
+      "mayor": {
+        "name": "Lisa Borowsky",
+        "phone": "(480) 312-2433",
+        "email": null,
+        "website": "https://www.scottsdaleaz.gov/council/mayor-lisa-borowsky"
+      },
+      "members": [
+        {
+          "district": null,
+          "name": "Barry Graham",
+          "title": "Councilman",
+          "phone": null,
+          "email": null,
+          "website": "https://www.scottsdaleaz.gov/council/councilman-barry-graham",
+          "photo": null,
+          "term": null
+        },
+        {
+          "district": null,
+          "name": "Kathy Littlefield",
+          "title": "Councilwoman",
+          "phone": null,
+          "email": null,
+          "website": null,
+          "photo": null,
+          "term": null
+        },
+        {
+          "district": null,
+          "name": "Solange Whitehead",
+          "title": "Councilwoman",
+          "phone": null,
+          "email": null,
+          "website": null,
+          "photo": null,
+          "term": null
+        },
+        {
+          "district": null,
+          "name": "Maryann McAllen",
+          "title": "Councilwoman",
+          "phone": null,
+          "email": null,
+          "website": null,
+          "photo": null,
+          "term": null
+        },
+        {
+          "district": null,
+          "name": "Jan Dubauskas",
+          "title": "Councilwoman",
+          "phone": null,
+          "email": null,
+          "website": null,
+          "photo": null,
+          "term": null
+        },
+        {
+          "district": null,
+          "name": "Adam Kwasman",
+          "title": "Councilman",
+          "phone": null,
+          "email": null,
+          "website": null,
+          "photo": null,
+          "term": null
+        }
+      ]
+    },
+    "glendale": {
+      "name": "City of Glendale",
+      "website": "https://www.glendaleaz.gov",
+      "governingBody": "council",
+      "phone": "(623) 930-2260",
+      "address": "5850 W. Glendale Ave., Glendale, AZ 85301",
+      "mayor": {
+        "name": "Jerry P. Weiers",
+        "phone": "(623) 930-2260",
+        "email": "glendalemayor@glendaleaz.com",
+        "website": "https://www.glendaleaz.gov/Elected-officials"
+      },
+      "members": [
+        {
+          "district": "Sahuaro",
+          "name": "Ray Malnar",
+          "title": "Vice Mayor",
+          "phone": "(623) 930-2249",
+          "email": "rmalnar@glendaleaz.com",
+          "website": null,
+          "photo": null,
+          "term": "2024-2028"
+        },
+        {
+          "district": "Ocotillo",
+          "name": "Leandro Baldenegro",
+          "title": "Councilmember",
+          "phone": null,
+          "email": "LBaldenegro@glendaleaz.com",
+          "website": null,
+          "photo": null,
+          "term": "2022-2026"
+        },
+        {
+          "district": "Cactus",
+          "name": "Lupe Conchas",
+          "title": "Councilmember",
+          "phone": "(623) 930-2878",
+          "email": "lconchas@glendaleaz.com",
+          "website": null,
+          "photo": null,
+          "term": "2024-2028"
+        },
+        {
+          "district": "Yucca",
+          "name": "Dianna T. Guzman",
+          "title": "Councilmember",
+          "phone": "(623) 930-2250",
+          "email": "dtguzman@glendaleaz.com",
+          "website": null,
+          "photo": null,
+          "term": "2024-2028"
+        },
+        {
+          "district": "Cholla",
+          "name": "Lauren Tolmachoff",
+          "title": "Councilmember",
+          "phone": "(623) 930-2249",
+          "email": "LTolmachoff@glendaleaz.com",
+          "website": null,
+          "photo": null,
+          "term": "2022-2026"
+        },
+        {
+          "district": "Barrel",
+          "name": "Bart Turner",
+          "title": "Councilmember",
+          "phone": "(623) 930-2249",
+          "email": "bturner@glendaleaz.com",
+          "website": null,
+          "photo": null,
+          "term": "2022-2026"
+        }
+      ]
+    },
+    "gilbert": {
+      "name": "Town of Gilbert",
+      "website": "https://www.gilbertaz.gov",
+      "governingBody": "council",
+      "phone": "(480) 503-6000",
+      "address": "50 E. Civic Center Drive, Gilbert, AZ 85296",
+      "mayor": {
+        "name": "Scott Anderson",
+        "phone": "(480) 503-6764",
+        "email": "Scott.Anderson@gilbertaz.gov",
+        "website": "https://www.gilbertaz.gov/departments/town-hall/mayor-town-council"
+      },
+      "members": [
+        {
+          "district": null,
+          "name": "Bobbi Buchli",
+          "title": "Vice Mayor",
+          "phone": "(480) 503-6764",
+          "email": "Bobbi.Buchli@gilbertaz.gov",
+          "website": null,
+          "photo": null,
+          "term": "2023-2027"
+        },
+        {
+          "district": null,
+          "name": "Chuck Bongiovanni",
+          "title": "Councilmember",
+          "phone": "(480) 503-6764",
+          "email": "Chuck.Bongiovanni@gilbertaz.gov",
+          "website": null,
+          "photo": null,
+          "term": "2023-2027"
+        },
+        {
+          "district": null,
+          "name": "Kenny Buckland",
+          "title": "Councilmember",
+          "phone": "(480) 503-6764",
+          "email": "Kenny.Buckland@gilbertaz.gov",
+          "website": null,
+          "photo": null,
+          "term": "2025-2029"
+        },
+        {
+          "district": null,
+          "name": "Yung Koprowski",
+          "title": "Councilmember",
+          "phone": "(480) 503-6764",
+          "email": "Yung.Koprowski@gilbertaz.gov",
+          "website": null,
+          "photo": null,
+          "term": "2023-2027"
+        },
+        {
+          "district": null,
+          "name": "Monte Lyons",
+          "title": "Councilmember",
+          "phone": "(480) 503-6764",
+          "email": "Monte.Lyons@gilbertaz.gov",
+          "website": null,
+          "photo": null,
+          "term": "2025-2029"
+        },
+        {
+          "district": null,
+          "name": "Jim Torgeson",
+          "title": "Councilmember",
+          "phone": "(480) 503-6764",
+          "email": "Jim.Torgeson@gilbertaz.gov",
+          "website": null,
+          "photo": null,
+          "term": "2023-2027"
+        }
+      ]
+    },
+    "tempe": {
+      "name": "City of Tempe",
+      "website": "https://www.tempe.gov",
+      "governingBody": "council",
+      "phone": "(480) 350-8110",
+      "address": "31 E. Fifth St., Tempe, AZ 85281",
+      "mayor": {
+        "name": "Corey Woods",
+        "phone": "(480) 350-8793",
+        "email": "Corey_Woods@tempe.gov",
+        "website": "https://www.tempe.gov/government/mayor-and-city-council"
+      },
+      "members": [
+        {
+          "district": null,
+          "name": "Doreen Garlid",
+          "title": "Vice Mayor",
+          "phone": "(480) 350-8796",
+          "email": "Doreen_Garlid@tempe.gov",
+          "website": null,
+          "photo": null,
+          "term": "2024-2028"
+        },
+        {
+          "district": null,
+          "name": "Jennifer Adams",
+          "title": "Councilmember",
+          "phone": "(480) 350-8835",
+          "email": "jennifer_adams@tempe.gov",
+          "website": null,
+          "photo": null,
+          "term": "2022-2026"
+        },
+        {
+          "district": null,
+          "name": "Arlene Chin",
+          "title": "Councilmember",
+          "phone": "(480) 350-8797",
+          "email": "arlene_chin@tempe.gov",
+          "website": null,
+          "photo": null,
+          "term": "2022-2026"
+        },
+        {
+          "district": null,
+          "name": "Berdetta Hodge",
+          "title": "Councilmember",
+          "phone": "(480) 350-8748",
+          "email": "berdetta_hodge@tempe.gov",
+          "website": null,
+          "photo": null,
+          "term": "2022-2026"
+        },
+        {
+          "district": null,
+          "name": "Randy Keating",
+          "title": "Councilmember",
+          "phone": "(480) 350-8798",
+          "email": "randy_keating@tempe.gov",
+          "website": null,
+          "photo": null,
+          "term": "2024-2028"
+        },
+        {
+          "district": null,
+          "name": "Nikki Amberg",
+          "title": "Councilmember",
+          "phone": "(480) 350-8209",
+          "email": "nikki_amberg@tempe.gov",
+          "website": null,
+          "photo": null,
+          "term": "2024-2028"
+        }
+      ]
+    },
+    "peoria": {
+      "name": "City of Peoria",
+      "website": "https://www.peoriaaz.gov",
+      "governingBody": "council",
+      "phone": "(623) 773-7000",
+      "address": null,
+      "mayor": {
+        "name": "Jason Beck",
+        "phone": "(623) 773-4610",
+        "email": "jason.beck@peoriaaz.gov",
+        "website": "https://www.peoriaaz.gov/government/mayor-and-city-council/mayor-jason-beck"
+      },
+      "members": [
+        {
+          "district": "Palo Verde",
+          "name": "Michael Finn",
+          "title": "Vice Mayor",
+          "phone": "(623) 773-7785",
+          "email": "michael.finn@peoriaaz.gov",
+          "website": null,
+          "photo": null,
+          "term": null
+        },
+        {
+          "district": "Mesquite",
+          "name": "Matt Bullock",
+          "title": "Mayor Pro Tem",
+          "phone": null,
+          "email": "matt.bullock@peoriaaz.gov",
+          "website": null,
+          "photo": null,
+          "term": null
+        },
+        {
+          "district": "Acacia",
+          "name": "Jennifer Crawford",
+          "title": "Councilmember",
+          "phone": "(623) 773-7785",
+          "email": "jennifer.crawford@peoriaaz.gov",
+          "website": null,
+          "photo": null,
+          "term": null
+        },
+        {
+          "district": "Ironwood",
+          "name": "Rick Stokes",
+          "title": "Councilmember",
+          "phone": "(623) 773-7608",
+          "email": "rick.stokes@peoriaaz.gov",
+          "website": null,
+          "photo": null,
+          "term": null
+        },
+        {
+          "district": "Pine",
+          "name": "Denette Dunn",
+          "title": "Councilmember",
+          "phone": null,
+          "email": "denette.dunn@peoriaaz.gov",
+          "website": null,
+          "photo": null,
+          "term": null
+        },
+        {
+          "district": "Willow",
+          "name": "Jon Edwards",
+          "title": "Councilmember",
+          "phone": null,
+          "email": "jon.edwards@peoriaaz.gov",
+          "website": null,
+          "photo": null,
+          "term": null
+        }
+      ]
+    },
+    "surprise": {
+      "name": "City of Surprise",
+      "website": "https://www.surpriseaz.gov",
+      "governingBody": "council",
+      "phone": null,
+      "address": null,
+      "mayor": {
+        "name": "Kevin Sartor",
+        "phone": null,
+        "email": "kevin.sartor@surpriseaz.gov",
+        "website": "https://surpriseaz.gov/738/Office-of-the-Mayor---Kevin-Sartor"
+      },
+      "members": [
+        {
+          "district": 1,
+          "name": "Nick Haney",
+          "title": "Councilmember",
+          "phone": null,
+          "email": null,
+          "website": null,
+          "photo": null,
+          "term": null
+        },
+        {
+          "district": 2,
+          "name": "Earle Greenberg",
+          "title": "Councilmember",
+          "phone": null,
+          "email": null,
+          "website": null,
+          "photo": null,
+          "term": null
+        },
+        {
+          "district": 3,
+          "name": "Patrick Duffy",
+          "title": "Councilmember",
+          "phone": null,
+          "email": "patrick.duffy@surpriseaz.gov",
+          "website": null,
+          "photo": null,
+          "term": null
+        },
+        {
+          "district": 4,
+          "name": "Johnny V. Melton",
+          "title": "Councilmember",
+          "phone": null,
+          "email": null,
+          "website": null,
+          "photo": null,
+          "term": null
+        },
+        {
+          "district": 5,
+          "name": "Jack Hastings",
+          "title": "Vice Mayor",
+          "phone": null,
+          "email": null,
+          "website": null,
+          "photo": null,
+          "term": null
+        },
+        {
+          "district": 6,
+          "name": "Chris Judd",
+          "title": "Councilmember",
+          "phone": null,
+          "email": null,
+          "website": null,
+          "photo": null,
+          "term": null
+        }
+      ]
+    },
+    "flagstaff": {
+      "name": "City of Flagstaff",
+      "website": "https://www.flagstaff.az.gov",
+      "governingBody": "council",
+      "phone": "(928) 213-2000",
+      "address": "211 W Aspen Avenue, Flagstaff, AZ 86001",
+      "mayor": {
+        "name": "Becky Daggett",
+        "phone": "(928) 213-2065",
+        "email": "becky.daggett@flagstaffaz.gov",
+        "website": "https://www.flagstaff.az.gov/4514/Mayor-Becky-Daggett"
+      },
+      "members": [
+        {
+          "district": null,
+          "name": "Miranda Sweet",
+          "title": "Vice Mayor",
+          "phone": "(928) 213-2015",
+          "email": null,
+          "website": null,
+          "photo": null,
+          "term": null
+        },
+        {
+          "district": null,
+          "name": "Austin Aslan",
+          "title": "Councilmember",
+          "phone": "(928) 213-2015",
+          "email": null,
+          "website": null,
+          "photo": null,
+          "term": null
+        },
+        {
+          "district": null,
+          "name": "Lori Matthews",
+          "title": "Councilmember",
+          "phone": "(928) 213-2015",
+          "email": null,
+          "website": null,
+          "photo": null,
+          "term": null
+        },
+        {
+          "district": null,
+          "name": "Khara House",
+          "title": "Councilmember",
+          "phone": "(928) 213-2015",
+          "email": null,
+          "website": null,
+          "photo": null,
+          "term": null
+        },
+        {
+          "district": null,
+          "name": "Anthony Garcia",
+          "title": "Councilmember",
+          "phone": "(928) 213-2015",
+          "email": null,
+          "website": null,
+          "photo": null,
+          "term": null
+        },
+        {
+          "district": null,
+          "name": "David Spence",
+          "title": "Councilmember",
+          "phone": "(928) 213-2015",
+          "email": null,
+          "website": null,
+          "photo": null,
+          "term": null
+        }
+      ]
+    },
+    "yuma_city": {
+      "name": "City of Yuma",
+      "website": "https://www.yumaaz.gov",
+      "governingBody": "council",
+      "phone": "(928) 373-5011",
+      "address": "One City Plaza, Yuma, AZ 85364",
+      "mayor": {
+        "name": "Douglas J. Nicholls",
+        "phone": null,
+        "email": null,
+        "website": "https://www.yumaaz.gov/government/mayor-and-council"
+      },
+      "members": [
+        {
+          "district": null,
+          "name": "Carol Smith",
+          "title": "Deputy Mayor",
+          "phone": null,
+          "email": null,
+          "website": null,
+          "photo": null,
+          "term": null
+        },
+        {
+          "district": null,
+          "name": "Chris Morris",
+          "title": "Councilmember",
+          "phone": null,
+          "email": null,
+          "website": null,
+          "photo": null,
+          "term": null
+        },
+        {
+          "district": null,
+          "name": "Leslie McClendon",
+          "title": "Councilmember",
+          "phone": null,
+          "email": null,
+          "website": null,
+          "photo": null,
+          "term": null
+        },
+        {
+          "district": null,
+          "name": "Michael Shelton",
+          "title": "Councilmember",
+          "phone": null,
+          "email": null,
+          "website": null,
+          "photo": null,
+          "term": null
+        },
+        {
+          "district": null,
+          "name": "Karen Watts",
+          "title": "Councilmember",
+          "phone": null,
+          "email": null,
+          "website": null,
+          "photo": null,
+          "term": null
+        },
+        {
+          "district": null,
+          "name": "Mark Martinez",
+          "title": "Councilmember",
+          "phone": null,
+          "email": null,
+          "website": null,
+          "photo": null,
+          "term": null
+        }
+      ]
+    },
+    "goodyear": {
+      "name": "City of Goodyear",
+      "website": "https://www.goodyearaz.gov",
+      "governingBody": "council",
+      "phone": "(623) 882-7776",
+      "address": "1900 N. Civic Square, Goodyear, AZ 85395",
+      "mayor": {
+        "name": "Joe Pizzillo",
+        "phone": null,
+        "email": "joe.pizzillo@goodyearaz.gov",
+        "website": "https://www.goodyearaz.gov/government/mayor-and-council"
+      },
+      "members": [
+        {
+          "district": null,
+          "name": "Brannon Hampton",
+          "title": "Vice Mayor",
+          "phone": null,
+          "email": null,
+          "website": null,
+          "photo": null,
+          "term": null
+        },
+        {
+          "district": null,
+          "name": "Wally Campbell",
+          "title": "Councilmember",
+          "phone": null,
+          "email": null,
+          "website": null,
+          "photo": null,
+          "term": null
+        },
+        {
+          "district": null,
+          "name": "Laura Kaino",
+          "title": "Councilmember",
+          "phone": null,
+          "email": "laura.kaino@goodyearaz.gov",
+          "website": null,
+          "photo": null,
+          "term": null
+        },
+        {
+          "district": null,
+          "name": "Benita Beckles",
+          "title": "Councilmember",
+          "phone": null,
+          "email": null,
+          "website": null,
+          "photo": null,
+          "term": null
+        },
+        {
+          "district": null,
+          "name": "Trey Terry",
+          "title": "Councilmember",
+          "phone": null,
+          "email": null,
+          "website": null,
+          "photo": null,
+          "term": null
+        }
+      ]
+    }
+  },
+  "research_status": {
+    "tier1_complete": [
+      "Maricopa County",
+      "Pima County",
+      "City of Phoenix",
+      "City of Tucson",
+      "City of Mesa",
+      "City of Chandler",
+      "City of Scottsdale",
+      "City of Glendale",
+      "Town of Gilbert",
+      "City of Tempe"
+    ],
+    "tier2_complete": [
+      "Pinal County",
+      "Yavapai County",
+      "Coconino County",
+      "Mohave County",
+      "Yuma County",
+      "City of Peoria",
+      "City of Surprise",
+      "City of Flagstaff",
+      "City of Yuma",
+      "City of Goodyear"
+    ],
+    "tier3_complete": [
+      "Apache County",
+      "Cochise County",
+      "Gila County",
+      "Graham County",
+      "Greenlee County",
+      "La Paz County",
+      "Navajo County",
+      "Santa Cruz County"
+    ],
+    "tier3_missing": [],
+    "data_quality_notes": {
+      "maricopa_county": "Party affiliations not published on official site except Galvin (R). Contact through web forms only.",
+      "pima_county": "Website uses JavaScript rendering; data cross-referenced from county directory and search results.",
+      "mesa": "Official website blocked scraping. Names and districts confirmed; contact details not available.",
+      "scottsdale": "Names confirmed from nav structure. Individual contact details not scraped.",
+      "surprise": "Website JavaScript-heavy. Only Patrick Duffy email confirmed; others follow convention.",
+      "flagstaff": "All at-large seats. Only mayor email confirmed; council shares general line.",
+      "yuma_city": "Website blocked scraping. Names from Ballotpedia and news sources.",
+      "goodyear": "Only mayor and Kaino emails confirmed from official sources.",
+      "gila_county": "Party affiliations not published on official county website.",
+      "apache_county": "No individual email addresses published.",
+      "graham_county": "No individual email addresses published.",
+      "mohave_county": "Uses web contact forms instead of published email addresses."
+    }
+  }
 }
