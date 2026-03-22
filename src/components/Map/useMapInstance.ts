@@ -9,34 +9,45 @@ interface UseMapInstanceProps {
 
 export function useMapInstance({ bounds }: UseMapInstanceProps = {}) {
   const mapContainer = useRef<HTMLDivElement>(null);
-  const map = useRef<maplibregl.Map | null>(null);
+  const mapRef = useRef<maplibregl.Map | null>(null);
+  const [mapInstance, setMapInstance] = useState<maplibregl.Map | null>(null);
   const [isLoaded, setIsLoaded] = useState(false);
 
-  useEffect(() => {
-    if (!mapContainer.current || map.current) return;
+  // Capture initial bounds so the map starts at the right place,
+  // but don't recreate the map when bounds change — callers use fitBounds for that.
+  const initialBounds = useRef(bounds);
 
-    map.current = new maplibregl.Map({
+  useEffect(() => {
+    if (!mapContainer.current || mapRef.current) return;
+
+    const newMap = new maplibregl.Map({
       container: mapContainer.current,
       style: MAPLIBRE_STYLE,
       center: ARIZONA_CENTER,
       zoom: 6,
-      bounds: bounds,
+      bounds: initialBounds.current,
       fitBoundsOptions: {
         padding: 20,
       },
     });
 
-    map.current.addControl(new maplibregl.NavigationControl(), 'top-right');
+    newMap.addControl(new maplibregl.NavigationControl(), 'top-right');
 
-    map.current.on('load', () => {
+    newMap.on('load', () => {
+      setMapInstance(newMap);
       setIsLoaded(true);
     });
 
-    return () => {
-      map.current?.remove();
-      map.current = null;
-    };
-  }, [bounds]);
+    mapRef.current = newMap;
 
-  return { mapContainer, map: map.current, isLoaded };
+    return () => {
+      newMap.remove();
+      mapRef.current = null;
+      setMapInstance(null);
+      setIsLoaded(false);
+    };
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []); // Create map once — bounds updates handled by callers via fitBounds
+
+  return { mapContainer, map: mapInstance, isLoaded };
 }

@@ -1,12 +1,16 @@
-import { useEffect, type ReactNode } from 'react';
+import { useEffect, useState, type ReactNode } from 'react';
 import { Map } from 'maplibre-gl';
 import { useMapInstance } from './useMapInstance';
+import { FallbackMap } from './FallbackMap';
+import { isWebGLSupported } from '@/lib/webgl';
 
 interface MapContainerProps {
   bounds?: [number, number, number, number];
   children?: ReactNode;
   className?: string;
   onLoad?: (map: Map) => void;
+  /** District to highlight in fallback mode */
+  highlightDistrict?: number;
 }
 
 export function MapContainer({
@@ -14,14 +18,28 @@ export function MapContainer({
   children,
   className = 'h-[600px] w-full',
   onLoad,
+  highlightDistrict,
 }: MapContainerProps) {
-  const { mapContainer, map, isLoaded } = useMapInstance({ bounds });
+  const [webglAvailable] = useState(() => isWebGLSupported());
 
+  // Always call hooks (React rules), but only use the map if WebGL is available
+  const { mapContainer, map, isLoaded } = useMapInstance(
+    webglAvailable ? { bounds } : {}
+  );
+
+  // Notify parent when map is ready
   useEffect(() => {
     if (map && isLoaded && onLoad) {
       onLoad(map);
     }
   }, [map, isLoaded, onLoad]);
+
+  // WebGL not available — render SVG fallback
+  if (!webglAvailable) {
+    return (
+      <FallbackMap className={className} highlightDistrict={highlightDistrict} />
+    );
+  }
 
   // Check if this is a fullscreen map
   const isFullscreen = className.includes('fullscreen');
