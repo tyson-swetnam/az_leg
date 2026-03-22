@@ -4,7 +4,6 @@ export type LocalLayerType =
   | 'tucson-wards'
   | 'maricopa-supervisors'
   | 'phoenix-council'
-  | 'pima-precincts'
   | 'maricopa-precincts';
 
 export interface LocalLayerConfig {

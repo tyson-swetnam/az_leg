@@ -44,7 +44,6 @@ const LAYER_GROUPS: LayerGroup[] = [
     icon: '📍',
     layers: [
       { id: 'maricopa-precincts', label: 'Maricopa Precincts' },
-      { id: 'pima-precincts', label: 'Pima Precincts' },
     ],
   },
 ];

@@ -25,7 +25,6 @@ const LOCAL_LAYER_TYPES: LocalLayerType[] = [
   'tucson-wards',
   'maricopa-supervisors',
   'phoenix-council',
-  'pima-precincts',
   'maricopa-precincts',
 ];
 
