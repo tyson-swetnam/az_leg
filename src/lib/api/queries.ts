@@ -2,10 +2,12 @@ import { useQuery } from '@tanstack/react-query';
 import { fetchDistrictBoundaries, fetchSingleDistrict } from './arcgis';
 import { fetchFederalDistrictBoundaries, fetchSingleFederalDistrict } from './federal';
 import { fetchCampaignFinanceId } from './followthemoney';
+import { fetchLocalDistricts } from './local-districts';
 import type { District, DistrictGeoJSON } from '@/types/district';
 import type { LegislatureData, Chamber } from '@/types/legislature';
 import type { FederalMapping, CongressMember } from '@/types/federal';
 import type { CampaignFinanceData } from '@/types/campaign-finance';
+import type { LocalLayerType, LocalDistrictGeoJSON } from '@/types/local-district';
 import legislatorsData from '@/data/legislators.json';
 import federalMappingData from '@/data/federal-mapping.json';
 import { DEFAULT_CAMPAIGN_FINANCE_YEAR } from '@/lib/constants';
@@ -140,5 +142,20 @@ export function useCampaignFinance(
     queryFn: () => fetchCampaignFinanceId({ name, chamber, year }),
     staleTime: Infinity,
     enabled: !!name && !!chamber,
+  });
+}
+
+/**
+ * Fetch local district boundaries (counties, supervisors, wards, precincts)
+ * Cached for 24 hours, retained for 7 days
+ */
+export function useLocalDistricts(layerType: LocalLayerType | null) {
+  return useQuery<LocalDistrictGeoJSON>({
+    queryKey: ['local-districts', layerType],
+    queryFn: () => fetchLocalDistricts(layerType!),
+    staleTime: ONE_DAY,
+    gcTime: ONE_WEEK,
+    retry: 3,
+    enabled: !!layerType,
   });
 }

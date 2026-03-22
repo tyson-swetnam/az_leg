@@ -421,6 +421,199 @@
   letter-spacing: 0.02em;
 }
 
+/* Layer Selector */
+.layer-selector-container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.layer-selector-trigger {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 0.875rem 1.25rem;
+  background: var(--paper-white);
+  border: 2px solid var(--border);
+  border-radius: 6px;
+  cursor: pointer;
+  font-family: 'Work Sans', sans-serif;
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: var(--ink);
+  box-shadow: 0 4px 12px var(--shadow-medium);
+  transition: all 0.2s ease;
+  min-width: 240px;
+  justify-content: space-between;
+}
+
+.layer-selector-trigger:hover {
+  border-color: var(--accent-gold);
+  box-shadow: 0 4px 16px var(--shadow-strong);
+}
+
+.selector-chevron {
+  font-size: 0.75rem;
+  transition: transform 0.2s ease;
+  color: #888;
+}
+
+.selector-chevron.open {
+  transform: rotate(180deg);
+}
+
+.layer-selector-dropdown {
+  position: absolute;
+  top: calc(100% + 0.5rem);
+  right: 0;
+  z-index: 50;
+  background: var(--paper-white);
+  border: 2px solid var(--border);
+  border-radius: 6px;
+  box-shadow: 0 8px 24px var(--shadow-strong);
+  min-width: 280px;
+  max-height: 420px;
+  overflow-y: auto;
+  animation: fadeInUp 0.2s ease-out;
+}
+
+.layer-group {
+  padding: 0.25rem 0;
+}
+
+.layer-group + .layer-group {
+  border-top: 1px solid var(--border);
+}
+
+.layer-group-header {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.625rem 1rem 0.375rem;
+  font-size: 0.65rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: #888;
+}
+
+.layer-group-icon {
+  font-size: 0.875rem;
+}
+
+.layer-option {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 0.625rem 1rem 0.625rem 2.25rem;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  font-family: 'Work Sans', sans-serif;
+  font-size: 0.8125rem;
+  color: var(--newsprint);
+  transition: background 0.15s ease;
+  text-align: left;
+}
+
+.layer-option:hover {
+  background: var(--cream);
+}
+
+.layer-option.active {
+  background: var(--ink);
+  color: var(--paper-white);
+  font-weight: 600;
+}
+
+.layer-option-count {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 24px;
+  height: 22px;
+  padding: 0 0.375rem;
+  background: var(--cream);
+  color: var(--ink);
+  border-radius: 3px;
+  font-size: 0.7rem;
+  font-weight: 700;
+  font-family: 'Libre Baskerville', serif;
+}
+
+.layer-option.active .layer-option-count {
+  background: rgba(255, 255, 255, 0.2);
+  color: var(--paper-white);
+}
+
+/* Scrollable Legend (for local layers with many items) */
+.map-legend-scrollable {
+  max-height: 280px;
+  overflow-y: auto;
+}
+
+.map-legend-scrollable::-webkit-scrollbar {
+  width: 4px;
+}
+
+.map-legend-scrollable::-webkit-scrollbar-thumb {
+  background: var(--border);
+  border-radius: 2px;
+}
+
+/* Local District Popup Styles */
+.local-popup {
+  font-family: 'Work Sans', sans-serif;
+  padding: 0.25rem;
+}
+
+.local-popup-header {
+  font-size: 0.65rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #888;
+  margin-bottom: 0.5rem;
+  padding-bottom: 0.375rem;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.local-popup-name {
+  font-family: 'Libre Baskerville', serif;
+  font-size: 1.125rem;
+  font-weight: 700;
+  color: var(--ink);
+  margin-bottom: 0.375rem;
+  line-height: 1.3;
+}
+
+.local-popup-rep {
+  font-size: 0.875rem;
+  color: #555;
+  font-weight: 500;
+  margin-bottom: 0.25rem;
+}
+
+.local-popup-phone {
+  font-size: 0.8125rem;
+  color: #666;
+  margin-bottom: 0.25rem;
+}
+
+.local-popup-url a {
+  font-size: 0.8125rem;
+  color: var(--accent-gold);
+  font-weight: 600;
+  text-decoration: none;
+  letter-spacing: 0.03em;
+}
+
+.local-popup-url a:hover {
+  text-decoration: underline;
+}
+
 /* Responsive Design */
 @media (max-width: 1024px) {
   .map-title {
@@ -451,6 +644,22 @@
 
   .map-subtitle {
     font-size: 0.8rem;
+  }
+
+  .layer-selector-container {
+    align-items: flex-start;
+    width: 100%;
+  }
+
+  .layer-selector-trigger {
+    width: 100%;
+    min-width: auto;
+  }
+
+  .layer-selector-dropdown {
+    left: 0;
+    right: 0;
+    min-width: auto;
   }
 
   .layer-toggle-container {
