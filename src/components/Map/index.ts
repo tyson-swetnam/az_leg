@@ -6,3 +6,6 @@ export { useMapInteractions } from './useMapInteractions';
 export { DistrictTooltip } from './DistrictTooltip';
 export { DistrictPopup } from './DistrictPopup';
 export { FallbackMap } from './FallbackMap';
+export { useLocalDistrictLayer } from './useLocalDistrictLayer';
+export { LayerSelector } from './LayerSelector';
+export { MapLegend } from './MapLegend';

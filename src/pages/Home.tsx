@@ -2,17 +2,43 @@ import { useState, useEffect, useCallback } from 'react';
 import { useNavigate } from 'react-router-dom';
 import maplibregl, { Map } from 'maplibre-gl';
 import 'maplibre-gl/dist/maplibre-gl.css';
-import { MapContainer } from '@/components/Map';
+import { MapContainer, useLocalDistrictLayer } from '@/components/Map';
+import { LayerSelector } from '@/components/Map/LayerSelector';
+import { MapLegend } from '@/components/Map/MapLegend';
+import type { LocalHoverInfo } from '@/components/Map/useLocalDistrictLayer';
 import {
   useDistrictBoundaries,
   useFederalBoundaries,
   useLegislators,
   useFederalMapping,
+  useLocalDistricts,
 } from '@/lib/api/queries';
-import { PARTY_COLORS_LIGHT, ARIZONA_BOUNDS } from '@/lib/constants';
+import { PARTY_COLORS_LIGHT, ARIZONA_BOUNDS, LOCAL_LAYER_CONFIGS } from '@/lib/constants';
+import type { LocalLayerType } from '@/types/local-district';
 import '@/styles/home-map.css';
 
-type LayerType = 'state' | 'federal';
+type LayerType = 'state' | 'federal' | LocalLayerType;
+
+const LOCAL_LAYER_TYPES: LocalLayerType[] = [
+  'counties',
+  'pima-supervisors',
+  'tucson-wards',
+  'maricopa-supervisors',
+  'phoenix-council',
+  'pima-precincts',
+  'maricopa-precincts',
+];
+
+function isLocalLayer(layer: LayerType): layer is LocalLayerType {
+  return LOCAL_LAYER_TYPES.includes(layer as LocalLayerType);
+}
+
+function getSubtitle(layerType: LayerType): string {
+  if (layerType === 'state') return '30 State Districts';
+  if (layerType === 'federal') return '9 Federal Districts';
+  const config = LOCAL_LAYER_CONFIGS[layerType as LocalLayerType];
+  return config?.label || '';
+}
 
 export function Home() {
   const navigate = useNavigate();
@@ -20,6 +46,8 @@ export function Home() {
   const [isLoaded, setIsLoaded] = useState(false);
   const [layerType, setLayerType] = useState<LayerType>('state');
   const [hoveredDistrictId, setHoveredDistrictId] = useState<number | null>(null);
+  const [localHoverInfo, setLocalHoverInfo] = useState<LocalHoverInfo | null>(null);
+  const [selectorOpen, setSelectorOpen] = useState(false);
 
   // Fetch data
   const { data: stateDistricts, isLoading: loadingState } = useDistrictBoundaries();
@@ -27,10 +55,27 @@ export function Home() {
   const { data: legislators } = useLegislators();
   const { data: federalMapping } = useFederalMapping();
 
+  // Fetch local district data (only when a local layer is active)
+  const activeLocalLayer = isLocalLayer(layerType) ? layerType : null;
+  const { data: localDistrictData, isLoading: loadingLocal } = useLocalDistricts(activeLocalLayer);
+
   const handleMapLoad = useCallback((mapInstance: Map) => {
     setMap(mapInstance);
     setIsLoaded(true);
   }, []);
+
+  const handleLocalHover = useCallback((info: LocalHoverInfo | null) => {
+    setLocalHoverInfo(info);
+  }, []);
+
+  // Use the local district layer hook
+  useLocalDistrictLayer({
+    map,
+    isLoaded,
+    layerType: activeLocalLayer,
+    geojsonData: localDistrictData,
+    onHover: handleLocalHover,
+  });
 
   // Add state legislative districts layer
   useEffect(() => {
@@ -329,7 +374,7 @@ export function Home() {
     };
   }, [map, isLoaded, federalDistricts, federalMapping, layerType, navigate]);
 
-  // Get display info for hovered district
+  // Get display info for hovered district (state/federal layers)
   const hoveredInfo = (() => {
     if (!hoveredDistrictId) return null;
 
@@ -360,7 +405,7 @@ export function Home() {
     return null;
   })();
 
-  const isLoading = loadingState || loadingFederal;
+  const isLoading = loadingState || loadingFederal || loadingLocal;
 
   return (
     <div className="home-map-container">
@@ -370,39 +415,26 @@ export function Home() {
           <div className="header-text">
             <h1 className="map-title">Arizona Legislature Atlas</h1>
             <p className="map-subtitle">
-              Interactive Map • {layerType === 'state' ? '30 State Districts' : '9 Federal Districts'}
+              Interactive Map &bull; {getSubtitle(layerType)}
             </p>
           </div>
 
-          {/* Layer Toggle */}
-          <div className="layer-toggle-container">
-            <label className="toggle-label">View</label>
-            <div className="layer-toggle" role="group" aria-label="Select district type">
-              <button
-                onClick={() => setLayerType('state')}
-                className={`toggle-button ${layerType === 'state' ? 'active' : ''}`}
-                aria-pressed={layerType === 'state'}
-              >
-                <span className="toggle-icon">🏛️</span>
-                <span className="toggle-text">State Legislative</span>
-                <span className="toggle-count">30</span>
-              </button>
-              <button
-                onClick={() => setLayerType('federal')}
-                className={`toggle-button ${layerType === 'federal' ? 'active' : ''}`}
-                aria-pressed={layerType === 'federal'}
-              >
-                <span className="toggle-icon">🦅</span>
-                <span className="toggle-text">Federal Congressional</span>
-                <span className="toggle-count">9</span>
-              </button>
-            </div>
-          </div>
+          {/* Layer Selector */}
+          <LayerSelector
+            activeLayer={layerType}
+            onLayerChange={(layer) => {
+              setLayerType(layer as LayerType);
+              setHoveredDistrictId(null);
+              setLocalHoverInfo(null);
+            }}
+            isOpen={selectorOpen}
+            onToggle={() => setSelectorOpen(!selectorOpen)}
+          />
         </div>
       </div>
 
-      {/* District Info Panel */}
-      {hoveredInfo && (
+      {/* District Info Panel — state/federal */}
+      {hoveredInfo && !isLocalLayer(layerType) && (
         <div className="district-info-panel">
           <div className="info-header">
             <span className="info-type">{hoveredInfo.type}</span>
@@ -413,30 +445,37 @@ export function Home() {
           <div className="info-number">District {hoveredInfo.number}</div>
           <div className="info-name">{hoveredInfo.name}</div>
           <div className="info-rep">{hoveredInfo.representative}</div>
-          <div className="info-action">Click to view details →</div>
+          <div className="info-action">Click to view details &rarr;</div>
         </div>
       )}
 
-      {/* Legend */}
-      <div className="map-legend">
-        <div className="legend-title">Party Affiliation</div>
-        <div className="legend-items">
-          <div className="legend-item">
-            <div className="legend-color" style={{ backgroundColor: PARTY_COLORS_LIGHT.R }}></div>
-            <span>Republican</span>
+      {/* District Info Panel — local layers */}
+      {localHoverInfo && isLocalLayer(layerType) && (
+        <div className="district-info-panel">
+          <div className="info-header">
+            <span className="info-type">{localHoverInfo.layerLabel}</span>
           </div>
-          <div className="legend-item">
-            <div className="legend-color" style={{ backgroundColor: PARTY_COLORS_LIGHT.D }}></div>
-            <span>Democrat</span>
+          <div className="info-number">
+            {localHoverInfo.name || `ID: ${localHoverInfo.id}`}
           </div>
+          {localHoverInfo.rep && (
+            <div className="info-rep">{localHoverInfo.rep}</div>
+          )}
+          {localHoverInfo.phone && (
+            <div className="info-rep">{localHoverInfo.phone}</div>
+          )}
+          <div className="info-action">Click for details</div>
         </div>
-      </div>
+      )}
+
+      {/* Dynamic Legend */}
+      <MapLegend layerType={layerType} geojsonData={localDistrictData} />
 
       {/* Loading Indicator */}
       {isLoading && (
         <div className="loading-overlay">
           <div className="loading-spinner"></div>
-          <p>Loading {layerType === 'state' ? 'state legislative' : 'federal congressional'} districts...</p>
+          <p>Loading {getSubtitle(layerType)}...</p>
         </div>
       )}
 
