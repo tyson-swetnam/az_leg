@@ -58,7 +58,11 @@ const LAYER_GROUPS: LayerGroup[] = [
     label: 'Precincts',
     icon: '📍',
     layers: [
-      { id: 'maricopa-precincts', label: 'Maricopa County' },
+      { id: 'maricopa-precincts', label: 'Maricopa County (956)' },
+      { id: 'pima-precincts', label: 'Pima County (972)' },
+      { id: 'coconino-precincts', label: 'Coconino County (75)' },
+      { id: 'yavapai-precincts', label: 'Yavapai County (57)' },
+      { id: 'navajo-precincts', label: 'Navajo County (21)' },
     ],
   },
 ];

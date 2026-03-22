@@ -13,7 +13,11 @@ export type LocalLayerType =
   | 'surprise-council'
   | 'buckeye-council'
   | 'tucson-wards'
-  | 'maricopa-precincts';
+  | 'maricopa-precincts'
+  | 'pima-precincts'
+  | 'coconino-precincts'
+  | 'yavapai-precincts'
+  | 'navajo-precincts';
 
 export interface LocalLayerConfig {
   id: LocalLayerType;

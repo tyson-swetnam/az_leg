@@ -35,6 +35,10 @@ const LOCAL_LAYER_TYPES: LocalLayerType[] = [
   'buckeye-council',
   'tucson-wards',
   'maricopa-precincts',
+  'pima-precincts',
+  'coconino-precincts',
+  'yavapai-precincts',
+  'navajo-precincts',
 ];
 
 function isLocalLayer(layer: LayerType): layer is LocalLayerType {

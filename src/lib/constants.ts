@@ -205,6 +205,38 @@ export const LOCAL_LAYER_CONFIGS: Record<LocalLayerType, LocalLayerConfig> = {
     idField: 'PctNum',
     repField: 'BdName',
   },
+  'pima-precincts': {
+    id: 'pima-precincts',
+    label: 'Pima County Precincts',
+    group: 'precinct',
+    url: 'https://services2.arcgis.com/UTBp78iglGpbqp1B/arcgis/rest/services/election_polys_20241004_view/FeatureServer/0/query?where=1%3D1&outFields=*&returnGeometry=true&f=geojson&outSR=4326',
+    idField: 'POLL_PCT_STR',
+    nameField: 'JUR_NAME',
+  },
+  'coconino-precincts': {
+    id: 'coconino-precincts',
+    label: 'Coconino County Precincts',
+    group: 'precinct',
+    url: 'https://services1.arcgis.com/QweyPk0HoFrLzJR6/arcgis/rest/services/2024_Voting_Precincts_Coconino_County/FeatureServer/0/query?where=1%3D1&outFields=*&returnGeometry=true&f=geojson&outSR=4326',
+    idField: 'VOTENUM',
+    nameField: 'VOTENAME',
+  },
+  'yavapai-precincts': {
+    id: 'yavapai-precincts',
+    label: 'Yavapai County Precincts',
+    group: 'precinct',
+    url: 'https://services1.arcgis.com/BajuNXbtZNiBKFkx/ArcGIS/rest/services/Election_Districts_2024_WFL1/FeatureServer/0/query?where=1%3D1&outFields=*&returnGeometry=true&f=geojson&outSR=4326',
+    idField: 'PREC_NUM',
+    nameField: 'PRECINCT',
+  },
+  'navajo-precincts': {
+    id: 'navajo-precincts',
+    label: 'Navajo County Precincts',
+    group: 'precinct',
+    url: 'https://services.arcgis.com/cghC2lEIpJ2TRrs5/arcgis/rest/services/VotePrecincts/FeatureServer/10/query?where=1%3D1&outFields=*&returnGeometry=true&f=geojson&outSR=4326',
+    idField: 'PrecinctNumber',
+    nameField: 'PrecinctName',
+  },
 };
 
 /** Color palettes per layer group */
