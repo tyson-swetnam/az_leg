@@ -14,6 +14,10 @@ export interface LocalOfficial {
     instagram?: string;
     linkedin?: string;
   };
+  campaignFinance?: {
+    azsos_url?: string | null;
+    followthemoney_url?: string | null;
+  } | null;
   term?: string | null;
 }
 

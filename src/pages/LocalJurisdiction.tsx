@@ -78,6 +78,42 @@ export function LocalJurisdiction() {
 
         <JurisdictionHeader jurisdiction={jurisdiction} />
 
+        {/* Data completeness banner */}
+        {(() => {
+          const allOfficials = [
+            ...(jurisdiction.mayor ? [jurisdiction.mayor] : []),
+            ...jurisdiction.officials,
+          ];
+          const total = allOfficials.length;
+          const full = allOfficials.filter(
+            (o) => o.phone && o.email && o.website
+          ).length;
+          const pct = total > 0 ? Math.round((full / total) * 100) : 0;
+          return (
+            <div
+              style={{
+                display: 'flex',
+                alignItems: 'center',
+                gap: '0.75rem',
+                background: 'var(--parchment, #fdf6e3)',
+                border: '1px solid var(--border)',
+                borderRadius: '0.5rem',
+                padding: '0.625rem 1rem',
+                marginBottom: '1.25rem',
+                fontSize: '0.875rem',
+                color: 'var(--newsprint)',
+              }}
+            >
+              <span style={{ fontSize: '1.1rem' }}>📊</span>
+              <span>
+                <strong>{full} of {total}</strong> officials have full profiles
+                {' '}
+                <span style={{ opacity: 0.65 }}>({pct}% complete — data actively being updated)</span>
+              </span>
+            </div>
+          );
+        })()}
+
         {/* Mayor / Executive */}
         {jurisdiction.mayor && (
           <div className="mayor-section">

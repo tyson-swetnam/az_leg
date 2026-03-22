@@ -15,7 +15,11 @@
           "email": null,
           "website": "https://www.maricopa.gov/225/District-1",
           "photo": "https://www.maricopa.gov/ImageRepository/Document?documentId=99283",
-          "term": null
+          "term": null,
+          "campaignFinance": {
+            "azsos_url": null,
+            "followthemoney_url": null
+          }
         },
         {
           "district": 2,
@@ -25,7 +29,11 @@
           "email": null,
           "website": "https://www.maricopa.gov/235",
           "photo": "https://www.maricopa.gov/ImageRepository/Document?documentId=73986",
-          "term": null
+          "term": null,
+          "campaignFinance": {
+            "azsos_url": null,
+            "followthemoney_url": null
+          }
         },
         {
           "district": 3,
@@ -36,7 +44,11 @@
           "website": "https://www.maricopa.gov/247/District-3",
           "photo": "https://www.maricopa.gov/ImageRepository/Document?documentId=100175",
           "term": null,
-          "title": "Chair"
+          "title": "Chair",
+          "campaignFinance": {
+            "azsos_url": null,
+            "followthemoney_url": null
+          }
         },
         {
           "district": 4,
@@ -47,7 +59,11 @@
           "website": "https://www.maricopa.gov/260/District-4",
           "photo": "https://www.maricopa.gov/ImageRepository/Document?documentId=100174",
           "term": null,
-          "title": "Vice Chair"
+          "title": "Vice Chair",
+          "campaignFinance": {
+            "azsos_url": null,
+            "followthemoney_url": null
+          }
         },
         {
           "district": 5,
@@ -57,7 +73,11 @@
           "email": null,
           "website": "https://www.maricopa.gov/271/District-5",
           "photo": "https://www.maricopa.gov/ImageRepository/Document?documentId=82686",
-          "term": null
+          "term": null,
+          "campaignFinance": {
+            "azsos_url": null,
+            "followthemoney_url": null
+          }
         }
       ]
     },
@@ -76,7 +96,11 @@
           "website": "https://www.pima.gov/2503/Supervisor-Rex-Scott-District-1",
           "photo": null,
           "term": null,
-          "title": "Chair"
+          "title": "Chair",
+          "campaignFinance": {
+            "azsos_url": null,
+            "followthemoney_url": null
+          }
         },
         {
           "district": 2,
@@ -87,7 +111,11 @@
           "website": "https://www.pima.gov/2509/Supervisor-Dr-Matt-Heinz-District-2",
           "photo": null,
           "term": null,
-          "title": "Vice Chair"
+          "title": "Vice Chair",
+          "campaignFinance": {
+            "azsos_url": null,
+            "followthemoney_url": null
+          }
         },
         {
           "district": 3,
@@ -97,7 +125,11 @@
           "email": "district3@pima.gov",
           "website": "https://www.pima.gov/2550/Supervisor-Jennifer-Allen-District-3",
           "photo": null,
-          "term": null
+          "term": null,
+          "campaignFinance": {
+            "azsos_url": null,
+            "followthemoney_url": null
+          }
         },
         {
           "district": 4,
@@ -107,17 +139,25 @@
           "email": "district4@pima.gov",
           "website": "https://www.pima.gov/2515/Biography",
           "photo": null,
-          "term": null
+          "term": null,
+          "campaignFinance": {
+            "azsos_url": null,
+            "followthemoney_url": null
+          }
         },
         {
           "district": 5,
-          "name": "Andrés Cano",
+          "name": "Andr\u00e9s Cano",
           "party": "D",
           "phone": "(520) 724-5880",
           "email": "district5@pima.gov",
           "website": "https://www.pima.gov/2528/Supervisor-Andrs-Cano-District-5",
           "photo": null,
-          "term": null
+          "term": null,
+          "campaignFinance": {
+            "azsos_url": null,
+            "followthemoney_url": null
+          }
         }
       ]
     },
