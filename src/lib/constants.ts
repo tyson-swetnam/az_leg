@@ -89,7 +89,10 @@ export const LOCAL_LAYER_CONFIGS: Record<LocalLayerType, LocalLayerConfig> = {
     group: 'supervisor',
     url: 'https://services.arcgis.com/ykpntM6e3tHvzKRJ/arcgis/rest/services/Maricopa_County_Supervisor_Districts_(2024-)/FeatureServer/0/query?where=1%3D1&outFields=*&returnGeometry=true&f=geojson&outSR=4326',
     idField: 'bos',
-    repField: 'BdName',
+    // ArcGIS BdName only has "Supervisorial District N" — enriched from local-officials.json
+    repField: '_REP_NAME',
+    phoneField: '_REP_PHONE',
+    urlField: '_REP_URL',
   },
   'pima-supervisors': {
     id: 'pima-supervisors',
@@ -97,7 +100,10 @@ export const LOCAL_LAYER_CONFIGS: Record<LocalLayerType, LocalLayerConfig> = {
     group: 'supervisor',
     url: 'https://services1.arcgis.com/Ezk9fcjSUkeadg6u/arcgis/rest/services/Pima_County_Board_of_Supervisors_Districts_2020_Election/FeatureServer/0/query?where=1%3D1&outFields=*&returnGeometry=true&f=geojson&outSR=4326',
     idField: 'DISTRICT',
-    nameField: 'NAME',
+    // ArcGIS NAME field is stale (pre-2024 supervisors) — enriched from local-officials.json
+    repField: '_REP_NAME',
+    phoneField: '_REP_PHONE',
+    urlField: '_REP_URL',
   },
   'coconino-supervisors': {
     id: 'coconino-supervisors',
@@ -106,6 +112,7 @@ export const LOCAL_LAYER_CONFIGS: Record<LocalLayerType, LocalLayerConfig> = {
     url: 'https://services1.arcgis.com/Rlvx5g8pKeK13apH/arcgis/rest/services/Coconino_County_Supervisor_Districts/FeatureServer/0/query?where=1%3D1&outFields=*&returnGeometry=true&f=geojson&outSR=4326',
     idField: 'DISTRICTID',
     nameField: 'NAME',
+    // ArcGIS REPNAME is stale — enriched from local-officials.json into REPNAME field
     repField: 'REPNAME',
     urlField: 'DISTRICTUR',
   },
@@ -143,7 +150,9 @@ export const LOCAL_LAYER_CONFIGS: Record<LocalLayerType, LocalLayerConfig> = {
     group: 'city',
     url: 'https://services3.arcgis.com/0OPQIK59PJJqLK0A/arcgis/rest/services/Council_Districts_and_Members/FeatureServer/0/query?where=1%3D1&outFields=*&returnGeometry=true&f=geojson&outSR=4326',
     idField: 'DISTRICT',
+    // ArcGIS REP_NAME is stale — enriched from local-officials.json (overwrites REP_NAME in place)
     repField: 'REP_NAME',
+    phoneField: '_REP_PHONE',
     urlField: 'REP_URL',
   },
   'mesa-council': {
@@ -188,12 +197,14 @@ export const LOCAL_LAYER_CONFIGS: Record<LocalLayerType, LocalLayerConfig> = {
   },
   'tucson-wards': {
     id: 'tucson-wards',
-    label: 'Tucson Wards',
+    label: 'Tucson City Council',
     group: 'city',
     url: 'https://services1.arcgis.com/Ezk9fcjSUkeadg6u/arcgis/rest/services/CityTucson_Wards/FeatureServer/0/query?where=1%3D1&outFields=*&returnGeometry=true&f=geojson&outSR=4326',
     idField: 'WARD',
-    nameField: 'NAME',
-    phoneField: 'PHONE',
+    // ArcGIS NAME field contains stale rep names — enriched from local-officials.json into _REP_NAME
+    repField: '_REP_NAME',
+    phoneField: '_REP_PHONE',
+    urlField: '_REP_URL',
   },
 
   // --- Precincts ---
