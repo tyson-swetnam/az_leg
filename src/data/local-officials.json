@@ -10,16 +10,24 @@
         {
           "district": 1,
           "name": "Mark Stewart",
-          "party": null,
+          "party": "R",
           "phone": "(602) 506-3011",
           "email": null,
           "website": "https://www.maricopa.gov/225/District-1",
           "photo": "https://www.maricopa.gov/ImageRepository/Document?documentId=99283",
           "term": null,
           "campaignFinance": {
-            "azsos_url": null,
+            "azsos_url": "https://seethemoney.az.gov/",
             "followthemoney_url": null
-          }
+          },
+          "socialMedia": {
+            "twitter": "https://twitter.com/MarkStewart_AZ",
+            "facebook": null,
+            "instagram": null,
+            "linkedin": null
+          },
+          "campaignWebsite": "https://markstewartaz.com/",
+          "notes": "Twitter handle @MarkStewart_AZ confirmed by multiple sources. Campaign website markstewartaz.com confirmed. Assumed office Jan 2025."
         },
         {
           "district": 2,
@@ -31,14 +39,22 @@
           "photo": "https://www.maricopa.gov/ImageRepository/Document?documentId=73986",
           "term": null,
           "campaignFinance": {
-            "azsos_url": null,
+            "azsos_url": "https://seethemoney.az.gov/",
             "followthemoney_url": null
-          }
+          },
+          "socialMedia": {
+            "twitter": null,
+            "facebook": null,
+            "instagram": null,
+            "linkedin": null
+          },
+          "campaignWebsite": "https://www.galvinaz.com/",
+          "notes": "Campaign website galvinaz.com confirmed. No personal social media handles found in public sources. Assumed office Jan 2025."
         },
         {
           "district": 3,
           "name": "Kate Brophy McGee",
-          "party": null,
+          "party": "R",
           "phone": "(602) 506-3011",
           "email": null,
           "website": "https://www.maricopa.gov/247/District-3",
@@ -46,14 +62,22 @@
           "term": null,
           "title": "Chair",
           "campaignFinance": {
-            "azsos_url": null,
+            "azsos_url": "https://seethemoney.az.gov/",
             "followthemoney_url": null
-          }
+          },
+          "socialMedia": {
+            "twitter": "https://twitter.com/KateBrophyMcGee",
+            "facebook": null,
+            "instagram": null,
+            "linkedin": null
+          },
+          "campaignWebsite": "https://www.katemcgee.com/",
+          "notes": "Twitter handle @KateBrophyMcGee confirmed. Campaign site katemcgee.com confirmed. Ballotpedia lists Facebook, Instagram, LinkedIn but specific URLs not captured. Chair of BOS as of Jan 2026, first female chair in ~25 years."
         },
         {
           "district": 4,
           "name": "Debbie Lesko",
-          "party": null,
+          "party": "R",
           "phone": "(602) 506-7642",
           "email": null,
           "website": "https://www.maricopa.gov/260/District-4",
@@ -61,23 +85,39 @@
           "term": null,
           "title": "Vice Chair",
           "campaignFinance": {
-            "azsos_url": null,
+            "azsos_url": "https://seethemoney.az.gov/",
             "followthemoney_url": null
-          }
+          },
+          "socialMedia": {
+            "twitter": null,
+            "facebook": null,
+            "instagram": null,
+            "linkedin": null
+          },
+          "campaignWebsite": null,
+          "notes": "Former US Congresswoman (@RepDLesko). Her current supervisor social media not publicly confirmed. Contact page: https://www.maricopa.gov/6161/Contact-Supervisor-Debbie-Lesko. Assumed office Jan 2025."
         },
         {
           "district": 5,
           "name": "Steve Gallardo",
-          "party": null,
+          "party": "D",
           "phone": "(602) 506-3011",
           "email": null,
           "website": "https://www.maricopa.gov/271/District-5",
           "photo": "https://www.maricopa.gov/ImageRepository/Document?documentId=82686",
           "term": null,
           "campaignFinance": {
-            "azsos_url": null,
-            "followthemoney_url": null
-          }
+            "azsos_url": "https://seethemoney.az.gov/",
+            "followthemoney_url": "https://www.followthemoney.org/entity-details?eid=26756"
+          },
+          "socialMedia": {
+            "twitter": null,
+            "facebook": null,
+            "instagram": null,
+            "linkedin": null
+          },
+          "campaignWebsite": null,
+          "notes": "Confirmed presence on Twitter but handle not found. In office since 2015, re-elected 2024. Sole Democrat on board."
         }
       ]
     },
@@ -98,9 +138,17 @@
           "term": null,
           "title": "Chair",
           "campaignFinance": {
-            "azsos_url": null,
+            "azsos_url": "https://seethemoney.az.gov/",
             "followthemoney_url": null
-          }
+          },
+          "socialMedia": {
+            "twitter": null,
+            "facebook": null,
+            "instagram": null,
+            "linkedin": null
+          },
+          "campaignWebsite": null,
+          "notes": "No individual social media found in public searches. Chair of Pima BOS."
         },
         {
           "district": 2,
@@ -113,9 +161,17 @@
           "term": null,
           "title": "Vice Chair",
           "campaignFinance": {
-            "azsos_url": null,
+            "azsos_url": "https://seethemoney.az.gov/",
             "followthemoney_url": null
-          }
+          },
+          "socialMedia": {
+            "twitter": null,
+            "facebook": null,
+            "instagram": null,
+            "linkedin": null
+          },
+          "campaignWebsite": null,
+          "notes": "Has a campaign website but URL not confirmed in searches. Vice Chair."
         },
         {
           "district": 3,
@@ -127,9 +183,17 @@
           "photo": null,
           "term": null,
           "campaignFinance": {
-            "azsos_url": null,
+            "azsos_url": "https://seethemoney.az.gov/",
             "followthemoney_url": null
-          }
+          },
+          "socialMedia": {
+            "twitter": null,
+            "facebook": null,
+            "instagram": null,
+            "linkedin": null
+          },
+          "campaignWebsite": null,
+          "notes": "ArizonaList profile: https://www.arizonalist.org/elected-officials/jen-allen/. No individual social media found."
         },
         {
           "district": 4,
@@ -141,9 +205,17 @@
           "photo": null,
           "term": null,
           "campaignFinance": {
-            "azsos_url": null,
+            "azsos_url": "https://seethemoney.az.gov/",
             "followthemoney_url": null
-          }
+          },
+          "socialMedia": {
+            "twitter": null,
+            "facebook": null,
+            "instagram": null,
+            "linkedin": null
+          },
+          "campaignWebsite": null,
+          "notes": "Writes columns for The Vail Voice: https://www.thevailvoice.com/author/district4/. No individual social media confirmed."
         },
         {
           "district": 5,
@@ -155,9 +227,17 @@
           "photo": null,
           "term": null,
           "campaignFinance": {
-            "azsos_url": null,
+            "azsos_url": "https://seethemoney.az.gov/",
             "followthemoney_url": null
-          }
+          },
+          "socialMedia": {
+            "twitter": null,
+            "facebook": null,
+            "instagram": null,
+            "linkedin": null
+          },
+          "campaignWebsite": null,
+          "notes": "Appointed April 2025. Former AZ House Minority Leader. Legistorm confirms Twitter and Facebook exist but URLs not found."
         }
       ]
     },
@@ -173,9 +253,21 @@
           "party": "R",
           "phone": "(520) 509-3555",
           "email": "bosdistrict1@pinal.gov",
-          "website": null,
+          "website": "https://www.pinal.gov/1304/District-1-Supervisor",
           "photo": null,
-          "term": null
+          "term": null,
+          "socialMedia": {
+            "twitter": null,
+            "facebook": null,
+            "instagram": null,
+            "linkedin": null
+          },
+          "campaignWebsite": null,
+          "campaignFinance": {
+            "azsos_url": "https://seethemoney.az.gov/",
+            "followthemoney_url": null
+          },
+          "notes": "Official county directory page: https://www.pinal.gov/directory.aspx?EID=440"
         },
         {
           "district": 2,
@@ -183,9 +275,21 @@
           "party": "R",
           "phone": "(520) 866-8080",
           "email": "mike.goodman@pinal.gov",
-          "website": null,
+          "website": "https://www.pinal.gov/1316/District-2-Supervisor",
           "photo": null,
-          "term": null
+          "term": null,
+          "socialMedia": {
+            "twitter": null,
+            "facebook": null,
+            "instagram": null,
+            "linkedin": null
+          },
+          "campaignWebsite": null,
+          "campaignFinance": {
+            "azsos_url": "https://seethemoney.az.gov/",
+            "followthemoney_url": null
+          },
+          "notes": "In third term as of Jan 2025. Official directory: https://www.pinal.gov/directory.aspx?EID=51"
         },
         {
           "district": 3,
@@ -193,10 +297,22 @@
           "party": "R",
           "phone": "(520) 866-7401",
           "email": "Stephen.Miller@pinal.gov",
-          "website": null,
+          "website": "https://www.pinal.gov/1317/District-3-Supervisor",
           "photo": null,
           "term": null,
-          "title": "Chairman"
+          "title": "Chairman",
+          "socialMedia": {
+            "twitter": null,
+            "facebook": null,
+            "instagram": null,
+            "linkedin": null
+          },
+          "campaignWebsite": null,
+          "campaignFinance": {
+            "azsos_url": "https://seethemoney.az.gov/",
+            "followthemoney_url": null
+          },
+          "notes": "Chairman for 2025. Official directory: https://www.pinal.gov/directory.aspx?EID=52. CAP board member: https://www.cap-az.com/board/board-members/stephen-miller/"
         },
         {
           "district": 4,
@@ -204,9 +320,21 @@
           "party": "R",
           "phone": "(520) 866-6054",
           "email": "jeffrey.mcclure@pinal.gov",
-          "website": null,
+          "website": "https://www.pinal.gov/1318/District-4-Supervisor",
           "photo": null,
-          "term": null
+          "term": null,
+          "socialMedia": {
+            "twitter": null,
+            "facebook": null,
+            "instagram": null,
+            "linkedin": null
+          },
+          "campaignWebsite": null,
+          "campaignFinance": {
+            "azsos_url": "https://seethemoney.az.gov/",
+            "followthemoney_url": null
+          },
+          "notes": "Chairman 2026. Official directory: https://www.pinal.gov/directory.aspx?EID=53"
         },
         {
           "district": 5,
@@ -214,10 +342,22 @@
           "party": "R",
           "phone": "(480) 982-0659",
           "email": "jeff.Serdy@pinal.gov",
-          "website": null,
+          "website": "https://www.pinalcountyaz.gov/bos/Pages/District5Supervisor.aspx",
           "photo": null,
           "term": null,
-          "title": "Vice Chair"
+          "title": "Vice Chair",
+          "socialMedia": {
+            "twitter": null,
+            "facebook": null,
+            "instagram": null,
+            "linkedin": null
+          },
+          "campaignWebsite": null,
+          "campaignFinance": {
+            "azsos_url": "https://seethemoney.az.gov/",
+            "followthemoney_url": null
+          },
+          "notes": "Ballotpedia lists Campaign Facebook but no URL. Official directory: https://www.pinal.gov/directory.aspx?EID=54. Vice Chair."
         }
       ]
     },
@@ -233,10 +373,22 @@
           "party": "R",
           "phone": "(928) 771-3206",
           "email": "district1@yavapaiaz.gov",
-          "website": null,
+          "website": "https://www.yavapaiaz.gov/County-Government/Board-of-Supervisors/Supervisor-Districts/District-1/Supervisor-Brooks-Compton",
           "photo": null,
           "term": null,
-          "title": "Chair"
+          "title": "Chair",
+          "socialMedia": {
+            "twitter": null,
+            "facebook": null,
+            "instagram": null,
+            "linkedin": null
+          },
+          "campaignWebsite": null,
+          "campaignFinance": {
+            "azsos_url": "https://seethemoney.az.gov/",
+            "followthemoney_url": null
+          },
+          "notes": "Elected 2024, first term Jan 2025. Chair of BOS."
         },
         {
           "district": 2,
@@ -247,7 +399,18 @@
           "website": null,
           "photo": null,
           "term": null,
-          "notes": "Appointed April 2025"
+          "notes": "Appointed April 2025 | Appointed April 2025. No individual pages found.",
+          "socialMedia": {
+            "twitter": null,
+            "facebook": null,
+            "instagram": null,
+            "linkedin": null
+          },
+          "campaignWebsite": null,
+          "campaignFinance": {
+            "azsos_url": "https://seethemoney.az.gov/",
+            "followthemoney_url": null
+          }
         },
         {
           "district": 3,
@@ -258,7 +421,19 @@
           "website": null,
           "photo": null,
           "term": null,
-          "title": "Vice Chair"
+          "title": "Vice Chair",
+          "socialMedia": {
+            "twitter": null,
+            "facebook": null,
+            "instagram": null,
+            "linkedin": null
+          },
+          "campaignWebsite": "https://electnikkicheck.com/",
+          "campaignFinance": {
+            "azsos_url": "https://seethemoney.az.gov/",
+            "followthemoney_url": null
+          },
+          "notes": "Campaign website electnikkicheck.com confirmed. Self-described 'conservative moderate Democrat'. Active on Facebook for campaign. Vice Chair."
         },
         {
           "district": 4,
@@ -268,7 +443,19 @@
           "email": "district4@yavapaiaz.gov",
           "website": null,
           "photo": null,
-          "term": null
+          "term": null,
+          "socialMedia": {
+            "twitter": null,
+            "facebook": null,
+            "instagram": null,
+            "linkedin": null
+          },
+          "campaignWebsite": null,
+          "campaignFinance": {
+            "azsos_url": "https://seethemoney.az.gov/",
+            "followthemoney_url": null
+          },
+          "notes": "No individual pages found in searches."
         },
         {
           "district": 5,
@@ -278,7 +465,19 @@
           "email": "district5@yavapaiaz.gov",
           "website": null,
           "photo": null,
-          "term": null
+          "term": null,
+          "socialMedia": {
+            "twitter": null,
+            "facebook": null,
+            "instagram": null,
+            "linkedin": null
+          },
+          "campaignWebsite": null,
+          "campaignFinance": {
+            "azsos_url": "https://seethemoney.az.gov/",
+            "followthemoney_url": null
+          },
+          "notes": "No individual pages found in searches."
         }
       ]
     },
@@ -294,10 +493,22 @@
           "party": "D",
           "phone": null,
           "email": "phorstman@coconino.az.gov",
-          "website": null,
+          "website": "https://www.coconino.az.gov/2558/District-1---Patrice-Horstman",
           "photo": null,
           "term": null,
-          "title": "Chair"
+          "title": "Chair",
+          "socialMedia": {
+            "twitter": null,
+            "facebook": null,
+            "instagram": null,
+            "linkedin": null
+          },
+          "campaignWebsite": null,
+          "campaignFinance": {
+            "azsos_url": "https://seethemoney.az.gov/",
+            "followthemoney_url": null
+          },
+          "notes": "ArizonaList profile: https://www.arizonalist.org/elected-officials/patrice-horstman/. Chair of Coconino BOS."
         },
         {
           "district": 2,
@@ -305,10 +516,22 @@
           "party": "D",
           "phone": "(928) 679-7162",
           "email": "jvasquez@coconino.az.gov",
-          "website": null,
+          "website": "https://www.coconino.az.gov/107/District-2---Jeronimo-Vasquez",
           "photo": null,
           "term": null,
-          "title": "Vice Chair"
+          "title": "Vice Chair",
+          "socialMedia": {
+            "twitter": null,
+            "facebook": null,
+            "instagram": null,
+            "linkedin": null
+          },
+          "campaignWebsite": "https://jeronimo4supervisor.com/",
+          "campaignFinance": {
+            "azsos_url": "https://seethemoney.az.gov/",
+            "followthemoney_url": null
+          },
+          "notes": "Has Facebook, Twitter, Instagram, YouTube per county page. Campaign site jeronimo4supervisor.com confirmed. Specific handles not found in search. Vice Chair."
         },
         {
           "district": 3,
@@ -318,7 +541,19 @@
           "email": "tontiveros@coconino.az.gov",
           "website": null,
           "photo": null,
-          "term": null
+          "term": null,
+          "socialMedia": {
+            "twitter": null,
+            "facebook": null,
+            "instagram": null,
+            "linkedin": null
+          },
+          "campaignWebsite": null,
+          "campaignFinance": {
+            "azsos_url": "https://seethemoney.az.gov/",
+            "followthemoney_url": null
+          },
+          "notes": "No individual pages found in searches."
         },
         {
           "district": 4,
@@ -328,7 +563,19 @@
           "email": null,
           "website": null,
           "photo": null,
-          "term": null
+          "term": null,
+          "socialMedia": {
+            "twitter": null,
+            "facebook": null,
+            "instagram": null,
+            "linkedin": null
+          },
+          "campaignWebsite": null,
+          "campaignFinance": {
+            "azsos_url": "https://seethemoney.az.gov/",
+            "followthemoney_url": null
+          },
+          "notes": "No individual pages found in searches."
         },
         {
           "district": 5,
@@ -338,7 +585,19 @@
           "email": "lfowler@coconino.az.gov",
           "website": null,
           "photo": null,
-          "term": null
+          "term": null,
+          "socialMedia": {
+            "twitter": null,
+            "facebook": null,
+            "instagram": null,
+            "linkedin": null
+          },
+          "campaignWebsite": null,
+          "campaignFinance": {
+            "azsos_url": "https://seethemoney.az.gov/",
+            "followthemoney_url": null
+          },
+          "notes": "No individual pages found in searches."
         }
       ]
     },
@@ -354,10 +613,22 @@
           "party": "R",
           "phone": "(928) 753-0722",
           "email": null,
-          "website": null,
+          "website": "https://www.mohave.gov/departments/board-of-supervisors/district-1-travis-lingenfelter/",
           "photo": null,
           "term": null,
-          "title": "Chairman"
+          "title": "Chairman",
+          "socialMedia": {
+            "twitter": null,
+            "facebook": null,
+            "instagram": null,
+            "linkedin": null
+          },
+          "campaignWebsite": null,
+          "campaignFinance": {
+            "azsos_url": "https://seethemoney.az.gov/",
+            "followthemoney_url": null
+          },
+          "notes": "Chairman. Has Facebook presence (mentioned in lawsuit) but page URL not found. Ballotpedia email: therightC1@gmail.com"
         },
         {
           "district": 2,
@@ -367,7 +638,19 @@
           "email": null,
           "website": null,
           "photo": null,
-          "term": null
+          "term": null,
+          "socialMedia": {
+            "twitter": null,
+            "facebook": null,
+            "instagram": null,
+            "linkedin": null
+          },
+          "campaignWebsite": null,
+          "campaignFinance": {
+            "azsos_url": "https://seethemoney.az.gov/",
+            "followthemoney_url": null
+          },
+          "notes": "No individual pages found."
         },
         {
           "district": 3,
@@ -377,7 +660,19 @@
           "email": null,
           "website": null,
           "photo": null,
-          "term": null
+          "term": null,
+          "socialMedia": {
+            "twitter": null,
+            "facebook": null,
+            "instagram": null,
+            "linkedin": null
+          },
+          "campaignWebsite": null,
+          "campaignFinance": {
+            "azsos_url": "https://seethemoney.az.gov/",
+            "followthemoney_url": "https://azluminaria.org/profile/sonny-borrelli/"
+          },
+          "notes": "Former AZ State Senator. Has Twitter and Facebook per Legistorm/Ballotready but specific handles not found. AZ Luminaria profile available."
         },
         {
           "district": 4,
@@ -387,7 +682,19 @@
           "email": null,
           "website": null,
           "photo": null,
-          "term": null
+          "term": null,
+          "socialMedia": {
+            "twitter": null,
+            "facebook": null,
+            "instagram": null,
+            "linkedin": null
+          },
+          "campaignWebsite": null,
+          "campaignFinance": {
+            "azsos_url": "https://seethemoney.az.gov/",
+            "followthemoney_url": null
+          },
+          "notes": "No individual pages found."
         },
         {
           "district": 5,
@@ -395,10 +702,22 @@
           "party": "R",
           "phone": "(928) 758-0739",
           "email": null,
-          "website": null,
+          "website": "https://www.mohave.gov/departments/board-of-supervisors/district-5-ron-gould/",
           "photo": null,
           "term": null,
-          "title": "Vice Chair"
+          "title": "Vice Chair",
+          "socialMedia": {
+            "twitter": null,
+            "facebook": null,
+            "instagram": null,
+            "linkedin": null
+          },
+          "campaignWebsite": "http://www.rongould.com/",
+          "campaignFinance": {
+            "azsos_url": "https://seethemoney.az.gov/",
+            "followthemoney_url": null
+          },
+          "notes": "Campaign/personal website rongould.com confirmed. Vice Chair."
         }
       ]
     },
@@ -414,10 +733,22 @@
           "party": "D",
           "phone": "(928) 373-1010",
           "email": "martin.porchas@yumacountyaz.gov",
-          "website": null,
+          "website": "https://www.yumacountyaz.gov/government/board-of-supervisors/board-members",
           "photo": null,
           "term": null,
-          "title": "Chair"
+          "title": "Chair",
+          "socialMedia": {
+            "twitter": null,
+            "facebook": null,
+            "instagram": null,
+            "linkedin": null
+          },
+          "campaignWebsite": null,
+          "campaignFinance": {
+            "azsos_url": "https://seethemoney.az.gov/",
+            "followthemoney_url": null
+          },
+          "notes": "Chair for 2026. No individual social media found."
         },
         {
           "district": 2,
@@ -425,10 +756,22 @@
           "party": "R",
           "phone": "(928) 373-1010",
           "email": "jonathan.lines@yumacountyaz.gov",
-          "website": null,
+          "website": "https://www.yumacountyaz.gov/government/board-of-supervisors/board-members",
           "photo": null,
           "term": null,
-          "title": "Vice Chair"
+          "title": "Vice Chair",
+          "socialMedia": {
+            "twitter": null,
+            "facebook": null,
+            "instagram": null,
+            "linkedin": null
+          },
+          "campaignWebsite": null,
+          "campaignFinance": {
+            "azsos_url": "https://seethemoney.az.gov/",
+            "followthemoney_url": null
+          },
+          "notes": "Former AZ GOP Chairman (2017-2019). Vice-Chair for 2026. Had Twitter and Facebook as AZ GOP Chair but current supervisor accounts not confirmed."
         },
         {
           "district": 3,
@@ -436,9 +779,21 @@
           "party": "R",
           "phone": "(928) 373-1010",
           "email": "darren.simmons@yumacountyaz.gov",
-          "website": null,
+          "website": "https://www.yumacountyaz.gov/government/board-of-supervisors/board-members",
           "photo": null,
-          "term": null
+          "term": null,
+          "socialMedia": {
+            "twitter": null,
+            "facebook": null,
+            "instagram": null,
+            "linkedin": null
+          },
+          "campaignWebsite": null,
+          "campaignFinance": {
+            "azsos_url": "https://seethemoney.az.gov/",
+            "followthemoney_url": null
+          },
+          "notes": "No individual social media found."
         },
         {
           "district": 4,
@@ -446,9 +801,21 @@
           "party": "D",
           "phone": "(928) 373-1010",
           "email": "tony.reyes@yumacountyaz.gov",
-          "website": null,
+          "website": "https://www.yumacountyaz.gov/government/board-of-supervisors/board-members",
           "photo": null,
-          "term": null
+          "term": null,
+          "socialMedia": {
+            "twitter": null,
+            "facebook": null,
+            "instagram": null,
+            "linkedin": null
+          },
+          "campaignWebsite": null,
+          "campaignFinance": {
+            "azsos_url": "https://seethemoney.az.gov/",
+            "followthemoney_url": null
+          },
+          "notes": "No individual social media found."
         },
         {
           "district": 5,
@@ -456,9 +823,21 @@
           "party": "D",
           "phone": "(928) 373-1010",
           "email": "lynne.pancrazi@yumacountyaz.gov",
-          "website": null,
+          "website": "https://www.yumacountyaz.gov/government/board-of-supervisors/board-members",
           "photo": null,
-          "term": null
+          "term": null,
+          "socialMedia": {
+            "twitter": null,
+            "facebook": null,
+            "instagram": null,
+            "linkedin": null
+          },
+          "campaignWebsite": null,
+          "campaignFinance": {
+            "azsos_url": "https://seethemoney.az.gov/",
+            "followthemoney_url": null
+          },
+          "notes": "Former AZ State Rep and Senator. CSA President for upcoming year. No individual social media found."
         }
       ]
     },
@@ -474,9 +853,21 @@
           "party": "D",
           "phone": "(928) 674-5664",
           "email": null,
-          "website": null,
+          "website": "https://www.apachecountyaz.gov/Board-of-Supervisors",
           "photo": null,
-          "term": null
+          "term": null,
+          "socialMedia": {
+            "twitter": null,
+            "facebook": null,
+            "instagram": null,
+            "linkedin": null
+          },
+          "campaignWebsite": null,
+          "campaignFinance": {
+            "azsos_url": "https://seethemoney.az.gov/",
+            "followthemoney_url": null
+          },
+          "notes": "Former Navajo Nation President. Contact via joeshirleyjr@yahoo.com per Ballotpedia. No social media found."
         },
         {
           "district": 2,
@@ -484,9 +875,21 @@
           "party": "D",
           "phone": "(928) 755-3881",
           "email": null,
-          "website": null,
+          "website": "https://www.apachecodistrict2.com/",
           "photo": null,
-          "term": null
+          "term": null,
+          "socialMedia": {
+            "twitter": null,
+            "facebook": null,
+            "instagram": null,
+            "linkedin": null
+          },
+          "campaignWebsite": "https://www.apachecodistrict2.com/",
+          "campaignFinance": {
+            "azsos_url": "https://seethemoney.az.gov/",
+            "followthemoney_url": null
+          },
+          "notes": "Board Chairman. Has a dedicated district website: apachecodistrict2.com"
         },
         {
           "district": 3,
@@ -494,9 +897,21 @@
           "party": "R",
           "phone": "(928) 337-7608",
           "email": null,
-          "website": null,
+          "website": "https://www.apachecountyaz.gov/District-III",
           "photo": null,
-          "term": null
+          "term": null,
+          "socialMedia": {
+            "twitter": null,
+            "facebook": null,
+            "instagram": null,
+            "linkedin": null
+          },
+          "campaignWebsite": null,
+          "campaignFinance": {
+            "azsos_url": "https://seethemoney.az.gov/",
+            "followthemoney_url": null
+          },
+          "notes": "Fifth-generation Apache County resident. No social media found."
         }
       ]
     },
@@ -512,9 +927,21 @@
           "party": "R",
           "phone": "(520) 432-9200",
           "email": "tcrosby@cochise.az.gov",
-          "website": null,
+          "website": "https://www.cochise.az.gov/548/District-1-County-Supervisor",
           "photo": null,
-          "term": null
+          "term": null,
+          "socialMedia": {
+            "twitter": null,
+            "facebook": null,
+            "instagram": null,
+            "linkedin": null
+          },
+          "campaignWebsite": null,
+          "campaignFinance": {
+            "azsos_url": "https://seethemoney.az.gov/",
+            "followthemoney_url": null
+          },
+          "notes": "Vice-Chairman. Directory: https://www.cochise.az.gov/directory.aspx?EID=87"
         },
         {
           "district": 2,
@@ -522,9 +949,21 @@
           "party": "R",
           "phone": "(520) 432-9200",
           "email": "kgomez@cochise.az.gov",
-          "website": null,
+          "website": "https://www.cochise.az.gov/549/District-2-County-Supervisor",
           "photo": null,
-          "term": null
+          "term": null,
+          "socialMedia": {
+            "twitter": null,
+            "facebook": null,
+            "instagram": null,
+            "linkedin": null
+          },
+          "campaignWebsite": null,
+          "campaignFinance": {
+            "azsos_url": "https://seethemoney.az.gov/",
+            "followthemoney_url": null
+          },
+          "notes": "Directory: https://www.cochise.az.gov/directory.aspx?EID=88"
         },
         {
           "district": 3,
@@ -532,10 +971,22 @@
           "party": "R",
           "phone": "(520) 432-9200",
           "email": "fantenori@cochise.az.gov",
-          "website": null,
+          "website": "https://www.cochise.az.gov/514/Board-of-Supervisors",
           "photo": null,
           "term": null,
-          "title": "Chair"
+          "title": "Chair",
+          "socialMedia": {
+            "twitter": null,
+            "facebook": null,
+            "instagram": null,
+            "linkedin": null
+          },
+          "campaignWebsite": null,
+          "campaignFinance": {
+            "azsos_url": "https://seethemoney.az.gov/",
+            "followthemoney_url": null
+          },
+          "notes": "Chair of Cochise BOS. No individual social media found."
         }
       ]
     },
@@ -551,9 +1002,21 @@
           "party": null,
           "phone": "(928) 474-7101",
           "email": "schristensen@gilacountyaz.gov",
-          "website": null,
+          "website": "https://www.gilacountyaz.gov/government/board_of_supervisors/index.php",
           "photo": null,
-          "term": null
+          "term": null,
+          "socialMedia": {
+            "twitter": null,
+            "facebook": null,
+            "instagram": null,
+            "linkedin": null
+          },
+          "campaignWebsite": "https://www.stevechristensen4gila.com/",
+          "campaignFinance": {
+            "azsos_url": "https://seethemoney.az.gov/",
+            "followthemoney_url": null
+          },
+          "notes": "Campaign website stevechristensen4gila.com confirmed."
         },
         {
           "district": 2,
@@ -561,9 +1024,21 @@
           "party": null,
           "phone": "(928) 425-3231",
           "email": "thumphrey@gilacountyaz.gov",
-          "website": null,
+          "website": "https://www.gilacountyaz.gov/government/board_of_supervisors/index.php",
           "photo": null,
-          "term": null
+          "term": null,
+          "socialMedia": {
+            "twitter": null,
+            "facebook": null,
+            "instagram": null,
+            "linkedin": null
+          },
+          "campaignWebsite": null,
+          "campaignFinance": {
+            "azsos_url": "https://seethemoney.az.gov/",
+            "followthemoney_url": null
+          },
+          "notes": "KQSS community forum participant. Phone (928) 402-8753."
         },
         {
           "district": 3,
@@ -571,9 +1046,21 @@
           "party": null,
           "phone": "(928) 425-3231",
           "email": "wcline@gilacountyaz.gov",
-          "website": null,
+          "website": "https://www.gilacountyaz.gov/government/board_of_supervisors/index.php",
           "photo": null,
-          "term": null
+          "term": null,
+          "socialMedia": {
+            "twitter": null,
+            "facebook": null,
+            "instagram": null,
+            "linkedin": null
+          },
+          "campaignWebsite": null,
+          "campaignFinance": {
+            "azsos_url": "https://seethemoney.az.gov/",
+            "followthemoney_url": null
+          },
+          "notes": "No individual pages found."
         }
       ]
     },
@@ -589,10 +1076,22 @@
           "party": "D",
           "phone": "(928) 428-3250",
           "email": null,
-          "website": null,
+          "website": "https://www.graham.az.gov/directory.aspx?EID=14",
           "photo": null,
           "term": null,
-          "title": "Chairman"
+          "title": "Chairman",
+          "socialMedia": {
+            "twitter": null,
+            "facebook": null,
+            "instagram": null,
+            "linkedin": null
+          },
+          "campaignWebsite": null,
+          "campaignFinance": {
+            "azsos_url": "https://seethemoney.az.gov/",
+            "followthemoney_url": null
+          },
+          "notes": "Vice-Chairman per recent search. BOS page: https://www.graham.az.gov/191/Board-of-Supervisors"
         },
         {
           "district": 2,
@@ -600,10 +1099,22 @@
           "party": "R",
           "phone": "(928) 428-3250",
           "email": null,
-          "website": null,
+          "website": "https://www.graham.az.gov/directory.aspx?EID=13",
           "photo": null,
           "term": null,
-          "title": "Vice Chairman"
+          "title": "Vice Chairman",
+          "socialMedia": {
+            "twitter": null,
+            "facebook": null,
+            "instagram": null,
+            "linkedin": null
+          },
+          "campaignWebsite": null,
+          "campaignFinance": {
+            "azsos_url": "https://seethemoney.az.gov/",
+            "followthemoney_url": null
+          },
+          "notes": "No social media found."
         },
         {
           "district": 3,
@@ -611,9 +1122,21 @@
           "party": "R",
           "phone": "(928) 428-3250",
           "email": null,
-          "website": null,
+          "website": "https://www.graham.az.gov/directory.aspx?did=6",
           "photo": null,
-          "term": null
+          "term": null,
+          "socialMedia": {
+            "twitter": null,
+            "facebook": null,
+            "instagram": null,
+            "linkedin": null
+          },
+          "campaignWebsite": null,
+          "campaignFinance": {
+            "azsos_url": "https://seethemoney.az.gov/",
+            "followthemoney_url": null
+          },
+          "notes": "Chairman. No social media found."
         }
       ]
     },
@@ -629,10 +1152,22 @@
           "party": "D",
           "phone": "(928) 865-2072",
           "email": "dgomez@greenlee.az.gov",
-          "website": null,
+          "website": "https://www.greenlee.az.gov/government/board_of_supervisors",
           "photo": null,
           "term": null,
-          "title": "Chairman"
+          "title": "Chairman",
+          "socialMedia": {
+            "twitter": null,
+            "facebook": null,
+            "instagram": null,
+            "linkedin": null
+          },
+          "campaignWebsite": null,
+          "campaignFinance": {
+            "azsos_url": "https://seethemoney.az.gov/",
+            "followthemoney_url": null
+          },
+          "notes": "Chairman."
         },
         {
           "district": 2,
@@ -640,10 +1175,22 @@
           "party": "I",
           "phone": "(928) 865-2072",
           "email": "rcampbell@greenlee.az.gov",
-          "website": null,
+          "website": "https://www.greenlee.az.gov/government/board_of_supervisors",
           "photo": null,
           "term": null,
-          "title": "Vice Chairman"
+          "title": "Vice Chairman",
+          "socialMedia": {
+            "twitter": null,
+            "facebook": null,
+            "instagram": null,
+            "linkedin": null
+          },
+          "campaignWebsite": null,
+          "campaignFinance": {
+            "azsos_url": "https://seethemoney.az.gov/",
+            "followthemoney_url": null
+          },
+          "notes": "Vice Chairman."
         },
         {
           "district": 3,
@@ -651,9 +1198,21 @@
           "party": "I",
           "phone": "(928) 865-2072",
           "email": "wwearne@greenlee.az.gov",
-          "website": null,
+          "website": "https://www.greenlee.az.gov/government/board_of_supervisors",
           "photo": null,
-          "term": null
+          "term": null,
+          "socialMedia": {
+            "twitter": null,
+            "facebook": null,
+            "instagram": null,
+            "linkedin": null
+          },
+          "campaignWebsite": null,
+          "campaignFinance": {
+            "azsos_url": "https://seethemoney.az.gov/",
+            "followthemoney_url": null
+          },
+          "notes": "No social media found."
         }
       ]
     },
@@ -669,9 +1228,21 @@
           "party": "R",
           "phone": "(928) 669-6115",
           "email": "dplunkett@lapaz.gov",
-          "website": null,
+          "website": "https://www.lapaz.az.gov/government/board-of-supervisors",
           "photo": null,
-          "term": null
+          "term": null,
+          "socialMedia": {
+            "twitter": null,
+            "facebook": null,
+            "instagram": null,
+            "linkedin": null
+          },
+          "campaignWebsite": null,
+          "campaignFinance": {
+            "azsos_url": "https://seethemoney.az.gov/",
+            "followthemoney_url": null
+          },
+          "notes": "No individual pages found."
         },
         {
           "district": 2,
@@ -679,10 +1250,22 @@
           "party": "R",
           "phone": "(928) 669-6115",
           "email": "dminor@lapaz.gov",
-          "website": null,
+          "website": "https://www.lapaz.az.gov/government/board-of-supervisors",
           "photo": null,
           "term": null,
-          "title": "Chairman"
+          "title": "Chairman",
+          "socialMedia": {
+            "twitter": null,
+            "facebook": null,
+            "instagram": null,
+            "linkedin": null
+          },
+          "campaignWebsite": null,
+          "campaignFinance": {
+            "azsos_url": "https://seethemoney.az.gov/",
+            "followthemoney_url": null
+          },
+          "notes": "Chairman."
         },
         {
           "district": 3,
@@ -690,10 +1273,22 @@
           "party": "R",
           "phone": "(928) 669-6115",
           "email": "hirwin@lapaz.gov",
-          "website": null,
+          "website": "https://www.lapaz.az.gov/government/board-of-supervisors",
           "photo": null,
           "term": null,
-          "title": "Vice Chairman"
+          "title": "Vice Chairman",
+          "socialMedia": {
+            "twitter": null,
+            "facebook": null,
+            "instagram": null,
+            "linkedin": null
+          },
+          "campaignWebsite": null,
+          "campaignFinance": {
+            "azsos_url": "https://seethemoney.az.gov/",
+            "followthemoney_url": null
+          },
+          "notes": "Vice Chairman."
         }
       ]
     },
@@ -709,9 +1304,21 @@
           "party": "D",
           "phone": "(928) 524-4053",
           "email": "D1supervisor@navajocountyaz.gov",
-          "website": null,
+          "website": "https://www.navajocountyaz.gov/directory.aspx?EID=12",
           "photo": null,
-          "term": null
+          "term": null,
+          "socialMedia": {
+            "twitter": null,
+            "facebook": null,
+            "instagram": null,
+            "linkedin": null
+          },
+          "campaignWebsite": null,
+          "campaignFinance": {
+            "azsos_url": "https://seethemoney.az.gov/",
+            "followthemoney_url": null
+          },
+          "notes": "No social media found."
         },
         {
           "district": 2,
@@ -719,9 +1326,21 @@
           "party": "D",
           "phone": "(928) 524-4053",
           "email": "D2supervisor@navajocountyaz.gov",
-          "website": null,
+          "website": "https://www.navajocountyaz.gov/directory.aspx?EID=13",
           "photo": null,
-          "term": null
+          "term": null,
+          "socialMedia": {
+            "twitter": null,
+            "facebook": null,
+            "instagram": null,
+            "linkedin": null
+          },
+          "campaignWebsite": null,
+          "campaignFinance": {
+            "azsos_url": "https://seethemoney.az.gov/",
+            "followthemoney_url": null
+          },
+          "notes": "AZ Tribal Transportation board member."
         },
         {
           "district": 3,
@@ -729,9 +1348,21 @@
           "party": "R",
           "phone": "(928) 524-4053",
           "email": "D3supervisor@navajocountyaz.gov",
-          "website": null,
+          "website": "https://www.navajocountyaz.gov/directory.aspx?EID=14",
           "photo": null,
-          "term": null
+          "term": null,
+          "socialMedia": {
+            "twitter": null,
+            "facebook": null,
+            "instagram": null,
+            "linkedin": null
+          },
+          "campaignWebsite": null,
+          "campaignFinance": {
+            "azsos_url": "https://seethemoney.az.gov/",
+            "followthemoney_url": null
+          },
+          "notes": "In office since 2014."
         },
         {
           "district": 4,
@@ -739,10 +1370,22 @@
           "party": "R",
           "phone": "(928) 532-6210",
           "email": "D4supervisor@navajocountyaz.gov",
-          "website": null,
+          "website": "https://www.navajocountyaz.gov/directory.aspx?EID=15",
           "photo": null,
           "term": null,
-          "title": "Chairman"
+          "title": "Chairman",
+          "socialMedia": {
+            "twitter": null,
+            "facebook": null,
+            "instagram": null,
+            "linkedin": null
+          },
+          "campaignWebsite": null,
+          "campaignFinance": {
+            "azsos_url": "https://seethemoney.az.gov/",
+            "followthemoney_url": null
+          },
+          "notes": "Chairman."
         },
         {
           "district": 5,
@@ -750,10 +1393,22 @@
           "party": "D",
           "phone": "(928) 532-6220",
           "email": "D5supervisor@navajocountyaz.gov",
-          "website": null,
+          "website": "https://www.navajocountyaz.gov/directory.aspx?EID=16",
           "photo": null,
           "term": null,
-          "title": "Vice Chair"
+          "title": "Vice Chair",
+          "socialMedia": {
+            "twitter": null,
+            "facebook": null,
+            "instagram": null,
+            "linkedin": null
+          },
+          "campaignWebsite": null,
+          "campaignFinance": {
+            "azsos_url": "https://seethemoney.az.gov/",
+            "followthemoney_url": null
+          },
+          "notes": "Vice Chair. First White Mountain Apache and first woman to chair Navajo County BOS (historical note)."
         }
       ]
     },
@@ -769,9 +1424,21 @@
           "party": "D",
           "phone": "(520) 375-7632",
           "email": "lcdavis@santacruzcountyaz.gov",
-          "website": null,
+          "website": "https://www.santacruzcountyaz.gov/directory.aspx?eid=63",
           "photo": null,
-          "term": null
+          "term": null,
+          "socialMedia": {
+            "twitter": null,
+            "facebook": null,
+            "instagram": null,
+            "linkedin": null
+          },
+          "campaignWebsite": null,
+          "campaignFinance": {
+            "azsos_url": "https://seethemoney.az.gov/",
+            "followthemoney_url": null
+          },
+          "notes": "BOS page: https://www.santacruzcountyaz.gov/169/Board-of-Supervisors. No social media found."
         },
         {
           "district": 2,
@@ -779,9 +1446,21 @@
           "party": "D",
           "phone": "(520) 375-7634",
           "email": "rmolera@santacruzcountyaz.gov",
-          "website": null,
+          "website": "https://www.santacruzcountyaz.gov/169/Board-of-Supervisors",
           "photo": null,
-          "term": null
+          "term": null,
+          "socialMedia": {
+            "twitter": null,
+            "facebook": null,
+            "instagram": null,
+            "linkedin": null
+          },
+          "campaignWebsite": null,
+          "campaignFinance": {
+            "azsos_url": "https://seethemoney.az.gov/",
+            "followthemoney_url": null
+          },
+          "notes": "No social media found."
         },
         {
           "district": 3,
@@ -789,9 +1468,21 @@
           "party": "D",
           "phone": "(520) 375-7633",
           "email": "jfanning@santacruzcountyaz.gov",
-          "website": null,
+          "website": "https://www.santacruzcountyaz.gov/169/Board-of-Supervisors",
           "photo": null,
-          "term": null
+          "term": null,
+          "socialMedia": {
+            "twitter": null,
+            "facebook": null,
+            "instagram": null,
+            "linkedin": null
+          },
+          "campaignWebsite": null,
+          "campaignFinance": {
+            "azsos_url": "https://seethemoney.az.gov/",
+            "followthemoney_url": null
+          },
+          "notes": "No social media found."
         }
       ]
     }
@@ -807,7 +1498,19 @@
         "name": "Kate Gallego",
         "phone": null,
         "email": null,
-        "website": "https://www.phoenix.gov/administration/mayor"
+        "website": "https://www.phoenix.gov/administration/mayor",
+        "socialMedia": {
+          "twitter": "https://twitter.com/MayorGallego",
+          "facebook": "https://www.facebook.com/MayorKateGallego/",
+          "instagram": "https://www.instagram.com/mayorkategallego/"
+        },
+        "campaignFinance": {
+          "azsos_url": "https://apps.azsos.gov/apps/election/campaign/ccfs/Public/Search.aspx",
+          "followthemoney_url": "https://www.followthemoney.org/show-me?c-r-oc=59&s=AZ&y=2024"
+        },
+        "campaignWebsite": "https://www.kategallego.com",
+        "party": "D",
+        "notes": "Official social media from phoenix.gov social media channels page"
       },
       "members": [
         {
@@ -818,7 +1521,17 @@
           "email": null,
           "website": "https://www.phoenix.gov/administration/mayorcouncil/district1",
           "photo": null,
-          "term": null
+          "term": null,
+          "socialMedia": {
+            "twitter": "https://twitter.com/CWAnnObrien",
+            "facebook": "https://www.facebook.com/PHXDistrict1",
+            "instagram": "https://www.instagram.com/CWAnnOBrien"
+          },
+          "campaignFinance": {
+            "azsos_url": "https://apps.azsos.gov/apps/election/campaign/ccfs/Public/Search.aspx",
+            "followthemoney_url": null
+          },
+          "notes": "Social media from phoenix.gov official channels page"
         },
         {
           "district": 2,
@@ -828,7 +1541,18 @@
           "email": null,
           "website": "https://www.phoenix.gov/administration/mayorcouncil/district2",
           "photo": null,
-          "term": null
+          "term": null,
+          "socialMedia": {
+            "twitter": "https://twitter.com/Jim_Waring",
+            "facebook": "https://www.facebook.com/WaringJim",
+            "instagram": "https://www.instagram.com/jimwaring/"
+          },
+          "campaignFinance": {
+            "azsos_url": "https://apps.azsos.gov/apps/election/campaign/ccfs/Public/Search.aspx",
+            "followthemoney_url": null
+          },
+          "party": "R",
+          "notes": "Social media from phoenix.gov official channels page"
         },
         {
           "district": 3,
@@ -838,7 +1562,17 @@
           "email": null,
           "website": "https://www.phoenix.gov/administration/mayorcouncil/district3",
           "photo": null,
-          "term": null
+          "term": null,
+          "socialMedia": {
+            "twitter": "https://twitter.com/DebraStarkPHX",
+            "facebook": "https://www.facebook.com/DebraStarkPHX",
+            "instagram": "https://instagram.com/DebraStarkPHX"
+          },
+          "campaignFinance": {
+            "azsos_url": "https://apps.azsos.gov/apps/election/campaign/ccfs/Public/Search.aspx",
+            "followthemoney_url": null
+          },
+          "notes": "Social media from phoenix.gov official channels page"
         },
         {
           "district": 4,
@@ -848,7 +1582,18 @@
           "email": null,
           "website": "https://www.phoenix.gov/administration/mayorcouncil/district4",
           "photo": null,
-          "term": null
+          "term": null,
+          "socialMedia": {
+            "twitter": "https://twitter.com/PHXDistrict4",
+            "facebook": "https://www.facebook.com/laurapastordistrict4",
+            "instagram": "https://www.instagram.com/laurapastorphx/"
+          },
+          "campaignFinance": {
+            "azsos_url": "https://apps.azsos.gov/apps/election/campaign/ccfs/Public/Search.aspx",
+            "followthemoney_url": null
+          },
+          "party": "D",
+          "notes": "Social media from phoenix.gov official channels page"
         },
         {
           "district": 5,
@@ -858,7 +1603,18 @@
           "email": null,
           "website": "https://www.phoenix.gov/administration/mayorcouncil/district5",
           "photo": null,
-          "term": null
+          "term": null,
+          "socialMedia": {
+            "twitter": "https://twitter.com/PHXDistrict5",
+            "facebook": "https://www.facebook.com/GuardadoPHXD5",
+            "instagram": "https://www.instagram.com/guardadophxd5/"
+          },
+          "campaignFinance": {
+            "azsos_url": "https://apps.azsos.gov/apps/election/campaign/ccfs/Public/Search.aspx",
+            "followthemoney_url": null
+          },
+          "party": "D",
+          "notes": "Social media from phoenix.gov official channels page"
         },
         {
           "district": 6,
@@ -868,7 +1624,17 @@
           "email": null,
           "website": "https://www.phoenix.gov/administration/mayorcouncil/district6",
           "photo": null,
-          "term": null
+          "term": null,
+          "socialMedia": {
+            "twitter": "https://twitter.com/phxdistrict6",
+            "facebook": "https://www.facebook.com/Disctrict6phx",
+            "instagram": "https://www.instagram.com/phxdistrict6"
+          },
+          "campaignFinance": {
+            "azsos_url": "https://apps.azsos.gov/apps/election/campaign/ccfs/Public/Search.aspx",
+            "followthemoney_url": null
+          },
+          "notes": "Social media from phoenix.gov official channels page; Facebook URL has typo 'Disctrict6' - that is the official handle"
         },
         {
           "district": 7,
@@ -878,7 +1644,18 @@
           "email": null,
           "website": "https://www.phoenix.gov/administration/mayorcouncil/district7",
           "photo": null,
-          "term": null
+          "term": null,
+          "socialMedia": {
+            "twitter": "https://x.com/district7_phx",
+            "facebook": "https://www.facebook.com/CouncilwomanAnnaHernandez/",
+            "instagram": "https://www.instagram.com/district7.phx/"
+          },
+          "campaignFinance": {
+            "azsos_url": "https://apps.azsos.gov/apps/election/campaign/ccfs/Public/Search.aspx",
+            "followthemoney_url": null
+          },
+          "party": "D",
+          "notes": "Social media from phoenix.gov official channels page"
         },
         {
           "district": 8,
@@ -888,7 +1665,18 @@
           "email": null,
           "website": "https://www.phoenix.gov/administration/mayorcouncil/district8",
           "photo": null,
-          "term": null
+          "term": null,
+          "socialMedia": {
+            "twitter": "https://twitter.com/PHXdistrict8",
+            "facebook": "https://www.facebook.com/PHXDistrict8",
+            "instagram": "https://www.instagram.com/phxdistrict8/"
+          },
+          "campaignFinance": {
+            "azsos_url": "https://apps.azsos.gov/apps/election/campaign/ccfs/Public/Search.aspx",
+            "followthemoney_url": null
+          },
+          "party": "D",
+          "notes": "Social media from phoenix.gov official channels page"
         }
       ]
     },
@@ -902,7 +1690,17 @@
         "name": "Regina Romero",
         "phone": "(520) 791-4201",
         "email": "Mayor.Romero@tucsonaz.gov",
-        "website": "https://www.tucsonaz.gov/Government/Mayor-Council-and-City-Manager/Mayor-Regina-Romero"
+        "website": "https://www.tucsonaz.gov/Government/Mayor-Council-and-City-Manager/Mayor-Regina-Romero",
+        "socialMedia": {
+          "twitter": "https://twitter.com/MayorRomero",
+          "facebook": "https://www.facebook.com/MayorReginaRomero",
+          "instagram": "https://www.instagram.com/TucsonMayor"
+        },
+        "campaignFinance": {
+          "azsos_url": "https://apps.azsos.gov/apps/election/campaign/ccfs/Public/Search.aspx",
+          "followthemoney_url": "https://www.followthemoney.org/show-me?c-r-oc=59&s=AZ"
+        },
+        "party": "D"
       },
       "members": [
         {
@@ -913,7 +1711,14 @@
           "email": "ward1@tucsonaz.gov",
           "website": "https://www.tucsonaz.gov/Government/Mayor-Council-and-City-Manager/City-Council-Wards/Ward-1",
           "photo": null,
-          "term": "2023-2027"
+          "term": "2023-2027",
+          "socialMedia": {},
+          "campaignFinance": {
+            "azsos_url": "https://apps.azsos.gov/apps/election/campaign/ccfs/Public/Search.aspx",
+            "followthemoney_url": null
+          },
+          "party": "D",
+          "notes": "Has official Facebook, Instagram and X accounts per city website but specific handles not confirmed in research"
         },
         {
           "district": 2,
@@ -923,7 +1728,14 @@
           "email": "ward2@tucsonaz.gov",
           "website": "https://www.tucsonaz.gov/Government/Mayor-Council-and-City-Manager/City-Council-Wards/Ward-2",
           "photo": null,
-          "term": "2023-2027"
+          "term": "2023-2027",
+          "socialMedia": {},
+          "campaignFinance": {
+            "azsos_url": "https://apps.azsos.gov/apps/election/campaign/ccfs/Public/Search.aspx",
+            "followthemoney_url": null
+          },
+          "party": "D",
+          "notes": "Has Facebook presence per Legistorm; specific handles not confirmed"
         },
         {
           "district": 3,
@@ -933,7 +1745,14 @@
           "email": "ward3@tucsonaz.gov",
           "website": "https://www.tucsonaz.gov/Government/Mayor-Council-and-City-Manager/City-Council-Wards/Ward-3",
           "photo": null,
-          "term": "2025-2029"
+          "term": "2025-2029",
+          "socialMedia": {},
+          "campaignFinance": {
+            "azsos_url": "https://apps.azsos.gov/apps/election/campaign/ccfs/Public/Search.aspx",
+            "followthemoney_url": null
+          },
+          "party": "D",
+          "notes": "Uses Facebook, Instagram, Threads, YouTube, Bluesky but not Twitter/X per official city website"
         },
         {
           "district": 4,
@@ -943,7 +1762,17 @@
           "email": "ward4@tucsonaz.gov",
           "website": "https://www.tucsonaz.gov/Government/Mayor-Council-and-City-Manager/City-Council-Wards/Ward-4",
           "photo": null,
-          "term": "2023-2027"
+          "term": "2023-2027",
+          "socialMedia": {
+            "twitter": "https://twitter.com/CouncilwomanLee",
+            "instagram": "https://www.instagram.com/nikkilee_az"
+          },
+          "campaignFinance": {
+            "azsos_url": "https://apps.azsos.gov/apps/election/campaign/ccfs/Public/Search.aspx",
+            "followthemoney_url": null
+          },
+          "party": "D",
+          "notes": "Has both personal and Ward 4 Facebook page; specific Facebook URL not found"
         },
         {
           "district": 5,
@@ -953,7 +1782,14 @@
           "email": "ward5@tucsonaz.gov",
           "website": "https://www.tucsonaz.gov/Government/Mayor-Council-and-City-Manager/City-Council-Wards/Ward-5",
           "photo": null,
-          "term": null
+          "term": null,
+          "socialMedia": {},
+          "campaignFinance": {
+            "azsos_url": "https://apps.azsos.gov/apps/election/campaign/ccfs/Public/Search.aspx",
+            "followthemoney_url": null
+          },
+          "party": "D",
+          "notes": "Has Facebook, LinkedIn, Instagram, TikTok per ward page; specific handles not confirmed"
         },
         {
           "district": 6,
@@ -963,7 +1799,17 @@
           "email": "ward6@tucsonaz.gov",
           "website": "https://www.tucsonaz.gov/Government/Mayor-Council-and-City-Manager/City-Council-Wards/Ward-6",
           "photo": null,
-          "term": "2025-2029"
+          "term": "2025-2029",
+          "socialMedia": {
+            "facebook": "https://www.facebook.com/mirandaforward6tucson",
+            "instagram": "https://www.instagram.com/mirandaforward6tucson"
+          },
+          "campaignFinance": {
+            "azsos_url": "https://apps.azsos.gov/apps/election/campaign/ccfs/Public/Search.aspx",
+            "followthemoney_url": null
+          },
+          "campaignWebsite": "https://www.mirandaforward6.com",
+          "notes": "Took office December 2025; no Twitter/X found"
         }
       ]
     },
@@ -977,7 +1823,15 @@
         "name": "Mark Freeman",
         "phone": null,
         "email": null,
-        "website": "https://www.mesaaz.gov/Government/Mayor-City-Council"
+        "website": "https://www.mesaaz.gov/Government/Mayor-City-Council",
+        "socialMedia": {
+          "twitter": "https://twitter.com/MarkFreemanAZ"
+        },
+        "campaignFinance": {
+          "azsos_url": "https://apps.azsos.gov/apps/election/campaign/ccfs/Public/Search.aspx",
+          "followthemoney_url": null
+        },
+        "notes": "Twitter from Ballotpedia listing. Assumed office January 7, 2025"
       },
       "members": [
         {
@@ -988,7 +1842,17 @@
           "email": null,
           "website": null,
           "photo": null,
-          "term": null
+          "term": null,
+          "socialMedia": {
+            "twitter": "https://twitter.com/MesaDistrict1",
+            "facebook": "https://www.facebook.com/MesaDistrict1",
+            "instagram": "https://www.instagram.com/MesaDistrict1"
+          },
+          "campaignFinance": {
+            "azsos_url": "https://apps.azsos.gov/apps/election/campaign/ccfs/Public/Search.aspx",
+            "followthemoney_url": null
+          },
+          "notes": "First term began January 2025"
         },
         {
           "district": 2,
@@ -998,7 +1862,13 @@
           "email": null,
           "website": null,
           "photo": null,
-          "term": null
+          "term": null,
+          "socialMedia": {},
+          "campaignFinance": {
+            "azsos_url": "https://apps.azsos.gov/apps/election/campaign/ccfs/Public/Search.aspx",
+            "followthemoney_url": null
+          },
+          "notes": "No individual social media found in research"
         },
         {
           "district": 3,
@@ -1008,7 +1878,13 @@
           "email": null,
           "website": null,
           "photo": null,
-          "term": null
+          "term": null,
+          "socialMedia": {},
+          "campaignFinance": {
+            "azsos_url": "https://apps.azsos.gov/apps/election/campaign/ccfs/Public/Search.aspx",
+            "followthemoney_url": "https://www.followthemoney.org/show-me?c-r-oc=59&s=AZ"
+          },
+          "notes": "Has Twitter, Facebook, Instagram per newsletters (follows on all platforms); specific handles not confirmed. Ballotpedia lists Official X but link not captured"
         },
         {
           "district": 4,
@@ -1018,7 +1894,15 @@
           "email": null,
           "website": null,
           "photo": null,
-          "term": null
+          "term": null,
+          "socialMedia": {
+            "twitter": "https://twitter.com/JennDuffMesa"
+          },
+          "campaignFinance": {
+            "azsos_url": "https://apps.azsos.gov/apps/election/campaign/ccfs/Public/Search.aspx",
+            "followthemoney_url": null
+          },
+          "notes": "Has Facebook, Twitter, Instagram, YouTube per official city page links"
         },
         {
           "district": 5,
@@ -1028,7 +1912,13 @@
           "email": null,
           "website": null,
           "photo": null,
-          "term": null
+          "term": null,
+          "socialMedia": {},
+          "campaignFinance": {
+            "azsos_url": "https://apps.azsos.gov/apps/election/campaign/ccfs/Public/Search.aspx",
+            "followthemoney_url": null
+          },
+          "notes": "Has X/Twitter per official city page; specific handle not confirmed"
         },
         {
           "district": 6,
@@ -1038,7 +1928,14 @@
           "email": null,
           "website": null,
           "photo": null,
-          "term": null
+          "term": null,
+          "socialMedia": {
+            "twitter": "https://twitter.com/ScottSomers"
+          },
+          "campaignFinance": {
+            "azsos_url": "https://apps.azsos.gov/apps/election/campaign/ccfs/Public/Search.aspx",
+            "followthemoney_url": null
+          }
         }
       ]
     },
@@ -1052,7 +1949,14 @@
         "name": "Kevin Hartke",
         "phone": "(480) 782-2200",
         "email": "kevin.hartke@chandleraz.gov",
-        "website": "https://www.chandleraz.gov/government/mayor-and-council"
+        "website": "https://www.chandleraz.gov/government/mayor-and-council",
+        "socialMedia": {},
+        "campaignFinance": {
+          "azsos_url": "https://apps.azsos.gov/apps/election/campaign/ccfs/Public/Search.aspx",
+          "followthemoney_url": null
+        },
+        "campaignWebsite": "https://www.kevinhartke.com",
+        "notes": "Has Twitter and Facebook per city social media page; specific handles not confirmed. Campaign site at kevinhartke.com (now running for state office)"
       },
       "members": [
         {
@@ -1063,7 +1967,13 @@
           "email": "angel.encinas@chandleraz.gov",
           "website": null,
           "photo": null,
-          "term": "2023-2027"
+          "term": "2023-2027",
+          "socialMedia": {},
+          "campaignFinance": {
+            "azsos_url": "https://apps.azsos.gov/apps/election/campaign/ccfs/Public/Search.aspx",
+            "followthemoney_url": null
+          },
+          "notes": "No individual social media found; has YouTube series on city channel"
         },
         {
           "district": null,
@@ -1073,7 +1983,13 @@
           "email": "christine.ellis@chandleraz.gov",
           "website": null,
           "photo": null,
-          "term": "2025-2029"
+          "term": "2025-2029",
+          "socialMedia": {},
+          "campaignFinance": {
+            "azsos_url": "https://apps.azsos.gov/apps/election/campaign/ccfs/Public/Search.aspx",
+            "followthemoney_url": null
+          },
+          "notes": "No individual social media found"
         },
         {
           "district": null,
@@ -1083,7 +1999,14 @@
           "email": "od.harris@chandleraz.gov",
           "website": null,
           "photo": null,
-          "term": "2025-2029"
+          "term": "2025-2029",
+          "socialMedia": {},
+          "campaignFinance": {
+            "azsos_url": "https://apps.azsos.gov/apps/election/campaign/ccfs/Public/Search.aspx",
+            "followthemoney_url": null
+          },
+          "campaignWebsite": "https://www.odharris.org",
+          "notes": "Has personal website odharris.org; individual social media not confirmed"
         },
         {
           "district": null,
@@ -1093,7 +2016,14 @@
           "email": "jennifer.hawkins@chandleraz.gov",
           "website": null,
           "photo": null,
-          "term": "2025-2029"
+          "term": "2025-2029",
+          "socialMedia": {},
+          "campaignFinance": {
+            "azsos_url": "https://apps.azsos.gov/apps/election/campaign/ccfs/Public/Search.aspx",
+            "followthemoney_url": null
+          },
+          "campaignWebsite": "https://www.jenniferforchandler.com",
+          "notes": "No individual social media handles found"
         },
         {
           "district": null,
@@ -1103,7 +2033,14 @@
           "email": "matt.orlando@chandleraz.gov",
           "website": null,
           "photo": null,
-          "term": "2023-2027"
+          "term": "2023-2027",
+          "socialMedia": {},
+          "campaignFinance": {
+            "azsos_url": "https://apps.azsos.gov/apps/election/campaign/ccfs/Public/Search.aspx",
+            "followthemoney_url": null
+          },
+          "campaignWebsite": "https://www.mattorlandoformayor.com",
+          "notes": "Has campaign site mattorlandoformayor.com; no individual social media handles found"
         },
         {
           "district": null,
@@ -1113,7 +2050,14 @@
           "email": "jane.poston@chandleraz.gov",
           "website": null,
           "photo": null,
-          "term": "2023-2027"
+          "term": "2023-2027",
+          "socialMedia": {},
+          "campaignFinance": {
+            "azsos_url": "https://apps.azsos.gov/apps/election/campaign/ccfs/Public/Search.aspx",
+            "followthemoney_url": null
+          },
+          "campaignWebsite": "https://www.janeposton.com",
+          "notes": "Has Facebook, LinkedIn, Twitter per campaign; specific handles not captured"
         }
       ]
     },
@@ -1127,7 +2071,14 @@
         "name": "Lisa Borowsky",
         "phone": "(480) 312-2433",
         "email": null,
-        "website": "https://www.scottsdaleaz.gov/council/mayor-lisa-borowsky"
+        "website": "https://www.scottsdaleaz.gov/council/mayor-lisa-borowsky",
+        "socialMedia": {},
+        "campaignFinance": {
+          "azsos_url": "https://apps.azsos.gov/apps/election/campaign/ccfs/Public/Search.aspx",
+          "followthemoney_url": null
+        },
+        "campaignWebsite": "https://scottsdalemayor.com",
+        "notes": "Has X/Twitter linked from official page per Ballotpedia; specific handle not confirmed. Term began January 2025."
       },
       "members": [
         {
@@ -1138,7 +2089,16 @@
           "email": null,
           "website": "https://www.scottsdaleaz.gov/council/councilman-barry-graham",
           "photo": null,
-          "term": null
+          "term": null,
+          "socialMedia": {
+            "twitter": "https://twitter.com/barrygrahamresi"
+          },
+          "campaignFinance": {
+            "azsos_url": "https://apps.azsos.gov/apps/election/campaign/ccfs/Public/Search.aspx",
+            "followthemoney_url": null
+          },
+          "campaignWebsite": "https://barrygrahamresidentsfirst.com",
+          "notes": "Twitter handle from campaign website"
         },
         {
           "district": null,
@@ -1148,7 +2108,15 @@
           "email": null,
           "website": null,
           "photo": null,
-          "term": null
+          "term": null,
+          "socialMedia": {
+            "twitter": "https://twitter.com/votekathylittle"
+          },
+          "campaignFinance": {
+            "azsos_url": "https://apps.azsos.gov/apps/election/campaign/ccfs/Public/Search.aspx",
+            "followthemoney_url": null
+          },
+          "notes": "Twitter handle from Ballotpedia/search; third term"
         },
         {
           "district": null,
@@ -1158,7 +2126,16 @@
           "email": null,
           "website": null,
           "photo": null,
-          "term": null
+          "term": null,
+          "socialMedia": {
+            "twitter": "https://twitter.com/solangeforscott"
+          },
+          "campaignFinance": {
+            "azsos_url": "https://apps.azsos.gov/apps/election/campaign/ccfs/Public/Search.aspx",
+            "followthemoney_url": null
+          },
+          "campaignWebsite": "https://www.solangeforscottsdale.com",
+          "notes": "Second term; Twitter from campaign website"
         },
         {
           "district": null,
@@ -1168,7 +2145,14 @@
           "email": null,
           "website": null,
           "photo": null,
-          "term": null
+          "term": null,
+          "socialMedia": {},
+          "campaignFinance": {
+            "azsos_url": "https://apps.azsos.gov/apps/election/campaign/ccfs/Public/Search.aspx",
+            "followthemoney_url": null
+          },
+          "campaignWebsite": "https://www.maryannmcallenforscottsdale.com",
+          "notes": "Has LinkedIn per Legistorm; term began January 2025"
         },
         {
           "district": null,
@@ -1178,7 +2162,16 @@
           "email": null,
           "website": null,
           "photo": null,
-          "term": null
+          "term": null,
+          "socialMedia": {
+            "twitter": "https://twitter.com/JanDubauskas"
+          },
+          "campaignFinance": {
+            "azsos_url": "https://apps.azsos.gov/apps/election/campaign/ccfs/Public/Search.aspx",
+            "followthemoney_url": null
+          },
+          "campaignWebsite": "https://www.janforscottsdale.com",
+          "notes": "Twitter @JanDubauskas from campaign website; term began January 2025"
         },
         {
           "district": null,
@@ -1188,7 +2181,15 @@
           "email": null,
           "website": null,
           "photo": null,
-          "term": null
+          "term": null,
+          "socialMedia": {
+            "twitter": "https://twitter.com/AdamKwasman"
+          },
+          "campaignFinance": {
+            "azsos_url": "https://apps.azsos.gov/apps/election/campaign/ccfs/Public/Search.aspx",
+            "followthemoney_url": null
+          },
+          "notes": "Term began January 2025; Twitter confirmed from Wikipedia and Ballotpedia"
         }
       ]
     },
@@ -1202,7 +2203,16 @@
         "name": "Jerry P. Weiers",
         "phone": "(623) 930-2260",
         "email": "glendalemayor@glendaleaz.com",
-        "website": "https://www.glendaleaz.gov/Elected-officials"
+        "website": "https://www.glendaleaz.gov/Elected-officials",
+        "socialMedia": {
+          "twitter": "https://twitter.com/JerryWeiers"
+        },
+        "campaignFinance": {
+          "azsos_url": "https://apps.azsos.gov/apps/election/campaign/ccfs/Public/Search.aspx",
+          "followthemoney_url": null
+        },
+        "campaignWebsite": "https://www.jerryweiers.com",
+        "notes": "Has YouTube @MayorWeiers, Facebook, and Twitter; specific Facebook not confirmed. Twitter @JerryWeiers probable based on official links"
       },
       "members": [
         {
@@ -1213,7 +2223,13 @@
           "email": "rmalnar@glendaleaz.com",
           "website": null,
           "photo": null,
-          "term": "2024-2028"
+          "term": "2024-2028",
+          "socialMedia": {},
+          "campaignFinance": {
+            "azsos_url": "https://apps.azsos.gov/apps/election/campaign/ccfs/Public/Search.aspx",
+            "followthemoney_url": null
+          },
+          "notes": "No individual social media found"
         },
         {
           "district": "Ocotillo",
@@ -1223,7 +2239,13 @@
           "email": "LBaldenegro@glendaleaz.com",
           "website": null,
           "photo": null,
-          "term": "2022-2026"
+          "term": "2022-2026",
+          "socialMedia": {},
+          "campaignFinance": {
+            "azsos_url": "https://apps.azsos.gov/apps/election/campaign/ccfs/Public/Search.aspx",
+            "followthemoney_url": null
+          },
+          "notes": "No individual social media found"
         },
         {
           "district": "Cactus",
@@ -1233,7 +2255,13 @@
           "email": "lconchas@glendaleaz.com",
           "website": null,
           "photo": null,
-          "term": "2024-2028"
+          "term": "2024-2028",
+          "socialMedia": {},
+          "campaignFinance": {
+            "azsos_url": "https://apps.azsos.gov/apps/election/campaign/ccfs/Public/Search.aspx",
+            "followthemoney_url": null
+          },
+          "notes": "No individual social media found"
         },
         {
           "district": "Yucca",
@@ -1243,7 +2271,13 @@
           "email": "dtguzman@glendaleaz.com",
           "website": null,
           "photo": null,
-          "term": "2024-2028"
+          "term": "2024-2028",
+          "socialMedia": {},
+          "campaignFinance": {
+            "azsos_url": "https://apps.azsos.gov/apps/election/campaign/ccfs/Public/Search.aspx",
+            "followthemoney_url": null
+          },
+          "notes": "Ballotpedia page exists but no personal Twitter found"
         },
         {
           "district": "Cholla",
@@ -1253,7 +2287,13 @@
           "email": "LTolmachoff@glendaleaz.com",
           "website": null,
           "photo": null,
-          "term": "2022-2026"
+          "term": "2022-2026",
+          "socialMedia": {},
+          "campaignFinance": {
+            "azsos_url": "https://apps.azsos.gov/apps/election/campaign/ccfs/Public/Search.aspx",
+            "followthemoney_url": null
+          },
+          "notes": "Has Facebook campaign page; specific handle not found"
         },
         {
           "district": "Barrel",
@@ -1263,7 +2303,13 @@
           "email": "bturner@glendaleaz.com",
           "website": null,
           "photo": null,
-          "term": "2022-2026"
+          "term": "2022-2026",
+          "socialMedia": {},
+          "campaignFinance": {
+            "azsos_url": "https://apps.azsos.gov/apps/election/campaign/ccfs/Public/Search.aspx",
+            "followthemoney_url": null
+          },
+          "notes": "Announced not seeking re-election in November 2025 via Facebook and LinkedIn; specific handles not found"
         }
       ]
     },
@@ -1277,7 +2323,14 @@
         "name": "Scott Anderson",
         "phone": "(480) 503-6764",
         "email": "Scott.Anderson@gilbertaz.gov",
-        "website": "https://www.gilbertaz.gov/departments/town-hall/mayor-town-council"
+        "website": "https://www.gilbertaz.gov/departments/town-hall/mayor-town-council",
+        "socialMedia": {},
+        "campaignFinance": {
+          "azsos_url": "https://apps.azsos.gov/apps/election/campaign/ccfs/Public/Search.aspx",
+          "followthemoney_url": null
+        },
+        "campaignWebsite": "https://www.gilbertmayoranderson.org",
+        "notes": "No individual social media found; assumed office January 7, 2025"
       },
       "members": [
         {
@@ -1288,7 +2341,14 @@
           "email": "Bobbi.Buchli@gilbertaz.gov",
           "website": null,
           "photo": null,
-          "term": "2023-2027"
+          "term": "2023-2027",
+          "socialMedia": {},
+          "campaignFinance": {
+            "azsos_url": "https://apps.azsos.gov/apps/election/campaign/ccfs/Public/Search.aspx",
+            "followthemoney_url": null
+          },
+          "campaignWebsite": "https://bobbibuchli4gilbert.com",
+          "notes": "Has campaign website; no individual social media found"
         },
         {
           "district": null,
@@ -1298,7 +2358,13 @@
           "email": "Chuck.Bongiovanni@gilbertaz.gov",
           "website": null,
           "photo": null,
-          "term": "2023-2027"
+          "term": "2023-2027",
+          "socialMedia": {},
+          "campaignFinance": {
+            "azsos_url": "https://apps.azsos.gov/apps/election/campaign/ccfs/Public/Search.aspx",
+            "followthemoney_url": null
+          },
+          "notes": "Vice Mayor for 2026"
         },
         {
           "district": null,
@@ -1308,7 +2374,12 @@
           "email": "Kenny.Buckland@gilbertaz.gov",
           "website": null,
           "photo": null,
-          "term": "2025-2029"
+          "term": "2025-2029",
+          "socialMedia": {},
+          "campaignFinance": {
+            "azsos_url": "https://apps.azsos.gov/apps/election/campaign/ccfs/Public/Search.aspx",
+            "followthemoney_url": null
+          }
         },
         {
           "district": null,
@@ -1318,7 +2389,12 @@
           "email": "Yung.Koprowski@gilbertaz.gov",
           "website": null,
           "photo": null,
-          "term": "2023-2027"
+          "term": "2023-2027",
+          "socialMedia": {},
+          "campaignFinance": {
+            "azsos_url": "https://apps.azsos.gov/apps/election/campaign/ccfs/Public/Search.aspx",
+            "followthemoney_url": null
+          }
         },
         {
           "district": null,
@@ -1328,7 +2404,13 @@
           "email": "Monte.Lyons@gilbertaz.gov",
           "website": null,
           "photo": null,
-          "term": "2025-2029"
+          "term": "2025-2029",
+          "socialMedia": {},
+          "campaignFinance": {
+            "azsos_url": "https://apps.azsos.gov/apps/election/campaign/ccfs/Public/Search.aspx",
+            "followthemoney_url": null
+          },
+          "notes": "Elected July 2024"
         },
         {
           "district": null,
@@ -1338,7 +2420,12 @@
           "email": "Jim.Torgeson@gilbertaz.gov",
           "website": null,
           "photo": null,
-          "term": "2023-2027"
+          "term": "2023-2027",
+          "socialMedia": {},
+          "campaignFinance": {
+            "azsos_url": "https://apps.azsos.gov/apps/election/campaign/ccfs/Public/Search.aspx",
+            "followthemoney_url": null
+          }
         }
       ]
     },
@@ -1352,7 +2439,16 @@
         "name": "Corey Woods",
         "phone": "(480) 350-8793",
         "email": "Corey_Woods@tempe.gov",
-        "website": "https://www.tempe.gov/government/mayor-and-city-council"
+        "website": "https://www.tempe.gov/government/mayor-and-city-council",
+        "socialMedia": {
+          "twitter": "https://twitter.com/MayorCoreyWoods"
+        },
+        "campaignFinance": {
+          "azsos_url": "https://apps.azsos.gov/apps/election/campaign/ccfs/Public/Search.aspx",
+          "followthemoney_url": null
+        },
+        "party": "D",
+        "notes": "Twitter confirmed from multiple sources"
       },
       "members": [
         {
@@ -1363,7 +2459,13 @@
           "email": "Doreen_Garlid@tempe.gov",
           "website": null,
           "photo": null,
-          "term": "2024-2028"
+          "term": "2024-2028",
+          "socialMedia": {},
+          "campaignFinance": {
+            "azsos_url": "https://apps.azsos.gov/apps/election/campaign/ccfs/Public/Search.aspx",
+            "followthemoney_url": null
+          },
+          "notes": "No specific social media handles found"
         },
         {
           "district": null,
@@ -1373,7 +2475,17 @@
           "email": "jennifer_adams@tempe.gov",
           "website": null,
           "photo": null,
-          "term": "2022-2026"
+          "term": "2022-2026",
+          "socialMedia": {
+            "facebook": "https://www.facebook.com/JenniferAdamsTempe",
+            "instagram": "https://www.instagram.com/JenniferAdamsTempe"
+          },
+          "campaignFinance": {
+            "azsos_url": "https://apps.azsos.gov/apps/election/campaign/ccfs/Public/Search.aspx",
+            "followthemoney_url": null
+          },
+          "campaignWebsite": "https://www.electjenadams.com",
+          "notes": "Facebook and Instagram @JenniferAdamsTempe"
         },
         {
           "district": null,
@@ -1383,7 +2495,16 @@
           "email": "arlene_chin@tempe.gov",
           "website": null,
           "photo": null,
-          "term": "2022-2026"
+          "term": "2022-2026",
+          "socialMedia": {
+            "twitter": "https://twitter.com/arlenetempe",
+            "facebook": "https://www.facebook.com/TempeArleneChin",
+            "instagram": "https://www.instagram.com/TempeArleneChin"
+          },
+          "campaignFinance": {
+            "azsos_url": "https://apps.azsos.gov/apps/election/campaign/ccfs/Public/Search.aspx",
+            "followthemoney_url": null
+          }
         },
         {
           "district": null,
@@ -1393,7 +2514,13 @@
           "email": "berdetta_hodge@tempe.gov",
           "website": null,
           "photo": null,
-          "term": "2022-2026"
+          "term": "2022-2026",
+          "socialMedia": {},
+          "campaignFinance": {
+            "azsos_url": "https://apps.azsos.gov/apps/election/campaign/ccfs/Public/Search.aspx",
+            "followthemoney_url": null
+          },
+          "notes": "No specific social media handles found"
         },
         {
           "district": null,
@@ -1403,7 +2530,15 @@
           "email": "randy_keating@tempe.gov",
           "website": null,
           "photo": null,
-          "term": "2024-2028"
+          "term": "2024-2028",
+          "socialMedia": {
+            "twitter": "https://twitter.com/RandyKeating"
+          },
+          "campaignFinance": {
+            "azsos_url": "https://apps.azsos.gov/apps/election/campaign/ccfs/Public/Search.aspx",
+            "followthemoney_url": null
+          },
+          "notes": "Twitter @RandyKeating confirmed"
         },
         {
           "district": null,
@@ -1413,7 +2548,13 @@
           "email": "nikki_amberg@tempe.gov",
           "website": null,
           "photo": null,
-          "term": "2024-2028"
+          "term": "2024-2028",
+          "socialMedia": {},
+          "campaignFinance": {
+            "azsos_url": "https://apps.azsos.gov/apps/election/campaign/ccfs/Public/Search.aspx",
+            "followthemoney_url": null
+          },
+          "notes": "No specific social media handles found"
         }
       ]
     },
@@ -1427,7 +2568,16 @@
         "name": "Jason Beck",
         "phone": "(623) 773-4610",
         "email": "jason.beck@peoriaaz.gov",
-        "website": "https://www.peoriaaz.gov/government/mayor-and-city-council/mayor-jason-beck"
+        "website": "https://www.peoriaaz.gov/government/mayor-and-city-council/mayor-jason-beck",
+        "socialMedia": {
+          "twitter": "https://twitter.com/MayorJasonBeck",
+          "facebook": "https://www.facebook.com/MayorPeoriaArizona"
+        },
+        "campaignFinance": {
+          "azsos_url": "https://apps.azsos.gov/apps/election/campaign/ccfs/Public/Search.aspx",
+          "followthemoney_url": null
+        },
+        "notes": "Announced not seeking re-election in December 2025; Twitter @MayorJasonBeck, Facebook @MayorPeoriaArizona"
       },
       "members": [
         {
@@ -1438,7 +2588,14 @@
           "email": "michael.finn@peoriaaz.gov",
           "website": null,
           "photo": null,
-          "term": null
+          "term": null,
+          "socialMedia": {},
+          "campaignFinance": {
+            "azsos_url": "https://apps.azsos.gov/apps/election/campaign/ccfs/Public/Search.aspx",
+            "followthemoney_url": null
+          },
+          "campaignWebsite": "https://www.finnformayor.com",
+          "notes": "Palo Verde District; Vice Mayor as of January 2025; running for Mayor 2026"
         },
         {
           "district": "Mesquite",
@@ -1448,7 +2605,13 @@
           "email": "matt.bullock@peoriaaz.gov",
           "website": null,
           "photo": null,
-          "term": null
+          "term": null,
+          "socialMedia": {},
+          "campaignFinance": {
+            "azsos_url": "https://apps.azsos.gov/apps/election/campaign/ccfs/Public/Search.aspx",
+            "followthemoney_url": null
+          },
+          "notes": "Mesquite District; has Facebook page"
         },
         {
           "district": "Acacia",
@@ -1458,7 +2621,13 @@
           "email": "jennifer.crawford@peoriaaz.gov",
           "website": null,
           "photo": null,
-          "term": null
+          "term": null,
+          "socialMedia": {},
+          "campaignFinance": {
+            "azsos_url": "https://apps.azsos.gov/apps/election/campaign/ccfs/Public/Search.aspx",
+            "followthemoney_url": null
+          },
+          "notes": "Acacia District; has Facebook page"
         },
         {
           "district": "Ironwood",
@@ -1468,7 +2637,13 @@
           "email": "rick.stokes@peoriaaz.gov",
           "website": null,
           "photo": null,
-          "term": null
+          "term": null,
+          "socialMedia": {},
+          "campaignFinance": {
+            "azsos_url": "https://apps.azsos.gov/apps/election/campaign/ccfs/Public/Search.aspx",
+            "followthemoney_url": null
+          },
+          "notes": "Ironwood District"
         },
         {
           "district": "Pine",
@@ -1478,7 +2653,13 @@
           "email": "denette.dunn@peoriaaz.gov",
           "website": null,
           "photo": null,
-          "term": null
+          "term": null,
+          "socialMedia": {},
+          "campaignFinance": {
+            "azsos_url": "https://apps.azsos.gov/apps/election/campaign/ccfs/Public/Search.aspx",
+            "followthemoney_url": null
+          },
+          "notes": "Pine District; has Facebook page"
         },
         {
           "district": "Willow",
@@ -1488,7 +2669,15 @@
           "email": "jon.edwards@peoriaaz.gov",
           "website": null,
           "photo": null,
-          "term": null
+          "term": null,
+          "socialMedia": {
+            "twitter": "https://twitter.com/WillowDistrict"
+          },
+          "campaignFinance": {
+            "azsos_url": "https://apps.azsos.gov/apps/election/campaign/ccfs/Public/Search.aspx",
+            "followthemoney_url": null
+          },
+          "notes": "Willow District; Twitter @WillowDistrict (district account)"
         }
       ]
     },
@@ -1502,7 +2691,13 @@
         "name": "Kevin Sartor",
         "phone": null,
         "email": "kevin.sartor@surpriseaz.gov",
-        "website": "https://surpriseaz.gov/738/Office-of-the-Mayor---Kevin-Sartor"
+        "website": "https://surpriseaz.gov/738/Office-of-the-Mayor---Kevin-Sartor",
+        "socialMedia": {},
+        "campaignFinance": {
+          "azsos_url": "https://apps.azsos.gov/apps/election/campaign/ccfs/Public/Search.aspx",
+          "followthemoney_url": null
+        },
+        "notes": "Has Facebook per city website; specific handles not confirmed. Term began January 2025."
       },
       "members": [
         {
@@ -1513,7 +2708,12 @@
           "email": null,
           "website": null,
           "photo": null,
-          "term": null
+          "term": null,
+          "socialMedia": {},
+          "campaignFinance": {
+            "azsos_url": "https://apps.azsos.gov/apps/election/campaign/ccfs/Public/Search.aspx",
+            "followthemoney_url": null
+          }
         },
         {
           "district": 2,
@@ -1523,7 +2723,13 @@
           "email": null,
           "website": null,
           "photo": null,
-          "term": null
+          "term": null,
+          "socialMedia": {},
+          "campaignFinance": {
+            "azsos_url": "https://apps.azsos.gov/apps/election/campaign/ccfs/Public/Search.aspx",
+            "followthemoney_url": null
+          },
+          "notes": "Vice Mayor as of January 2026; has Facebook"
         },
         {
           "district": 3,
@@ -1533,7 +2739,13 @@
           "email": "patrick.duffy@surpriseaz.gov",
           "website": null,
           "photo": null,
-          "term": null
+          "term": null,
+          "socialMedia": {},
+          "campaignFinance": {
+            "azsos_url": "https://apps.azsos.gov/apps/election/campaign/ccfs/Public/Search.aspx",
+            "followthemoney_url": null
+          },
+          "notes": "Has personal Facebook per Ballotpedia"
         },
         {
           "district": 4,
@@ -1543,7 +2755,12 @@
           "email": null,
           "website": null,
           "photo": null,
-          "term": null
+          "term": null,
+          "socialMedia": {},
+          "campaignFinance": {
+            "azsos_url": "https://apps.azsos.gov/apps/election/campaign/ccfs/Public/Search.aspx",
+            "followthemoney_url": null
+          }
         },
         {
           "district": 5,
@@ -1553,7 +2770,16 @@
           "email": null,
           "website": null,
           "photo": null,
-          "term": null
+          "term": null,
+          "socialMedia": {
+            "facebook": "https://www.facebook.com/councilmemberhastings"
+          },
+          "campaignFinance": {
+            "azsos_url": "https://apps.azsos.gov/apps/election/campaign/ccfs/Public/Search.aspx",
+            "followthemoney_url": null
+          },
+          "campaignWebsite": "https://www.jackforsurprise.com",
+          "notes": "Vice Mayor January 2025; has Facebook, X, Instagram per campaign site"
         },
         {
           "district": 6,
@@ -1563,7 +2789,13 @@
           "email": null,
           "website": null,
           "photo": null,
-          "term": null
+          "term": null,
+          "socialMedia": {},
+          "campaignFinance": {
+            "azsos_url": "https://apps.azsos.gov/apps/election/campaign/ccfs/Public/Search.aspx",
+            "followthemoney_url": null
+          },
+          "notes": "Has Facebook and X presence; specific handles not confirmed"
         }
       ]
     },
@@ -1577,7 +2809,14 @@
         "name": "Becky Daggett",
         "phone": "(928) 213-2065",
         "email": "becky.daggett@flagstaffaz.gov",
-        "website": "https://www.flagstaff.az.gov/4514/Mayor-Becky-Daggett"
+        "website": "https://www.flagstaff.az.gov/4514/Mayor-Becky-Daggett",
+        "socialMedia": {},
+        "campaignFinance": {
+          "azsos_url": "https://apps.azsos.gov/apps/election/campaign/ccfs/Public/Search.aspx",
+          "followthemoney_url": null
+        },
+        "campaignWebsite": "https://beckydaggett.com",
+        "notes": "No individual social media handles found; collecting signatures for 2026 re-election"
       },
       "members": [
         {
@@ -1588,7 +2827,12 @@
           "email": null,
           "website": null,
           "photo": null,
-          "term": null
+          "term": null,
+          "socialMedia": {},
+          "campaignFinance": {
+            "azsos_url": "https://apps.azsos.gov/apps/election/campaign/ccfs/Public/Search.aspx",
+            "followthemoney_url": null
+          }
         },
         {
           "district": null,
@@ -1598,7 +2842,16 @@
           "email": null,
           "website": null,
           "photo": null,
-          "term": null
+          "term": null,
+          "socialMedia": {
+            "twitter": "https://twitter.com/laustinspace",
+            "facebook": "https://www.facebook.com/laustinspace"
+          },
+          "campaignFinance": {
+            "azsos_url": "https://apps.azsos.gov/apps/election/campaign/ccfs/Public/Search.aspx",
+            "followthemoney_url": null
+          },
+          "notes": "Twitter/Facebook handle 'laustinspace' is personal/author account; also used for council communications"
         },
         {
           "district": null,
@@ -1608,7 +2861,14 @@
           "email": null,
           "website": null,
           "photo": null,
-          "term": null
+          "term": null,
+          "socialMedia": {},
+          "campaignFinance": {
+            "azsos_url": "https://apps.azsos.gov/apps/election/campaign/ccfs/Public/Search.aspx",
+            "followthemoney_url": null
+          },
+          "campaignWebsite": "https://www.lorimatthewsforflagstaff.com",
+          "notes": "No individual social media handles found"
         },
         {
           "district": null,
@@ -1618,7 +2878,14 @@
           "email": null,
           "website": null,
           "photo": null,
-          "term": null
+          "term": null,
+          "socialMedia": {},
+          "campaignFinance": {
+            "azsos_url": "https://apps.azsos.gov/apps/election/campaign/ccfs/Public/Search.aspx",
+            "followthemoney_url": null
+          },
+          "campaignWebsite": "https://www.kharahouseforflagstaff.com",
+          "notes": "No individual social media handles found; running for re-election 2026"
         },
         {
           "district": null,
@@ -1628,7 +2895,13 @@
           "email": null,
           "website": null,
           "photo": null,
-          "term": null
+          "term": null,
+          "socialMedia": {},
+          "campaignFinance": {
+            "azsos_url": "https://apps.azsos.gov/apps/election/campaign/ccfs/Public/Search.aspx",
+            "followthemoney_url": null
+          },
+          "notes": "Sworn in December 2024/January 2025"
         },
         {
           "district": null,
@@ -1638,7 +2911,13 @@
           "email": null,
           "website": null,
           "photo": null,
-          "term": null
+          "term": null,
+          "socialMedia": {},
+          "campaignFinance": {
+            "azsos_url": "https://apps.azsos.gov/apps/election/campaign/ccfs/Public/Search.aspx",
+            "followthemoney_url": null
+          },
+          "notes": "Sworn in December 2024/January 2025"
         }
       ]
     },
@@ -1652,7 +2931,14 @@
         "name": "Douglas J. Nicholls",
         "phone": null,
         "email": null,
-        "website": "https://www.yumaaz.gov/government/mayor-and-council"
+        "website": "https://www.yumaaz.gov/government/mayor-and-council",
+        "socialMedia": {},
+        "campaignFinance": {
+          "azsos_url": "https://apps.azsos.gov/apps/election/campaign/ccfs/Public/Search.aspx",
+          "followthemoney_url": null
+        },
+        "campaignWebsite": "https://www.douglasnicholls.com",
+        "notes": "Third term began January 2023; no specific social media handles found"
       },
       "members": [
         {
@@ -1663,7 +2949,13 @@
           "email": null,
           "website": null,
           "photo": null,
-          "term": null
+          "term": null,
+          "socialMedia": {},
+          "campaignFinance": {
+            "azsos_url": "https://apps.azsos.gov/apps/election/campaign/ccfs/Public/Search.aspx",
+            "followthemoney_url": null
+          },
+          "notes": "Deputy Mayor for 2025"
         },
         {
           "district": null,
@@ -1673,7 +2965,14 @@
           "email": null,
           "website": null,
           "photo": null,
-          "term": null
+          "term": null,
+          "socialMedia": {},
+          "campaignFinance": {
+            "azsos_url": "https://apps.azsos.gov/apps/election/campaign/ccfs/Public/Search.aspx",
+            "followthemoney_url": null
+          },
+          "campaignWebsite": "https://morrisforyuma.com",
+          "notes": "No individual social media found"
         },
         {
           "district": null,
@@ -1683,7 +2982,13 @@
           "email": null,
           "website": null,
           "photo": null,
-          "term": null
+          "term": null,
+          "socialMedia": {},
+          "campaignFinance": {
+            "azsos_url": "https://apps.azsos.gov/apps/election/campaign/ccfs/Public/Search.aspx",
+            "followthemoney_url": null
+          },
+          "notes": "Appointed May 2024; no individual social media found"
         },
         {
           "district": null,
@@ -1693,7 +2998,12 @@
           "email": null,
           "website": null,
           "photo": null,
-          "term": null
+          "term": null,
+          "socialMedia": {},
+          "campaignFinance": {
+            "azsos_url": "https://apps.azsos.gov/apps/election/campaign/ccfs/Public/Search.aspx",
+            "followthemoney_url": null
+          }
         },
         {
           "district": null,
@@ -1703,7 +3013,12 @@
           "email": null,
           "website": null,
           "photo": null,
-          "term": null
+          "term": null,
+          "socialMedia": {},
+          "campaignFinance": {
+            "azsos_url": "https://apps.azsos.gov/apps/election/campaign/ccfs/Public/Search.aspx",
+            "followthemoney_url": null
+          }
         },
         {
           "district": null,
@@ -1713,7 +3028,12 @@
           "email": null,
           "website": null,
           "photo": null,
-          "term": null
+          "term": null,
+          "socialMedia": {},
+          "campaignFinance": {
+            "azsos_url": "https://apps.azsos.gov/apps/election/campaign/ccfs/Public/Search.aspx",
+            "followthemoney_url": null
+          }
         }
       ]
     },
@@ -1727,7 +3047,14 @@
         "name": "Joe Pizzillo",
         "phone": null,
         "email": "joe.pizzillo@goodyearaz.gov",
-        "website": "https://www.goodyearaz.gov/government/mayor-and-council"
+        "website": "https://www.goodyearaz.gov/government/mayor-and-council",
+        "socialMedia": {},
+        "campaignFinance": {
+          "azsos_url": "https://apps.azsos.gov/apps/election/campaign/ccfs/Public/Search.aspx",
+          "followthemoney_url": null
+        },
+        "campaignWebsite": "https://www.joepizzillo.com",
+        "notes": "Term 2023-2026; running for re-election 2026; no specific social media handles found"
       },
       "members": [
         {
@@ -1738,7 +3065,14 @@
           "email": null,
           "website": null,
           "photo": null,
-          "term": null
+          "term": null,
+          "socialMedia": {},
+          "campaignFinance": {
+            "azsos_url": "https://apps.azsos.gov/apps/election/campaign/ccfs/Public/Search.aspx",
+            "followthemoney_url": null
+          },
+          "campaignWebsite": "https://www.hampton4goodyear.com",
+          "notes": "Has Facebook, Twitter, LinkedIn per campaign website; specific handles not captured. Vice Mayor for 2026."
         },
         {
           "district": null,
@@ -1748,7 +3082,13 @@
           "email": null,
           "website": null,
           "photo": null,
-          "term": null
+          "term": null,
+          "socialMedia": {},
+          "campaignFinance": {
+            "azsos_url": "https://apps.azsos.gov/apps/election/campaign/ccfs/Public/Search.aspx",
+            "followthemoney_url": null
+          },
+          "notes": "Third term; Vice Mayor for 2025"
         },
         {
           "district": null,
@@ -1758,7 +3098,14 @@
           "email": "laura.kaino@goodyearaz.gov",
           "website": null,
           "photo": null,
-          "term": null
+          "term": null,
+          "socialMedia": {},
+          "campaignFinance": {
+            "azsos_url": "https://apps.azsos.gov/apps/election/campaign/ccfs/Public/Search.aspx",
+            "followthemoney_url": null
+          },
+          "campaignWebsite": "https://www.laurakaino.com",
+          "notes": "Second term 2025-2028; no individual social media handles found"
         },
         {
           "district": null,
@@ -1768,7 +3115,13 @@
           "email": null,
           "website": null,
           "photo": null,
-          "term": null
+          "term": null,
+          "socialMedia": {},
+          "campaignFinance": {
+            "azsos_url": "https://apps.azsos.gov/apps/election/campaign/ccfs/Public/Search.aspx",
+            "followthemoney_url": null
+          },
+          "notes": "Term 2025-2028; first term"
         },
         {
           "district": null,
@@ -1778,7 +3131,14 @@
           "email": null,
           "website": null,
           "photo": null,
-          "term": null
+          "term": null,
+          "socialMedia": {},
+          "campaignFinance": {
+            "azsos_url": "https://apps.azsos.gov/apps/election/campaign/ccfs/Public/Search.aspx",
+            "followthemoney_url": null
+          },
+          "campaignWebsite": "https://www.treyterry.com",
+          "notes": "Term 2025-2028; first term"
         }
       ]
     }
@@ -1831,7 +3191,8 @@
       "gila_county": "Party affiliations not published on official county website.",
       "apache_county": "No individual email addresses published.",
       "graham_county": "No individual email addresses published.",
-      "mohave_county": "Uses web contact forms instead of published email addresses."
+      "mohave_county": "Uses web contact forms instead of published email addresses.",
+      "social_media_research": "City council social media added 2026-03-22. Phoenix social media sourced from official city channels page. Other cities sourced from web searches, Ballotpedia, and official city websites. Many smaller cities have limited/no individual social media. Campaign finance links are general search URLs - individual CCFS records not yet mapped."
     }
   }
 }

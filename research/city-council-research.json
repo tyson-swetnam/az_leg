@@ -1,0 +1,1619 @@
+{
+  "lastResearched": "2026-03-22",
+  "notes": "Social media handles sourced from official city websites, Ballotpedia, and web searches. Campaign finance URLs are general search links. Some handles may be campaign vs. official; notes indicate uncertainty.",
+  "cities": {
+    "phoenix": {
+      "mayor": {
+        "name": "Kate Gallego",
+        "party": "D",
+        "website": "https://www.phoenix.gov/administration/mayor",
+        "campaignWebsite": "https://www.kategallego.com",
+        "officialBioUrl": "https://www.phoenix.gov/administration/mayor.html",
+        "socialMedia": {
+          "twitter": "https://twitter.com/MayorGallego",
+          "facebook": "https://www.facebook.com/MayorKateGallego/",
+          "instagram": "https://www.instagram.com/mayorkategallego/",
+          "linkedin": null
+        },
+        "campaignFinance": {
+          "azsos_url": "https://apps.azsos.gov/apps/election/campaign/ccfs/Public/Search.aspx",
+          "followthemoney_url": "https://www.followthemoney.org/show-me?c-r-oc=59&s=AZ&y=2024"
+        },
+        "notes": "Official social media from phoenix.gov social media channels page"
+      },
+      "members": [
+        {
+          "district": 1,
+          "name": "Ann O'Brien",
+          "title": "Councilmember",
+          "website": "https://www.phoenix.gov/administration/mayorcouncil/district1",
+          "socialMedia": {
+            "twitter": "https://twitter.com/CWAnnObrien",
+            "facebook": "https://www.facebook.com/PHXDistrict1",
+            "instagram": "https://www.instagram.com/CWAnnOBrien",
+            "linkedin": null
+          },
+          "campaignFinance": {
+            "azsos_url": "https://apps.azsos.gov/apps/election/campaign/ccfs/Public/Search.aspx",
+            "followthemoney_url": null
+          },
+          "notes": "Social media from phoenix.gov official channels page"
+        },
+        {
+          "district": 2,
+          "name": "Jim Waring",
+          "title": "Councilmember",
+          "party": "R",
+          "website": "https://www.phoenix.gov/administration/mayorcouncil/district2",
+          "socialMedia": {
+            "twitter": "https://twitter.com/Jim_Waring",
+            "facebook": "https://www.facebook.com/WaringJim",
+            "instagram": "https://www.instagram.com/jimwaring/",
+            "linkedin": null
+          },
+          "campaignFinance": {
+            "azsos_url": "https://apps.azsos.gov/apps/election/campaign/ccfs/Public/Search.aspx",
+            "followthemoney_url": null
+          },
+          "notes": "Social media from phoenix.gov official channels page"
+        },
+        {
+          "district": 3,
+          "name": "Debra Stark",
+          "title": "Vice Mayor",
+          "website": "https://www.phoenix.gov/administration/mayorcouncil/district3",
+          "socialMedia": {
+            "twitter": "https://twitter.com/DebraStarkPHX",
+            "facebook": "https://www.facebook.com/DebraStarkPHX",
+            "instagram": "https://instagram.com/DebraStarkPHX",
+            "linkedin": null
+          },
+          "campaignFinance": {
+            "azsos_url": "https://apps.azsos.gov/apps/election/campaign/ccfs/Public/Search.aspx",
+            "followthemoney_url": null
+          },
+          "notes": "Social media from phoenix.gov official channels page"
+        },
+        {
+          "district": 4,
+          "name": "Laura Pastor",
+          "title": "Councilmember",
+          "party": "D",
+          "website": "https://www.phoenix.gov/administration/mayorcouncil/district4",
+          "socialMedia": {
+            "twitter": "https://twitter.com/PHXDistrict4",
+            "facebook": "https://www.facebook.com/laurapastordistrict4",
+            "instagram": "https://www.instagram.com/laurapastorphx/",
+            "linkedin": null
+          },
+          "campaignFinance": {
+            "azsos_url": "https://apps.azsos.gov/apps/election/campaign/ccfs/Public/Search.aspx",
+            "followthemoney_url": null
+          },
+          "notes": "Social media from phoenix.gov official channels page"
+        },
+        {
+          "district": 5,
+          "name": "Betty Guardado",
+          "title": "Councilmember",
+          "party": "D",
+          "website": "https://www.phoenix.gov/administration/mayorcouncil/district5",
+          "socialMedia": {
+            "twitter": "https://twitter.com/PHXDistrict5",
+            "facebook": "https://www.facebook.com/GuardadoPHXD5",
+            "instagram": "https://www.instagram.com/guardadophxd5/",
+            "linkedin": null
+          },
+          "campaignFinance": {
+            "azsos_url": "https://apps.azsos.gov/apps/election/campaign/ccfs/Public/Search.aspx",
+            "followthemoney_url": null
+          },
+          "notes": "Social media from phoenix.gov official channels page"
+        },
+        {
+          "district": 6,
+          "name": "Kevin Robinson",
+          "title": "Councilmember",
+          "website": "https://www.phoenix.gov/administration/mayorcouncil/district6",
+          "socialMedia": {
+            "twitter": "https://twitter.com/phxdistrict6",
+            "facebook": "https://www.facebook.com/Disctrict6phx",
+            "instagram": "https://www.instagram.com/phxdistrict6",
+            "linkedin": null
+          },
+          "campaignFinance": {
+            "azsos_url": "https://apps.azsos.gov/apps/election/campaign/ccfs/Public/Search.aspx",
+            "followthemoney_url": null
+          },
+          "notes": "Social media from phoenix.gov official channels page; Facebook URL has typo 'Disctrict6' - that is the official handle"
+        },
+        {
+          "district": 7,
+          "name": "Anna Hernandez",
+          "title": "Councilmember",
+          "party": "D",
+          "website": "https://www.phoenix.gov/administration/mayorcouncil/district7",
+          "socialMedia": {
+            "twitter": "https://x.com/district7_phx",
+            "facebook": "https://www.facebook.com/CouncilwomanAnnaHernandez/",
+            "instagram": "https://www.instagram.com/district7.phx/",
+            "linkedin": null
+          },
+          "campaignFinance": {
+            "azsos_url": "https://apps.azsos.gov/apps/election/campaign/ccfs/Public/Search.aspx",
+            "followthemoney_url": null
+          },
+          "notes": "Social media from phoenix.gov official channels page"
+        },
+        {
+          "district": 8,
+          "name": "Kesha Hodge Washington",
+          "title": "Vice Mayor",
+          "party": "D",
+          "website": "https://www.phoenix.gov/administration/mayorcouncil/district8",
+          "socialMedia": {
+            "twitter": "https://twitter.com/PHXdistrict8",
+            "facebook": "https://www.facebook.com/PHXDistrict8",
+            "instagram": "https://www.instagram.com/phxdistrict8/",
+            "linkedin": null
+          },
+          "campaignFinance": {
+            "azsos_url": "https://apps.azsos.gov/apps/election/campaign/ccfs/Public/Search.aspx",
+            "followthemoney_url": null
+          },
+          "notes": "Social media from phoenix.gov official channels page"
+        }
+      ]
+    },
+    "tucson": {
+      "mayor": {
+        "name": "Regina Romero",
+        "party": "D",
+        "website": "https://www.tucsonaz.gov/Government/Mayor-Council-and-City-Manager/Mayor-Regina-Romero",
+        "socialMedia": {
+          "twitter": "https://twitter.com/MayorRomero",
+          "facebook": "https://www.facebook.com/MayorReginaRomero",
+          "instagram": "https://www.instagram.com/TucsonMayor",
+          "linkedin": null
+        },
+        "campaignFinance": {
+          "azsos_url": "https://apps.azsos.gov/apps/election/campaign/ccfs/Public/Search.aspx",
+          "followthemoney_url": "https://www.followthemoney.org/show-me?c-r-oc=59&s=AZ"
+        },
+        "notes": null
+      },
+      "members": [
+        {
+          "ward": 1,
+          "name": "Lane Santa Cruz",
+          "title": "Councilmember",
+          "party": "D",
+          "website": "https://www.tucsonaz.gov/Government/Mayor-Council-and-City-Manager/City-Council-Wards/Ward-1",
+          "socialMedia": {
+            "twitter": null,
+            "facebook": null,
+            "instagram": null,
+            "linkedin": null
+          },
+          "campaignFinance": {
+            "azsos_url": "https://apps.azsos.gov/apps/election/campaign/ccfs/Public/Search.aspx",
+            "followthemoney_url": null
+          },
+          "notes": "Has official Facebook, Instagram and X accounts per city website but specific handles not confirmed in research"
+        },
+        {
+          "ward": 2,
+          "name": "Paul Cunningham",
+          "title": "Councilmember",
+          "party": "D",
+          "website": "https://www.tucsonaz.gov/Government/Mayor-Council-and-City-Manager/City-Council-Wards/Ward-2",
+          "socialMedia": {
+            "twitter": null,
+            "facebook": null,
+            "instagram": null,
+            "linkedin": null
+          },
+          "campaignFinance": {
+            "azsos_url": "https://apps.azsos.gov/apps/election/campaign/ccfs/Public/Search.aspx",
+            "followthemoney_url": null
+          },
+          "notes": "Has Facebook presence per Legistorm; specific handles not confirmed"
+        },
+        {
+          "ward": 3,
+          "name": "Kevin Dahl",
+          "title": "Councilmember",
+          "party": "D",
+          "website": "https://www.tucsonaz.gov/Government/Mayor-Council-and-City-Manager/City-Council-Wards/Ward-3",
+          "socialMedia": {
+            "twitter": null,
+            "facebook": null,
+            "instagram": null,
+            "linkedin": null
+          },
+          "campaignFinance": {
+            "azsos_url": "https://apps.azsos.gov/apps/election/campaign/ccfs/Public/Search.aspx",
+            "followthemoney_url": null
+          },
+          "notes": "Uses Facebook, Instagram, Threads, YouTube, Bluesky but not Twitter/X per official city website"
+        },
+        {
+          "ward": 4,
+          "name": "Nikki McMillen Lee",
+          "title": "Councilmember",
+          "party": "D",
+          "website": "https://www.tucsonaz.gov/Government/Mayor-Council-and-City-Manager/City-Council-Wards/Ward-4",
+          "socialMedia": {
+            "twitter": "https://twitter.com/CouncilwomanLee",
+            "facebook": null,
+            "instagram": "https://www.instagram.com/nikkilee_az",
+            "linkedin": null
+          },
+          "campaignFinance": {
+            "azsos_url": "https://apps.azsos.gov/apps/election/campaign/ccfs/Public/Search.aspx",
+            "followthemoney_url": null
+          },
+          "notes": "Has both personal and Ward 4 Facebook page; specific Facebook URL not found"
+        },
+        {
+          "ward": 5,
+          "name": "Selina Barajas",
+          "title": "Councilmember",
+          "party": "D",
+          "website": "https://www.tucsonaz.gov/Government/Mayor-Council-and-City-Manager/City-Council-Wards/Ward-5",
+          "socialMedia": {
+            "twitter": null,
+            "facebook": null,
+            "instagram": null,
+            "linkedin": null
+          },
+          "campaignFinance": {
+            "azsos_url": "https://apps.azsos.gov/apps/election/campaign/ccfs/Public/Search.aspx",
+            "followthemoney_url": null
+          },
+          "notes": "Has Facebook, LinkedIn, Instagram, TikTok per ward page; specific handles not confirmed"
+        },
+        {
+          "ward": 6,
+          "name": "Miranda Schubert",
+          "title": "Councilmember",
+          "website": "https://www.tucsonaz.gov/Government/Mayor-Council-and-City-Manager/City-Council-Wards/Ward-6",
+          "campaignWebsite": "https://www.mirandaforward6.com",
+          "socialMedia": {
+            "twitter": null,
+            "facebook": "https://www.facebook.com/mirandaforward6tucson",
+            "instagram": "https://www.instagram.com/mirandaforward6tucson",
+            "linkedin": null
+          },
+          "campaignFinance": {
+            "azsos_url": "https://apps.azsos.gov/apps/election/campaign/ccfs/Public/Search.aspx",
+            "followthemoney_url": null
+          },
+          "notes": "Took office December 2025; no Twitter/X found"
+        }
+      ]
+    },
+    "mesa": {
+      "mayor": {
+        "name": "Mark Freeman",
+        "website": "https://www.mesaaz.gov/Government/Mayor-City-Council/Mayor-Mark-Freeman",
+        "socialMedia": {
+          "twitter": "https://twitter.com/MarkFreemanAZ",
+          "facebook": null,
+          "instagram": null,
+          "linkedin": null
+        },
+        "campaignFinance": {
+          "azsos_url": "https://apps.azsos.gov/apps/election/campaign/ccfs/Public/Search.aspx",
+          "followthemoney_url": null
+        },
+        "notes": "Twitter from Ballotpedia listing. Assumed office January 7, 2025"
+      },
+      "members": [
+        {
+          "district": 1,
+          "name": "Rich Adams",
+          "title": "Councilmember",
+          "website": "https://www.mesaaz.gov/Government/Mayor-City-Council/Councilmember-Rich-Adams",
+          "socialMedia": {
+            "twitter": "https://twitter.com/MesaDistrict1",
+            "facebook": "https://www.facebook.com/MesaDistrict1",
+            "instagram": "https://www.instagram.com/MesaDistrict1",
+            "linkedin": null
+          },
+          "campaignFinance": {
+            "azsos_url": "https://apps.azsos.gov/apps/election/campaign/ccfs/Public/Search.aspx",
+            "followthemoney_url": null
+          },
+          "notes": "First term began January 2025"
+        },
+        {
+          "district": 2,
+          "name": "Dorean Taylor",
+          "title": "Councilmember",
+          "website": "https://www.mesaaz.gov/Government/Mayor-City-Council/Councilmember-Dorean-Taylor",
+          "socialMedia": {
+            "twitter": null,
+            "facebook": null,
+            "instagram": null,
+            "linkedin": null
+          },
+          "campaignFinance": {
+            "azsos_url": "https://apps.azsos.gov/apps/election/campaign/ccfs/Public/Search.aspx",
+            "followthemoney_url": null
+          },
+          "notes": "No individual social media found in research"
+        },
+        {
+          "district": 3,
+          "name": "Francisco Heredia",
+          "title": "Vice Mayor",
+          "website": "https://www.mesaaz.gov/Government/Mayor-City-Council/Councilmember-Francisco-Heredia",
+          "socialMedia": {
+            "twitter": null,
+            "facebook": null,
+            "instagram": null,
+            "linkedin": null
+          },
+          "campaignFinance": {
+            "azsos_url": "https://apps.azsos.gov/apps/election/campaign/ccfs/Public/Search.aspx",
+            "followthemoney_url": "https://www.followthemoney.org/show-me?c-r-oc=59&s=AZ"
+          },
+          "notes": "Has Twitter, Facebook, Instagram per newsletters (follows on all platforms); specific handles not confirmed. Ballotpedia lists Official X but link not captured"
+        },
+        {
+          "district": 4,
+          "name": "Jenn Duff",
+          "title": "Councilmember",
+          "website": "https://www.mesaaz.gov/Government/Mayor-City-Council/Councilmember-Jenn-Duff",
+          "socialMedia": {
+            "twitter": "https://twitter.com/JennDuffMesa",
+            "facebook": null,
+            "instagram": null,
+            "linkedin": null
+          },
+          "campaignFinance": {
+            "azsos_url": "https://apps.azsos.gov/apps/election/campaign/ccfs/Public/Search.aspx",
+            "followthemoney_url": null
+          },
+          "notes": "Has Facebook, Twitter, Instagram, YouTube per official city page links"
+        },
+        {
+          "district": 5,
+          "name": "Alicia Goforth",
+          "title": "Councilmember",
+          "website": "https://www.mesaaz.gov/Government/Mayor-City-Council/Councilmember-Alicia-Goforth",
+          "socialMedia": {
+            "twitter": null,
+            "facebook": null,
+            "instagram": null,
+            "linkedin": null
+          },
+          "campaignFinance": {
+            "azsos_url": "https://apps.azsos.gov/apps/election/campaign/ccfs/Public/Search.aspx",
+            "followthemoney_url": null
+          },
+          "notes": "Has X/Twitter per official city page; specific handle not confirmed"
+        },
+        {
+          "district": 6,
+          "name": "Scott Somers",
+          "title": "Vice Mayor",
+          "website": "https://www.mesaaz.gov/Government/Mayor-City-Council/Councilmember-Scott-Somers",
+          "socialMedia": {
+            "twitter": "https://twitter.com/ScottSomers",
+            "facebook": null,
+            "instagram": null,
+            "linkedin": null
+          },
+          "campaignFinance": {
+            "azsos_url": "https://apps.azsos.gov/apps/election/campaign/ccfs/Public/Search.aspx",
+            "followthemoney_url": null
+          },
+          "notes": null
+        }
+      ]
+    },
+    "chandler": {
+      "mayor": {
+        "name": "Kevin Hartke",
+        "website": "https://www.chandleraz.gov/government/mayor-and-council/mayor-kevin-hartke",
+        "campaignWebsite": "https://www.kevinhartke.com",
+        "socialMedia": {
+          "twitter": null,
+          "facebook": null,
+          "instagram": null,
+          "linkedin": null
+        },
+        "campaignFinance": {
+          "azsos_url": "https://apps.azsos.gov/apps/election/campaign/ccfs/Public/Search.aspx",
+          "followthemoney_url": null
+        },
+        "notes": "Has Twitter and Facebook per city social media page; specific handles not confirmed. Campaign site at kevinhartke.com (now running for state office)"
+      },
+      "members": [
+        {
+          "district": 1,
+          "name": "Angel Encinas",
+          "title": "Vice Mayor",
+          "website": "https://www.chandleraz.gov/government/mayor-and-council/vice-mayor-angel-encinas",
+          "socialMedia": {
+            "twitter": null,
+            "facebook": null,
+            "instagram": null,
+            "linkedin": null
+          },
+          "campaignFinance": {
+            "azsos_url": "https://apps.azsos.gov/apps/election/campaign/ccfs/Public/Search.aspx",
+            "followthemoney_url": null
+          },
+          "notes": "No individual social media found; has YouTube series on city channel"
+        },
+        {
+          "district": 2,
+          "name": "Christine Ellis",
+          "title": "Councilmember",
+          "website": "https://www.chandleraz.gov/government/mayor-and-council/councilmember-christine-ellis",
+          "socialMedia": {
+            "twitter": null,
+            "facebook": null,
+            "instagram": null,
+            "linkedin": null
+          },
+          "campaignFinance": {
+            "azsos_url": "https://apps.azsos.gov/apps/election/campaign/ccfs/Public/Search.aspx",
+            "followthemoney_url": null
+          },
+          "notes": "No individual social media found"
+        },
+        {
+          "district": 3,
+          "name": "OD Harris",
+          "title": "Councilmember",
+          "website": "https://www.chandleraz.gov/government/mayor-and-council/councilmember-od-harris",
+          "campaignWebsite": "https://www.odharris.org",
+          "socialMedia": {
+            "twitter": null,
+            "facebook": null,
+            "instagram": null,
+            "linkedin": null
+          },
+          "campaignFinance": {
+            "azsos_url": "https://apps.azsos.gov/apps/election/campaign/ccfs/Public/Search.aspx",
+            "followthemoney_url": null
+          },
+          "notes": "Has personal website odharris.org; individual social media not confirmed"
+        },
+        {
+          "district": 4,
+          "name": "Jennifer Hawkins",
+          "title": "Councilmember",
+          "website": "https://www.chandleraz.gov/government/mayor-and-council/councilmember-jennifer-hawkins",
+          "campaignWebsite": "https://www.jenniferforchandler.com",
+          "socialMedia": {
+            "twitter": null,
+            "facebook": null,
+            "instagram": null,
+            "linkedin": null
+          },
+          "campaignFinance": {
+            "azsos_url": "https://apps.azsos.gov/apps/election/campaign/ccfs/Public/Search.aspx",
+            "followthemoney_url": null
+          },
+          "notes": "No individual social media handles found"
+        },
+        {
+          "district": 5,
+          "name": "Matt Orlando",
+          "title": "Councilmember",
+          "website": "https://www.chandleraz.gov/government/mayor-and-council/councilmember-matt-orlando",
+          "campaignWebsite": "https://www.mattorlandoformayor.com",
+          "socialMedia": {
+            "twitter": null,
+            "facebook": null,
+            "instagram": null,
+            "linkedin": null
+          },
+          "campaignFinance": {
+            "azsos_url": "https://apps.azsos.gov/apps/election/campaign/ccfs/Public/Search.aspx",
+            "followthemoney_url": null
+          },
+          "notes": "Has campaign site mattorlandoformayor.com; no individual social media handles found"
+        },
+        {
+          "district": 6,
+          "name": "Jane Poston",
+          "title": "Councilmember",
+          "website": "https://www.chandleraz.gov/government/mayor-and-council/councilmember-jane-poston",
+          "campaignWebsite": "https://www.janeposton.com",
+          "socialMedia": {
+            "twitter": null,
+            "facebook": null,
+            "instagram": null,
+            "linkedin": null
+          },
+          "campaignFinance": {
+            "azsos_url": "https://apps.azsos.gov/apps/election/campaign/ccfs/Public/Search.aspx",
+            "followthemoney_url": null
+          },
+          "notes": "Has Facebook, LinkedIn, Twitter per campaign; specific handles not captured"
+        }
+      ]
+    },
+    "scottsdale": {
+      "mayor": {
+        "name": "Lisa Borowsky",
+        "website": "https://www.scottsdaleaz.gov/council/mayor-lisa-borowsky",
+        "campaignWebsite": "https://scottsdalemayor.com",
+        "socialMedia": {
+          "twitter": null,
+          "facebook": null,
+          "instagram": null,
+          "linkedin": null
+        },
+        "campaignFinance": {
+          "azsos_url": "https://apps.azsos.gov/apps/election/campaign/ccfs/Public/Search.aspx",
+          "followthemoney_url": null
+        },
+        "notes": "Has X/Twitter linked from official page per Ballotpedia; specific handle not confirmed. Term began January 2025."
+      },
+      "members": [
+        {
+          "name": "Barry Graham",
+          "title": "Councilmember",
+          "website": "https://www.scottsdaleaz.gov/council/councilman-barry-graham",
+          "campaignWebsite": "https://barrygrahamresidentsfirst.com",
+          "socialMedia": {
+            "twitter": "https://twitter.com/barrygrahamresi",
+            "facebook": null,
+            "instagram": null,
+            "linkedin": null
+          },
+          "campaignFinance": {
+            "azsos_url": "https://apps.azsos.gov/apps/election/campaign/ccfs/Public/Search.aspx",
+            "followthemoney_url": null
+          },
+          "notes": "Twitter handle from campaign website"
+        },
+        {
+          "name": "Kathy Littlefield",
+          "title": "Councilmember",
+          "website": "https://www.scottsdaleaz.gov/council/councilwoman-kathy-littlefield",
+          "socialMedia": {
+            "twitter": "https://twitter.com/votekathylittle",
+            "facebook": null,
+            "instagram": null,
+            "linkedin": null
+          },
+          "campaignFinance": {
+            "azsos_url": "https://apps.azsos.gov/apps/election/campaign/ccfs/Public/Search.aspx",
+            "followthemoney_url": null
+          },
+          "notes": "Twitter handle from Ballotpedia/search; third term"
+        },
+        {
+          "name": "Solange Whitehead",
+          "title": "Councilmember",
+          "website": "https://www.scottsdaleaz.gov/council/councilwoman-solange-whitehead",
+          "campaignWebsite": "https://www.solangeforscottsdale.com",
+          "socialMedia": {
+            "twitter": "https://twitter.com/solangeforscott",
+            "facebook": null,
+            "instagram": null,
+            "linkedin": null
+          },
+          "campaignFinance": {
+            "azsos_url": "https://apps.azsos.gov/apps/election/campaign/ccfs/Public/Search.aspx",
+            "followthemoney_url": null
+          },
+          "notes": "Second term; Twitter from campaign website"
+        },
+        {
+          "name": "Maryann McAllen",
+          "title": "Councilmember",
+          "website": "https://www.scottsdaleaz.gov/council/councilwoman-maryann-mcallen",
+          "campaignWebsite": "https://www.maryannmcallenforscottsdale.com",
+          "socialMedia": {
+            "twitter": null,
+            "facebook": null,
+            "instagram": null,
+            "linkedin": null
+          },
+          "campaignFinance": {
+            "azsos_url": "https://apps.azsos.gov/apps/election/campaign/ccfs/Public/Search.aspx",
+            "followthemoney_url": null
+          },
+          "notes": "Has LinkedIn per Legistorm; term began January 2025"
+        },
+        {
+          "name": "Jan Dubauskas",
+          "title": "Councilmember",
+          "website": "https://www.scottsdaleaz.gov/council/councilwoman-jan-dubauskas",
+          "campaignWebsite": "https://www.janforscottsdale.com",
+          "socialMedia": {
+            "twitter": "https://twitter.com/JanDubauskas",
+            "facebook": null,
+            "instagram": null,
+            "linkedin": null
+          },
+          "campaignFinance": {
+            "azsos_url": "https://apps.azsos.gov/apps/election/campaign/ccfs/Public/Search.aspx",
+            "followthemoney_url": null
+          },
+          "notes": "Twitter @JanDubauskas from campaign website; term began January 2025"
+        },
+        {
+          "name": "Adam Kwasman",
+          "title": "Vice Mayor",
+          "website": "https://www.scottsdaleaz.gov/council/councilman-adam-kwasman",
+          "socialMedia": {
+            "twitter": "https://twitter.com/AdamKwasman",
+            "facebook": null,
+            "instagram": null,
+            "linkedin": null
+          },
+          "campaignFinance": {
+            "azsos_url": "https://apps.azsos.gov/apps/election/campaign/ccfs/Public/Search.aspx",
+            "followthemoney_url": null
+          },
+          "notes": "Term began January 2025; Twitter confirmed from Wikipedia and Ballotpedia"
+        }
+      ]
+    },
+    "glendale": {
+      "mayor": {
+        "name": "Jerry P. Weiers",
+        "website": "https://www.glendaleaz.gov/Your-Government/City-Council/Mayor-Jerry-P-Weiers",
+        "campaignWebsite": "https://www.jerryweiers.com",
+        "socialMedia": {
+          "twitter": "https://twitter.com/JerryWeiers",
+          "facebook": null,
+          "instagram": null,
+          "linkedin": null
+        },
+        "campaignFinance": {
+          "azsos_url": "https://apps.azsos.gov/apps/election/campaign/ccfs/Public/Search.aspx",
+          "followthemoney_url": null
+        },
+        "notes": "Has YouTube @MayorWeiers, Facebook, and Twitter; specific Facebook not confirmed. Twitter @JerryWeiers probable based on official links"
+      },
+      "members": [
+        {
+          "district": 1,
+          "name": "Ray Malnar",
+          "title": "Vice Mayor",
+          "website": "https://www.glendaleaz.gov/Your-Government/City-Council/Sahuaro-District-Ray-Malnar",
+          "socialMedia": {
+            "twitter": null,
+            "facebook": null,
+            "instagram": null,
+            "linkedin": null
+          },
+          "campaignFinance": {
+            "azsos_url": "https://apps.azsos.gov/apps/election/campaign/ccfs/Public/Search.aspx",
+            "followthemoney_url": null
+          },
+          "notes": "No individual social media found"
+        },
+        {
+          "district": 2,
+          "name": "Leandro Baldenegro",
+          "title": "Councilmember",
+          "website": "https://www.glendaleaz.gov/Your-Government/City-Council/Ocotillo-District-Leandro-Baldenegro",
+          "socialMedia": {
+            "twitter": null,
+            "facebook": null,
+            "instagram": null,
+            "linkedin": null
+          },
+          "campaignFinance": {
+            "azsos_url": "https://apps.azsos.gov/apps/election/campaign/ccfs/Public/Search.aspx",
+            "followthemoney_url": null
+          },
+          "notes": "No individual social media found"
+        },
+        {
+          "district": 3,
+          "name": "Lupe Conchas",
+          "title": "Councilmember",
+          "website": "https://www.glendaleaz.gov/Your-Government/City-Council/Cactus-District-Lupe-Conchas",
+          "socialMedia": {
+            "twitter": null,
+            "facebook": null,
+            "instagram": null,
+            "linkedin": null
+          },
+          "campaignFinance": {
+            "azsos_url": "https://apps.azsos.gov/apps/election/campaign/ccfs/Public/Search.aspx",
+            "followthemoney_url": null
+          },
+          "notes": "No individual social media found"
+        },
+        {
+          "district": 4,
+          "name": "Dianna T. Guzman",
+          "title": "Councilmember",
+          "website": "https://www.glendaleaz.gov/Your-Government/City-Council/Yucca-District-Dianna-T-Guzman",
+          "socialMedia": {
+            "twitter": null,
+            "facebook": null,
+            "instagram": null,
+            "linkedin": null
+          },
+          "campaignFinance": {
+            "azsos_url": "https://apps.azsos.gov/apps/election/campaign/ccfs/Public/Search.aspx",
+            "followthemoney_url": null
+          },
+          "notes": "Ballotpedia page exists but no personal Twitter found"
+        },
+        {
+          "district": 5,
+          "name": "Lauren Tolmachoff",
+          "title": "Councilmember",
+          "website": "https://www.glendaleaz.gov/Your-Government/City-Council/Barrel-District-Lauren-Tolmachoff",
+          "socialMedia": {
+            "twitter": null,
+            "facebook": null,
+            "instagram": null,
+            "linkedin": null
+          },
+          "campaignFinance": {
+            "azsos_url": "https://apps.azsos.gov/apps/election/campaign/ccfs/Public/Search.aspx",
+            "followthemoney_url": null
+          },
+          "notes": "Has Facebook campaign page; specific handle not found"
+        },
+        {
+          "district": 6,
+          "name": "Bart Turner",
+          "title": "Councilmember",
+          "website": "https://www.glendaleaz.gov/Your-Government/City-Council/Cholla-District-Bart-Turner",
+          "socialMedia": {
+            "twitter": null,
+            "facebook": null,
+            "instagram": null,
+            "linkedin": null
+          },
+          "campaignFinance": {
+            "azsos_url": "https://apps.azsos.gov/apps/election/campaign/ccfs/Public/Search.aspx",
+            "followthemoney_url": null
+          },
+          "notes": "Announced not seeking re-election in November 2025 via Facebook and LinkedIn; specific handles not found"
+        }
+      ]
+    },
+    "gilbert": {
+      "mayor": {
+        "name": "Scott Anderson",
+        "website": "https://www.gilbertaz.gov/Home/Components/StaffDirectory/StaffDirectory/215",
+        "campaignWebsite": "https://www.gilbertmayoranderson.org",
+        "socialMedia": {
+          "twitter": null,
+          "facebook": null,
+          "instagram": null,
+          "linkedin": null
+        },
+        "campaignFinance": {
+          "azsos_url": "https://apps.azsos.gov/apps/election/campaign/ccfs/Public/Search.aspx",
+          "followthemoney_url": null
+        },
+        "notes": "No individual social media found; assumed office January 7, 2025"
+      },
+      "members": [
+        {
+          "name": "Bobbi Buchli",
+          "title": "Councilmember",
+          "website": "https://www.gilbertaz.gov/Home/Components/StaffDirectory/StaffDirectory/420",
+          "campaignWebsite": "https://bobbibuchli4gilbert.com",
+          "socialMedia": {
+            "twitter": null,
+            "facebook": null,
+            "instagram": null,
+            "linkedin": null
+          },
+          "campaignFinance": {
+            "azsos_url": "https://apps.azsos.gov/apps/election/campaign/ccfs/Public/Search.aspx",
+            "followthemoney_url": null
+          },
+          "notes": "Has campaign website; no individual social media found"
+        },
+        {
+          "name": "Chuck Bongiovanni",
+          "title": "Vice Mayor",
+          "website": "https://www.gilbertaz.gov/Home/Components/StaffDirectory/StaffDirectory/418",
+          "socialMedia": {
+            "twitter": null,
+            "facebook": null,
+            "instagram": null,
+            "linkedin": null
+          },
+          "campaignFinance": {
+            "azsos_url": "https://apps.azsos.gov/apps/election/campaign/ccfs/Public/Search.aspx",
+            "followthemoney_url": null
+          },
+          "notes": "Vice Mayor for 2026"
+        },
+        {
+          "name": "Kenny Buckland",
+          "title": "Councilmember",
+          "website": "https://gilbertaz.gov/Home/Components/StaffDirectory/StaffDirectory/480/",
+          "socialMedia": {
+            "twitter": null,
+            "facebook": null,
+            "instagram": null,
+            "linkedin": null
+          },
+          "campaignFinance": {
+            "azsos_url": "https://apps.azsos.gov/apps/election/campaign/ccfs/Public/Search.aspx",
+            "followthemoney_url": null
+          },
+          "notes": null
+        },
+        {
+          "name": "Yung Koprowski",
+          "title": "Councilmember",
+          "website": "https://www.gilbertaz.gov/Home/Components/StaffDirectory/StaffDirectory/342",
+          "socialMedia": {
+            "twitter": null,
+            "facebook": null,
+            "instagram": null,
+            "linkedin": null
+          },
+          "campaignFinance": {
+            "azsos_url": "https://apps.azsos.gov/apps/election/campaign/ccfs/Public/Search.aspx",
+            "followthemoney_url": null
+          },
+          "notes": null
+        },
+        {
+          "name": "Monte Lyons",
+          "title": "Councilmember",
+          "website": "https://www.gilbertaz.gov/Home/Components/StaffDirectory/StaffDirectory/482/",
+          "socialMedia": {
+            "twitter": null,
+            "facebook": null,
+            "instagram": null,
+            "linkedin": null
+          },
+          "campaignFinance": {
+            "azsos_url": "https://apps.azsos.gov/apps/election/campaign/ccfs/Public/Search.aspx",
+            "followthemoney_url": null
+          },
+          "notes": "Elected July 2024"
+        },
+        {
+          "name": "Jim Torgeson",
+          "title": "Councilmember",
+          "website": "https://www.gilbertaz.gov/Home/Components/StaffDirectory/StaffDirectory/422",
+          "socialMedia": {
+            "twitter": null,
+            "facebook": null,
+            "instagram": null,
+            "linkedin": null
+          },
+          "campaignFinance": {
+            "azsos_url": "https://apps.azsos.gov/apps/election/campaign/ccfs/Public/Search.aspx",
+            "followthemoney_url": null
+          },
+          "notes": null
+        }
+      ]
+    },
+    "tempe": {
+      "mayor": {
+        "name": "Corey Woods",
+        "party": "D",
+        "website": "https://www.tempe.gov/government/mayor-and-city-council/corey-d-woods-mayor",
+        "socialMedia": {
+          "twitter": "https://twitter.com/MayorCoreyWoods",
+          "facebook": null,
+          "instagram": null,
+          "linkedin": null
+        },
+        "campaignFinance": {
+          "azsos_url": "https://apps.azsos.gov/apps/election/campaign/ccfs/Public/Search.aspx",
+          "followthemoney_url": null
+        },
+        "notes": "Twitter confirmed from multiple sources"
+      },
+      "members": [
+        {
+          "district": 1,
+          "name": "Doreen Garlid",
+          "title": "Vice Mayor",
+          "website": "https://www.tempe.gov/government/mayor-and-city-council/doreen-garlid-vice-mayor",
+          "socialMedia": {
+            "twitter": null,
+            "facebook": null,
+            "instagram": null,
+            "linkedin": null
+          },
+          "campaignFinance": {
+            "azsos_url": "https://apps.azsos.gov/apps/election/campaign/ccfs/Public/Search.aspx",
+            "followthemoney_url": null
+          },
+          "notes": "No specific social media handles found"
+        },
+        {
+          "district": 2,
+          "name": "Jennifer Adams",
+          "title": "Councilmember",
+          "website": "https://www.tempe.gov/government/mayor-and-city-council/jennifer-adams-councilmember",
+          "campaignWebsite": "https://www.electjenadams.com",
+          "socialMedia": {
+            "twitter": null,
+            "facebook": "https://www.facebook.com/JenniferAdamsTempe",
+            "instagram": "https://www.instagram.com/JenniferAdamsTempe",
+            "linkedin": null
+          },
+          "campaignFinance": {
+            "azsos_url": "https://apps.azsos.gov/apps/election/campaign/ccfs/Public/Search.aspx",
+            "followthemoney_url": null
+          },
+          "notes": "Facebook and Instagram @JenniferAdamsTempe"
+        },
+        {
+          "district": 3,
+          "name": "Arlene Chin",
+          "title": "Councilmember",
+          "website": "https://www.tempe.gov/government/mayor-and-city-council/arlene-chin-councilmember",
+          "socialMedia": {
+            "twitter": "https://twitter.com/arlenetempe",
+            "facebook": "https://www.facebook.com/TempeArleneChin",
+            "instagram": "https://www.instagram.com/TempeArleneChin",
+            "linkedin": null
+          },
+          "campaignFinance": {
+            "azsos_url": "https://apps.azsos.gov/apps/election/campaign/ccfs/Public/Search.aspx",
+            "followthemoney_url": null
+          },
+          "notes": null
+        },
+        {
+          "district": 4,
+          "name": "Berdetta Hodge",
+          "title": "Councilmember",
+          "website": "https://www.tempe.gov/government/mayor-and-city-council/berdetta-hodge-councilmember",
+          "socialMedia": {
+            "twitter": null,
+            "facebook": null,
+            "instagram": null,
+            "linkedin": null
+          },
+          "campaignFinance": {
+            "azsos_url": "https://apps.azsos.gov/apps/election/campaign/ccfs/Public/Search.aspx",
+            "followthemoney_url": null
+          },
+          "notes": "No specific social media handles found"
+        },
+        {
+          "district": 5,
+          "name": "Randy Keating",
+          "title": "Councilmember",
+          "website": "https://www.tempe.gov/government/mayor-and-city-council/randy-keating-councilmember",
+          "socialMedia": {
+            "twitter": "https://twitter.com/RandyKeating",
+            "facebook": null,
+            "instagram": null,
+            "linkedin": null
+          },
+          "campaignFinance": {
+            "azsos_url": "https://apps.azsos.gov/apps/election/campaign/ccfs/Public/Search.aspx",
+            "followthemoney_url": null
+          },
+          "notes": "Twitter @RandyKeating confirmed"
+        },
+        {
+          "district": 6,
+          "name": "Nikki Amberg",
+          "title": "Councilmember",
+          "website": "https://www.tempe.gov/government/mayor-and-city-council/nikki-amberg-councilmember",
+          "socialMedia": {
+            "twitter": null,
+            "facebook": null,
+            "instagram": null,
+            "linkedin": null
+          },
+          "campaignFinance": {
+            "azsos_url": "https://apps.azsos.gov/apps/election/campaign/ccfs/Public/Search.aspx",
+            "followthemoney_url": null
+          },
+          "notes": "No specific social media handles found"
+        }
+      ]
+    },
+    "peoria": {
+      "mayor": {
+        "name": "Jason Beck",
+        "website": "https://www.peoriaaz.gov/government/mayor-and-city-council/mayor-jason-beck",
+        "socialMedia": {
+          "twitter": "https://twitter.com/MayorJasonBeck",
+          "facebook": "https://www.facebook.com/MayorPeoriaArizona",
+          "instagram": null,
+          "linkedin": null
+        },
+        "campaignFinance": {
+          "azsos_url": "https://apps.azsos.gov/apps/election/campaign/ccfs/Public/Search.aspx",
+          "followthemoney_url": null
+        },
+        "notes": "Announced not seeking re-election in December 2025; Twitter @MayorJasonBeck, Facebook @MayorPeoriaArizona"
+      },
+      "members": [
+        {
+          "district": 1,
+          "name": "Michael Finn",
+          "title": "Vice Mayor",
+          "website": "https://www.peoriaaz.gov/government/mayor-and-city-council/palo-verde-district",
+          "campaignWebsite": "https://www.finnformayor.com",
+          "socialMedia": {
+            "twitter": null,
+            "facebook": null,
+            "instagram": null,
+            "linkedin": null
+          },
+          "campaignFinance": {
+            "azsos_url": "https://apps.azsos.gov/apps/election/campaign/ccfs/Public/Search.aspx",
+            "followthemoney_url": null
+          },
+          "notes": "Palo Verde District; Vice Mayor as of January 2025; running for Mayor 2026"
+        },
+        {
+          "district": 2,
+          "name": "Matt Bullock",
+          "title": "Councilmember",
+          "website": "https://www.peoriaaz.gov/government/mayor-and-city-council/mesquite-district",
+          "socialMedia": {
+            "twitter": null,
+            "facebook": null,
+            "instagram": null,
+            "linkedin": null
+          },
+          "campaignFinance": {
+            "azsos_url": "https://apps.azsos.gov/apps/election/campaign/ccfs/Public/Search.aspx",
+            "followthemoney_url": null
+          },
+          "notes": "Mesquite District; has Facebook page"
+        },
+        {
+          "district": 3,
+          "name": "Jennifer Crawford",
+          "title": "Councilmember",
+          "website": "https://www.peoriaaz.gov/government/mayor-and-city-council/acacia-district",
+          "socialMedia": {
+            "twitter": null,
+            "facebook": null,
+            "instagram": null,
+            "linkedin": null
+          },
+          "campaignFinance": {
+            "azsos_url": "https://apps.azsos.gov/apps/election/campaign/ccfs/Public/Search.aspx",
+            "followthemoney_url": null
+          },
+          "notes": "Acacia District; has Facebook page"
+        },
+        {
+          "district": 4,
+          "name": "Rick Stokes",
+          "title": "Councilmember",
+          "website": "https://www.peoriaaz.gov/government/mayor-and-city-council/ironwood-district",
+          "socialMedia": {
+            "twitter": null,
+            "facebook": null,
+            "instagram": null,
+            "linkedin": null
+          },
+          "campaignFinance": {
+            "azsos_url": "https://apps.azsos.gov/apps/election/campaign/ccfs/Public/Search.aspx",
+            "followthemoney_url": null
+          },
+          "notes": "Ironwood District"
+        },
+        {
+          "district": 5,
+          "name": "Denette Dunn",
+          "title": "Councilmember",
+          "website": "https://www.peoriaaz.gov/government/mayor-and-city-council/pine-district",
+          "socialMedia": {
+            "twitter": null,
+            "facebook": null,
+            "instagram": null,
+            "linkedin": null
+          },
+          "campaignFinance": {
+            "azsos_url": "https://apps.azsos.gov/apps/election/campaign/ccfs/Public/Search.aspx",
+            "followthemoney_url": null
+          },
+          "notes": "Pine District; has Facebook page"
+        },
+        {
+          "district": 6,
+          "name": "Jon Edwards",
+          "title": "Councilmember",
+          "website": "https://www.peoriaaz.gov/government/mayor-and-city-council/willow-district",
+          "socialMedia": {
+            "twitter": "https://twitter.com/WillowDistrict",
+            "facebook": null,
+            "instagram": null,
+            "linkedin": null
+          },
+          "campaignFinance": {
+            "azsos_url": "https://apps.azsos.gov/apps/election/campaign/ccfs/Public/Search.aspx",
+            "followthemoney_url": null
+          },
+          "notes": "Willow District; Twitter @WillowDistrict (district account)"
+        }
+      ]
+    },
+    "surprise": {
+      "mayor": {
+        "name": "Kevin Sartor",
+        "website": "https://surpriseaz.gov/1175/About-the-Mayor",
+        "socialMedia": {
+          "twitter": null,
+          "facebook": null,
+          "instagram": null,
+          "linkedin": null
+        },
+        "campaignFinance": {
+          "azsos_url": "https://apps.azsos.gov/apps/election/campaign/ccfs/Public/Search.aspx",
+          "followthemoney_url": null
+        },
+        "notes": "Has Facebook per city website; specific handles not confirmed. Term began January 2025."
+      },
+      "members": [
+        {
+          "district": 1,
+          "name": "Nick Haney",
+          "title": "Councilmember",
+          "website": "https://surpriseaz.gov/1178/About-Nick-Haney",
+          "socialMedia": {
+            "twitter": null,
+            "facebook": null,
+            "instagram": null,
+            "linkedin": null
+          },
+          "campaignFinance": {
+            "azsos_url": "https://apps.azsos.gov/apps/election/campaign/ccfs/Public/Search.aspx",
+            "followthemoney_url": null
+          },
+          "notes": null
+        },
+        {
+          "district": 2,
+          "name": "Earle Greenberg",
+          "title": "Vice Mayor",
+          "website": "https://surpriseaz.gov/1183/About-Vice-Mayor-Greenberg",
+          "socialMedia": {
+            "twitter": null,
+            "facebook": null,
+            "instagram": null,
+            "linkedin": null
+          },
+          "campaignFinance": {
+            "azsos_url": "https://apps.azsos.gov/apps/election/campaign/ccfs/Public/Search.aspx",
+            "followthemoney_url": null
+          },
+          "notes": "Vice Mayor as of January 2026; has Facebook"
+        },
+        {
+          "district": 3,
+          "name": "Patrick Duffy",
+          "title": "Councilmember",
+          "website": "https://surpriseaz.gov/1186/About-Councilmember-Duffy",
+          "socialMedia": {
+            "twitter": null,
+            "facebook": null,
+            "instagram": null,
+            "linkedin": null
+          },
+          "campaignFinance": {
+            "azsos_url": "https://apps.azsos.gov/apps/election/campaign/ccfs/Public/Search.aspx",
+            "followthemoney_url": null
+          },
+          "notes": "Has personal Facebook per Ballotpedia"
+        },
+        {
+          "district": 4,
+          "name": "Johnny V. Melton",
+          "title": "Councilmember",
+          "website": "https://surpriseaz.gov/1190/About-Councilmember-Melton",
+          "socialMedia": {
+            "twitter": null,
+            "facebook": null,
+            "instagram": null,
+            "linkedin": null
+          },
+          "campaignFinance": {
+            "azsos_url": "https://apps.azsos.gov/apps/election/campaign/ccfs/Public/Search.aspx",
+            "followthemoney_url": null
+          },
+          "notes": null
+        },
+        {
+          "district": 5,
+          "name": "Jack Hastings",
+          "title": "Vice Mayor",
+          "website": "https://surpriseaz.gov/743/District-5---Jack-Hastings",
+          "campaignWebsite": "https://www.jackforsurprise.com",
+          "socialMedia": {
+            "twitter": null,
+            "facebook": "https://www.facebook.com/councilmemberhastings",
+            "instagram": null,
+            "linkedin": null
+          },
+          "campaignFinance": {
+            "azsos_url": "https://apps.azsos.gov/apps/election/campaign/ccfs/Public/Search.aspx",
+            "followthemoney_url": null
+          },
+          "notes": "Vice Mayor January 2025; has Facebook, X, Instagram per campaign site"
+        },
+        {
+          "district": 6,
+          "name": "Chris Judd",
+          "title": "Councilmember",
+          "website": "https://surpriseaz.gov/744/District-6---Chris-Judd",
+          "socialMedia": {
+            "twitter": null,
+            "facebook": null,
+            "instagram": null,
+            "linkedin": null
+          },
+          "campaignFinance": {
+            "azsos_url": "https://apps.azsos.gov/apps/election/campaign/ccfs/Public/Search.aspx",
+            "followthemoney_url": null
+          },
+          "notes": "Has Facebook and X presence; specific handles not confirmed"
+        }
+      ]
+    },
+    "flagstaff": {
+      "mayor": {
+        "name": "Becky Daggett",
+        "website": "https://www.flagstaff.az.gov/4514/Mayor-Becky-Daggett",
+        "campaignWebsite": "https://beckydaggett.com",
+        "socialMedia": {
+          "twitter": null,
+          "facebook": null,
+          "instagram": null,
+          "linkedin": null
+        },
+        "campaignFinance": {
+          "azsos_url": "https://apps.azsos.gov/apps/election/campaign/ccfs/Public/Search.aspx",
+          "followthemoney_url": null
+        },
+        "notes": "No individual social media handles found; collecting signatures for 2026 re-election"
+      },
+      "members": [
+        {
+          "name": "Miranda Sweet",
+          "title": "Vice Mayor",
+          "website": "https://www.flagstaff.az.gov/4806/Vice-Mayor-Miranda-Sweet",
+          "socialMedia": {
+            "twitter": null,
+            "facebook": null,
+            "instagram": null,
+            "linkedin": null
+          },
+          "campaignFinance": {
+            "azsos_url": "https://apps.azsos.gov/apps/election/campaign/ccfs/Public/Search.aspx",
+            "followthemoney_url": null
+          },
+          "notes": null
+        },
+        {
+          "name": "Austin Aslan",
+          "title": "Councilmember",
+          "website": "https://www.flagstaff.az.gov/4066/Councilmember-Austin-Aslan",
+          "socialMedia": {
+            "twitter": "https://twitter.com/laustinspace",
+            "facebook": "https://www.facebook.com/laustinspace",
+            "instagram": null,
+            "linkedin": null
+          },
+          "campaignFinance": {
+            "azsos_url": "https://apps.azsos.gov/apps/election/campaign/ccfs/Public/Search.aspx",
+            "followthemoney_url": null
+          },
+          "notes": "Twitter/Facebook handle 'laustinspace' is personal/author account; also used for council communications"
+        },
+        {
+          "name": "Lori Matthews",
+          "title": "Councilmember",
+          "website": "https://www.flagstaff.az.gov/4807/Councilmember-Lori-Matthews",
+          "campaignWebsite": "https://www.lorimatthewsforflagstaff.com",
+          "socialMedia": {
+            "twitter": null,
+            "facebook": null,
+            "instagram": null,
+            "linkedin": null
+          },
+          "campaignFinance": {
+            "azsos_url": "https://apps.azsos.gov/apps/election/campaign/ccfs/Public/Search.aspx",
+            "followthemoney_url": null
+          },
+          "notes": "No individual social media handles found"
+        },
+        {
+          "name": "Khara House",
+          "title": "Councilmember",
+          "website": "https://www.flagstaff.az.gov/4731/Councilmember-Khara-House",
+          "campaignWebsite": "https://www.kharahouseforflagstaff.com",
+          "socialMedia": {
+            "twitter": null,
+            "facebook": null,
+            "instagram": null,
+            "linkedin": null
+          },
+          "campaignFinance": {
+            "azsos_url": "https://apps.azsos.gov/apps/election/campaign/ccfs/Public/Search.aspx",
+            "followthemoney_url": null
+          },
+          "notes": "No individual social media handles found; running for re-election 2026"
+        },
+        {
+          "name": "Anthony Garcia",
+          "title": "Councilmember",
+          "website": "https://www.flagstaff.az.gov/3515/Councilmember-Anthony-Garcia",
+          "socialMedia": {
+            "twitter": null,
+            "facebook": null,
+            "instagram": null,
+            "linkedin": null
+          },
+          "campaignFinance": {
+            "azsos_url": "https://apps.azsos.gov/apps/election/campaign/ccfs/Public/Search.aspx",
+            "followthemoney_url": null
+          },
+          "notes": "Sworn in December 2024/January 2025"
+        },
+        {
+          "name": "David Spence",
+          "title": "Councilmember",
+          "website": "https://www.flagstaff.az.gov/4808/Councilmember-David-Spence",
+          "socialMedia": {
+            "twitter": null,
+            "facebook": null,
+            "instagram": null,
+            "linkedin": null
+          },
+          "campaignFinance": {
+            "azsos_url": "https://apps.azsos.gov/apps/election/campaign/ccfs/Public/Search.aspx",
+            "followthemoney_url": null
+          },
+          "notes": "Sworn in December 2024/January 2025"
+        }
+      ]
+    },
+    "yuma_city": {
+      "mayor": {
+        "name": "Douglas J. Nicholls",
+        "website": "https://www.yumaaz.gov/government/mayor-and-council",
+        "campaignWebsite": "https://www.douglasnicholls.com",
+        "socialMedia": {
+          "twitter": null,
+          "facebook": null,
+          "instagram": null,
+          "linkedin": null
+        },
+        "campaignFinance": {
+          "azsos_url": "https://apps.azsos.gov/apps/election/campaign/ccfs/Public/Search.aspx",
+          "followthemoney_url": null
+        },
+        "notes": "Third term began January 2023; no specific social media handles found"
+      },
+      "members": [
+        {
+          "district": 1,
+          "name": "Carol Smith",
+          "title": "Deputy Mayor",
+          "website": "https://www.yumaaz.gov/Home/Components/StaffDirectory/StaffDirectory/42/",
+          "socialMedia": {
+            "twitter": null,
+            "facebook": null,
+            "instagram": null,
+            "linkedin": null
+          },
+          "campaignFinance": {
+            "azsos_url": "https://apps.azsos.gov/apps/election/campaign/ccfs/Public/Search.aspx",
+            "followthemoney_url": null
+          },
+          "notes": "Deputy Mayor for 2025"
+        },
+        {
+          "district": 2,
+          "name": "Chris Morris",
+          "title": "Councilmember",
+          "website": "https://www.yumaaz.gov/Home/Components/StaffDirectory/StaffDirectory/238/",
+          "campaignWebsite": "https://morrisforyuma.com",
+          "socialMedia": {
+            "twitter": null,
+            "facebook": null,
+            "instagram": null,
+            "linkedin": null
+          },
+          "campaignFinance": {
+            "azsos_url": "https://apps.azsos.gov/apps/election/campaign/ccfs/Public/Search.aspx",
+            "followthemoney_url": null
+          },
+          "notes": "No individual social media found"
+        },
+        {
+          "district": 3,
+          "name": "Leslie McClendon",
+          "title": "Councilmember",
+          "website": "https://www.yumaaz.gov/government/mayor-and-council",
+          "socialMedia": {
+            "twitter": null,
+            "facebook": null,
+            "instagram": null,
+            "linkedin": null
+          },
+          "campaignFinance": {
+            "azsos_url": "https://apps.azsos.gov/apps/election/campaign/ccfs/Public/Search.aspx",
+            "followthemoney_url": null
+          },
+          "notes": "Appointed May 2024; no individual social media found"
+        },
+        {
+          "district": 4,
+          "name": "Michael Shelton",
+          "title": "Councilmember",
+          "website": "https://www.yumaaz.gov/government/mayor-and-council",
+          "socialMedia": {
+            "twitter": null,
+            "facebook": null,
+            "instagram": null,
+            "linkedin": null
+          },
+          "campaignFinance": {
+            "azsos_url": "https://apps.azsos.gov/apps/election/campaign/ccfs/Public/Search.aspx",
+            "followthemoney_url": null
+          },
+          "notes": null
+        },
+        {
+          "district": 5,
+          "name": "Karen Watts",
+          "title": "Councilmember",
+          "website": "https://www.yumaaz.gov/government/mayor-and-council",
+          "socialMedia": {
+            "twitter": null,
+            "facebook": null,
+            "instagram": null,
+            "linkedin": null
+          },
+          "campaignFinance": {
+            "azsos_url": "https://apps.azsos.gov/apps/election/campaign/ccfs/Public/Search.aspx",
+            "followthemoney_url": null
+          },
+          "notes": null
+        },
+        {
+          "district": 6,
+          "name": "Mark Martinez",
+          "title": "Councilmember",
+          "website": "https://www.yumaaz.gov/government/mayor-and-council",
+          "socialMedia": {
+            "twitter": null,
+            "facebook": null,
+            "instagram": null,
+            "linkedin": null
+          },
+          "campaignFinance": {
+            "azsos_url": "https://apps.azsos.gov/apps/election/campaign/ccfs/Public/Search.aspx",
+            "followthemoney_url": null
+          },
+          "notes": null
+        }
+      ]
+    },
+    "goodyear": {
+      "mayor": {
+        "name": "Joe Pizzillo",
+        "website": "https://www.goodyearaz.gov/government/mayor-and-council/mayor-pizzillo",
+        "campaignWebsite": "https://www.joepizzillo.com",
+        "socialMedia": {
+          "twitter": null,
+          "facebook": null,
+          "instagram": null,
+          "linkedin": null
+        },
+        "campaignFinance": {
+          "azsos_url": "https://apps.azsos.gov/apps/election/campaign/ccfs/Public/Search.aspx",
+          "followthemoney_url": null
+        },
+        "notes": "Term 2023-2026; running for re-election 2026; no specific social media handles found"
+      },
+      "members": [
+        {
+          "district": 1,
+          "name": "Brannon Hampton",
+          "title": "Vice Mayor",
+          "website": "https://www.goodyearaz.gov/government/mayor-and-council/councilmember-hampton",
+          "campaignWebsite": "https://www.hampton4goodyear.com",
+          "socialMedia": {
+            "twitter": null,
+            "facebook": null,
+            "instagram": null,
+            "linkedin": null
+          },
+          "campaignFinance": {
+            "azsos_url": "https://apps.azsos.gov/apps/election/campaign/ccfs/Public/Search.aspx",
+            "followthemoney_url": null
+          },
+          "notes": "Has Facebook, Twitter, LinkedIn per campaign website; specific handles not captured. Vice Mayor for 2026."
+        },
+        {
+          "district": 2,
+          "name": "Wally Campbell",
+          "title": "Councilmember",
+          "website": "https://www.goodyearaz.gov/government/mayor-and-council/councilmember-campbell",
+          "socialMedia": {
+            "twitter": null,
+            "facebook": null,
+            "instagram": null,
+            "linkedin": null
+          },
+          "campaignFinance": {
+            "azsos_url": "https://apps.azsos.gov/apps/election/campaign/ccfs/Public/Search.aspx",
+            "followthemoney_url": null
+          },
+          "notes": "Third term; Vice Mayor for 2025"
+        },
+        {
+          "district": 3,
+          "name": "Laura Kaino",
+          "title": "Councilmember",
+          "website": "https://www.goodyearaz.gov/government/mayor-and-council/councilmember-kaino",
+          "campaignWebsite": "https://www.laurakaino.com",
+          "socialMedia": {
+            "twitter": null,
+            "facebook": null,
+            "instagram": null,
+            "linkedin": null
+          },
+          "campaignFinance": {
+            "azsos_url": "https://apps.azsos.gov/apps/election/campaign/ccfs/Public/Search.aspx",
+            "followthemoney_url": null
+          },
+          "notes": "Second term 2025-2028; no individual social media handles found"
+        },
+        {
+          "district": 4,
+          "name": "Benita Beckles",
+          "title": "Councilmember",
+          "website": "https://www.goodyearaz.gov/government/mayor-and-council/councilmember-beckles",
+          "socialMedia": {
+            "twitter": null,
+            "facebook": null,
+            "instagram": null,
+            "linkedin": null
+          },
+          "campaignFinance": {
+            "azsos_url": "https://apps.azsos.gov/apps/election/campaign/ccfs/Public/Search.aspx",
+            "followthemoney_url": null
+          },
+          "notes": "Term 2025-2028; first term"
+        },
+        {
+          "district": 5,
+          "name": "Trey Terry",
+          "title": "Councilmember",
+          "website": "https://www.goodyearaz.gov/government/mayor-and-council/councilmember-terry",
+          "campaignWebsite": "https://www.treyterry.com",
+          "socialMedia": {
+            "twitter": null,
+            "facebook": null,
+            "instagram": null,
+            "linkedin": null
+          },
+          "campaignFinance": {
+            "azsos_url": "https://apps.azsos.gov/apps/election/campaign/ccfs/Public/Search.aspx",
+            "followthemoney_url": null
+          },
+          "notes": "Term 2025-2028; first term"
+        }
+      ]
+    }
+  }
+}

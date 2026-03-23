@@ -1,0 +1,1165 @@
+{
+  "lastResearched": "2026-03-22",
+  "methodology": "Web search + web fetch via Gemini search grounding. Social media handles verified where multiple sources confirmed. County official pages confirmed from county websites. Campaign finance via AZ SOS BEACON (new system as of 2022; old CCFS system is legacy). FollowTheMoney.org has merged into OpenSecrets for state data.",
+  "notes": "AZ SOS campaign finance now uses BEACON portal at https://seethemoney.az.gov/ (replaced CCFS). FollowTheMoney.org merged with OpenSecrets but still hosts pre-2022 AZ state data.",
+  "counties": {
+    "maricopa": {
+      "supervisors": [
+        {
+          "district": 1,
+          "name": "Mark Stewart",
+          "party": "R",
+          "website": "https://www.maricopa.gov/225/District-1",
+          "campaignWebsite": "https://markstewartaz.com/",
+          "socialMedia": {
+            "twitter": "https://twitter.com/MarkStewart_AZ",
+            "facebook": null,
+            "instagram": null,
+            "linkedin": null
+          },
+          "campaignFinance": {
+            "azsos_url": "https://seethemoney.az.gov/",
+            "followthemoney_url": null
+          },
+          "notes": "Twitter handle @MarkStewart_AZ confirmed by multiple sources. Campaign website markstewartaz.com confirmed. Assumed office Jan 2025."
+        },
+        {
+          "district": 2,
+          "name": "Thomas Galvin",
+          "party": "R",
+          "website": "https://www.maricopa.gov/235/District-2",
+          "campaignWebsite": "https://www.galvinaz.com/",
+          "socialMedia": {
+            "twitter": null,
+            "facebook": null,
+            "instagram": null,
+            "linkedin": null
+          },
+          "campaignFinance": {
+            "azsos_url": "https://seethemoney.az.gov/",
+            "followthemoney_url": null
+          },
+          "notes": "Campaign website galvinaz.com confirmed. No personal social media handles found in public sources. Assumed office Jan 2025."
+        },
+        {
+          "district": 3,
+          "name": "Kate Brophy McGee",
+          "party": "R",
+          "website": "https://www.maricopa.gov/247/District-3",
+          "campaignWebsite": "https://www.katemcgee.com/",
+          "socialMedia": {
+            "twitter": "https://twitter.com/KateBrophyMcGee",
+            "facebook": null,
+            "instagram": null,
+            "linkedin": null
+          },
+          "campaignFinance": {
+            "azsos_url": "https://seethemoney.az.gov/",
+            "followthemoney_url": null
+          },
+          "notes": "Twitter handle @KateBrophyMcGee confirmed. Campaign site katemcgee.com confirmed. Ballotpedia lists Facebook, Instagram, LinkedIn but specific URLs not captured. Chair of BOS as of Jan 2026, first female chair in ~25 years."
+        },
+        {
+          "district": 4,
+          "name": "Debbie Lesko",
+          "party": "R",
+          "website": "https://www.maricopa.gov/260/District-4",
+          "campaignWebsite": null,
+          "socialMedia": {
+            "twitter": null,
+            "facebook": null,
+            "instagram": null,
+            "linkedin": null
+          },
+          "campaignFinance": {
+            "azsos_url": "https://seethemoney.az.gov/",
+            "followthemoney_url": null
+          },
+          "notes": "Former US Congresswoman (@RepDLesko). Her current supervisor social media not publicly confirmed. Contact page: https://www.maricopa.gov/6161/Contact-Supervisor-Debbie-Lesko. Assumed office Jan 2025."
+        },
+        {
+          "district": 5,
+          "name": "Steve Gallardo",
+          "party": "D",
+          "website": "https://www.maricopa.gov/271/District-5",
+          "campaignWebsite": null,
+          "socialMedia": {
+            "twitter": null,
+            "facebook": null,
+            "instagram": null,
+            "linkedin": null
+          },
+          "campaignFinance": {
+            "azsos_url": "https://seethemoney.az.gov/",
+            "followthemoney_url": "https://www.followthemoney.org/entity-details?eid=26756"
+          },
+          "notes": "Confirmed presence on Twitter but handle not found. In office since 2015, re-elected 2024. Sole Democrat on board."
+        }
+      ]
+    },
+    "pima": {
+      "supervisors": [
+        {
+          "district": 1,
+          "name": "Rex Scott",
+          "party": "D",
+          "website": "https://www.pima.gov/2503/Supervisor-Rex-Scott-District-1",
+          "campaignWebsite": null,
+          "socialMedia": {
+            "twitter": null,
+            "facebook": null,
+            "instagram": null,
+            "linkedin": null
+          },
+          "campaignFinance": {
+            "azsos_url": "https://seethemoney.az.gov/",
+            "followthemoney_url": null
+          },
+          "notes": "No individual social media found in public searches. Chair of Pima BOS."
+        },
+        {
+          "district": 2,
+          "name": "Dr. Matt Heinz",
+          "party": "D",
+          "website": "https://www.pima.gov/2509/Supervisor-Dr-Matt-Heinz-District-2",
+          "campaignWebsite": null,
+          "socialMedia": {
+            "twitter": null,
+            "facebook": null,
+            "instagram": null,
+            "linkedin": null
+          },
+          "campaignFinance": {
+            "azsos_url": "https://seethemoney.az.gov/",
+            "followthemoney_url": null
+          },
+          "notes": "Has a campaign website but URL not confirmed in searches. Vice Chair."
+        },
+        {
+          "district": 3,
+          "name": "Jennifer Allen",
+          "party": "D",
+          "website": "https://www.pima.gov/2550/Supervisor-Jennifer-Allen-District-3",
+          "campaignWebsite": null,
+          "socialMedia": {
+            "twitter": null,
+            "facebook": null,
+            "instagram": null,
+            "linkedin": null
+          },
+          "campaignFinance": {
+            "azsos_url": "https://seethemoney.az.gov/",
+            "followthemoney_url": null
+          },
+          "notes": "ArizonaList profile: https://www.arizonalist.org/elected-officials/jen-allen/. No individual social media found."
+        },
+        {
+          "district": 4,
+          "name": "Steve Christy",
+          "party": "R",
+          "website": "https://www.pima.gov/2508/Supervisor-Steve-Christy-District-4",
+          "campaignWebsite": null,
+          "socialMedia": {
+            "twitter": null,
+            "facebook": null,
+            "instagram": null,
+            "linkedin": null
+          },
+          "campaignFinance": {
+            "azsos_url": "https://seethemoney.az.gov/",
+            "followthemoney_url": null
+          },
+          "notes": "Writes columns for The Vail Voice: https://www.thevailvoice.com/author/district4/. No individual social media confirmed."
+        },
+        {
+          "district": 5,
+          "name": "Andrés Cano",
+          "party": "D",
+          "website": "https://www.pima.gov/2528/Supervisor-Andrs-Cano-District-5",
+          "campaignWebsite": null,
+          "socialMedia": {
+            "twitter": null,
+            "facebook": null,
+            "instagram": null,
+            "linkedin": null
+          },
+          "campaignFinance": {
+            "azsos_url": "https://seethemoney.az.gov/",
+            "followthemoney_url": null
+          },
+          "notes": "Appointed April 2025. Former AZ House Minority Leader. Legistorm confirms Twitter and Facebook exist but URLs not found."
+        }
+      ]
+    },
+    "pinal": {
+      "supervisors": [
+        {
+          "district": 1,
+          "name": "Rich Vitiello",
+          "party": "R",
+          "website": "https://www.pinal.gov/1304/District-1-Supervisor",
+          "campaignWebsite": null,
+          "socialMedia": {
+            "twitter": null,
+            "facebook": null,
+            "instagram": null,
+            "linkedin": null
+          },
+          "campaignFinance": {
+            "azsos_url": "https://seethemoney.az.gov/",
+            "followthemoney_url": null
+          },
+          "notes": "Official county directory page: https://www.pinal.gov/directory.aspx?EID=440"
+        },
+        {
+          "district": 2,
+          "name": "Mike Goodman",
+          "party": "R",
+          "website": "https://www.pinal.gov/1316/District-2-Supervisor",
+          "campaignWebsite": null,
+          "socialMedia": {
+            "twitter": null,
+            "facebook": null,
+            "instagram": null,
+            "linkedin": null
+          },
+          "campaignFinance": {
+            "azsos_url": "https://seethemoney.az.gov/",
+            "followthemoney_url": null
+          },
+          "notes": "In third term as of Jan 2025. Official directory: https://www.pinal.gov/directory.aspx?EID=51"
+        },
+        {
+          "district": 3,
+          "name": "Stephen Q. Miller",
+          "party": "R",
+          "website": "https://www.pinal.gov/1317/District-3-Supervisor",
+          "campaignWebsite": null,
+          "socialMedia": {
+            "twitter": null,
+            "facebook": null,
+            "instagram": null,
+            "linkedin": null
+          },
+          "campaignFinance": {
+            "azsos_url": "https://seethemoney.az.gov/",
+            "followthemoney_url": null
+          },
+          "notes": "Chairman for 2025. Official directory: https://www.pinal.gov/directory.aspx?EID=52. CAP board member: https://www.cap-az.com/board/board-members/stephen-miller/"
+        },
+        {
+          "district": 4,
+          "name": "Jeffrey McClure",
+          "party": "R",
+          "website": "https://www.pinal.gov/1318/District-4-Supervisor",
+          "campaignWebsite": null,
+          "socialMedia": {
+            "twitter": null,
+            "facebook": null,
+            "instagram": null,
+            "linkedin": null
+          },
+          "campaignFinance": {
+            "azsos_url": "https://seethemoney.az.gov/",
+            "followthemoney_url": null
+          },
+          "notes": "Chairman 2026. Official directory: https://www.pinal.gov/directory.aspx?EID=53"
+        },
+        {
+          "district": 5,
+          "name": "Jeff Serdy",
+          "party": "R",
+          "website": "https://www.pinalcountyaz.gov/bos/Pages/District5Supervisor.aspx",
+          "campaignWebsite": null,
+          "socialMedia": {
+            "twitter": null,
+            "facebook": null,
+            "instagram": null,
+            "linkedin": null
+          },
+          "campaignFinance": {
+            "azsos_url": "https://seethemoney.az.gov/",
+            "followthemoney_url": null
+          },
+          "notes": "Ballotpedia lists Campaign Facebook but no URL. Official directory: https://www.pinal.gov/directory.aspx?EID=54. Vice Chair."
+        }
+      ]
+    },
+    "yavapai": {
+      "supervisors": [
+        {
+          "district": 1,
+          "name": "Brooks Compton",
+          "party": "R",
+          "website": "https://www.yavapaiaz.gov/County-Government/Board-of-Supervisors/Supervisor-Districts/District-1/Supervisor-Brooks-Compton",
+          "campaignWebsite": null,
+          "socialMedia": {
+            "twitter": null,
+            "facebook": null,
+            "instagram": null,
+            "linkedin": null
+          },
+          "campaignFinance": {
+            "azsos_url": "https://seethemoney.az.gov/",
+            "followthemoney_url": null
+          },
+          "notes": "Elected 2024, first term Jan 2025. Chair of BOS."
+        },
+        {
+          "district": 2,
+          "name": "Dee Jenkins",
+          "party": "R",
+          "website": null,
+          "campaignWebsite": null,
+          "socialMedia": {
+            "twitter": null,
+            "facebook": null,
+            "instagram": null,
+            "linkedin": null
+          },
+          "campaignFinance": {
+            "azsos_url": "https://seethemoney.az.gov/",
+            "followthemoney_url": null
+          },
+          "notes": "Appointed April 2025. No individual pages found."
+        },
+        {
+          "district": 3,
+          "name": "Nikki Check",
+          "party": "D",
+          "website": null,
+          "campaignWebsite": "https://electnikkicheck.com/",
+          "socialMedia": {
+            "twitter": null,
+            "facebook": null,
+            "instagram": null,
+            "linkedin": null
+          },
+          "campaignFinance": {
+            "azsos_url": "https://seethemoney.az.gov/",
+            "followthemoney_url": null
+          },
+          "notes": "Campaign website electnikkicheck.com confirmed. Self-described 'conservative moderate Democrat'. Active on Facebook for campaign. Vice Chair."
+        },
+        {
+          "district": 4,
+          "name": "Chris Kuknyo",
+          "party": "R",
+          "website": null,
+          "campaignWebsite": null,
+          "socialMedia": {
+            "twitter": null,
+            "facebook": null,
+            "instagram": null,
+            "linkedin": null
+          },
+          "campaignFinance": {
+            "azsos_url": "https://seethemoney.az.gov/",
+            "followthemoney_url": null
+          },
+          "notes": "No individual pages found in searches."
+        },
+        {
+          "district": 5,
+          "name": "Mary Mallory",
+          "party": "R",
+          "website": null,
+          "campaignWebsite": null,
+          "socialMedia": {
+            "twitter": null,
+            "facebook": null,
+            "instagram": null,
+            "linkedin": null
+          },
+          "campaignFinance": {
+            "azsos_url": "https://seethemoney.az.gov/",
+            "followthemoney_url": null
+          },
+          "notes": "No individual pages found in searches."
+        }
+      ]
+    },
+    "coconino": {
+      "supervisors": [
+        {
+          "district": 1,
+          "name": "Patrice Horstman",
+          "party": "D",
+          "website": "https://www.coconino.az.gov/2558/District-1---Patrice-Horstman",
+          "campaignWebsite": null,
+          "socialMedia": {
+            "twitter": null,
+            "facebook": null,
+            "instagram": null,
+            "linkedin": null
+          },
+          "campaignFinance": {
+            "azsos_url": "https://seethemoney.az.gov/",
+            "followthemoney_url": null
+          },
+          "notes": "ArizonaList profile: https://www.arizonalist.org/elected-officials/patrice-horstman/. Chair of Coconino BOS."
+        },
+        {
+          "district": 2,
+          "name": "Jeronimo Vasquez",
+          "party": "D",
+          "website": "https://www.coconino.az.gov/107/District-2---Jeronimo-Vasquez",
+          "campaignWebsite": "https://jeronimo4supervisor.com/",
+          "socialMedia": {
+            "twitter": null,
+            "facebook": null,
+            "instagram": null,
+            "linkedin": null
+          },
+          "campaignFinance": {
+            "azsos_url": "https://seethemoney.az.gov/",
+            "followthemoney_url": null
+          },
+          "notes": "Has Facebook, Twitter, Instagram, YouTube per county page. Campaign site jeronimo4supervisor.com confirmed. Specific handles not found in search. Vice Chair."
+        },
+        {
+          "district": 3,
+          "name": "Tammy Ontiveros",
+          "party": "R",
+          "website": null,
+          "campaignWebsite": null,
+          "socialMedia": {
+            "twitter": null,
+            "facebook": null,
+            "instagram": null,
+            "linkedin": null
+          },
+          "campaignFinance": {
+            "azsos_url": "https://seethemoney.az.gov/",
+            "followthemoney_url": null
+          },
+          "notes": "No individual pages found in searches."
+        },
+        {
+          "district": 4,
+          "name": "Judy Begay",
+          "party": "D",
+          "website": null,
+          "campaignWebsite": null,
+          "socialMedia": {
+            "twitter": null,
+            "facebook": null,
+            "instagram": null,
+            "linkedin": null
+          },
+          "campaignFinance": {
+            "azsos_url": "https://seethemoney.az.gov/",
+            "followthemoney_url": null
+          },
+          "notes": "No individual pages found in searches."
+        },
+        {
+          "district": 5,
+          "name": "Lena Fowler",
+          "party": "D",
+          "website": null,
+          "campaignWebsite": null,
+          "socialMedia": {
+            "twitter": null,
+            "facebook": null,
+            "instagram": null,
+            "linkedin": null
+          },
+          "campaignFinance": {
+            "azsos_url": "https://seethemoney.az.gov/",
+            "followthemoney_url": null
+          },
+          "notes": "No individual pages found in searches."
+        }
+      ]
+    },
+    "mohave": {
+      "supervisors": [
+        {
+          "district": 1,
+          "name": "Travis Lingenfelter",
+          "party": "R",
+          "website": "https://www.mohave.gov/departments/board-of-supervisors/district-1-travis-lingenfelter/",
+          "campaignWebsite": null,
+          "socialMedia": {
+            "twitter": null,
+            "facebook": null,
+            "instagram": null,
+            "linkedin": null
+          },
+          "campaignFinance": {
+            "azsos_url": "https://seethemoney.az.gov/",
+            "followthemoney_url": null
+          },
+          "notes": "Chairman. Has Facebook presence (mentioned in lawsuit) but page URL not found. Ballotpedia email: therightC1@gmail.com"
+        },
+        {
+          "district": 2,
+          "name": "Rich Lettman",
+          "party": "R",
+          "website": null,
+          "campaignWebsite": null,
+          "socialMedia": {
+            "twitter": null,
+            "facebook": null,
+            "instagram": null,
+            "linkedin": null
+          },
+          "campaignFinance": {
+            "azsos_url": "https://seethemoney.az.gov/",
+            "followthemoney_url": null
+          },
+          "notes": "No individual pages found."
+        },
+        {
+          "district": 3,
+          "name": "Sonny Borrelli",
+          "party": "R",
+          "website": null,
+          "campaignWebsite": null,
+          "socialMedia": {
+            "twitter": null,
+            "facebook": null,
+            "instagram": null,
+            "linkedin": null
+          },
+          "campaignFinance": {
+            "azsos_url": "https://seethemoney.az.gov/",
+            "followthemoney_url": "https://azluminaria.org/profile/sonny-borrelli/"
+          },
+          "notes": "Former AZ State Senator. Has Twitter and Facebook per Legistorm/Ballotready but specific handles not found. AZ Luminaria profile available."
+        },
+        {
+          "district": 4,
+          "name": "Don Martin",
+          "party": "R",
+          "website": null,
+          "campaignWebsite": null,
+          "socialMedia": {
+            "twitter": null,
+            "facebook": null,
+            "instagram": null,
+            "linkedin": null
+          },
+          "campaignFinance": {
+            "azsos_url": "https://seethemoney.az.gov/",
+            "followthemoney_url": null
+          },
+          "notes": "No individual pages found."
+        },
+        {
+          "district": 5,
+          "name": "Ron Gould",
+          "party": "R",
+          "website": "https://www.mohave.gov/departments/board-of-supervisors/district-5-ron-gould/",
+          "campaignWebsite": "http://www.rongould.com/",
+          "socialMedia": {
+            "twitter": null,
+            "facebook": null,
+            "instagram": null,
+            "linkedin": null
+          },
+          "campaignFinance": {
+            "azsos_url": "https://seethemoney.az.gov/",
+            "followthemoney_url": null
+          },
+          "notes": "Campaign/personal website rongould.com confirmed. Vice Chair."
+        }
+      ]
+    },
+    "yuma": {
+      "supervisors": [
+        {
+          "district": 1,
+          "name": "Martin Porchas",
+          "party": "D",
+          "website": "https://www.yumacountyaz.gov/government/board-of-supervisors/board-members",
+          "campaignWebsite": null,
+          "socialMedia": {
+            "twitter": null,
+            "facebook": null,
+            "instagram": null,
+            "linkedin": null
+          },
+          "campaignFinance": {
+            "azsos_url": "https://seethemoney.az.gov/",
+            "followthemoney_url": null
+          },
+          "notes": "Chair for 2026. No individual social media found."
+        },
+        {
+          "district": 2,
+          "name": "Jonathan W. Lines",
+          "party": "R",
+          "website": "https://www.yumacountyaz.gov/government/board-of-supervisors/board-members",
+          "campaignWebsite": null,
+          "socialMedia": {
+            "twitter": null,
+            "facebook": null,
+            "instagram": null,
+            "linkedin": null
+          },
+          "campaignFinance": {
+            "azsos_url": "https://seethemoney.az.gov/",
+            "followthemoney_url": null
+          },
+          "notes": "Former AZ GOP Chairman (2017-2019). Vice-Chair for 2026. Had Twitter and Facebook as AZ GOP Chair but current supervisor accounts not confirmed."
+        },
+        {
+          "district": 3,
+          "name": "Darren R. Simmons",
+          "party": "R",
+          "website": "https://www.yumacountyaz.gov/government/board-of-supervisors/board-members",
+          "campaignWebsite": null,
+          "socialMedia": {
+            "twitter": null,
+            "facebook": null,
+            "instagram": null,
+            "linkedin": null
+          },
+          "campaignFinance": {
+            "azsos_url": "https://seethemoney.az.gov/",
+            "followthemoney_url": null
+          },
+          "notes": "No individual social media found."
+        },
+        {
+          "district": 4,
+          "name": "Marco A. \"Tony\" Reyes",
+          "party": "D",
+          "website": "https://www.yumacountyaz.gov/government/board-of-supervisors/board-members",
+          "campaignWebsite": null,
+          "socialMedia": {
+            "twitter": null,
+            "facebook": null,
+            "instagram": null,
+            "linkedin": null
+          },
+          "campaignFinance": {
+            "azsos_url": "https://seethemoney.az.gov/",
+            "followthemoney_url": null
+          },
+          "notes": "No individual social media found."
+        },
+        {
+          "district": 5,
+          "name": "Lynne Pancrazi",
+          "party": "D",
+          "website": "https://www.yumacountyaz.gov/government/board-of-supervisors/board-members",
+          "campaignWebsite": null,
+          "socialMedia": {
+            "twitter": null,
+            "facebook": null,
+            "instagram": null,
+            "linkedin": null
+          },
+          "campaignFinance": {
+            "azsos_url": "https://seethemoney.az.gov/",
+            "followthemoney_url": null
+          },
+          "notes": "Former AZ State Rep and Senator. CSA President for upcoming year. No individual social media found."
+        }
+      ]
+    },
+    "apache": {
+      "supervisors": [
+        {
+          "district": 1,
+          "name": "Joe Shirley, Jr.",
+          "party": "D",
+          "website": "https://www.apachecountyaz.gov/Board-of-Supervisors",
+          "campaignWebsite": null,
+          "socialMedia": {
+            "twitter": null,
+            "facebook": null,
+            "instagram": null,
+            "linkedin": null
+          },
+          "campaignFinance": {
+            "azsos_url": "https://seethemoney.az.gov/",
+            "followthemoney_url": null
+          },
+          "notes": "Former Navajo Nation President. Contact via joeshirleyjr@yahoo.com per Ballotpedia. No social media found."
+        },
+        {
+          "district": 2,
+          "name": "Alton Joe Shepherd",
+          "party": "D",
+          "website": "https://www.apachecodistrict2.com/",
+          "campaignWebsite": "https://www.apachecodistrict2.com/",
+          "socialMedia": {
+            "twitter": null,
+            "facebook": null,
+            "instagram": null,
+            "linkedin": null
+          },
+          "campaignFinance": {
+            "azsos_url": "https://seethemoney.az.gov/",
+            "followthemoney_url": null
+          },
+          "notes": "Board Chairman. Has a dedicated district website: apachecodistrict2.com"
+        },
+        {
+          "district": 3,
+          "name": "Nelson Davis",
+          "party": "R",
+          "website": "https://www.apachecountyaz.gov/District-III",
+          "campaignWebsite": null,
+          "socialMedia": {
+            "twitter": null,
+            "facebook": null,
+            "instagram": null,
+            "linkedin": null
+          },
+          "campaignFinance": {
+            "azsos_url": "https://seethemoney.az.gov/",
+            "followthemoney_url": null
+          },
+          "notes": "Fifth-generation Apache County resident. No social media found."
+        }
+      ]
+    },
+    "cochise": {
+      "supervisors": [
+        {
+          "district": 1,
+          "name": "Tom Crosby",
+          "party": "R",
+          "website": "https://www.cochise.az.gov/548/District-1-County-Supervisor",
+          "campaignWebsite": null,
+          "socialMedia": {
+            "twitter": null,
+            "facebook": null,
+            "instagram": null,
+            "linkedin": null
+          },
+          "campaignFinance": {
+            "azsos_url": "https://seethemoney.az.gov/",
+            "followthemoney_url": null
+          },
+          "notes": "Vice-Chairman. Directory: https://www.cochise.az.gov/directory.aspx?EID=87"
+        },
+        {
+          "district": 2,
+          "name": "Kathleen Gomez",
+          "party": "R",
+          "website": "https://www.cochise.az.gov/549/District-2-County-Supervisor",
+          "campaignWebsite": null,
+          "socialMedia": {
+            "twitter": null,
+            "facebook": null,
+            "instagram": null,
+            "linkedin": null
+          },
+          "campaignFinance": {
+            "azsos_url": "https://seethemoney.az.gov/",
+            "followthemoney_url": null
+          },
+          "notes": "Directory: https://www.cochise.az.gov/directory.aspx?EID=88"
+        },
+        {
+          "district": 3,
+          "name": "Frank Antenori",
+          "party": "R",
+          "website": "https://www.cochise.az.gov/514/Board-of-Supervisors",
+          "campaignWebsite": null,
+          "socialMedia": {
+            "twitter": null,
+            "facebook": null,
+            "instagram": null,
+            "linkedin": null
+          },
+          "campaignFinance": {
+            "azsos_url": "https://seethemoney.az.gov/",
+            "followthemoney_url": null
+          },
+          "notes": "Chair of Cochise BOS. No individual social media found."
+        }
+      ]
+    },
+    "gila": {
+      "supervisors": [
+        {
+          "district": 1,
+          "name": "Steve Christensen",
+          "party": null,
+          "website": "https://www.gilacountyaz.gov/government/board_of_supervisors/index.php",
+          "campaignWebsite": "https://www.stevechristensen4gila.com/",
+          "socialMedia": {
+            "twitter": null,
+            "facebook": null,
+            "instagram": null,
+            "linkedin": null
+          },
+          "campaignFinance": {
+            "azsos_url": "https://seethemoney.az.gov/",
+            "followthemoney_url": null
+          },
+          "notes": "Campaign website stevechristensen4gila.com confirmed."
+        },
+        {
+          "district": 2,
+          "name": "Tim R. Humphrey",
+          "party": null,
+          "website": "https://www.gilacountyaz.gov/government/board_of_supervisors/index.php",
+          "campaignWebsite": null,
+          "socialMedia": {
+            "twitter": null,
+            "facebook": null,
+            "instagram": null,
+            "linkedin": null
+          },
+          "campaignFinance": {
+            "azsos_url": "https://seethemoney.az.gov/",
+            "followthemoney_url": null
+          },
+          "notes": "KQSS community forum participant. Phone (928) 402-8753."
+        },
+        {
+          "district": 3,
+          "name": "Woody Cline",
+          "party": null,
+          "website": "https://www.gilacountyaz.gov/government/board_of_supervisors/index.php",
+          "campaignWebsite": null,
+          "socialMedia": {
+            "twitter": null,
+            "facebook": null,
+            "instagram": null,
+            "linkedin": null
+          },
+          "campaignFinance": {
+            "azsos_url": "https://seethemoney.az.gov/",
+            "followthemoney_url": null
+          },
+          "notes": "No individual pages found."
+        }
+      ]
+    },
+    "graham": {
+      "supervisors": [
+        {
+          "district": 1,
+          "name": "Paul R. David",
+          "party": "D",
+          "website": "https://www.graham.az.gov/directory.aspx?EID=14",
+          "campaignWebsite": null,
+          "socialMedia": {
+            "twitter": null,
+            "facebook": null,
+            "instagram": null,
+            "linkedin": null
+          },
+          "campaignFinance": {
+            "azsos_url": "https://seethemoney.az.gov/",
+            "followthemoney_url": null
+          },
+          "notes": "Vice-Chairman per recent search. BOS page: https://www.graham.az.gov/191/Board-of-Supervisors"
+        },
+        {
+          "district": 2,
+          "name": "John Howard",
+          "party": "R",
+          "website": "https://www.graham.az.gov/directory.aspx?EID=13",
+          "campaignWebsite": null,
+          "socialMedia": {
+            "twitter": null,
+            "facebook": null,
+            "instagram": null,
+            "linkedin": null
+          },
+          "campaignFinance": {
+            "azsos_url": "https://seethemoney.az.gov/",
+            "followthemoney_url": null
+          },
+          "notes": "No social media found."
+        },
+        {
+          "district": 3,
+          "name": "Clay Mack",
+          "party": "R",
+          "website": "https://www.graham.az.gov/directory.aspx?did=6",
+          "campaignWebsite": null,
+          "socialMedia": {
+            "twitter": null,
+            "facebook": null,
+            "instagram": null,
+            "linkedin": null
+          },
+          "campaignFinance": {
+            "azsos_url": "https://seethemoney.az.gov/",
+            "followthemoney_url": null
+          },
+          "notes": "Chairman. No social media found."
+        }
+      ]
+    },
+    "greenlee": {
+      "supervisors": [
+        {
+          "district": 1,
+          "name": "David Gomez",
+          "party": "D",
+          "website": "https://www.greenlee.az.gov/government/board_of_supervisors",
+          "campaignWebsite": null,
+          "socialMedia": {
+            "twitter": null,
+            "facebook": null,
+            "instagram": null,
+            "linkedin": null
+          },
+          "campaignFinance": {
+            "azsos_url": "https://seethemoney.az.gov/",
+            "followthemoney_url": null
+          },
+          "notes": "Chairman."
+        },
+        {
+          "district": 2,
+          "name": "Ron S. Campbell",
+          "party": "I",
+          "website": "https://www.greenlee.az.gov/government/board_of_supervisors",
+          "campaignWebsite": null,
+          "socialMedia": {
+            "twitter": null,
+            "facebook": null,
+            "instagram": null,
+            "linkedin": null
+          },
+          "campaignFinance": {
+            "azsos_url": "https://seethemoney.az.gov/",
+            "followthemoney_url": null
+          },
+          "notes": "Vice Chairman."
+        },
+        {
+          "district": 3,
+          "name": "William Wearne",
+          "party": "I",
+          "website": "https://www.greenlee.az.gov/government/board_of_supervisors",
+          "campaignWebsite": null,
+          "socialMedia": {
+            "twitter": null,
+            "facebook": null,
+            "instagram": null,
+            "linkedin": null
+          },
+          "campaignFinance": {
+            "azsos_url": "https://seethemoney.az.gov/",
+            "followthemoney_url": null
+          },
+          "notes": "No social media found."
+        }
+      ]
+    },
+    "la_paz": {
+      "supervisors": [
+        {
+          "district": 1,
+          "name": "David Plunkett",
+          "party": "R",
+          "website": "https://www.lapaz.az.gov/government/board-of-supervisors",
+          "campaignWebsite": null,
+          "socialMedia": {
+            "twitter": null,
+            "facebook": null,
+            "instagram": null,
+            "linkedin": null
+          },
+          "campaignFinance": {
+            "azsos_url": "https://seethemoney.az.gov/",
+            "followthemoney_url": null
+          },
+          "notes": "No individual pages found."
+        },
+        {
+          "district": 2,
+          "name": "Duce Minor",
+          "party": "R",
+          "website": "https://www.lapaz.az.gov/government/board-of-supervisors",
+          "campaignWebsite": null,
+          "socialMedia": {
+            "twitter": null,
+            "facebook": null,
+            "instagram": null,
+            "linkedin": null
+          },
+          "campaignFinance": {
+            "azsos_url": "https://seethemoney.az.gov/",
+            "followthemoney_url": null
+          },
+          "notes": "Chairman."
+        },
+        {
+          "district": 3,
+          "name": "Holly Irwin",
+          "party": "R",
+          "website": "https://www.lapaz.az.gov/government/board-of-supervisors",
+          "campaignWebsite": null,
+          "socialMedia": {
+            "twitter": null,
+            "facebook": null,
+            "instagram": null,
+            "linkedin": null
+          },
+          "campaignFinance": {
+            "azsos_url": "https://seethemoney.az.gov/",
+            "followthemoney_url": null
+          },
+          "notes": "Vice Chairman."
+        }
+      ]
+    },
+    "navajo": {
+      "supervisors": [
+        {
+          "district": 1,
+          "name": "Fern Benally",
+          "party": "D",
+          "website": "https://www.navajocountyaz.gov/directory.aspx?EID=12",
+          "campaignWebsite": null,
+          "socialMedia": {
+            "twitter": null,
+            "facebook": null,
+            "instagram": null,
+            "linkedin": null
+          },
+          "campaignFinance": {
+            "azsos_url": "https://seethemoney.az.gov/",
+            "followthemoney_url": null
+          },
+          "notes": "No social media found."
+        },
+        {
+          "district": 2,
+          "name": "Alberto L. Peshlakai",
+          "party": "D",
+          "website": "https://www.navajocountyaz.gov/directory.aspx?EID=13",
+          "campaignWebsite": null,
+          "socialMedia": {
+            "twitter": null,
+            "facebook": null,
+            "instagram": null,
+            "linkedin": null
+          },
+          "campaignFinance": {
+            "azsos_url": "https://seethemoney.az.gov/",
+            "followthemoney_url": null
+          },
+          "notes": "AZ Tribal Transportation board member."
+        },
+        {
+          "district": 3,
+          "name": "Jason E. Whiting",
+          "party": "R",
+          "website": "https://www.navajocountyaz.gov/directory.aspx?EID=14",
+          "campaignWebsite": null,
+          "socialMedia": {
+            "twitter": null,
+            "facebook": null,
+            "instagram": null,
+            "linkedin": null
+          },
+          "campaignFinance": {
+            "azsos_url": "https://seethemoney.az.gov/",
+            "followthemoney_url": null
+          },
+          "notes": "In office since 2014."
+        },
+        {
+          "district": 4,
+          "name": "Daryl Seymore",
+          "party": "R",
+          "website": "https://www.navajocountyaz.gov/directory.aspx?EID=15",
+          "campaignWebsite": null,
+          "socialMedia": {
+            "twitter": null,
+            "facebook": null,
+            "instagram": null,
+            "linkedin": null
+          },
+          "campaignFinance": {
+            "azsos_url": "https://seethemoney.az.gov/",
+            "followthemoney_url": null
+          },
+          "notes": "Chairman."
+        },
+        {
+          "district": 5,
+          "name": "Dawnafe Whitesinger",
+          "party": "D",
+          "website": "https://www.navajocountyaz.gov/directory.aspx?EID=16",
+          "campaignWebsite": null,
+          "socialMedia": {
+            "twitter": null,
+            "facebook": null,
+            "instagram": null,
+            "linkedin": null
+          },
+          "campaignFinance": {
+            "azsos_url": "https://seethemoney.az.gov/",
+            "followthemoney_url": null
+          },
+          "notes": "Vice Chair. First White Mountain Apache and first woman to chair Navajo County BOS (historical note)."
+        }
+      ]
+    },
+    "santa_cruz": {
+      "supervisors": [
+        {
+          "district": 1,
+          "name": "Luis Carlos Davis",
+          "party": "D",
+          "website": "https://www.santacruzcountyaz.gov/directory.aspx?eid=63",
+          "campaignWebsite": null,
+          "socialMedia": {
+            "twitter": null,
+            "facebook": null,
+            "instagram": null,
+            "linkedin": null
+          },
+          "campaignFinance": {
+            "azsos_url": "https://seethemoney.az.gov/",
+            "followthemoney_url": null
+          },
+          "notes": "BOS page: https://www.santacruzcountyaz.gov/169/Board-of-Supervisors. No social media found."
+        },
+        {
+          "district": 2,
+          "name": "Rudy Molera",
+          "party": "D",
+          "website": "https://www.santacruzcountyaz.gov/169/Board-of-Supervisors",
+          "campaignWebsite": null,
+          "socialMedia": {
+            "twitter": null,
+            "facebook": null,
+            "instagram": null,
+            "linkedin": null
+          },
+          "campaignFinance": {
+            "azsos_url": "https://seethemoney.az.gov/",
+            "followthemoney_url": null
+          },
+          "notes": "No social media found."
+        },
+        {
+          "district": 3,
+          "name": "John Fanning",
+          "party": "D",
+          "website": "https://www.santacruzcountyaz.gov/169/Board-of-Supervisors",
+          "campaignWebsite": null,
+          "socialMedia": {
+            "twitter": null,
+            "facebook": null,
+            "instagram": null,
+            "linkedin": null
+          },
+          "campaignFinance": {
+            "azsos_url": "https://seethemoney.az.gov/",
+            "followthemoney_url": null
+          },
+          "notes": "No social media found."
+        }
+      ]
+    }
+  }
+}
