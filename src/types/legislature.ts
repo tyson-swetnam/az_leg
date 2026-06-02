@@ -24,6 +24,26 @@ export interface SocialMedia {
   official?: SocialMediaAccounts;   // Official/government accounts
 }
 
+/**
+ * Provenance / verification marker for a person's profile data.
+ *
+ * `status` is the roll-up surfaced as the UI badge: a record is "verified"
+ * when its primary contact info comes from an official government source
+ * (e.g. a `*.gov` website), and "unverified" otherwise (campaign sites,
+ * scraped/manual data, or no confirmed source). All fields are optional so
+ * existing data stays valid; an absent `verification` is treated as
+ * "unverified" by the UI.
+ */
+export type VerificationStatus = 'verified' | 'unverified';
+
+export interface Verification {
+  status: VerificationStatus;
+  source?: string;       // e.g. "azleg.gov", "house.gov", "manual", "scraped"
+  lastVerified?: string; // ISO date string, e.g. "2026-06-01"
+  /** Optional per-field provenance for finer-grained audits. */
+  fields?: Partial<Record<string, { status: VerificationStatus; source?: string }>>;
+}
+
 export interface Legislator {
   name: string;
   party: Party;
@@ -36,6 +56,7 @@ export interface Legislator {
   campaignWebsite?: string;
   campaignFinance?: CampaignFinanceData;
   socialMedia?: SocialMedia;
+  verification?: Verification;
 }
 
 export interface Senator extends Legislator {
@@ -54,6 +75,7 @@ export interface Executive {
   age?: number;
   office: Office;
   socialMedia?: SocialMedia;
+  verification?: Verification;
 }
 
 export interface LegislatureData {

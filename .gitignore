@@ -17,6 +17,16 @@ dist-ssr
 .env.local
 .env.*.local
 
+# Generated audit / validation reports
+audit-report.json
+validation-report.json
+
+# Playwright
+/test-results/
+/playwright-report/
+/blob-report/
+/playwright/.cache/
+
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json

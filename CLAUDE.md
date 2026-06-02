@@ -17,10 +17,47 @@ npm run lint             # Run ESLint on codebase
 npm run transform        # Parse arizona_government_2025.md → src/data/legislators.json
 npm run add-social       # Scrape campaign websites for social media links
 npm run validate-social  # Validate social media URLs (format + accessibility)
+npm run audit            # Unified data audit: links + completeness + gaps (all areas)
+npm run audit:fast       # Same audit, skipping HTTP link checks (instant)
+npm run test:e2e         # Playwright UI smoke test (run: npx playwright install chromium)
 ```
 
 ### Building
 The build process requires TypeScript compilation (`tsc -b`) to pass before Vite builds. Output goes to `dist/`.
+
+## Data Audit Framework
+
+A sub-agent + workflow framework evaluates every distinct area of the dataset
+(state senate, state house, executive, U.S. House, **U.S. Senate**, county
+supervisors, city councils, committee assignments) and verifies link health and
+profile completeness. It is **report-only** — it never edits the data files.
+
+- **Area registry**: `scripts/lib/areas.mjs` maps each area to its data file,
+  authoritative `.gov` source, and expected headcount. `docs/audit/SOURCES.md`
+  is the prose companion and defines the verified/unverified rule.
+- **Audit script**: `scripts/audit-data.mjs` (`npm run audit`) enumerates every
+  person, checks every URL (sharing HTTP logic with `validate-social-media.js`
+  via `scripts/lib/url-check.js`), reports per-person completeness, the
+  verified/unverified breakdown, and gaps (missing U.S. Senate, unmatched
+  committee members, federal-mapping orphans). Writes `audit-report.json`,
+  always exits 0. `403`/`429` are bucketed as *inconclusive* (bot-blocking), not
+  broken.
+- **Verification model**: an optional `verification?: { status, source,
+  lastVerified, fields? }` (see `src/types/legislature.ts`) on every person
+  interface (state legislators, executives, `CongressMember`, `LocalOfficial`).
+  A profile is **verified** when its office website is a `.gov` domain. The
+  `VerificationBadge` component surfaces a "Verified"/"Unverified" badge on
+  `LegislatorCard` and `OfficialCard`; an absent field renders as "Unverified".
+- **Sub-agents** (`.claude/agents/`): `data-area-auditor` (per-area roster +
+  completeness research), `link-auditor`, `ui-inspector`.
+- **Workflows** (`.claude/commands/`): `/audit-all` fans the area auditor out
+  across all areas in parallel then consolidates a dated report to
+  `docs/audits/<date>.md`; `/audit-area <key>` runs one area.
+- **Scheduled CI**: `.github/workflows/data-audit.yml` runs the audit monthly,
+  uploads `audit-report.json`, opens/updates a tracking issue, and (if an
+  `ANTHROPIC_API_KEY` secret is set) runs `/audit-all` via the Claude Code action.
+- **UI smoke test**: `e2e/smoke.spec.ts` + `playwright.config.ts` confirm profile
+  pages render with href-bearing links (`npm run test:e2e`).
 
 ## Architecture
 

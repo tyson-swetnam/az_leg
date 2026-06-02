@@ -1,5 +1,6 @@
 import type { LocalOfficial } from '@/types/local-official';
 import { formatPhone } from '@/lib/utils';
+import { VerificationBadge } from '@/components/common/VerificationBadge';
 
 interface OfficialCardProps {
   official: LocalOfficial;
@@ -29,16 +30,19 @@ export function OfficialCard({ official, jurisdictionType, jurisdictionId }: Off
             {districtLabel && ` — ${districtLabel}`}
           </p>
         </div>
-        {official.party && (
-          <span
-            className="legislator-party-badge"
-            style={{
-              backgroundColor: official.party === 'R' ? '#ef4444' : official.party === 'D' ? '#3b82f6' : '#6b7280',
-            }}
-          >
-            {official.party === 'R' ? 'Republican' : official.party === 'D' ? 'Democratic' : official.party}
-          </span>
-        )}
+        <div className="flex flex-col items-end gap-1">
+          {official.party && (
+            <span
+              className="legislator-party-badge"
+              style={{
+                backgroundColor: official.party === 'R' ? '#ef4444' : official.party === 'D' ? '#3b82f6' : '#6b7280',
+              }}
+            >
+              {official.party === 'R' ? 'Republican' : official.party === 'D' ? 'Democratic' : official.party}
+            </span>
+          )}
+          <VerificationBadge verification={official.verification} />
+        </div>
       </div>
 
       {/* Contact Info */}

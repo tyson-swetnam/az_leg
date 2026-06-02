@@ -3,6 +3,7 @@ import type { CongressMember } from '@/types/federal';
 import { PARTY_COLORS } from '@/lib/constants';
 import { getPartyLabel, formatPhone } from '@/lib/utils';
 import { CampaignFinanceLink } from './CampaignFinanceLink';
+import { VerificationBadge } from '@/components/common/VerificationBadge';
 
 type LegislatorOrCongress = Legislator | CongressMember;
 
@@ -28,12 +29,17 @@ export function LegislatorCard({ legislator, chamberLabel }: LegislatorCardProps
           </h3>
           <p className="legislator-card-role">{chamberLabel}</p>
         </div>
-        <span
-          className="legislator-party-badge"
-          style={{ backgroundColor: partyColor }}
-        >
-          {legislator.party === 'R' ? 'Republican' : 'Democratic'}
-        </span>
+        <div className="flex flex-col items-end gap-1">
+          <span
+            className="legislator-party-badge"
+            style={{ backgroundColor: partyColor }}
+          >
+            {legislator.party === 'R' ? 'Republican' : 'Democratic'}
+          </span>
+          <VerificationBadge
+            verification={'verification' in legislator ? legislator.verification : undefined}
+          />
+        </div>
       </div>
 
       {/* Contact Info */}

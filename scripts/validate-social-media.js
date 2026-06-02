@@ -3,7 +3,7 @@
 import { readFileSync, writeFileSync } from 'fs';
 import { fileURLToPath } from 'url';
 import { dirname, join } from 'path';
-import axios from 'axios';
+import { checkUrlAccessibility, REQUEST_DELAY_MS } from './lib/url-check.js';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
@@ -34,21 +34,8 @@ const SOCIAL_PATTERNS = {
   bluesky: /^https:\/\/(www\.)?bsky\.app\/profile\/[a-zA-Z0-9._-]+$/
 };
 
-const TIMEOUT_MS = 10000; // 10 second timeout per URL
-const REQUEST_DELAY_MS = 1500; // 1.5 second delay between requests
-
-// Valid HTTP status codes (success and redirects)
-const VALID_STATUS_CODES = [200, 301, 302, 307, 308];
-
-// Problem status codes
-const PROBLEM_STATUS_CODES = {
-  404: 'Not Found',
-  403: 'Forbidden',
-  410: 'Gone (deleted)',
-  429: 'Rate Limited',
-  500: 'Server Error',
-  503: 'Service Unavailable'
-};
+// HTTP accessibility logic (checkUrlAccessibility, status codes, delay) lives in
+// scripts/lib/url-check.js and is shared with scripts/audit-data.mjs.
 
 /**
  * Validation result structure
@@ -110,59 +97,6 @@ function validateUrlFormat(url, platform) {
   }
 
   return { valid: true };
-}
-
-/**
- * Check URL accessibility via HTTP request
- */
-async function checkUrlAccessibility(url) {
-  try {
-    const response = await axios.get(url, {
-      timeout: TIMEOUT_MS,
-      headers: {
-        'User-Agent': 'Mozilla/5.0 (compatible; AZLegislatureBot/1.0; Validation)'
-      },
-      maxRedirects: 5,
-      validateStatus: (status) => status < 600 // Accept all status codes < 600
-    });
-
-    const status = response.status;
-
-    if (VALID_STATUS_CODES.includes(status)) {
-      return { accessible: true, status };
-    } else if (PROBLEM_STATUS_CODES[status]) {
-      return {
-        accessible: false,
-        status,
-        error: PROBLEM_STATUS_CODES[status]
-      };
-    } else {
-      return {
-        accessible: false,
-        status,
-        error: `Unexpected status code: ${status}`
-      };
-    }
-
-  } catch (error) {
-    // Network errors
-    if (error.code === 'ECONNABORTED') {
-      return { accessible: false, error: 'Timeout' };
-    } else if (error.code === 'ENOTFOUND') {
-      return { accessible: false, error: 'DNS lookup failed' };
-    } else if (error.code === 'ECONNREFUSED') {
-      return { accessible: false, error: 'Connection refused' };
-    } else if (error.response) {
-      const status = error.response.status;
-      return {
-        accessible: false,
-        status,
-        error: PROBLEM_STATUS_CODES[status] || `HTTP ${status}`
-      };
-    } else {
-      return { accessible: false, error: error.message };
-    }
-  }
 }
 
 /**

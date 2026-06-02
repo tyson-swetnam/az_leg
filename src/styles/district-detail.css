@@ -104,6 +104,32 @@
   border-radius: 2px;
 }
 
+/* Verified / unverified provenance badge */
+.verification-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.25rem;
+  padding: 0.15rem 0.5rem;
+  font-size: 0.65rem;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  border-radius: 2px;
+  border: 1px solid var(--border);
+  white-space: nowrap;
+}
+
+.verification-badge[data-verified='true'] {
+  color: var(--ink);
+  background: var(--accent-gold);
+  border-color: var(--accent-gold);
+}
+
+.verification-badge[data-verified='false'] {
+  color: var(--newsprint);
+  background: var(--cream);
+}
+
 /* Contact info links */
 .legislator-card .contact-link {
   color: var(--accent-gold);

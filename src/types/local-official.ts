@@ -1,3 +1,5 @@
+import type { Verification } from './legislature';
+
 export interface LocalOfficial {
   name: string;
   title?: string;
@@ -9,16 +11,19 @@ export interface LocalOfficial {
   website?: string | null;
   photo?: string | null;
   socialMedia?: {
-    twitter?: string;
-    facebook?: string;
-    instagram?: string;
-    linkedin?: string;
+    twitter?: string | null;
+    facebook?: string | null;
+    instagram?: string | null;
+    linkedin?: string | null;
   };
   campaignFinance?: {
     azsos_url?: string | null;
     followthemoney_url?: string | null;
   } | null;
+  campaignWebsite?: string | null;
+  notes?: string;
   term?: string | null;
+  verification?: Verification;
 }
 
 export interface CountyData {

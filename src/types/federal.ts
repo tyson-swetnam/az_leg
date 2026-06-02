@@ -1,3 +1,5 @@
+import type { Verification } from './legislature';
+
 export interface CongressMember {
   district: number; // 1-9
   name: string;
@@ -8,6 +10,7 @@ export interface CongressMember {
     website: string;
   };
   bio?: string;
+  verification?: Verification;
 }
 
 export interface FederalMapping {

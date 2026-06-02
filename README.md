@@ -192,6 +192,32 @@ Comprehensive validation with four stages:
 **Exit Behavior:**
 Always exits with code 0 (reports issues but doesn't fail builds).
 
+### Data Audit Framework
+
+A report-only audit evaluates every area of the dataset — state senate, state
+house, executive, U.S. House, **U.S. Senate**, county supervisors, city councils,
+and committee assignments — for link health, profile completeness, and
+provenance (verified vs. unverified).
+
+```bash
+npm run audit          # full audit incl. HTTP link checks → audit-report.json
+npm run audit:fast     # skip HTTP (instant): completeness + verification + gaps
+npm run test:e2e       # Playwright UI smoke test (first: npx playwright install chromium)
+```
+
+- Each person now carries an optional `verification` marker; the UI shows a
+  **Verified** (gold) / **Unverified** badge on every profile card. "Verified"
+  means the official website is a government (`.gov`) domain.
+- Area definitions + authoritative sources live in `docs/audit/SOURCES.md`
+  (and `scripts/lib/areas.mjs`).
+- Claude Code sub-agents (`.claude/agents/`) and workflows (`.claude/commands/`,
+  e.g. `/audit-all`, `/audit-area <key>`) delegate evaluation across areas.
+- `.github/workflows/data-audit.yml` runs the audit monthly and files a tracking
+  issue with the findings.
+
+The audit never edits data — it reports gaps (e.g. the missing U.S. Senate
+seats) for a reviewed follow-up.
+
 ### Maintenance Schedule
 
 #### Quarterly Reviews
@@ -199,6 +225,7 @@ Always exits with code 0 (reports issues but doesn't fail builds).
 - Verify URLs are still accessible
 - Update any changed handles or accounts
 - Run `npm run validate-social` to check for issues
+- Run `npm run audit` for a full cross-area link + completeness report
 
 #### Post-Election Updates
 After primary or general elections:
